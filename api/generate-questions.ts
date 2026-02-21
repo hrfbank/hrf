@@ -12,12 +12,14 @@ export default async function handler(req, res) {
     if (!SUPABASE_KEY) return res.status(500).json({ error: "Missing SUPABASE_KEY" });
 
     const prompt = `
-Generate 20 general knowledge quiz questions.
+
 Return ONLY valid JSON array.
 Format:
 [
   { "question": "text", "answer": "text", "category": "text" }
-]
+]Generate 200 general knowledge quiz questions.
+Make sure the JSON is valid and not truncated.
+If needed, shorten the questions so the response fits.
 Do not add explanations or extra text.
 `;
 
