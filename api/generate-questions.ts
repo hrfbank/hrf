@@ -2,11 +2,13 @@ export default async function handler(req, res) {
   try {
 
     const prompt = `
-    قم بتوليد 20 سؤال معلومات عامة للعبة حروف.
-    أعدها JSON بهذا الشكل فقط:
+    Generate 20 general knowledge quiz questions.
+    Return ONLY valid JSON array.
+    Format:
     [
-      { "question": "", "answer": "", "category": "" }
+      { "question": "text", "answer": "text", "category": "text" }
     ]
+    Do not add explanations or extra text.
     `;
 
     const ai = await fetch("https://api.openai.com/v1/chat/completions", {
@@ -23,13 +25,15 @@ export default async function handler(req, res) {
     });
 
     const aiData = await ai.json();
-    const text = aiData.choices?.[0]?.message?.content || "[]";
+
+    const content = aiData.choices?.[0]?.message?.content || "[]";
 
     let questions = [];
     try {
-      questions = JSON.parse(text);
+      const clean = content.replace(/```json|```/g, '').trim();
+      questions = JSON.parse(clean);
     } catch {
-      questions = [];
+      return res.status(500).json({ error: "AI returned invalid JSON", raw: content });
     }
 
     await fetch(`${process.env.SUPABASE_URL}/rest/v1/questions`, {
