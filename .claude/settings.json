@@ -23,7 +23,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '=== HANDOFF ==='; tail -n 40 docs/HANDOFF.md 2>/dev/null; echo '=== آخر السجل ==='; tail -n 40 docs/PROGRESS.md 2>/dev/null; echo '=== آخر commits ==='; git log --oneline -10 2>/dev/null; true"
+            "command": "echo '=== HANDOFF ==='; tail -n 40 docs/HANDOFF.md 2>/dev/null; echo '=== آخر السجل ==='; head -n 40 docs/PROGRESS.md 2>/dev/null; echo '=== آخر commits ==='; git log --oneline -10 2>/dev/null; true"
           }
         ]
       }
