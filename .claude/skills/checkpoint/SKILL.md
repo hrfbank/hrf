@@ -1,29 +1,27 @@
 ---
 name: checkpoint
-description: Use after finishing each step, or when the user says "احفظ" or "checkpoint". Commits the current changes with a clear message and pushes them so no work is lost when the session ends.
+description: Use after every completed step, before any risky change, and when the user says "احفظ" or "checkpoint". Commits and pushes work so nothing is lost if the session ends.
 ---
 
-# الحفظ والرفع
+# حفظ الشغل (Checkpoint)
 
-الهدف: كل خطوة مكتملة تنحفظ في git وتنرفع، عشان ما يضيع شي لو انتهت الجلسة.
+## متى
+- بعد كل خطوة تشتغل (البناء ينجح).
+- قبل أي تعديل كبير أو خطير (حذف، refactor، تغيير هيكل بيانات).
+- كل 20-30 دقيقة شغل تقريباً حتى لو المهمة ما خلصت.
+- لما يقول المستخدم "احفظ".
 
 ## الخطوات
-1. شغّل `git status` و `git diff --stat` وشوف وش تغيّر فعلاً.
-2. لو فيه أوامر بناء/اختبار في المشروع (`package.json`)، شغّلها. لو فشلت لا تحفظ، قل للمستخدم وش فشل.
-3. تأكد إن ما فيه أسرار في التعديلات (`.env`، مفاتيح، توكنز). لو فيه، أوقف واسأل.
-4. أضف الملفات المتعلقة بالخطوة فقط (`git add <paths>`)، مو كل شي بشكل أعمى.
-5. اعمل commit برسالة واضحة بالبادئة المناسبة:
-   - `feat:` ميزة جديدة
-   - `fix:` إصلاح خطأ
-   - `refactor:` إعادة تنظيم بدون تغيير سلوك
-   - `docs:` توثيق
-   لو حذفت ملف أو غيّرت هيكل البيانات، اذكر السبب في الرسالة.
-6. ارفع: `git push -u origin <الفرع الحالي>`.
-   - لو فشل بسبب الشبكة: أعد المحاولة حتى 4 مرات (انتظر 2، 4، 8، 16 ثانية).
-   - لو فشل بسبب الصلاحيات (403): أوقف وقل للمستخدم، لا تحاول طرق ثانية.
-7. قل للمستخدم بسطر واحد: وش انحفظ، واسم الفرع.
+1. `git status --short` لتشوف وش تغيّر.
+2. تأكد ما فيه ملفات ما لازم تنحفظ (`.env`، ملفات مؤقتة). إذا فيه، أضفها لـ `.gitignore`.
+3. إذا البناء ينجح:
+   `git add -A && git commit -m "feat|fix|refactor: وصف قصير"`
+4. إذا الشغل ناقص أو البناء مكسور، احفظه برضو بعلامة واضحة:
+   `git add -A && git commit -m "wip: وش انعمل ووش باقي"`
+5. ادفع للريبو: `git push` (إذا ما فيه upstream: `git push -u origin HEAD`).
+6. أكّد للمستخدم في سطر واحد: ✅ انحفظ + اسم الـ commit.
 
-## قواعد
-- ممنوع `git push --force`.
-- لا تحفظ شي ما انتهى أو مكسور وتقول إنه شغّال.
-- commit صغير لكل خطوة، أفضل من commit كبير لكل الجلسة.
+## ممنوع
+- لا `git push --force`.
+- لا تعمل commit لأسرار أو مفاتيح.
+- لا تعمل `git reset --hard` أو `git checkout .` بدون موافقة صريحة.
