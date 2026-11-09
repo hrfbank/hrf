@@ -255,6 +255,30 @@
    "sort_order": 32,
    "priority": false,
    "kind": "image"
+  },
+  {
+   "slug": "gulf-series",
+   "name": "مسلسلات خليجية",
+   "description": "مسلسلات وشخصيات من الدراما الخليجية",
+   "sort_order": 33,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "actors",
+   "name": "ممثلون",
+   "description": "ممثلون وممثلات من الخليج والعالم العربي",
+   "sort_order": 34,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "famous-places",
+   "name": "أماكن يزورها الناس",
+   "description": "وجهات سياحية ومعالم مشهورة يحب الناس زيارتها",
+   "sort_order": 35,
+   "priority": false,
+   "kind": "text"
   }
  ],
  "questions": [

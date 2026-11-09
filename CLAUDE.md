@@ -19,6 +19,16 @@
 - `supabase/migrations/` ملفات SQL (تنشغّل يدوياً في Supabase SQL Editor بالترتيب)
 - `docs/` السجلات والقرارات
 
+## وين أغيّر وش (كل شي قابل للتعديل بسهولة)
+| أبي أغيّر | الملف |
+|---|---|
+| قواعد اللعبة (المهلة، اللوحة، الجولات، العقوبة، المزايا الإضافية) | `src/game/config.ts` |
+| الأصوات والموسيقى | `src/game/sound.ts` |
+| الفئات (إضافة/حذف/تسمية/أولوية) | `data/questions.json` ← `categories` |
+| الأسئلة | `data/questions.json` ← `questions` (ثم `npm run validate`) |
+| شروط قبول الأسئلة | `docs/QUESTION_RULES.md` + `scripts/validate-questions.mjs` |
+| الألوان والخطوط والشكل | `src/styles.css` (أول الملف) |
+
 ## طريقة العمل (إلزامي)
 1. **ابدأ كل جلسة** بقراءة `docs/HANDOFF.md` ثم `docs/PROGRESS.md` و `docs/DECISIONS.md` قبل أي تعديل.
 2. **قبل أي مهمة كبيرة** اكتب خطة قصيرة (3-7 خطوات) ثم نفّذ.

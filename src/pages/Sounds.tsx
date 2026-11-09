@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { isMusicPlaying, setMuted, setVolume, sfx, startCountdown, startMusic, stopMusic } from "../game/sound";
 import { formatNumber } from "../lib/format";
+import { GAME_CONFIG } from "../game/config";
 
 const EFFECTS: { label: string; play: () => void; note: string }[] = [
   { label: "جرس الأحمر", play: () => sfx.buzz("red"), note: "نغمة أخفض" },
@@ -17,7 +18,7 @@ const EFFECTS: { label: string; play: () => void; note: string }[] = [
 export function Sounds() {
   const [music, setMusic] = useState(isMusicPlaying());
   const [muted, setMute] = useState(false);
-  const [seconds, setSeconds] = useState(10);
+  const [seconds, setSeconds] = useState<number>(GAME_CONFIG.answerSeconds.default);
   const [left, setLeft] = useState<number | null>(null);
   const stopRef = useRef<() => void>();
 
@@ -76,7 +77,7 @@ export function Sounds() {
         <div className="section-head"><h2>مهلة الإجابة</h2></div>
         <div className="timer-demo">
           <div className="seg" role="radiogroup" aria-label="مدة المهلة">
-            {[10, 20, 30].map((s) => (
+            {GAME_CONFIG.answerSeconds.options.map((s) => (
               <button key={s} type="button" role="radio" aria-checked={seconds === s} className={seconds === s ? "on" : ""} onClick={() => setSeconds(s)}>
                 {formatNumber(s)} ث
               </button>
@@ -87,7 +88,7 @@ export function Sounds() {
             {left === null ? "—" : formatNumber(Math.max(left, 0))}
           </div>
         </div>
-        <p className="sound-note">التكتكة تبدأ في آخر ٤ ثواني وتصير أحدّ في آخر ثانيتين، ثم صوت انتهاء الوقت.</p>
+        <p className="sound-note">التكتكة تبدأ في آخر {formatNumber(GAME_CONFIG.tickLastSeconds)} ثواني وتصير أحدّ في آخر {formatNumber(GAME_CONFIG.urgentLastSeconds)} ثانية، ثم صوت انتهاء الوقت.</p>
       </section>
 
       <section className="section">

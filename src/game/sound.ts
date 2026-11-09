@@ -1,5 +1,6 @@
 // أصوات حروف: كلها مولّدة بـ Web Audio (بدون ملفات صوت، وبدون حقوق لأحد).
 // المتصفح ما يسمح بالصوت إلا بعد تفاعل المستخدم، فأول استدعاء لازم يكون من ضغطة زر.
+import { GAME_CONFIG } from "./config";
 
 type Wave = OscillatorType;
 
@@ -8,7 +9,7 @@ let master: GainNode | null = null;
 let musicBus: GainNode | null = null;
 let sfxBus: GainNode | null = null;
 
-const settings = { muted: false, music: 0.35, sfx: 0.8 };
+const settings: { muted: boolean; music: number; sfx: number } = { muted: false, music: GAME_CONFIG.sound.music, sfx: GAME_CONFIG.sound.sfx };
 
 function audio() {
   if (!ctx) {
@@ -171,7 +172,7 @@ export function startCountdown(seconds: number, onTick: (left: number) => void, 
   const id = setInterval(() => {
     left -= 1;
     onTick(left);
-    if (left > 0 && left <= 4) sfx.tick(left <= 2);
+    if (left > 0 && left <= GAME_CONFIG.tickLastSeconds) sfx.tick(left <= GAME_CONFIG.urgentLastSeconds);
     if (left <= 0) {
       clearInterval(id);
       sfx.timeUp();
@@ -198,7 +199,7 @@ const RHYTHM = "D.TD..T.";
 
 let musicTimer: ReturnType<typeof setInterval> | null = null;
 
-export function startMusic(bpm = 104) {
+export function startMusic(bpm: number = GAME_CONFIG.sound.musicBpm) {
   if (musicTimer) return;
   const ac = audio();
   const beat = 60 / bpm;
