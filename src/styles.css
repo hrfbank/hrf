@@ -1062,6 +1062,45 @@ body::before {
   margin-block: 6px 12px;
 }
 
+.q-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hint {
+  border: 1.5px solid var(--line);
+  background: var(--surface);
+  border-radius: 10px;
+  padding: 4px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--saffron);
+}
+
+.hint:hover {
+  border-color: var(--saffron);
+}
+
+.q-clues {
+  margin: 0 0 12px;
+  padding-inline-start: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: var(--ink-soft);
+  font-size: 15.5px;
+}
+
+.q-clues li {
+  animation: pop 0.3s ease;
+}
+
+.q-clues li::marker {
+  color: var(--saffron);
+  font-weight: 700;
+}
+
 .reveal {
   border: 1.5px dashed var(--line);
   background: none;

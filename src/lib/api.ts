@@ -12,6 +12,7 @@ type RawQuestion = {
   difficulty: 1 | 2 | 3;
   status: "pending" | "verified" | "rejected";
   source: string | null;
+  clues?: string[];
 };
 type RawDb = {
   categories: { slug: string; name: string; description: string | null; sort_order: number }[];
@@ -31,6 +32,7 @@ const questions: Question[] = db.questions
     letter: q.letter,
     difficulty: q.difficulty,
     source: q.source,
+    clues: q.clues ?? [],
   }));
 
 const categories: Category[] = db.categories

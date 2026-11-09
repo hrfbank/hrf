@@ -9,6 +9,8 @@ type Props = { question: Question; number: number; category?: Category };
 
 export function QuestionCard({ question, number, category }: Props) {
   const [open, setOpen] = useState(false);
+  const [shown, setShown] = useState(0);
+  const clues = question.clues;
   const answerId = `answer-${question.id}`;
 
   return (
@@ -30,6 +32,19 @@ export function QuestionCard({ question, number, category }: Props) {
           </span>
         </div>
         <p className="q-text">{question.question}</p>
+        {shown > 0 && (
+          <ol className="q-clues">
+            {clues.slice(0, shown).map((c, i) => (
+              <li key={i}>{c}</li>
+            ))}
+          </ol>
+        )}
+        <div className="q-actions">
+          {shown < clues.length && !open && (
+            <button type="button" className="hint" onClick={() => setShown((n) => n + 1)}>
+              {shown === 0 ? "تلميح" : "التلميح التالي"} ({shown + 1}/{clues.length})
+            </button>
+          )}
         <button
           type="button"
           className="reveal"
@@ -39,6 +54,7 @@ export function QuestionCard({ question, number, category }: Props) {
         >
           {open ? "إخفاء الجواب" : "اكشف الجواب"}
         </button>
+        </div>
         <div id={answerId} className="q-answer" hidden={!open}>
           <span>الجواب</span>
           <strong>{question.answer}</strong>

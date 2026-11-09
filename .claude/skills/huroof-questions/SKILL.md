@@ -10,8 +10,8 @@ description: Use whenever writing, adding, editing, reviewing or importing quest
 ## الخطوات
 1. اقرأ `docs/QUESTION_RULES.md` (لو ما انقرأ في الجلسة).
 2. قبل الكتابة: `npm run validate -- --list <category>` لتشوف الموجود في المجال وتتجنب التكرار المعنوي.
-3. اكتب الأسئلة في `data/questions.json` بحالة `pending`، وكل سؤال له `source` (رابط مصدر موثوق محدد، مو موقع عام).
-4. تحقق من كل سؤال بالمصدر فعلياً (WebFetch / WebSearch). لا تعتمد على الذاكرة وحدها.
+3. اكتب الأسئلة في `data/questions.json` بحالة `pending`، مع `clues` (٢ إلى ٣ تلميحات متدرجة من العام للخاص)، وكل سؤال له `source` (رابط مصدر موثوق محدد، مو موقع عام).
+4. تحقق من كل سؤال **وكل تلميح** بالمصدر فعلياً (WebFetch / WebSearch). لا تعتمد على الذاكرة وحدها.
    - تأكدت ← `status: "verified"` و `verified_at` بتاريخ اليوم.
    - المعلومة مشكوك فيها أو ما لقيت مصدر ← يبقى `pending` أو `rejected` مع `review_note`.
 5. `npm run validate` لازم يطلع بدون أخطاء. التحذيرات راجعها واحد واحد.

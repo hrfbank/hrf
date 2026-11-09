@@ -16,6 +16,7 @@ export type Question = {
   letter: string;
   difficulty: 1 | 2 | 3;
   source: string | null;
+  clues: string[];
 };
 
 export type LetterCount = { category_id: number; letter: string; question_count: number };

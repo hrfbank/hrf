@@ -111,6 +111,17 @@ function validate(db) {
     const qWords = new Set(normalize(q.question).split(" ").map(stripAl));
     if (core.length && core.every((w) => qWords.has(w))) err(q, `الإجابة مكشوفة داخل السؤال: «${q.answer}»`);
 
+    // التلميحات المتدرجة (للعرض على شاشة اللعبة)
+    if (q.clues !== undefined && !Array.isArray(q.clues)) err(q, "clues لازم تكون قائمة");
+    const clues = Array.isArray(q.clues) ? q.clues : [];
+    if (q.status === "verified" && (clues.length < 2 || clues.length > 3)) err(q, `لازم ٢ إلى ٣ تلميحات (الموجود ${clues.length})`);
+    clues.forEach((c, i) => {
+      if (typeof c !== "string" || !c.trim()) return err(q, `التلميح ${i + 1} فاضي`);
+      const cWords = new Set(normalize(c).split(" ").map(stripAl));
+      if (core.length && core.every((w) => cWords.has(w))) err(q, `التلميح ${i + 1} يكشف الإجابة: «${c}»`);
+    });
+    if (new Set(clues.map(normalize)).size !== clues.length) err(q, "تلميحات مكررة");
+
     if (q.status === "verified") {
       if (!/^https?:\/\//.test(q.source ?? "")) err(q, "مدقق بدون رابط مصدر");
       if (!/^\d{4}-\d{2}-\d{2}$/.test(q.verified_at ?? "")) err(q, "مدقق بدون verified_at");
