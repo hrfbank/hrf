@@ -119,6 +119,11 @@ function validate(db) {
       if (!im.credit?.trim()) err(q, "صورة بدون اسم المصوّر (image.credit)");
       if (!im.license?.trim()) err(q, "صورة بدون رخصة (image.license)");
       if (!/^https?:\/\//.test(im.source ?? "") && im.license !== "own") err(q, "صورة بدون رابط مصدر (image.source)");
+      if (im.crop !== undefined) {
+        const { x, y, w, h } = im.crop ?? {};
+        const ok = [x, y, w, h].every((v) => typeof v === "number" && v >= 0 && v <= 1) && w > 0 && h > 0 && x + w <= 1 && y + h <= 1;
+        if (!ok) err(q, "image.crop لازم {x,y,w,h} بين ٠ و١، والقصّة داخل الصورة");
+      }
     }
 
     // التلميحات المتدرجة (للعرض على شاشة اللعبة)

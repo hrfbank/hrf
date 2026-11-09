@@ -20,7 +20,9 @@ export type Question = {
   image?: QuestionImage;
 };
 
-export type QuestionImage = { file: string; credit: string; license: string; source?: string; alt?: string };
+/** crop: الجزء اللي يظهر قبل الجواب، كنِسب من الصورة (٠ إلى ١). مع الجواب تظهر الصورة كاملة */
+export type Crop = { x: number; y: number; w: number; h: number };
+export type QuestionImage = { file: string; credit: string; license: string; source?: string; alt?: string; crop?: Crop };
 
 export type LetterCount = { category_id: number; letter: string; question_count: number };
 

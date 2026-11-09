@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import type { Category, Question } from "../lib/types";
 import { formatNumber } from "../lib/format";
+import { QuestionImage } from "./QuestionImage";
 
 const DIFFICULTY = { 1: "سهل", 2: "متوسط", 3: "صعب" } as const;
 
@@ -32,18 +33,7 @@ export function QuestionCard({ question, number, category }: Props) {
           </span>
         </div>
         {question.image && (
-          <figure className="q-image">
-            <img src={question.image.file} alt={question.image.alt ?? "صورة السؤال"} loading="lazy" />
-            <figcaption>
-              تصوير: {question.image.credit} · {question.image.license === "own" ? "صورة خاصة" : question.image.license}
-              {question.image.source && (
-                <>
-                  {" · "}
-                  <a href={question.image.source} target="_blank" rel="noopener noreferrer">المصدر</a>
-                </>
-              )}
-            </figcaption>
-          </figure>
+          <QuestionImage image={question.image} step={shown} steps={clues.length} revealed={open} />
         )}
         <p className="q-text">{question.question}</p>
         {shown > 0 && (
