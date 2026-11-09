@@ -152,6 +152,18 @@ function stats(db) {
     verified.reduce((m, q) => ((m[q.difficulty] = (m[q.difficulty] ?? 0) + 1), m), {}),
   ).map(([k, v]) => [["", "سهل", "متوسط", "صعب"][k], v])) });
   console.log(`الحروف المغطاة: ${letters.size}/٢٨ — الناقصة: ${LETTERS.filter((l) => !letters.has(l)).join(" ") || "لا شي"}`);
+
+  // جاهزية كل فئة للعب: كم حرف فيه سؤال مدقق، وكم حرف فيه ٣ أو أكثر
+  console.log("\nتغطية الحروف لكل فئة (الجولة تسحب من ٦ فئات يختارها الفريقان):");
+  for (const c of db.categories) {
+    const counts = {};
+    for (const q of verified) if (q.category === c.slug) counts[q.letter] = (counts[q.letter] ?? 0) + 1;
+    const covered = LETTERS.filter((l) => counts[l]).length;
+    const deep = LETTERS.filter((l) => (counts[l] ?? 0) >= 3).length;
+    const row = LETTERS.map((l) => (counts[l] ? (counts[l] >= 3 ? "█" : "▒") : "·")).join("");
+    console.log(`  ${c.name.padEnd(14)} ${row}  ${covered}/٢٨ حرف، ${deep} بعمق ٣+`);
+  }
+  console.log(`  ${"".padEnd(14)} ${LETTERS.join("")}   (█ ٣+  ▒ ١-٢  · لا شي)`);
 }
 
 // ---------- التشغيل ----------
