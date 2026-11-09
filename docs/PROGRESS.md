@@ -5,14 +5,14 @@
 ## الحالة الحالية
 - **شغّال عليه الآن:** —
 - **التالي:** تجربة `api/generate-questions.ts` فعلياً بـ 200 سؤال، أو البدء في `index.html`.
-- **مشاكل معلّقة:** `index.html` و `api/generate.js` فاضيين. ما فيه `package.json` ولا اختبارات. 21 سكيل مذكورة في `CLAUDE.md` بدون ملفات.
+- **مشاكل معلّقة:** `index.html` و `api/generate.js` فاضيين. ما فيه `package.json` ولا اختبارات. 20 سكيل مذكورة في `CLAUDE.md` بدون ملفات.
 
 ---
 
 ## 2026-11-09
 - **انعمل:** إعداد CLAUDE.md والسجلات.
   - `CLAUDE.md` (قواعد العمل)، `docs/HANDOFF.md`، `docs/PROGRESS.md`، `docs/DECISIONS.md`.
-  - سكيلز `handoff` و `checkpoint` و `update-log` و `token-saver` في `.claude/skills/`.
+  - سكيلز `handoff` و `checkpoint` و `update-log` و `token-saver` و `plan-first` في `.claude/skills/`.
   - `.claude/settings.json`: صلاحيات + hook بداية الجلسة + prettier بعد التعديل (لو مثبّت).
 - **ملاحظات:** لا تغييرات على الكود.
 
