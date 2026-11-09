@@ -42,7 +42,7 @@ export function Home() {
       ) : (
         <dl className="stats">
           <div><dt>سؤال مدقق</dt><dd>{loading ? "…" : formatNumber(total)}</dd></div>
-          <div><dt>مجال</dt><dd>{loading ? "…" : formatNumber(categories.length)}</dd></div>
+          <div><dt>فئة فيها أسئلة</dt><dd>{loading ? "…" : formatNumber(categories.filter((c) => c.question_count > 0).length)}</dd></div>
           <div><dt>حرف مغطّى من ٢٨</dt><dd>{loading ? "…" : formatNumber(lettersUsed)}</dd></div>
         </dl>
       )}
@@ -55,7 +55,7 @@ export function Home() {
           <Link to="/categories" className="link">عرض الكل</Link>
         </div>
         <div className="cat-grid">
-          {categories.slice(0, 6).map((c, i) => <CategoryCard key={c.id} category={c} index={i} />)}
+          {categories.filter((c) => c.question_count > 0).sort((a, b) => b.question_count - a.question_count).slice(0, 6).map((c, i) => <CategoryCard key={c.id} category={c} index={i} />)}
         </div>
       </section>
 

@@ -1,58 +1,266 @@
 {
  "categories": [
   {
-   "slug": "general",
-   "name": "معلومات عامة",
-   "description": "ثقافة عامة متنوعة",
-   "sort_order": 1
+   "slug": "kuwait",
+   "name": "الكويت",
+   "description": "تاريخ الكويت وتراثها ومعالمها",
+   "sort_order": 1,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "kuwait-regions",
+   "name": "مناطق الكويت",
+   "description": "محافظات ومناطق وأحياء الكويت",
+   "sort_order": 2,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "saudi",
+   "name": "السعودية",
+   "description": "تاريخ المملكة وتراثها ومعالمها",
+   "sort_order": 3,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "saudi-regions",
+   "name": "مناطق السعودية",
+   "description": "مناطق ومدن ومحافظات المملكة",
+   "sort_order": 4,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "prophets",
+   "name": "قصص الأنبياء",
+   "description": "الأنبياء والرسل وأقوامهم",
+   "sort_order": 5,
+   "priority": true,
+   "kind": "text"
   },
   {
    "slug": "islamic",
-   "name": "إسلاميات",
-   "description": "القرآن والسيرة والصحابة",
-   "sort_order": 2
+   "name": "إسلامي",
+   "description": "عقيدة وفقه وشخصيات إسلامية",
+   "sort_order": 6,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "quran",
+   "name": "القرآن",
+   "description": "سور وآيات وقصص قرآنية",
+   "sort_order": 7,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "seerah",
+   "name": "السيرة",
+   "description": "سيرة النبي ﷺ والصحابة",
+   "sort_order": 8,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "general",
+   "name": "معلومات عامة",
+   "description": "ثقافة عامة متنوعة",
+   "sort_order": 9,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "proverbs-riddles",
+   "name": "أمثال وألغاز",
+   "description": "أمثال عربية وألغاز",
+   "sort_order": 10,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "language-literature",
+   "name": "لغة وأدب",
+   "description": "أدباء وكتب ولغة عربية",
+   "sort_order": 11,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "arabic-poetry",
+   "name": "شعر عربي",
+   "description": "شعراء وقصائد ومعلقات",
+   "sort_order": 12,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "nabati-poetry",
+   "name": "شعر نبطي",
+   "description": "شعراء وقصائد نبطية",
+   "sort_order": 13,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "who-said",
+   "name": "من القائل",
+   "description": "أبيات وأقوال مشهورة وأصحابها",
+   "sort_order": 14,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "titles-nicknames",
+   "name": "ألقاب وكنى",
+   "description": "ألقاب وكنى الشخصيات",
+   "sort_order": 15,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "synonyms-antonyms",
+   "name": "مترادفات وتضاد",
+   "description": "معاني الكلمات وأضدادها",
+   "sort_order": 16,
+   "priority": true,
+   "kind": "text"
   },
   {
    "slug": "history",
    "name": "تاريخ",
    "description": "أحداث ومعارك وحضارات",
-   "sort_order": 3
+   "sort_order": 17,
+   "priority": true,
+   "kind": "text"
+  },
+  {
+   "slug": "countries-capitals",
+   "name": "دول وعواصم",
+   "description": "دول العالم وعواصمها",
+   "sort_order": 18,
+   "priority": true,
+   "kind": "text"
   },
   {
    "slug": "geography",
    "name": "جغرافيا",
-   "description": "دول وتضاريس ومعالم",
-   "sort_order": 4
+   "description": "أنهار وجبال وصحارى ومعالم طبيعية",
+   "sort_order": 19,
+   "priority": true,
+   "kind": "text"
   },
   {
-   "slug": "science",
-   "name": "علوم",
-   "description": "فيزياء وكيمياء وأحياء وطب",
-   "sort_order": 5
+   "slug": "which-country",
+   "name": "ما هي الدولة",
+   "description": "تعرّف على الدولة من أوصافها",
+   "sort_order": 20,
+   "priority": false,
+   "kind": "text"
   },
   {
-   "slug": "literature",
-   "name": "أدب",
-   "description": "شعراء وأدباء وكتب",
-   "sort_order": 6
+   "slug": "currencies",
+   "name": "عملات",
+   "description": "عملات الدول وتاريخها",
+   "sort_order": 21,
+   "priority": true,
+   "kind": "text"
   },
   {
-   "slug": "kuwait",
-   "name": "الكويت",
-   "description": "تاريخ الكويت وتراثها وجغرافيتها",
-   "sort_order": 7
+   "slug": "who-is-famous",
+   "name": "من هو المشهور",
+   "description": "شخصيات مشهورة من أوصافها",
+   "sort_order": 22,
+   "priority": false,
+   "kind": "text"
   },
   {
    "slug": "sports",
    "name": "رياضة",
-   "description": "بطولات وألعاب ومصطلحات",
-   "sort_order": 8
+   "description": "ألعاب وبطولات ومصطلحات رياضية",
+   "sort_order": 23,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "world-football",
+   "name": "كرة قدم عالمية",
+   "description": "منتخبات وأندية ولاعبون وبطولات",
+   "sort_order": 24,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "cars",
+   "name": "سيارات",
+   "description": "شركات وطرازات السيارات",
+   "sort_order": 25,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "products",
+   "name": "منتجات",
+   "description": "منتجات وعلامات تجارية",
+   "sort_order": 26,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "restaurants",
+   "name": "مطاعم",
+   "description": "مطاعم مشهورة",
+   "sort_order": 27,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "malls",
+   "name": "مجمعات",
+   "description": "مجمعات تجارية",
+   "sort_order": 28,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "kuwaiti-plays",
+   "name": "مسرحيات كويتية",
+   "description": "مسرحيات وممثلون كويتيون",
+   "sort_order": 29,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "womens-accessories",
+   "name": "إكسسوارات نسائية",
+   "description": "حلي وإكسسوارات",
+   "sort_order": 30,
+   "priority": false,
+   "kind": "text"
+  },
+  {
+   "slug": "maps",
+   "name": "خرايط",
+   "description": "تعرّف على المكان من الخريطة",
+   "sort_order": 31,
+   "priority": false,
+   "kind": "image"
+  },
+  {
+   "slug": "guess-image",
+   "name": "خمّن الصورة",
+   "description": "تعرّف على الجواب من صورة",
+   "sort_order": 32,
+   "priority": false,
+   "kind": "image"
   }
  ],
  "questions": [
   {
    "id": 1,
-   "category": "islamic",
+   "category": "quran",
    "question": "ما السورة الوحيدة في القرآن الكريم التي لا تبدأ بالبسملة؟",
    "answer": "التوبة",
    "letter": "ت",
@@ -76,7 +284,7 @@
   },
   {
    "id": 3,
-   "category": "islamic",
+   "category": "seerah",
    "question": "ما الاسم الآخر لغزوة الخندق، المأخوذ من تحالف القبائل على المدينة؟",
    "answer": "الأحزاب",
    "letter": "ا",
@@ -88,7 +296,7 @@
   },
   {
    "id": 4,
-   "category": "islamic",
+   "category": "seerah",
    "question": "ما اسم الصلح الذي عقده النبي ﷺ مع قريش في ذي القعدة من السنة السادسة للهجرة؟",
    "answer": "الحديبية",
    "letter": "ح",
@@ -100,7 +308,7 @@
   },
   {
    "id": 5,
-   "category": "islamic",
+   "category": "seerah",
    "question": "من أول مؤذن في الإسلام؟",
    "answer": "بلال",
    "letter": "ب",
@@ -208,7 +416,7 @@
   },
   {
    "id": 14,
-   "category": "geography",
+   "category": "countries-capitals",
    "question": "ما عاصمة كندا؟",
    "answer": "أوتاوا",
    "letter": "ا",
@@ -220,7 +428,7 @@
   },
   {
    "id": 15,
-   "category": "geography",
+   "category": "countries-capitals",
    "question": "ما الدولة الأفريقية التي عُرفت قديماً باسم الحبشة؟",
    "answer": "إثيوبيا",
    "letter": "ا",
@@ -244,7 +452,7 @@
   },
   {
    "id": 17,
-   "category": "science",
+   "category": "general",
    "question": "من العالِم الذي اكتشف البنسلين سنة ١٩٢٨؟",
    "answer": "فليمنغ",
    "letter": "ف",
@@ -256,7 +464,7 @@
   },
   {
    "id": 18,
-   "category": "science",
+   "category": "general",
    "question": "ما الغدة التي تفرز هرمون الإنسولين في جسم الإنسان؟",
    "answer": "البنكرياس",
    "letter": "ب",
@@ -268,7 +476,7 @@
   },
   {
    "id": 19,
-   "category": "science",
+   "category": "general",
    "question": "ما الجسيم الموجود في نواة الذرة ولا يحمل شحنة كهربائية؟",
    "answer": "النيوترون",
    "letter": "ن",
@@ -280,7 +488,7 @@
   },
   {
    "id": 20,
-   "category": "science",
+   "category": "general",
    "question": "ما الطبقة الجوية التي تمتص معظم الأشعة فوق البنفسجية القادمة من الشمس؟",
    "answer": "الأوزون",
    "letter": "ا",
@@ -292,7 +500,7 @@
   },
   {
    "id": 21,
-   "category": "science",
+   "category": "general",
    "question": "ما اسم تحوّل المادة من الحالة الصلبة إلى الغازية مباشرة دون أن تصبح سائلة؟",
    "answer": "التسامي",
    "letter": "ت",
@@ -304,7 +512,7 @@
   },
   {
    "id": 22,
-   "category": "science",
+   "category": "general",
    "question": "من العالِم المسلم مؤلف كتاب «القانون في الطب»؟",
    "answer": "ابن سينا",
    "letter": "ا",
@@ -316,7 +524,7 @@
   },
   {
    "id": 23,
-   "category": "literature",
+   "category": "titles-nicknames",
    "question": "من الشاعر الذي بايعه الشعراء بلقب «أمير الشعراء» سنة ١٩٢٧؟",
    "answer": "أحمد شوقي",
    "letter": "ا",
@@ -328,7 +536,7 @@
   },
   {
    "id": 24,
-   "category": "literature",
+   "category": "language-literature",
    "question": "من الأديب المصري الذي روى سيرته في كتاب «الأيام»؟",
    "answer": "طه حسين",
    "letter": "ط",
@@ -340,7 +548,7 @@
   },
   {
    "id": 25,
-   "category": "literature",
+   "category": "arabic-poetry",
    "question": "من الشاعر الجاهلي صاحب المعلقة التي مطلعها «قفا نبكِ من ذكرى حبيبٍ ومنزلِ»؟",
    "answer": "امرؤ القيس",
    "letter": "ا",
@@ -352,7 +560,7 @@
   },
   {
    "id": 26,
-   "category": "literature",
+   "category": "language-literature",
    "question": "من أول أديب عربي يفوز بجائزة نوبل في الأدب؟",
    "answer": "نجيب محفوظ",
    "letter": "ن",
@@ -364,7 +572,7 @@
   },
   {
    "id": 27,
-   "category": "literature",
+   "category": "language-literature",
    "question": "ما الكتاب الذي نقله ابن المقفع إلى العربية وتدور حكاياته على ألسنة الحيوانات؟",
    "answer": "كليلة ودمنة",
    "letter": "ك",
@@ -376,7 +584,7 @@
   },
   {
    "id": 28,
-   "category": "literature",
+   "category": "who-said",
    "question": "من الشاعر صاحب البيت: «الخيل والليل والبيداء تعرفني، والسيف والرمح والقرطاس والقلم»؟",
    "answer": "المتنبي",
    "letter": "م",
@@ -448,7 +656,7 @@
   },
   {
    "id": 34,
-   "category": "kuwait",
+   "category": "currencies",
    "question": "ما العملة التي حلّ محلها الدينار الكويتي سنة ١٩٦١؟",
    "answer": "الروبية الخليجية",
    "letter": "ر",
@@ -472,7 +680,7 @@
   },
   {
    "id": 36,
-   "category": "sports",
+   "category": "world-football",
    "question": "ما المنتخب الذي فاز بأول بطولة لكأس العالم لكرة القدم سنة ١٩٣٠؟",
    "answer": "الأوروغواي",
    "letter": "ا",
@@ -484,7 +692,7 @@
   },
   {
    "id": 37,
-   "category": "sports",
+   "category": "world-football",
    "question": "ما أول منتخب عربي وأفريقي يشارك في نهائيات كأس العالم لكرة القدم؟",
    "answer": "مصر",
    "letter": "م",
@@ -556,7 +764,7 @@
   },
   {
    "id": 43,
-   "category": "islamic",
+   "category": "seerah",
    "question": "من الصحابي الذي أشار على النبي ﷺ بحفر الخندق؟",
    "answer": "سلمان الفارسي",
    "letter": "س",
