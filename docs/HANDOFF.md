@@ -1,28 +1,28 @@
 # HANDOFF — 2026-11-09
 
 ## المهمة الحالية
-API (Vercel serverless) يولّد أسئلة ثقافة عامة عبر OpenAI ويخزّنها في جدول `questions` في Supabase.
+إعداد بيئة العمل (CLAUDE.md، السجلات، السكيلز، الإعدادات) خلص. المشروع: API على Vercel يولّد أسئلة ثقافة عامة عبر OpenAI ويخزّنها في Supabase.
 
 ## وين وصلنا
-- [x] `api/generate-questions.ts` شغّال كمنطق: توليد ← تنظيف JSON ← إدخال في Supabase
-- [x] عدد الأسئلة تغيّر من 20 إلى 200 (آخر commit: 2901e5e)
-- [ ] ← ابدأ من هنا: تجربة الـ endpoint فعلياً بـ 200 سؤال والتأكد إن الرد ما ينقطع (ما تم اختباره في هذه الجلسة)
-- [ ] `index.html` و `api/generate.js` فاضيين — لم يُكتب فيهم شي بعد
+- [x] `CLAUDE.md` + `docs/PROGRESS.md` + `docs/DECISIONS.md` + `docs/HANDOFF.md`
+- [x] سكيلز `handoff` و `checkpoint` و `update-log` في `.claude/skills/`
+- [x] `.claude/settings.json` (صلاحيات + hooks)
+- [ ] ← ابدأ من هنا: تجربة `api/generate-questions.ts` بـ 200 سؤال (ما انختبر)، أو البدء في `index.html`
 
 ## الملفات المهمة
-- `api/generate-questions.ts` — الـ handler الوحيد الفعلي
-  - 3-12: قراءة وتنظيف المفاتيح (يحذف أحرف غير ASCII مثل RTL mark)
-  - 14-24: الـ prompt (ملاحظة: `]Generate` بدون سطر جديد في السطر 20)
-  - 26-49: طلب OpenAI (`gpt-4.1-mini`) وتحليل JSON
-  - 51-73: تجهيز الحقول (question, answer, category, letter) والإدخال في Supabase
+- `api/generate-questions.ts` — الـ handler الوحيد الفعلي (المفاتيح 3-12، الـ prompt 14-24، OpenAI 26-49، Supabase 51-73)
 - `api/generate.js`, `index.html` — فاضيين
+- `CLAUDE.md` — قواعد العمل وجدول السكيلز
+- `.claude/settings.json` — الصلاحيات و hooks
 
 ## معلومات لازم تعرفها
-- متغيرات البيئة المطلوبة: `OPENAI_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`
-- `letter` = أول حرف من الإجابة بحروف كبيرة
-- لو JSON غير صالح يرجّع 500 مع `raw` (رد الـ AI الخام)
-- ما فيه package.json ولا tests في الريبو
+- متغيرات البيئة: `OPENAI_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`
+- ما فيه `package.json` ولا اختبارات، فأوامر npm ما تشتغل
+- 22 سكيل مذكورة في `CLAUDE.md` بدون ملفات (الموجود: handoff, checkpoint, update-log)
+- قاعدة deny تمسك `git push --force` بس، مو `git push -f` ولا `--force` في آخر الأمر
+- hook الـ prettier ما يشتغل لأن prettier مو مثبّت
+- السكيلز والإعدادات تشتغل من الجلسة الجاية (ما انجرّبت)
 - الفرع: `claude/adoring-keller-4o3w9x`
 
 ## أول أمر في الجلسة الجاية
-اقرأ `api/generate-questions.ts`، ثم قرّر: تجربة الـ endpoint على Vercel، أو البدء في `index.html`.
+اقرأ `docs/HANDOFF.md` وكمّل.
