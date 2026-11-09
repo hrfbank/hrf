@@ -10,6 +10,7 @@ import { Letters } from "./pages/Letters";
 import { LetterPage } from "./pages/LetterPage";
 import { SearchPage } from "./pages/SearchPage";
 import { NotFound } from "./pages/NotFound";
+import { Sounds } from "./pages/Sounds";
 
 export function App() {
   const { data, loading, error } = useAsync(
@@ -34,6 +35,7 @@ export function App() {
             <Route path="letters" element={<Letters />} />
             <Route path="letter/:letter" element={<LetterPage />} />
             <Route path="search" element={<SearchPage />} />
+            <Route path="sounds" element={<Sounds />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

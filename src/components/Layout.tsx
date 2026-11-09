@@ -44,6 +44,7 @@ export function Layout() {
       <footer className="footer">
         <span className="brand-tile small">ح</span>
         <p>حروف: بنك أسئلة ثقافية عربية. كل سؤال يمرّ بمرحلة تدقيق قبل نشره.</p>
+        <NavLink to="/sounds" className="link">تجربة الأصوات</NavLink>
       </footer>
     </div>
   );
