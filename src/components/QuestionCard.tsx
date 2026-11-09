@@ -31,6 +31,20 @@ export function QuestionCard({ question, number, category }: Props) {
             {DIFFICULTY[question.difficulty]}
           </span>
         </div>
+        {question.image && (
+          <figure className="q-image">
+            <img src={question.image.file} alt={question.image.alt ?? "صورة السؤال"} loading="lazy" />
+            <figcaption>
+              تصوير: {question.image.credit} · {question.image.license === "own" ? "صورة خاصة" : question.image.license}
+              {question.image.source && (
+                <>
+                  {" · "}
+                  <a href={question.image.source} target="_blank" rel="noopener noreferrer">المصدر</a>
+                </>
+              )}
+            </figcaption>
+          </figure>
+        )}
         <p className="q-text">{question.question}</p>
         {shown > 0 && (
           <ol className="q-clues">

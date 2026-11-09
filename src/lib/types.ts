@@ -17,7 +17,10 @@ export type Question = {
   difficulty: 1 | 2 | 3;
   source: string | null;
   clues: string[];
+  image?: QuestionImage;
 };
+
+export type QuestionImage = { file: string; credit: string; license: string; source?: string; alt?: string };
 
 export type LetterCount = { category_id: number; letter: string; question_count: number };
 

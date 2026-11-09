@@ -25,3 +25,9 @@ ${fonts}
 `;
 writeFileSync("dist/huroof.html", page);
 console.log(`dist/huroof.html ${(page.length / 1024).toFixed(0)} KB`);
+
+// الصور تنشر كملفات بجانب الصفحة (Artifact files): images/اسم ← dist/images/اسم
+import { readdirSync, existsSync } from "node:fs";
+const imgs = existsSync("dist/images") ? readdirSync("dist/images").filter((f) => !f.startsWith(".")) : [];
+writeFileSync("dist/artifact-files.json", JSON.stringify(Object.fromEntries(imgs.map((f) => [`images/${f}`, `dist/images/${f}`])), null, 1));
+console.log(`${imgs.length} صورة للنشر (dist/artifact-files.json)`);

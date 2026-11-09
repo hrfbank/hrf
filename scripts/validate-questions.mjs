@@ -3,7 +3,7 @@
 // الاستخدام:
 //   npm run validate                 فحص كامل + إحصائيات
 //   npm run validate -- --list kuwait   عرض أسئلة مجال (قبل إضافة أسئلة جديدة)
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 const FILE = fileURLToPath(new URL("../data/questions.json", import.meta.url));
@@ -110,6 +110,16 @@ function validate(db) {
     const core = words.map(stripAl).filter((w) => w.length > 2);
     const qWords = new Set(normalize(q.question).split(" ").map(stripAl));
     if (core.length && core.every((w) => qWords.has(w))) err(q, `الإجابة مكشوفة داخل السؤال: «${q.answer}»`);
+
+    // أسئلة الصور (المعيار ١٢)
+    if (q.image !== undefined) {
+      const im = q.image ?? {};
+      if (!/^images\/[\w.-]+\.(jpe?g|png|webp)$/i.test(im.file ?? "")) err(q, "image.file لازم يكون images/اسم.jpg|png|webp");
+      else if (!existsSync(fileURLToPath(new URL(`../public/${im.file}`, import.meta.url)))) err(q, `ملف الصورة مو موجود: public/${im.file}`);
+      if (!im.credit?.trim()) err(q, "صورة بدون اسم المصوّر (image.credit)");
+      if (!im.license?.trim()) err(q, "صورة بدون رخصة (image.license)");
+      if (!/^https?:\/\//.test(im.source ?? "") && im.license !== "own") err(q, "صورة بدون رابط مصدر (image.source)");
+    }
 
     // التلميحات المتدرجة (للعرض على شاشة اللعبة)
     if (q.clues !== undefined && !Array.isArray(q.clues)) err(q, "clues لازم تكون قائمة");

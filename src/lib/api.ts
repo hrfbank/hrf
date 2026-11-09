@@ -13,6 +13,7 @@ type RawQuestion = {
   status: "pending" | "verified" | "rejected";
   source: string | null;
   clues?: string[];
+  image?: import("./types").QuestionImage;
 };
 type RawDb = {
   categories: { slug: string; name: string; description: string | null; sort_order: number }[];
@@ -33,6 +34,7 @@ const questions: Question[] = db.questions
     difficulty: q.difficulty,
     source: q.source,
     clues: q.clues ?? [],
+    image: q.image,
   }));
 
 const categories: Category[] = db.categories

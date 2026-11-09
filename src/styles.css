@@ -1082,6 +1082,28 @@ body::before {
   border-color: var(--saffron);
 }
 
+.q-image {
+  margin: 10px 0 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.q-image img {
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg-deep);
+}
+
+.q-image figcaption {
+  font-size: 11.5px;
+  color: var(--muted);
+}
+
 .q-clues {
   margin: 0 0 12px;
   padding-inline-start: 22px;
