@@ -1,15 +1,15 @@
 # CLAUDE.md
 
 ## عن المشروع
-hrf: API على Vercel يولّد أسئلة ثقافة عامة عبر OpenAI ويخزّنها في Supabase، مع واجهة `index.html` (لسه فاضية). التقنيات: Vercel Serverless Functions (TypeScript/JS)، OpenAI API، Supabase REST.
+حروف (hrf): موقع قاعدة بيانات أسئلة ثقافية عربية، كل سؤال جوابه يبدأ بحرف معيّن. لاحقاً يتحول لتطبيق لعبة. التقنيات: React + Vite + TypeScript (مخطط)، Supabase، Vercel، Capacitor لاحقاً للجوال.
 
 ## الأوامر
 - لا يوجد `package.json` حالياً، فما فيه أوامر تشغيل/بناء/اختبار/فحص بعد.
 - لما يُضاف: `npm run dev` / `npm run build` / `npm test` / `npm run lint`.
 
 ## هيكل المجلدات
-- `api/` دوال الـ serverless (`generate-questions.ts` هو الفعلي)
-- `index.html` الواجهة
+- `supabase/migrations/` ملفات SQL لقاعدة البيانات (تنشغّل يدوياً في Supabase SQL Editor)
+- `index.html` الواجهة (فاضي، بيتبدّل بمشروع Vite)
 - `docs/` السجلات والقرارات
 
 ## طريقة العمل (إلزامي)
