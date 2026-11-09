@@ -4,7 +4,10 @@ export default async function handler(req, res) {
     const clean = (v) => (v || "").replace(/[^\x00-\x7F]/g, "").trim();
 
     const OPENAI_KEY = clean(process.env.OPENAI_API_KEY);
-    const SUPABASE_URL = (process.env.SUPABASE_URL || "").trim();
+    // رابط مشروع Supabase (ليس سرياً) — يمكن تجاوزه عبر متغير البيئة SUPABASE_URL
+    const SUPABASE_URL = (process.env.SUPABASE_URL || "https://hinmwqnmjpkhmzoolyij.supabase.co")
+      .trim()
+      .replace(/\/+$/, "");
     const SUPABASE_KEY = clean(process.env.SUPABASE_KEY);
 
     if (!OPENAI_KEY) return res.status(500).json({ error: "Missing OPENAI_API_KEY" });
