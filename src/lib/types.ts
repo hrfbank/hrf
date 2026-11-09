@@ -17,6 +17,7 @@ export type Question = {
   difficulty: 1 | 2 | 3;
   source: string | null;
   clues: string[];
+  accepted?: string[];
   image?: QuestionImage;
 };
 

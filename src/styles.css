@@ -1176,6 +1176,12 @@ body::before {
   font-weight: 600;
 }
 
+.q-alt {
+  font-style: normal;
+  font-size: 13px;
+  color: var(--muted);
+}
+
 .q-source {
   margin-inline-start: auto;
   font-size: 12.5px;

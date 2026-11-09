@@ -104,6 +104,14 @@ function validate(db) {
     if (!LETTERS.includes(expected)) err(q, `أول حرف «${expected}» مو حرف عربي`);
     if (q.letter !== expected) err(q, `الحرف «${q.letter}» والمفروض «${expected}» (من «${q.answer}»)`);
 
+    if (q.accepted !== undefined) {
+      if (!Array.isArray(q.accepted)) err(q, "accepted لازم تكون قائمة");
+      else for (const a of q.accepted) {
+        if (letterOf(a) !== expected) err(q, `الإجابة المقبولة «${a}» تبدأ بحرف مختلف عن «${q.answer}»`);
+        if (normalize(a) === normalize(q.answer)) err(q, `الإجابة المقبولة «${a}» مكررة مع الجواب`);
+      }
+    }
+
     const bad = forbiddenAnswer(q.answer);
     if (bad) err(q, `${bad}: «${q.answer}»`);
 

@@ -62,6 +62,7 @@ export function QuestionCard({ question, number, category }: Props) {
         <div id={answerId} className="q-answer" hidden={!open}>
           <span>الجواب</span>
           <strong>{question.answer}</strong>
+          {question.accepted?.length ? <em className="q-alt">ويُقبل: {question.accepted.join("، ")}</em> : null}
           {question.source && (
             <a className="q-source" href={question.source} target="_blank" rel="noopener noreferrer">
               المصدر ↗

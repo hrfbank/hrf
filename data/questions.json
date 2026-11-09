@@ -1479,7 +1479,10 @@
    "status": "verified",
    "source": "https://en.wikipedia.org/wiki/Sabah_I_bin_Jaber",
    "verified_at": "2026-11-09",
-   "review_note": null
+   "review_note": null,
+   "accepted": [
+    "صباح بن جابر"
+   ]
   },
   {
    "id": 72,
