@@ -5,7 +5,7 @@
 
 ## وين وصلنا
 - [x] `CLAUDE.md` + `docs/PROGRESS.md` + `docs/DECISIONS.md` + `docs/HANDOFF.md`
-- [x] سكيلز `handoff` و `checkpoint` و `update-log` في `.claude/skills/`
+- [x] سكيلز `handoff` و `checkpoint` و `update-log` و `token-saver` في `.claude/skills/`
 - [x] `.claude/settings.json` (صلاحيات + hooks)
 - [ ] ← ابدأ من هنا: تجربة `api/generate-questions.ts` بـ 200 سؤال (ما انختبر)، أو البدء في `index.html`
 
@@ -18,7 +18,7 @@
 ## معلومات لازم تعرفها
 - متغيرات البيئة: `OPENAI_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`
 - ما فيه `package.json` ولا اختبارات، فأوامر npm ما تشتغل
-- 22 سكيل مذكورة في `CLAUDE.md` بدون ملفات (الموجود: handoff, checkpoint, update-log)
+- 21 سكيل مذكورة في `CLAUDE.md` بدون ملفات (الموجود: handoff, checkpoint, update-log, token-saver)
 - قاعدة deny تمسك `git push --force` بس، مو `git push -f` ولا `--force` في آخر الأمر
 - hook الـ prettier ما يشتغل لأن prettier مو مثبّت
 - السكيلز والإعدادات تشتغل من الجلسة الجاية (ما انجرّبت)
