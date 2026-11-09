@@ -5,6 +5,7 @@
 - إضافة `CLAUDE.md` (قواعد العمل) و `docs/DECISIONS.md` (فاضي).
 - حفظ سكيل `handoff` في `.claude/skills/handoff/SKILL.md`.
 - إضافة سكيلز `checkpoint` و `update-log` في `.claude/skills/`.
+- إضافة `.claude/settings.json`: صلاحيات (allow/deny) + hook عند بداية الجلسة يعرض HANDOFF والسجل + prettier بعد كل تعديل (لو مثبّت).
 
 ## 2026-02-21
 - إنشاء `api/generate-questions.ts`: توليد أسئلة عبر OpenAI وتخزينها في Supabase.

@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm test:*)",
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Bash(git push --force:*)",
+      "Bash(rm -rf:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '=== HANDOFF ==='; tail -n 40 docs/HANDOFF.md 2>/dev/null; echo '=== آخر السجل ==='; tail -n 40 docs/PROGRESS.md 2>/dev/null; echo '=== آخر commits ==='; git log --oneline -10 2>/dev/null; true"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "f=$(jq -r '.tool_input.file_path // empty'); [ -n \"$f\" ] && [ -x node_modules/.bin/prettier ] && node_modules/.bin/prettier --write \"$f\" >/dev/null 2>&1; true"
+          }
+        ]
+      }
+    ]
+  }
+}
