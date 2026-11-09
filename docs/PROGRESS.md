@@ -4,6 +4,7 @@
 - إضافة `docs/HANDOFF.md` و `docs/PROGRESS.md` (لا تغييرات على الكود في هذه الجلسة).
 - إضافة `CLAUDE.md` (قواعد العمل) و `docs/DECISIONS.md` (فاضي).
 - حفظ سكيل `handoff` في `.claude/skills/handoff/SKILL.md`.
+- إضافة سكيلز `checkpoint` و `update-log` في `.claude/skills/`.
 
 ## 2026-02-21
 - إنشاء `api/generate-questions.ts`: توليد أسئلة عبر OpenAI وتخزينها في Supabase.
