@@ -997,6 +997,533 @@
    "source": "https://dorar.net/aqeeda/1079",
    "verified_at": null,
    "review_note": "الإجماع منقول لكن لم يثبت في حديث صحيح حسب الموسوعة العقدية (معيار 1)."
+  },
+  {
+   "id": 45,
+   "category": "quran",
+   "question": "ما أقصر سورة في القرآن الكريم؟",
+   "clues": [
+    "سورة مكية في الغالب، ترتيبها ١٠٨ في المصحف.",
+    "عدد كلماتها عشر كلمات.",
+    "معنى اسمها الخير الكثير، وقيل نهر في الجنة."
+   ],
+   "answer": "الكوثر",
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/أقصر_سورة_في_القرآن",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 46,
+   "category": "quran",
+   "question": "ما السورة التي وردت فيها البسملة مرتين؟",
+   "clues": [
+    "ورد فيها كتاب أرسله نبي إلى ملكة.",
+    "فيها قصة سليمان مع ملكة سبأ.",
+    "وردت البسملة في أولها، ثم في الآية ٣٠ ضمن رسالة سليمان."
+   ],
+   "answer": "النمل",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://quranpedia.net/note/50230",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 47,
+   "category": "quran",
+   "question": "ما السورة التي أخبر النبي ﷺ أنها تعدل ثلث القرآن؟",
+   "clues": [
+    "سورة قصيرة خالصة في صفات الله.",
+    "كان رجل يردد قراءتها طوال الليل، فبيّن النبي ﷺ فضلها.",
+    "تبدأ بقوله تعالى «قل هو الله أحد»."
+   ],
+   "answer": "الإخلاص",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://dorar.net/hadith/sharh/26691",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 48,
+   "category": "quran",
+   "question": "من الصحابي الوحيد الذي ورد اسمه صراحة في القرآن الكريم؟",
+   "clues": [
+    "تبنّاه النبي ﷺ قبل أن تنزل آية «ادعوهم لآبائهم».",
+    "ورد اسمه في الآية ٣٧ من سورة الأحزاب.",
+    "كان زوجاً لزينب بنت جحش قبل أن يتزوجها النبي ﷺ."
+   ],
+   "answer": "زيد بن حارثة",
+   "letter": "ز",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://quran.ksu.edu.sa/tafseer/ibn-saadi/sura33-aya37.html",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 49,
+   "category": "quran",
+   "question": "ما السورة التي تُسمّى أيضاً «المنجية» و«الواقية»؟",
+   "clues": [
+    "عدد آياتها ثلاثون في عدّ أكثر المفسرين.",
+    "ورد أنها شفعت لرجل حتى أُدخل الجنة.",
+    "تبدأ بقوله تعالى «تبارك الذي بيده...»."
+   ],
+   "answer": "الملك",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://quran.ksu.edu.sa/tafseer/qortobi/sura67-aya1.html",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 50,
+   "category": "quran",
+   "question": "ما الاسم الآخر لسورة الإنسان، المأخوذ من لفظ بمعنى الزمن الطويل ورد في آيتها الأولى؟",
+   "clues": [
+    "من أسمائها أيضاً «هل أتى» و«الأبرار».",
+    "ترتيبها ٧٦ في المصحف، وآياتها ٣١.",
+    "أُخذ من قوله تعالى «حينٌ من ...»."
+   ],
+   "answer": "الدهر",
+   "letter": "د",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://dorar.net/tafseer/76",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 51,
+   "category": "quran",
+   "question": "ما السورة التي ذُكر فيها «سيل العرم»؟",
+   "clues": [
+    "سورة تحمل اسم قوم أنعم الله عليهم بجنتين.",
+    "أعرضوا عن الشكر فأرسل الله عليهم سيلاً جرف سدّهم.",
+    "من قصتهم جاء المثل «تفرقوا أيدي ...»."
+   ],
+   "answer": "سبأ",
+   "letter": "س",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://mawdoo3.com/قصة_سد_مأرب",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 52,
+   "category": "quran",
+   "question": "ما السورة التي سُمّيت باسم معدن؟",
+   "clues": [
+    "سورة مدنية من السور المسبّحات.",
+    "قرأ عمر بن الخطاب أوائلها في بيت أخته ثم أسلم.",
+    "فيها قوله تعالى «وأنزلنا ... فيه بأسٌ شديد ومنافع للناس»."
+   ],
+   "answer": "الحديد",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://dorar.net/tafseer/57",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 53,
+   "category": "quran",
+   "question": "ما السورة التي ذُكرت فيها «رحلة الشتاء والصيف»؟",
+   "clues": [
+    "يرى كثير من المفسرين أنها متصلة بسورة الفيل.",
+    "كانت رحلة الشتاء إلى اليمن ورحلة الصيف إلى الشام.",
+    "سُمّيت باسم قبيلة النبي ﷺ."
+   ],
+   "answer": "قريش",
+   "letter": "ق",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://quran.ksu.edu.sa/tafseer/ibn-baghawy-qortobi/sura106-aya1.html",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 54,
+   "category": "quran",
+   "question": "ما السورة التي سمّاها النبي ﷺ «أم القرآن» و«السبع المثاني»؟",
+   "clues": [
+    "سورة من سبع آيات بلا خلاف.",
+    "تُقرأ في كل ركعة من الصلاة.",
+    "أول سورة في المصحف."
+   ],
+   "answer": "الفاتحة",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.alukah.net/sharia/1001/87380/",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 55,
+   "category": "prophets",
+   "question": "ما اسم الجبل الذي استوت عليه سفينة نوح عليه السلام؟",
+   "clues": [
+    "ورد ذكره في سورة هود.",
+    "ذكر الطبري أنه بناحية الموصل أو الجزيرة.",
+    "جاء في قوله تعالى «واستوت على ...»."
+   ],
+   "answer": "الجودي",
+   "letter": "ج",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://quran.ksu.edu.sa/tafseer/ibn-baghawy-tabary-katheer/sura11-aya44.html",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 56,
+   "category": "prophets",
+   "question": "من النبي الذي أُرسل إلى أهل مدين؟",
+   "clues": [
+    "أُرسل أيضاً إلى أصحاب الأيكة.",
+    "كان قومه يبخسون الناس في المكيال والميزان.",
+    "من ذرية إبراهيم عليه السلام."
+   ],
+   "answer": "شعيب",
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://quran.ksu.edu.sa/tafseer/ibn-baghawy-katheer-qortobi/sura7-aya85.html",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 57,
+   "category": "prophets",
+   "question": "ما اسم قوم النبي صالح عليه السلام؟",
+   "clues": [
+    "كانوا ينحتون من الجبال بيوتاً.",
+    "مساكنهم في الحِجر بين الحجاز والشام.",
+    "عقروا الناقة التي جعلها الله آية لهم."
+   ],
+   "answer": "ثمود",
+   "letter": "ث",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/قصة_قوم_ثمود",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 58,
+   "category": "prophets",
+   "question": "ما الطائر الذي بعثه الله ليُري ابن آدم كيف يواري سوءة أخيه؟",
+   "clues": [
+    "طائر بعثه الله يبحث في الأرض.",
+    "ورد ذكره في الآية ٣١ من سورة المائدة.",
+    "قال القاتل لما رآه: «يا ويلتا أعجزت أن أكون مثل هذا...»."
+   ],
+   "answer": "الغراب",
+   "letter": "غ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://quran.ksu.edu.sa/tafseer/ibn-baghawy-katheer-tabary/sura5-aya31.html",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 59,
+   "category": "prophets",
+   "question": "من النبي الذي جعله الله وزيراً لأخيه موسى عليه السلام؟",
+   "clues": [
+    "كان أفصح من موسى لساناً.",
+    "كان أكبر سناً من موسى.",
+    "طلبه موسى معيناً له في دعوة فرعون."
+   ],
+   "answer": "هارون",
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://fiqh.islamonline.net/سؤال-موسى-أن-يجعل-الله-له-وزيرا-من-أهله/",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 60,
+   "category": "prophets",
+   "question": "من الرجل من قوم موسى الذي خسف الله به وبداره الأرض؟",
+   "clues": [
+    "آتاه الله من الكنوز ما تنوء مفاتحه بالعصبة أولي القوة.",
+    "بغى على قومه وتكبّر بماله.",
+    "ذُكر في سورة القصص، ومع فرعون وهامان في سورة العنكبوت."
+   ],
+   "answer": "قارون",
+   "letter": "ق",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/فوائد_وعبر_من_قصة_قارون",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 61,
+   "category": "prophets",
+   "question": "من النبي الذي ألان الله له الحديد؟",
+   "clues": [
+    "قتل جالوت فاشتهر، ثم آتاه الله الملك.",
+    "أنزل الله عليه الزبور.",
+    "كان يصنع الدروع بيده دون نار ولا مطرقة."
+   ],
+   "answer": "داود",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://kalemtayeb.com/safahat/item/10392",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 62,
+   "category": "prophets",
+   "question": "من النبي الملقّب بـ«ذي النون»؟",
+   "clues": [
+    "أُرسل إلى أهل نينوى.",
+    "خرج من قومه مغاضباً.",
+    "التقمه الحوت فدعا: «لا إله إلا أنت سبحانك إني كنت من الظالمين»."
+   ],
+   "answer": "يونس",
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://quran.ksu.edu.sa/tafseer/ibn-saadi-qortobi-katheer/sura21-aya87.html",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 63,
+   "category": "prophets",
+   "question": "إلى أي قوم أُرسل النبي هود عليه السلام؟",
+   "clues": [
+    "سكنوا الأحقاف، وهي أرض رملية.",
+    "ورد في القرآن «إرم ذات العماد» في سياق ذكرهم.",
+    "أُهلكوا بريح صرصر، وهي الريح الباردة الشديدة."
+   ],
+   "answer": "عاد",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://fiqh.islamonline.net/المقصود-بعاد-وإرم-ذات-العماد/",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 64,
+   "category": "prophets",
+   "question": "من النبي الذي كفل مريم عليها السلام؟",
+   "clues": [
+    "كلما دخل عليها المحراب وجد عندها رزقاً.",
+    "بشّرته الملائكة بغلام وهو يصلي في المحراب.",
+    "أبو يحيى عليه السلام."
+   ],
+   "answer": "زكريا",
+   "letter": "ز",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://kalemtayeb.com/safahat/item/10394",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 65,
+   "category": "kuwait",
+   "question": "ما اسم ربان سفينة الغوص على اللؤلؤ وقائدها؟",
+   "clues": [
+    "المسؤول الأول عن رحلة الغوص، وغالباً يكون مالك السفينة.",
+    "يوزّع أرباح الموسم على الطاقم.",
+    "لقب قائد السفينة في الخليج قديماً."
+   ],
+   "answer": "النوخذة",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://arabicpost.net/ثقافة/2022/12/14/الغوص-على-اللؤلؤ/",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 66,
+   "category": "kuwait",
+   "question": "ما اسم البحّار الذي يسحب الغواص من القاع في سفينة الغوص؟",
+   "clues": [
+    "عضو في طاقم سفينة الغوص على اللؤلؤ.",
+    "يتابع الغواص عند نزوله وخروجه.",
+    "يمسك الحبل ويسحب الغيص إلى السطح."
+   ],
+   "answer": "السيب",
+   "letter": "س",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://saudipedia.com/المهن-البحرية-التاريخية-في-السعودية",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 67,
+   "category": "kuwait",
+   "question": "ما اسم تاجر اللؤلؤ الذي يتنقل بين سفن الغوص لشرائه؟",
+   "clues": [
+    "مصطلح خليجي قديم مرتبط بتجارة البحر.",
+    "وصل تجّار الكويت في هذه المهنة إلى بلاد السند والهند.",
+    "يشتري اللؤلؤ من سفن الغوص في عرض البحر."
+   ],
+   "answer": "الطواش",
+   "letter": "ط",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.al-madina.com/ampArticle/153107",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 68,
+   "category": "kuwait",
+   "question": "ما اسم يوم عودة سفن الغوص في نهاية الموسم؟",
+   "clues": [
+    "يُحيا كل سنة في رحلة الغوص التراثية التي ينظمها النادي البحري.",
+    "يُفتح فيه المحار وتُعرض حصيلة اللؤلؤ.",
+    "يُنزل فيه العلم إيذاناً بانتهاء موسم الغوص."
+   ],
+   "answer": "القفال",
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.alraimedia.com/article/857498",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 69,
+   "category": "kuwait",
+   "question": "ما اسم مراسم انطلاق سفن الغوص في بداية الموسم؟",
+   "clues": [
+    "يُرفع فيها علم الكويت إيذاناً ببدء الموسم.",
+    "تُقام على ساحل النادي البحري في رحلة الغوص التراثية.",
+    "عكسها يوم القفال."
+   ],
+   "answer": "الدشة",
+   "letter": "د",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.youm7.com/story/2023/8/17/تبدأ-بيوم-الدشة-كل-ما-تريد-معرفته-عن-طقوس-إحياء/6275637",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 70,
+   "category": "kuwait",
+   "question": "أي أمراء الكويت لُقّب بـ«أبي الدستور»؟",
+   "clues": [
+    "أول أمير لدولة الكويت بعد الاستقلال في ١٩ يونيو ١٩٦١.",
+    "افتتح أول مجلس تأسيسي في ٢ يناير ١٩٦٢.",
+    "صادق على الدستور في ١١ نوفمبر ١٩٦٢."
+   ],
+   "answer": "عبدالله السالم",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Abdullah_Al-Salim_Al-Sabah",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 71,
+   "category": "kuwait",
+   "question": "من الذي اختاره أهل الكويت أول شيخ لهم في القرن الثامن عشر؟",
+   "clues": [
+    "تعود أسرته إلى العتوب.",
+    "تختلف المصادر في بداية حكمه بين ١٧١٨ و١٧٥٢.",
+    "أسرته تحكم الكويت منذ عهده."
+   ],
+   "answer": "صباح الأول",
+   "letter": "ص",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Sabah_I_bin_Jaber",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 72,
+   "category": "kuwait",
+   "question": "ما الجسر البحري الذي افتُتح سنة ٢٠١٩ ويربط مدينة الكويت بمنطقة الصبية؟",
+   "clues": [
+    "يبلغ طوله نحو ٣٦ كم.",
+    "صممته شركة سيسترا الفرنسية ونفذته هيونداي الكورية.",
+    "اختصر الطريق إلى الصبية من نحو ٩٠ دقيقة إلى ٢٠ دقيقة."
+   ],
+   "answer": "جسر جابر",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.cnbcarabia.com/52969/2019/01/05/",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 73,
+   "category": "kuwait",
+   "question": "ما السوق التراثي في مدينة الكويت الذي نشأ حول كشك بناه الحاكم سنة ١٨٩٧ لسماع شكاوى الناس؟",
+   "clues": [
+    "كان التجار يعرضون فيه بضائع من الهند والعراق وعُمان.",
+    "أصبح ذلك الكشك أول محكمة في الكويت.",
+    "سُمّي نسبةً إلى الشيخ مبارك الصباح."
+   ],
+   "answer": "المباركية",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.ajnet.me/lifestyle/2022/5/6/تتلاشى-الفروق-الاجتماعية-بمجرد-دخوله",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 74,
+   "category": "kuwait",
+   "question": "ما القصر الذي بُني في عهد الشيخ مبارك الكبير ويعلوه برج ساعة شهير؟",
+   "clues": [
+    "كان يُعرف أولاً باسم «قصر مبارك» أو «القصر الجديد».",
+    "أصاب صاروخ برج ساعته في حرب ١٩٩٠–١٩٩١.",
+    "يقع مقابل المسجد الكبير، واسمه مرتبط بقربه من شاطئ الخليج."
+   ],
+   "answer": "قصر السيف",
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Seif_Palace",
+   "verified_at": "2026-11-09",
+   "review_note": null
+  },
+  {
+   "id": 75,
+   "category": "kuwait",
+   "question": "ما المعلم الكويتي الذي صممته المعمارية الدنماركية مالين بيورن وافتُتح سنة ١٩٧٩؟",
+   "clues": [
+    "يتكون من ثلاثة أبراج.",
+    "برجان منها يخزنان المياه.",
+    "ارتفاع برجه الرئيسي ١٨٧ متراً، ونال جائزة الآغا خان للعمارة سنة ١٩٨٠."
+   ],
+   "answer": "أبراج الكويت",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Kuwait_Towers",
+   "verified_at": "2026-11-09",
+   "review_note": null
   }
  ]
 }
