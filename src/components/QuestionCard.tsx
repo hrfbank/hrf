@@ -42,6 +42,11 @@ export function QuestionCard({ question, number, category }: Props) {
         <div id={answerId} className="q-answer" hidden={!open}>
           <span>الجواب</span>
           <strong>{question.answer}</strong>
+          {question.source && (
+            <a className="q-source" href={question.source} target="_blank" rel="noopener noreferrer">
+              المصدر ↗
+            </a>
+          )}
         </div>
       </div>
     </article>

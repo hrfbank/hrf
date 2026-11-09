@@ -1,15 +1,19 @@
 # CLAUDE.md
 
 ## عن المشروع
-حروف (hrf): موقع قاعدة بيانات أسئلة ثقافية عربية، كل سؤال جوابه يبدأ بحرف معيّن. لاحقاً يتحول لتطبيق لعبة. التقنيات: React 18 + Vite 5 + TypeScript + react-router، Supabase، Vercel، Capacitor لاحقاً للجوال.
+حروف (hrf): موقع قاعدة بيانات أسئلة ثقافية عربية، كل سؤال جوابه يبدأ بحرف معيّن. لاحقاً يتحول لتطبيق لعبة. التقنيات: React 18 + Vite 5 + TypeScript + react-router. البيانات حالياً في `data/questions.json` والموقع منشور كـ Artifact داخل Claude. Supabase و Capacitor لاحقاً.
 
 ## الأوامر
-- تشغيل: `npm run dev` (يحتاج `.env.local`، انظر `.env.example`)
-- تشغيل بعيّنة تجريبية بدون Supabase: `npm run dev:demo`
+- تشغيل: `npm run dev`
 - بناء + فحص الأنواع: `npm run build`
+- فحص الأسئلة (إلزامي قبل أي حفظ للأسئلة): `npm run validate`
+- صفحة Artifact داخل Claude: `npm run build && npm run artifact` ← `dist/huroof.html`، وتنشر على نفس الرابط: https://claude.ai/artifact/ATCSxDzGuVWas9EgaxqXSS
 - ما فيه اختبارات ولا lint بعد.
 
 ## هيكل المجلدات
+- `data/questions.json` قاعدة الأسئلة (المصدر الوحيد للحقيقة حالياً)
+- `docs/QUESTION_RULES.md` شروط قبول الأسئلة (إلزامية)
+- `scripts/` المدقق وبناء الـ Artifact
 - `src/pages/` الصفحات، `src/components/` المكونات، `src/lib/` البيانات (api, demo, letters)
 - `src/styles.css` كل التصميم (ألوان الوضعين في `:root`)
 - `supabase/migrations/` ملفات SQL (تنشغّل يدوياً في Supabase SQL Editor بالترتيب)
@@ -48,6 +52,7 @@
 | السكيل | كلمة التشغيل |
 |---|---|
 | token-saver | دائماً |
+| huroof-questions | أسئلة / ولّد أسئلة / راجع الأسئلة |
 | checkpoint | احفظ |
 | handoff | سلّم / بكمل بعدين |
 | update-log | سجّل |

@@ -1,63 +1,79 @@
-import { isDemo, supabase } from "./supabase";
-import { demoApi } from "./demo";
+// مصدر البيانات: data/questions.json (المدقق فقط يظهر في الموقع)
+import raw from "../../data/questions.json";
 import { hash } from "./hash";
 import { PAGE_SIZE, type Category, type LetterCount, type Question, type QuestionPage, type QuestionQuery } from "./types";
 
-const QUESTION_FIELDS = "id,category_id,question,answer,letter,difficulty";
-
-function fail(error: { message: string } | null): never | void {
-  if (error) throw new Error(error.message);
-}
-
-/** يحذف الرموز اللي تكسر فلتر PostgREST */
-const cleanSearch = (s: string) => s.replace(/[%,()*\\]/g, " ").trim();
-
-const liveApi = {
-  async categories(): Promise<Category[]> {
-    const { data, error } = await supabase!.from("category_stats").select("*").order("sort_order");
-    fail(error);
-    return (data ?? []).map((c) => ({ ...c, question_count: Number(c.question_count) }));
-  },
-
-  async letterCounts(): Promise<LetterCount[]> {
-    const { data, error } = await supabase!.from("letter_stats").select("*");
-    fail(error);
-    return (data ?? []).map((r) => ({ ...r, question_count: Number(r.question_count) }));
-  },
-
-  async questions({ categoryId, letter, search, page = 0 }: QuestionQuery): Promise<QuestionPage> {
-    let query = supabase!
-      .from("questions")
-      .select(QUESTION_FIELDS, { count: "exact" })
-      .eq("status", "verified")
-      .order("id")
-      .range(page * PAGE_SIZE, page * PAGE_SIZE + PAGE_SIZE - 1);
-    if (categoryId) query = query.eq("category_id", categoryId);
-    if (letter) query = query.eq("letter", letter);
-    const term = search ? cleanSearch(search) : "";
-    if (term) query = query.or(`question.ilike.%${term}%,answer.ilike.%${term}%`);
-    const { data, error, count } = await query;
-    fail(error);
-    return { items: (data ?? []) as Question[], total: count ?? 0 };
-  },
-
-  async dailyQuestion(dayKey: string): Promise<Question | null> {
-    const { count, error } = await supabase!
-      .from("questions")
-      .select("id", { count: "exact", head: true })
-      .eq("status", "verified");
-    fail(error);
-    if (!count) return null;
-    const offset = hash(dayKey) % count;
-    const { data, error: e2 } = await supabase!
-      .from("questions")
-      .select(QUESTION_FIELDS)
-      .eq("status", "verified")
-      .order("id")
-      .range(offset, offset);
-    fail(e2);
-    return (data?.[0] as Question) ?? null;
-  },
+type RawQuestion = {
+  id: number;
+  category: string;
+  question: string;
+  answer: string;
+  letter: string;
+  difficulty: 1 | 2 | 3;
+  status: "pending" | "verified" | "rejected";
+  source: string | null;
+};
+type RawDb = {
+  categories: { slug: string; name: string; description: string | null; sort_order: number }[];
+  questions: RawQuestion[];
 };
 
-export const api = isDemo ? demoApi : liveApi;
+const db = raw as RawDb;
+const idBySlug = new Map(db.categories.map((c) => [c.slug, c.sort_order]));
+
+const questions: Question[] = db.questions
+  .filter((q) => q.status === "verified")
+  .map((q) => ({
+    id: q.id,
+    category_id: idBySlug.get(q.category)!,
+    question: q.question,
+    answer: q.answer,
+    letter: q.letter,
+    difficulty: q.difficulty,
+    source: q.source,
+  }));
+
+const categories: Category[] = db.categories
+  .map((c) => ({
+    id: c.sort_order,
+    slug: c.slug,
+    name: c.name,
+    description: c.description,
+    icon: null,
+    sort_order: c.sort_order,
+    question_count: questions.filter((q) => q.category_id === c.sort_order).length,
+  }))
+  .sort((a, b) => a.sort_order - b.sort_order);
+
+/** للبحث: يتجاهل التشكيل والهمزات */
+const fold = (s: string) =>
+  s.replace(/[ً-ٰٟـ]/g, "").replace(/[أإآ]/g, "ا").replace(/ى/g, "ي").replace(/ة/g, "ه");
+
+export const api = {
+  categories: async (): Promise<Category[]> => categories,
+
+  letterCounts: async (): Promise<LetterCount[]> => {
+    const map = new Map<string, LetterCount>();
+    for (const q of questions) {
+      const k = `${q.category_id}:${q.letter}`;
+      const cur = map.get(k) ?? { category_id: q.category_id, letter: q.letter, question_count: 0 };
+      cur.question_count++;
+      map.set(k, cur);
+    }
+    return [...map.values()];
+  },
+
+  questions: async ({ categoryId, letter, search, page = 0 }: QuestionQuery): Promise<QuestionPage> => {
+    const term = search ? fold(search.trim()) : "";
+    const all = questions.filter(
+      (q) =>
+        (!categoryId || q.category_id === categoryId) &&
+        (!letter || q.letter === letter) &&
+        (!term || fold(q.question).includes(term) || fold(q.answer).includes(term)),
+    );
+    return { items: all.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE), total: all.length };
+  },
+
+  dailyQuestion: async (dayKey: string): Promise<Question | null> =>
+    questions.length ? questions[hash(dayKey) % questions.length] : null,
+};

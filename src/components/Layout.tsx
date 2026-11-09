@@ -1,7 +1,6 @@
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useState, type FormEvent } from "react";
 import { ThemeToggle } from "./ThemeToggle";
-import { isDemo } from "../lib/supabase";
 
 export function Layout() {
   const navigate = useNavigate();
@@ -15,11 +14,6 @@ export function Layout() {
 
   return (
     <div className="shell">
-      {isDemo && (
-        <div className="demo-banner" role="status">
-          وضع تجريبي: الأسئلة المعروضة عيّنة للتطوير، وليست من قاعدة البيانات.
-        </div>
-      )}
       <header className="topbar">
         <div className="topbar-inner">
           <NavLink to="/" className="brand" aria-label="حروف، الصفحة الرئيسية">

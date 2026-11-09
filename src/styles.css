@@ -156,6 +156,16 @@ svg {
 }
 
 /* ============ الهيكل ============ */
+/* شريط فوق الهيدر الثابت في الجوال */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--bg);
+}
+
 .shell {
   min-height: 100dvh;
   display: flex;
@@ -166,23 +176,16 @@ svg {
   width: 100%;
   max-width: 1080px;
   margin-inline: auto;
-  padding: 28px 16px 64px;
+  padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
   flex: 1;
-}
-
-.demo-banner {
-  background: repeating-linear-gradient(-45deg, var(--saffron) 0 14px, color-mix(in srgb, var(--saffron) 85%, black) 14px 28px);
-  color: #1d1306;
-  font-size: 13px;
-  font-weight: 600;
-  text-align: center;
-  padding: 6px 16px;
 }
 
 /* الشريط العلوي */
 .topbar {
   position: sticky;
-  top: 0;
+  top: env(safe-area-inset-top, 0px);
   z-index: 10;
   background: color-mix(in srgb, var(--bg) 82%, transparent);
   backdrop-filter: blur(14px) saturate(1.3);
@@ -193,7 +196,9 @@ svg {
 .topbar-inner {
   max-width: 1080px;
   margin-inline: auto;
-  padding: 10px 16px;
+  padding-block: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
   display: flex;
   align-items: center;
   gap: 18px;
@@ -332,7 +337,9 @@ svg {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 28px 16px;
+  padding-block: 28px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
   color: var(--muted);
   font-size: 14px;
   border-block-start: 1px solid var(--line);
@@ -1074,6 +1081,18 @@ svg {
   font-size: 13px;
   color: var(--sea);
   font-weight: 600;
+}
+
+.q-source {
+  margin-inline-start: auto;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.q-source:hover {
+  color: var(--sea);
 }
 
 .q-answer strong {

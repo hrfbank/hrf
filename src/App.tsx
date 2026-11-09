@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { CatalogContext } from "./hooks/useCatalog";
 import { useAsync } from "./hooks/useAsync";
@@ -25,7 +25,7 @@ export function App() {
 
   return (
     <CatalogContext.Provider value={catalog}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route element={<Layout />}>
             <Route index element={<Home />} />
@@ -37,7 +37,7 @@ export function App() {
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </CatalogContext.Provider>
   );
 }

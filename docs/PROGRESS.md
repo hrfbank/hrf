@@ -4,12 +4,18 @@
 
 ## الحالة الحالية
 - **شغّال عليه الآن:** —
-- **التالي:** (١) المستخدم يشغّل `001_init.sql` ثم `002_letter_stats.sql` في Supabase. (٢) سكربت توليد + تحقق الأسئلة (المرحلة 2). (٣) نشر على Vercel مع `VITE_SUPABASE_URL` و `VITE_SUPABASE_PUBLISHABLE_KEY`.
-- **مشاكل معلّقة:** قرار "ال" التعريف في الحرف. مفتاح `service_role` ما انضاف لبيئة Claude. نسخة Vercel القديمة من `api/generate-questions` لسه منشورة.
+- **التالي:** دفعات أسئلة جديدة حسب `docs/QUESTION_RULES.md` (سكيل `huroof-questions`). الأولوية: الحروف الناقصة (ث خ ذ ش ص ض ظ غ ق ه و)، الرياضة، والمستوى الصعب.
+- **مشاكل معلّقة:** توزيع الصعوبة مايل للسهل (٢٤ سهل، ١٦ متوسط، ٢ صعب). ويكيبيديا محجوبة من الشبكة. Supabase مؤجل. نسخة Vercel القديمة من `api/generate-questions` لسه منشورة.
 
 ---
 
 ## 2026-11-09
+- **انعمل:** قاعدة الأسئلة الحقيقية + الموقع داخل Claude.
+  - `docs/QUESTION_RULES.md` + `scripts/validate-questions.mjs` (`npm run validate`) + سكيل `huroof-questions`.
+  - `data/questions.json`: ٤٢ سؤال مدقق (كل واحد بمصدر، تم التحقق بـ WebSearch) + ٢ مرفوض مع السبب. ٨ مجالات، ١٧ حرف من ٢٨.
+  - الموقع يقرأ من الملف مباشرة، وانحذف الوضع التجريبي و Supabase من الكود. منشور: https://claude.ai/artifact/ATCSxDzGuVWas9EgaxqXSS
+- **ملاحظات:** `npm run validate` = ٠ خطأ. `npm run build` ينجح.
+
 - **انعمل:** الموقع (المرحلة 3) بتصميم "دفتر الحروف".
   - Vite + React + TS. صفحات: الرئيسية (إحصائيات، سؤال اليوم، المجالات، الحروف)، المجالات، المجال (بحث + فلتر حرف)، الحروف، الحرف، البحث.
   - `supabase/migrations/002_letter_stats.sql` (عدد الأسئلة لكل حرف).
