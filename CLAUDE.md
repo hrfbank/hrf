@@ -1,15 +1,18 @@
 # CLAUDE.md
 
 ## عن المشروع
-حروف (hrf): موقع قاعدة بيانات أسئلة ثقافية عربية، كل سؤال جوابه يبدأ بحرف معيّن. لاحقاً يتحول لتطبيق لعبة. التقنيات: React + Vite + TypeScript (مخطط)، Supabase، Vercel، Capacitor لاحقاً للجوال.
+حروف (hrf): موقع قاعدة بيانات أسئلة ثقافية عربية، كل سؤال جوابه يبدأ بحرف معيّن. لاحقاً يتحول لتطبيق لعبة. التقنيات: React 18 + Vite 5 + TypeScript + react-router، Supabase، Vercel، Capacitor لاحقاً للجوال.
 
 ## الأوامر
-- لا يوجد `package.json` حالياً، فما فيه أوامر تشغيل/بناء/اختبار/فحص بعد.
-- لما يُضاف: `npm run dev` / `npm run build` / `npm test` / `npm run lint`.
+- تشغيل: `npm run dev` (يحتاج `.env.local`، انظر `.env.example`)
+- تشغيل بعيّنة تجريبية بدون Supabase: `npm run dev:demo`
+- بناء + فحص الأنواع: `npm run build`
+- ما فيه اختبارات ولا lint بعد.
 
 ## هيكل المجلدات
-- `supabase/migrations/` ملفات SQL لقاعدة البيانات (تنشغّل يدوياً في Supabase SQL Editor)
-- `index.html` الواجهة (فاضي، بيتبدّل بمشروع Vite)
+- `src/pages/` الصفحات، `src/components/` المكونات، `src/lib/` البيانات (api, demo, letters)
+- `src/styles.css` كل التصميم (ألوان الوضعين في `:root`)
+- `supabase/migrations/` ملفات SQL (تنشغّل يدوياً في Supabase SQL Editor بالترتيب)
 - `docs/` السجلات والقرارات
 
 ## طريقة العمل (إلزامي)

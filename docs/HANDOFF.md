@@ -1,28 +1,28 @@
 # HANDOFF — 2026-11-09
 
 ## المهمة الحالية
-إعداد بيئة العمل (CLAUDE.md، السجلات، السكيلز، الإعدادات) خلص. المشروع: API على Vercel يولّد أسئلة ثقافة عامة عبر OpenAI ويخزّنها في Supabase.
+موقع "حروف": بنك أسئلة ثقافية عربية (كل جواب يبدأ بحرف)، لاحقاً تطبيق لعبة. Vite + React + TS + Supabase.
 
 ## وين وصلنا
-- [x] `CLAUDE.md` + `docs/PROGRESS.md` + `docs/DECISIONS.md` + `docs/HANDOFF.md`
-- [x] سكيلز `handoff` و `checkpoint` و `update-log` و `token-saver` و `plan-first` في `.claude/skills/`
-- [x] `.claude/settings.json` (صلاحيات + hooks)
-- [ ] ← ابدأ من هنا: تجربة `api/generate-questions.ts` بـ 200 سؤال (ما انختبر)، أو البدء في `index.html`
+- [x] قاعدة البيانات: `supabase/migrations/001_init.sql` و `002_letter_stats.sql` (انختبرت على Postgres محلي)
+- [x] الموقع بتصميم "دفتر الحروف" (كل الصفحات، وضع ليلي، جوال)
+- [ ] ← ابدأ من هنا: المستخدم يشغّل الـ migrations في Supabase، ثم سكربت توليد + تحقق الأسئلة
+- [ ] نشر على Vercel
 
 ## الملفات المهمة
-- `api/generate-questions.ts` — الـ handler الوحيد الفعلي (المفاتيح 3-12، الـ prompt 14-24، OpenAI 26-49، Supabase 51-73)
-- `api/generate.js`, `index.html` — فاضيين
-- `CLAUDE.md` — قواعد العمل وجدول السكيلز
-- `.claude/settings.json` — الصلاحيات و hooks
+- `src/lib/api.ts` — كل استعلامات Supabase
+- `src/lib/demo.ts` — بيانات الوضع التجريبي
+- `src/styles.css` — التصميم كامل (الألوان في `:root` أول الملف)
+- `src/pages/` و `src/components/`
+- `docs/DECISIONS.md` — قرارات التصميم والبيانات
 
 ## معلومات لازم تعرفها
-- متغيرات البيئة: `OPENAI_API_KEY`, `SUPABASE_URL`, `SUPABASE_KEY`
-- ما فيه `package.json` ولا اختبارات، فأوامر npm ما تشتغل
-- 20 سكيل مذكورة في `CLAUDE.md` بدون ملفات (الموجود: handoff, checkpoint, update-log, token-saver, plan-first)
-- قاعدة deny تمسك `git push --force` بس، مو `git push -f` ولا `--force` في آخر الأمر
-- hook الـ prettier ما يشتغل لأن prettier مو مثبّت
-- السكيلز والإعدادات تشتغل من الجلسة الجاية (ما انجرّبت)
+- `npm run dev:demo` يشغّل الموقع بدون Supabase
+- الزوار يشوفون الأسئلة `verified` فقط (RLS). الإضافة بمفتاح `service_role` من سكربت محلي
+- مفتاح OpenAI محفوظ في بيئة Claude `Default`. مفتاح Supabase `service_role` لا
+- قرار مفتوح: هل "ال" التعريف تُحسب في الحرف؟
+- نسخة Vercel القديمة من `api/generate-questions` لسه منشورة (رابط عام يصرف رصيد OpenAI)
 - الفرع: `claude/adoring-keller-4o3w9x`
 
 ## أول أمر في الجلسة الجاية
-اقرأ `docs/HANDOFF.md` وكمّل.
+`npm install && npm run dev:demo`، ثم اقرأ "التالي" في `docs/PROGRESS.md`.
