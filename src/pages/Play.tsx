@@ -148,36 +148,35 @@ export function Play() {
     return counts;
   }
 
-  function newRound(nextRound = g.round) {
+  // لوحة من أسئلة الفئات المختارة اللي ما طلعت للحساب قبل، بس. ترجع null لو ما تكفي لوحة كاملة.
+  function freshBoard(used = usedSet): Board | null {
     const { rows, cols } = cfg.board;
-    // اللوحة من الحروف اللي فيها أسئلة جديدة على الحساب بس (ما نكرر سؤال نهائياً)،
-    // وحروف فئاتكم أولاً
-    const freshInPicks = letterCounts(true, usedSet, true);
-    const freshAnywhere = letterCounts(false, usedSet, true);
-    const board = buildBoard(rows, cols, freshAnywhere, Math.random, (l) => (freshInPicks[l] ? 0 : 1));
+    const board = buildBoard(rows, cols, letterCounts(true, used, true));
+    return board.cells.every((c) => c.letter) ? board : null;
+  }
+
+  function newRound(nextRound = g.round) {
+    const board = freshBoard();
     setNotice(null);
-    if (board.cells.some((c) => !c.letter)) {
-      patch({ phase: "exhausted", qs: null });
+    if (!board) {
+      // بداية المباراة: نرجع لاختيار الفئات. وسط المباراة: تنقفل اللعبة.
+      if (nextRound === 1) setNotice("أسئلة الفئات المختارة الجديدة ما تكفي لعبة. بدّلوا فئة أو أكثر.");
+      else patch({ phase: "exhausted", qs: null });
       return;
     }
     setHistory([]);
     patch({ board, roundWinner: null, qs: null, phase: "board", round: nextRound });
   }
 
+  // سؤال من الفئات المختارة بس، وما طلع للحساب قبل أبداً.
   function pickQuestion(letter: string, exclude: Set<number>) {
-    const pool = (onlyPicked: boolean) =>
-      bank.questions.filter((x) => x.letter === letter && !exclude.has(x.id) && (!onlyPicked || pickedIds.has(x.category_id)));
-    // سؤال جديد على الحساب من فئاتكم، وإذا خلصت من أي فئة. المشاهد ما يرجع أبداً.
     const seen = loadSeen();
-    const isFresh = (x: Question) => !seen.has(x.id);
-    const inPicks = pool(true).filter(isFresh);
-    const outside = inPicks.length === 0;
-    const candidates = outside ? pool(false).filter(isFresh) : inPicks;
+    const candidates = bank.questions.filter((x) => x.letter === letter && !exclude.has(x.id) && pickedIds.has(x.category_id));
     const usedQs = g.used.map((id) => qById.get(id)).filter((x): x is Question => !!x);
     const picked = chooseQuestion(candidates, usedQs, seen);
     if (!picked) return null;
     markSeen(picked.id);
-    return { q: picked, outside };
+    return { q: picked, outside: false };
   }
 
   function openCell(index: number) {
@@ -437,11 +436,15 @@ export function Play() {
   // ---------- اختيار الفئات ----------
   if (g.phase === "categories") {
     const done = g.picks.length >= cfg.categories.total;
+    const seen = loadSeen();
+    const freshIn = (catId: number) => bank.questions.filter((x) => x.category_id === catId && !seen.has(x.id)).length;
+    const enough = done && !!freshBoard(new Set());
     const term = catQuery.trim();
     const shown = playable.filter((c) => !term || c.name.includes(term));
+    const pickable = (c: (typeof playable)[number]) => freshIn(c.id) > 0;
     const countOf = (t: Team) => g.picks.filter((p) => p.team === t).length;
     const randomFill = () => {
-      const free = playable.filter((c) => !g.picks.some((p) => p.slug === c.slug)).sort(() => Math.random() - 0.5);
+      const free = playable.filter((c) => pickable(c) && !g.picks.some((p) => p.slug === c.slug)).sort(() => Math.random() - 0.5);
       const picks = [...g.picks];
       for (const c of free) {
         if (picks.length >= cfg.categories.total) break;
@@ -475,7 +478,7 @@ export function Play() {
                 key={c.slug}
                 type="button"
                 className={`pick-card${p ? ` picked ${p.team}` : ""}`}
-                disabled={!p && done}
+                disabled={!p && (done || !pickable(c))}
                 aria-pressed={!!p}
                 onClick={() => {
                   if (p) patch({ picks: g.picks.filter((x) => x.slug !== c.slug) });
@@ -484,14 +487,16 @@ export function Play() {
               >
                 <CategoryArt name={c.name} slug={c.slug} />
                 <span className="pick-name">{c.name}</span>
+                <span className={`pick-left${pickable(c) ? "" : " empty"}`}>{pickable(c) ? `${formatNumber(freshIn(c.id))} سؤال جديد` : "خلصت أسئلتها"}</span>
                 {p && <span className="pick-badge">{g.names[p.team]}</span>}
               </button>
             );
           })}
         </div>
         <div className="g-actions sticky-actions">
+          {done && !enough && <p className="g-note strong" role="status">{notice ?? "أسئلة الفئات المختارة الجديدة ما تكفي لعبة. بدّلوا فئة أو أكثر."}</p>}
           <button type="button" className="btn ghost" onClick={() => patch({ phase: "setup" })}>رجوع</button>
-          <button type="button" className="btn primary big" disabled={!done} onClick={() => newRound(1)}>ابدأ المباراة</button>
+          <button type="button" className="btn primary big" disabled={!enough} onClick={() => newRound(1)}>ابدأ المباراة</button>
         </div>
       </>,
     );
@@ -563,11 +568,12 @@ export function Play() {
   if (g.phase === "exhausted") {
     return stage(
       <div className="win-screen" role="status">
-        <p className="eyebrow">خلصت الأسئلة الجديدة</p>
-        <h1>لعبتوا كل أسئلتنا!</h1>
-        <p>الأسئلة الجديدة الباقية لهذا الحساب ما تكفي لوحة كاملة، وحنا ما نكرر عليكم سؤال طلع لكم قبل. نضيف أسئلة جديدة باستمرار، ارجعوا لنا قريب.</p>
+        <p className="eyebrow">انقفلت اللعبة</p>
+        <h1>خلصت أسئلة فئاتكم!</h1>
+        <p>الأسئلة الجديدة الباقية في الفئات اللي اخترتوها ما تكفي جولة كاملة، وحنا ما نكرر عليكم سؤال طلع لكم قبل. ابدأوا لعبة جديدة بفئات ثانية.</p>
         <div className="g-actions center">
-          <Link to="/" className="btn primary big">الرئيسية</Link>
+          <button type="button" className="btn primary big" onClick={() => setG({ ...freshGame(), names: g.names, seconds: g.seconds, helperPicks: g.helperPicks, phase: "categories" })}>لعبة جديدة بفئات ثانية</button>
+          <Link to="/" className="btn ghost">الرئيسية</Link>
         </div>
       </div>,
     );
@@ -606,7 +612,6 @@ export function Play() {
           <div className="g-letter">{board.cells[qs.cellIndex].letter}</div>
           <div>
             <span className="chip">{cat?.name}</span>
-            {qs.outsidePicks && <span className="g-note">من خارج فئاتكم (أسئلة هذا الحرف في فئاتكم طلعت لكم قبل)</span>}
             {qs.twoAnswers && <span className="g-note strong">{g.names[qs.twoAnswers]} يجاوب جوابين</span>}
           </div>
           {left !== null && (

@@ -2332,6 +2332,8 @@ a.icon-btn { display: grid; place-items: center; }
 
 .pick-card .cat-art { height: auto; aspect-ratio: 4 / 3; }
 .pick-name { padding: 8px 6px 10px; font-family: var(--font-display); font-weight: 700; font-size: 17px; background: var(--surface); }
+.pick-left { padding: 0 6px 10px; margin-top: -6px; font-size: 13px; font-weight: 700; color: var(--muted); background: var(--surface); }
+.pick-left.empty { color: #c0392b; }
 .pick-card.picked .pick-name { color: var(--team-ink); }
 .pick-card.picked.red .pick-name { background: var(--team-red); }
 .pick-card.picked.green .pick-name { background: var(--team-green); }
@@ -2439,4 +2441,15 @@ a.icon-btn { display: grid; place-items: center; }
   .setup-teams { grid-template-columns: minmax(0, 1fr); }
   .pick-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
   .setting { flex-wrap: wrap; }
+}
+
+/* تنبيه نقص الأسئلة في شريط اختيار الفئات */
+.sticky-actions .g-note.strong {
+  margin: 0;
+  padding: 6px 12px;
+  border: 2px solid var(--edge);
+  border-radius: 12px;
+  background: var(--team-green);
+  color: var(--team-ink);
+  font-weight: 700;
 }
