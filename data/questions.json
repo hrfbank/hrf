@@ -2271,6 +2271,467 @@
    "source": "https://www.blackpast.org/gah/abuja-nigeria-1991",
    "verified_at": "2026-11-10",
    "review_note": null
+  },
+  {
+   "id": 118,
+   "category": "kuwait",
+   "question": "طبق رمضاني كويتي من حب القمح واللحم، يُطبخ ساعات طويلة ثم يُضرب حتى يصير ناعماً، ويُرش عليه السكر والدارسين. من أنا؟",
+   "clues": [
+    "يسمّونني «سلطان المائدة الكويتية» في رمضان.",
+    "رفيقي الدائم على السفرة طبق «التشريب».",
+    "اسمي مأخوذ من طريقة دقّي حتى يتفتت الحب."
+   ],
+   "answer": "الهريس",
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/lifestyle/2021/4/25/الهريس-والتشريب-طبقان-لا-يخلو-منهما",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 119,
+   "category": "kuwait",
+   "question": "كرات عجين صغيرة تُقلى حتى تصير ذهبية، ويُصبّ عليها الدبس، ونادراً ما تخلو منها سفرة رمضان في الخليج. من أنا؟",
+   "clues": [
+    "أهل الشام يسمّون شبيهتي «العوّامة».",
+    "بعض الناس يحبونني مالحة أو مع الجبن.",
+    "وفي بلاد أخرى يسمّونني «لقمة القاضي»."
+   ],
+   "answer": "اللقيمات",
+   "accepted": [
+    "لقيمات"
+   ],
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://saudipedia.com/%D8%A7%D9%84%D9%84%D9%82%D9%8A%D9%85%D8%A7%D8%AA",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 120,
+   "category": "kuwait",
+   "question": "ما اسم غطاء الرأس الرجالي الأبيض الخفيف، بلا تطريز، اللي يثبته الكويتيون بالعقال؟",
+   "clues": [
+    "يُصنع من قماش أخف من قماش الشماغ.",
+    "لونه أبيض خالص، وما عليه أي زخرفة."
+   ],
+   "answer": "الغترة",
+   "accepted": [
+    "غترة"
+   ],
+   "letter": "غ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.noonpost.com/45958/amp/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 121,
+   "category": "kuwait",
+   "question": "ما اسم المجلس الملحق بالبيت الكويتي، اللي يجتمع فيه الرجال على القهوة والسوالف ونقاش كل القضايا؟",
+   "clues": [
+    "يسمّونها «برلمان الكويت الشعبي».",
+    "لعبت دوراً في الانتخابات وأيام حل مجلس الأمة.",
+    "كانت قديماً مجمع أهل الفريج الواحد."
+   ],
+   "answer": "الديوانية",
+   "accepted": [
+    "ديوانية",
+    "الديوان"
+   ],
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/2004/10/03/%d9%81%d9%8a-%d8%a7%d9%84%d9%83%d9%88%d9%8a%d8%aa-%d8%a7%d9%84%d9%82%d8%a8%d9%8a%d9%84%d8%a9-%d8%a3%d8%b3%d8%a7%d8%b3-%d8%a7%d9%84%d9%85%d8%ac%d8%aa%d9%85%d8%b9",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 122,
+   "category": "saudi",
+   "question": "ما اسم غطاء الرأس الرجالي المطرّز بالأحمر والأبيض، الأشهر عند السعوديين؟",
+   "clues": [
+    "يُصنع من قماش أثقل وأخشن من قماش الغترة.",
+    "يتميز بالتطريز على أطرافه.",
+    "في العراق ينطقونه بياء في أوله."
+   ],
+   "answer": "الشماغ",
+   "accepted": [
+    "شماغ"
+   ],
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.noonpost.com/45958/amp/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 123,
+   "category": "general",
+   "question": "ما اسم عنقود النجوم اللامع اللي يقول العرب إن طلوعه فجراً إيذان بدخول «القيظ»؟",
+   "clues": [
+    "تقول العرب: «القيظ من طلوعه إلى طلوع سهيل».",
+    "يطلع فجراً في سماء الخليج في أوائل يونيو.",
+    "يغيب قبلها نحو أربعين يوماً، ويسمّونها «غيوبه»."
+   ],
+   "answer": "الثريا",
+   "accepted": [
+    "ثريا"
+   ],
+   "letter": "ث",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.wam.ae/ar/article/c0k0obw-طلوع-الثريا-سماء-الدولة-يونيو-لمدة-يوما",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 124,
+   "category": "general",
+   "question": "ما البهار اللي ما تكتمل القهوة العربية بدونه، وتفوح ريحته من الدلّة؟",
+   "clues": [
+    "يُعدّ ثالث أغلى التوابل بعد الزعفران والفانيليا.",
+    "موطنه الأصلي جنوب غرب الهند.",
+    "يسمّيه المصريون «الحبهان»."
+   ],
+   "answer": "الهيل",
+   "accepted": [
+    "هيل",
+    "الهال"
+   ],
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.enabbaladi.net/93629",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 125,
+   "category": "titles-nicknames",
+   "question": "أي أمراء الكويت لقّبته الأمم المتحدة «قائداً للعمل الإنساني»؟",
+   "clues": [
+    "في نفس الاحتفال سُمّيت الكويت «مركزاً للعمل الإنساني».",
+    "أُقيم التكريم في نيويورك، وتحتفل الكويت بذكراه كل سنة في سبتمبر.",
+    "قال الأمين العام بان كي مون إن الكويت أظهرت كرماً استثنائياً تحت قيادته."
+   ],
+   "answer": "صباح الأحمد",
+   "accepted": [
+    "صباح الأحمد الجابر"
+   ],
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1599577711792724900",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 126,
+   "category": "proverbs-riddles",
+   "question": "لغز: أمشي معك أينما رحت، وأقلّد كل حركاتك، ولا تقدر تمسكني. من أنا؟",
+   "clues": [
+    "أطول ما أكون في الصباح الباكر وقبل المغرب.",
+    "أختفي إذا انطفأ النور.",
+    "أتكوّن لما يحجب جسمك الضوء."
+   ],
+   "answer": "الظل",
+   "accepted": [
+    "ظل",
+    "ظلك"
+   ],
+   "letter": "ظ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.sciencefocus.com/science/if-you-could-make-yourself-invisible-would-you-still-have-a-shadow",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 127,
+   "category": "products",
+   "question": "ما تطبيق المراسلة الأخضر اللي اشتُق اسمه من التحية الإنجليزية «What's up»؟",
+   "clues": [
+    "أسسه جان كوم وبريان أكتون.",
+    "اشترته فيسبوك بنحو ١٩ مليار دولار.",
+    "عليه قروبات العائلة والدوام والديوانية."
+   ],
+   "answer": "واتساب",
+   "accepted": [
+    "الواتساب",
+    "واتس اب",
+    "الواتس"
+   ],
+   "letter": "و",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://phys.org/news/2014-02-whatsapp-founders-swap-struggle-billionaire.html",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 128,
+   "category": "countries-capitals",
+   "question": "عند ملتقى النيلين الأزرق والأبيض تقع عاصمة عربية. ما هي؟",
+   "clues": [
+    "نقطة التقاء النهرين تسمى «المقرن».",
+    "تُعرف مع مدينتين جارتين بـ«العاصمة المثلثة».",
+    "عاصمة السودان."
+   ],
+   "answer": "الخرطوم",
+   "accepted": [
+    "خرطوم"
+   ],
+   "letter": "خ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/encyclopedia/2014/11/11/الخرطوم",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 129,
+   "category": "language-literature",
+   "question": "تُلقّب العربية بـ«لغة ...» نسبة إلى حرف يقال إنه ما يوجد بنطقه في لغة ثانية. ما هذا الحرف؟",
+   "clues": [
+    "قيل إن غير العرب عجزوا عن نطقه بعد الفتوحات.",
+    "يأتي بعد الصاد في ترتيب الحروف.",
+    "تجده في أول كلمة «ضوء»."
+   ],
+   "answer": "الضاد",
+   "accepted": [
+    "ضاد"
+   ],
+   "letter": "ض",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/لماذا_سميت_لغتنا_بلغة_الضاد",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 130,
+   "category": "titles-nicknames",
+   "question": "ما اللقب الذي اشتهرت به الصحابية أسماء بنت أبي بكر؟",
+   "clues": [
+    "في الهجرة ما لقت شي تربط فيه زاد النبي ﷺ وأبيها.",
+    "شقّت حزامها نصفين، فربطت بنصف وانتطقت بالآخر.",
+    "كان أهل الشام يعيّرون ابنها عبدالله بن الزبير باللقب، فكانت تراه شرفاً."
+   ],
+   "answer": "ذات النطاقين",
+   "letter": "ذ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.omandaily.om/ampArticle/1019214",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 131,
+   "category": "famous-places",
+   "question": "ما المعلم الهندي الشهير الذي بناه إمبراطور مغولي حزين ضريحاً لزوجته؟",
+   "clues": [
+    "يقع في مدينة أغرا، على ضفة نهر يمنا.",
+    "بناه الإمبراطور شاه جهان لزوجته «ممتاز محل».",
+    "دخل قائمة التراث العالمي لليونسكو."
+   ],
+   "answer": "تاج محل",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/encyclopedia/2024/1/26/%D8%AA%D8%A7%D8%AC-%D9%85%D8%AD%D9%84-3",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 132,
+   "category": "which-country",
+   "question": "أي دولة يلقّبها العالم «بلاد الشمس المشرقة»؟",
+   "clues": [
+    "تقع شرق الصين، في جهة شروق الشمس.",
+    "اسمها بلغتها «نيهون»، ومعناه «أصل الشمس».",
+    "أول الأوروبيين الواصلين لها كانوا البرتغاليين، وأنشأوا قاعدة في ناغازاكي."
+   ],
+   "answer": "اليابان",
+   "accepted": [
+    "يابان"
+   ],
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/ما_هي_بلاد_الشمس_المشرقة",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 133,
+   "category": "world-football",
+   "question": "أي نادٍ إسباني يلقّبه جمهوره «الملكي» ويلعب بالقميص الأبيض؟",
+   "clues": [
+    "يلقّبونه كذلك «الميرينغي» نسبة لحلوى بيضاء.",
+    "منحه الملك ألفونسو الثالث عشر لقبه الملكي.",
+    "اسمه يجمع كلمة «ملكي» واسم عاصمة إسبانيا."
+   ],
+   "answer": "ريال مدريد",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.realmadrid.com/ar-AE/news/club/latest-news/se-cumplen-106-anos-desde-que-el-club-recibio-el-titulo-de-real-29-06-2026",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 134,
+   "category": "gulf-series",
+   "question": "ما المسلسل الكويتي الكوميدي اللي يغتني فيه الأخوان «حسينوه» وسعد بعد ما تثمّن الحكومة بيتهم؟",
+   "clues": [
+    "حلقاته ١٣ حلقة فقط، وما زال الناس يعيدون مشاهده.",
+    "بطولة عبدالحسين عبدالرضا وسعد الفرج وخالد النفيسي.",
+    "أول عمل في تاريخ تلفزيون الكويت بنظام المنتج المنفّذ."
+   ],
+   "answer": "درب الزلق",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1468453272381627500",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 135,
+   "category": "kuwaiti-plays",
+   "question": "ما المسرحية الكويتية الكوميدية اللي يسافر فيها «شارد» إلى عاصمة الضباب؟",
+   "clues": [
+    "كوميديا ساخرة عن الفروق بين ثقافتنا وثقافة الغرب.",
+    "شارك فيها غانم الصالح بشخصية «نهاش».",
+    "بطلها عبدالحسين عبدالرضا، اللي توفي لاحقاً في نفس المدينة."
+   ],
+   "answer": "باي باي لندن",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://elcinema.com/work/1633861/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 136,
+   "category": "actors",
+   "question": "من الفنان الكويتي الملقّب بـ«أبو عدنان»، وأبو الكوميديا الخليجية؟",
+   "clues": [
+    "وُلد في منطقة الشرق بالكويت.",
+    "من أشهر شخصياته «حسينوه».",
+    "يجري العمل على مسلسل عن حياته اسمه «صانع البهجة»."
+   ],
+   "answer": "عبدالحسين عبدالرضا",
+   "accepted": [
+    "عبد الحسين عبد الرضا"
+   ],
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.alraimedia.com/ampArticle/1519222",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 137,
+   "category": "cars",
+   "question": "ما العلامة الفاخرة اللي أطلقتها تويوتا عشان تنافس مرسيدس وبي إم دبليو؟",
+   "clues": [
+    "بدأ مشروعها سراً في الثمانينيات بآلاف المهندسين.",
+    "أول طراز لها حمل اسم LS400، وظهر في معرض ديترويت.",
+    "خلال سنة تفوّقت مبيعاتها في أمريكا على الفئة S."
+   ],
+   "answer": "لكزس",
+   "accepted": [
+    "لكسز",
+    "ليكسس"
+   ],
+   "letter": "ل",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ateupwithmotor.com/model-histories/lexus-ls400/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 138,
+   "category": "cars",
+   "question": "أي شركة سيارات إيطالية شعارها حصان أسود جامح على خلفية صفراء؟",
+   "clues": [
+    "الحصان كان مرسوماً على طائرة طيار إيطالي في الحرب العالمية الأولى.",
+    "مؤسسها «إنزو» وُلد في مودينا.",
+    "سياراتها الحمراء من أشهر فرق الفورمولا ١."
+   ],
+   "answer": "فيراري",
+   "accepted": [
+    "فراري"
+   ],
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.carkeys.co.uk/amp/news/how-italy-s-deadliest-pilot-inspired-the-famous-ferrari-logo",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 139,
+   "category": "islamic",
+   "question": "ما البئر المباركة في المسجد الحرام اللي نبعت لهاجر وابنها إسماعيل؟",
+   "clues": [
+    "نبعت بعد ما سعت هاجر بين الصفا والمروة.",
+    "قيل في سبب اسمها إن هاجر قالت للماء: اجتمع.",
+    "يحمل الحجاج ماءها لأهلهم هدية."
+   ],
+   "answer": "زمزم",
+   "letter": "ز",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/history/2024/4/4/%D9%85%D8%A7%D8%A1-%D8%B2%D9%85%D8%B2%D9%85-%D9%85%D8%A7%D8%A1-%D9%8A%D8%AC%D8%B1%D9%8A-%D8%A8%D8%B1%D8%AD%D9%85%D8%AA%D9%87-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%86%D8%A8%D9%8A%D9%8A%D9%86",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 140,
+   "category": "seerah",
+   "question": "في أي غار اختبأ النبي ﷺ وأبو بكر ثلاثة أيام في الهجرة؟",
+   "clues": [
+    "كان عبدالله وأسماء ابنا أبي بكر يوصلان لهما الطعام والأخبار.",
+    "كان عامر بن فهيرة يرعى الغنم عنده ليمحو آثار الأقدام.",
+    "فيه قال النبي ﷺ لصاحبه: «ما ظنك باثنين الله ثالثهما»."
+   ],
+   "answer": "ثور",
+   "letter": "ث",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://mawdoo3.com/سبب_تسمية_غار_ثور",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 141,
+   "category": "sports",
+   "question": "في أي لعبة ذهنية تنتهي المباراة بعبارة «كش ملك»؟",
+   "clues": [
+    "العبارة أصلها فارسي «شاه مات»، يعني الملك عاجز.",
+    "من قطعها الفيل والحصان والقلعة.",
+    "في الإنجليزية تسمى الحركة الأخيرة «checkmate»."
+   ],
+   "answer": "الشطرنج",
+   "accepted": [
+    "شطرنج"
+   ],
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.chess.com/ar/terms/ksh-mat",
+   "verified_at": "2026-11-10",
+   "review_note": null
   }
  ]
 }
