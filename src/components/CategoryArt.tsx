@@ -1,4 +1,5 @@
 import { hash } from "../lib/hash";
+import { CategoryIllustration, ILLUSTRATIONS } from "./CategoryIllustrations";
 
 const TONES = ["henna", "sea", "saffron", "palm", "rose", "indigo"] as const;
 
@@ -15,6 +16,13 @@ export function initialOf(name: string) {
 /** غلاف المجال: حرف كبير فوق نقش النجمة الثمانية */
 export function CategoryArt({ name, slug }: { name: string; slug: string }) {
   const id = `star-${slug}`;
+  if (ILLUSTRATIONS[slug]) {
+    return (
+      <div className="cat-art illustrated" aria-hidden="true">
+        <CategoryIllustration slug={slug} />
+      </div>
+    );
+  }
   return (
     <div className={`cat-art tone-${toneFor(slug)}`} aria-hidden="true">
       <svg className="cat-pattern" width="100%" height="100%">
