@@ -13,6 +13,8 @@ import { NotFound } from "./pages/NotFound";
 import { Sounds } from "./pages/Sounds";
 import { Play } from "./pages/Play";
 import { Login } from "./pages/Login";
+import { HowTo } from "./pages/HowTo";
+import { SettingsPage } from "./pages/SettingsPage";
 import { AuthProvider, useAuth } from "./lib/auth";
 import { Navigate, useLocation } from "react-router-dom";
 import type { ReactNode } from "react";
@@ -54,6 +56,8 @@ export function App() {
             <Route path="sounds" element={<Sounds />} />
             <Route path="play" element={<RequireOwner><Play /></RequireOwner>} />
             <Route path="login" element={<Login />} />
+            <Route path="how" element={<HowTo />} />
+            <Route path="settings" element={<SettingsPage />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

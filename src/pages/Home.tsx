@@ -5,6 +5,7 @@ import { CategoryCard } from "../components/CategoryCard";
 import { DailyQuestion } from "../components/DailyQuestion";
 import { ErrorState } from "../components/States";
 import { formatNumber } from "../lib/format";
+import { hasSavedGame } from "../game/save";
 
 const HERO_LETTERS = ["ح", "ر", "و", "ف"];
 
@@ -13,21 +14,23 @@ export function Home() {
   const total = categories.reduce((sum, c) => sum + c.question_count, 0);
   const counts = lettersFor(letterCounts);
   const lettersUsed = Object.values(counts).filter(Boolean).length;
+  const saved = hasSavedGame();
 
   return (
     <>
       <section className="hero">
         <div className="hero-text">
-          <p className="eyebrow">بنك أسئلة ثقافية مدققة</p>
+          <p className="eyebrow">لعبة حروف الجماعية</p>
           <h1>
             لكل حرف <em>سؤال</em>،
             <br />
-            ولكل سؤال جواب يبدأ به.
+            ولكل فريق درب.
           </h1>
-          <p className="lead">تصفّح الأسئلة حسب المجال أو الحرف، واكشف الجواب متى ما كنت جاهز.</p>
+          <p className="lead">فريقين، ولوحة حروف، وجرس. جاوبوا صح ووصّلوا مساركم قبل الخصم.</p>
           <div className="hero-actions">
-            <Link to="/play" className="btn primary">ابدأ لعبة</Link>
-            <Link to="/categories" className="btn ghost">تصفّح المجالات</Link>
+            {saved && <Link to="/play" className="btn secondary big">كمّل لعبتك</Link>}
+            <Link to="/play" state={{ fresh: true }} className="btn primary big">ابدأ لعبة جديدة</Link>
+            <Link to="/how" className="btn ghost">كيف تلعب؟</Link>
             <Link to="/letters" className="btn ghost">اختر حرفاً</Link>
           </div>
         </div>

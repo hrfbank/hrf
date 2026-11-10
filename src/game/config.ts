@@ -47,14 +47,15 @@ export const GAME_CONFIG = {
     goldenCells: { enabled: true, perBoard: 2 },
     /** تحدي خلية الخصم بسؤال أصعب */
     stealCell: { enabled: true, perRound: 1 },
-    /** وسائل المساعدة: ٣ أنواع، كل نوع مرة واحدة لكل فريق في المباراة */
+    /** وسائل المساعدة: كل فريق يختار perTeam من الأنواع عند الإعداد، وكل وسيلة مرة واحدة في المباراة */
     helpers: {
       enabled: true,
-      usesPerKindPerMatch: 1,
+      perTeam: 3,
       kinds: [
-        { id: "extraClue", name: "تلميح إضافي" },
-        { id: "changeQuestion", name: "غيّر السؤال" },
-        { id: "callFriend", name: "اتصال بصديق", seconds: 30 },
+        { id: "extraClue", name: "تلميح زيادة", hint: "يكشف تلميح إضافي حتى بعد الجرس" },
+        { id: "changeQuestion", name: "غيّر السؤال", hint: "سؤال ثاني بنفس الحرف" },
+        { id: "callFriend", name: "اتصال بصديق", hint: "٣٠ ثانية تتصلون فيها بأحد", seconds: 30 },
+        { id: "twoAnswers", name: "جوابين", hint: "الفريق يقول جوابين، وينحسب لو واحد صح" },
       ],
     },
     /** أسئلة الصور: تبدأ مقرّبة، وكل تلميح يبعّد الصورة خطوة */
