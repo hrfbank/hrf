@@ -1882,13 +1882,15 @@ body::before {
 
 /* بطاقة فئة مرسومة */
 .cat-art.illustrated {
-  background: linear-gradient(180deg, #dff4f2, #c4ebe8);
-  padding: 8px 10px 0;
-  place-items: end center;
+  padding: 0;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  max-width: 100%;
+  background: #f3ead7;
 }
 
-.cat-illus { width: 100%; height: 100%; max-width: 100%; transition: transform 0.35s cubic-bezier(0.3, 1.6, 0.5, 1); }
-.cat-card:hover .cat-illus { transform: scale(1.04) rotate(-1deg); }
+.cat-illus { display: block; width: 100%; height: 100%; max-width: 100%; transition: transform 0.5s ease; }
+.cat-card:hover .cat-illus { transform: scale(1.06); }
 
 /* ============ حركة ============ */
 @keyframes rise {
