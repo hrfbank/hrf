@@ -11,10 +11,9 @@ export function CategoryCard({ category, index = 0, soon = false }: { category: 
   if (ILLUSTRATIONS[category.slug] && soon) {
     return (
       <div className="cat-card poster soon" style={style} aria-label={`${category.name}، قريباً`}>
-        <span className="poster-count soon-stamp"><span><small>قريباً</small></span></span>
+        <span className="poster-count soon-stamp">قريباً</span>
         <CategoryArt name={category.name} slug={category.slug} />
         <h3 className="poster-name">{category.name}</h3>
-        {category.description && <p className="poster-foot">{category.description}</p>}
       </div>
     );
   }
@@ -23,11 +22,10 @@ export function CategoryCard({ category, index = 0, soon = false }: { category: 
     return (
       <Link to={`/c/${category.slug}`} className="cat-card poster" style={style} title={category.description ?? undefined}>
         <span className="poster-count" aria-label={questionsLabel(category.question_count)}>
-          <span><b>{formatNumber(category.question_count)}</b><small>سؤال</small></span>
+          {formatNumber(category.question_count)} سؤال
         </span>
         <CategoryArt name={category.name} slug={category.slug} />
         <h3 className="poster-name">{category.name}</h3>
-        {category.description && <p className="poster-foot">{category.description}</p>}
       </Link>
     );
   }
