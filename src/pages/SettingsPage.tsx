@@ -4,9 +4,19 @@ import { sfx } from "../game/sound";
 import { formatNumber } from "../lib/format";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { clearSeen, seenCount, setSeenAccount } from "../game/pickQuestion";
+import { useAuth } from "../lib/auth";
+import { bank } from "../lib/api";
 
 export function SettingsPage() {
   const [s, set] = useSettings();
+  const { player } = useAuth();
+  const [seen, setSeen] = useState(0);
+  useEffect(() => {
+    void setSeenAccount(player?.id ?? null).then(() => setSeen(seenCount()));
+  }, [player?.id]);
+  const total = bank.questions.length;
   return (
     <section className="settings">
       <header className="page-head">
@@ -43,6 +53,24 @@ export function SettingsPage() {
         <div className="setting">
           <div><h3>الوضع الليلي</h3><p>بدّل بين الفاتح والغامق.</p></div>
           <ThemeToggle />
+        </div>
+        <div className="setting">
+          <div>
+            <h3>سجل الأسئلة</h3>
+            <p>طلع لكم {formatNumber(seen)} سؤال من {formatNumber(total)}. السؤال اللي يطلع ما يتكرر عليكم. المسح يرجّع كل الأسئلة جديدة.</p>
+          </div>
+          <button
+            type="button"
+            className="btn danger"
+            disabled={!seen}
+            onClick={async () => {
+              if (!confirm("أكيد؟ بترجع كل الأسئلة اللي طلعت لكم تطلع من جديد.")) return;
+              await clearSeen();
+              setSeen(0);
+            }}
+          >
+            امسح السجل
+          </button>
         </div>
         <div className="setting">
           <div><h3>جرّب الأصوات</h3><p>اسمع الجرس والموسيقى وباقي المؤثرات.</p></div>

@@ -12,7 +12,7 @@ import type { Question } from "../lib/types";
 import { useAuth } from "../lib/auth";
 import { CategoryArt } from "../components/CategoryArt";
 
-type Phase = "setup" | "categories" | "board" | "question" | "roundWon" | "matchWon";
+type Phase = "setup" | "categories" | "board" | "question" | "roundWon" | "matchWon" | "exhausted";
 type HelperId = (typeof GAME_CONFIG.features.helpers.kinds)[number]["id"];
 type QState = {
   cellIndex: number;
@@ -105,6 +105,7 @@ export function Play() {
   const [left, setLeft] = useState<number | null>(null);
   const [friendLeft, setFriendLeft] = useState<number | null>(null);
   const [paused, setPaused] = useState(false);
+  const [notice, setNotice] = useState<string | null>(null);
   const [music, setMusic] = useState(isMusicPlaying());
   const [catQuery, setCatQuery] = useState("");
   const stopTimer = useRef<() => void>();
@@ -115,7 +116,7 @@ export function Play() {
   // حفظ تلقائي بعد كل تغيير
   useEffect(() => {
     if (g.phase === "setup") return;
-    if (g.phase === "matchWon") clearGame();
+    if (g.phase === "matchWon" || g.phase === "exhausted") clearGame();
     else saveGame(g);
   }, [g]);
 
@@ -149,12 +150,16 @@ export function Play() {
 
   function newRound(nextRound = g.round) {
     const { rows, cols } = cfg.board;
-    // كل الحروف المتاحة، والأولوية: حرف فيه سؤال جديد للحساب من فئاتكم ← من أي فئة ← الحروف اللي كل أسئلتها انشافت
+    // اللوحة من الحروف اللي فيها أسئلة جديدة على الحساب بس (ما نكرر سؤال نهائياً)،
+    // وحروف فئاتكم أولاً
     const freshInPicks = letterCounts(true, usedSet, true);
     const freshAnywhere = letterCounts(false, usedSet, true);
-    const inPicks = letterCounts(true);
-    const priority = (l: string) => (freshInPicks[l] ? 0 : freshAnywhere[l] ? 1 : inPicks[l] ? 2 : 3);
-    const board = buildBoard(rows, cols, letterCounts(false), Math.random, priority);
+    const board = buildBoard(rows, cols, freshAnywhere, Math.random, (l) => (freshInPicks[l] ? 0 : 1));
+    setNotice(null);
+    if (board.cells.some((c) => !c.letter)) {
+      patch({ phase: "exhausted", qs: null });
+      return;
+    }
     setHistory([]);
     patch({ board, roundWinner: null, qs: null, phase: "board", round: nextRound });
   }
@@ -162,15 +167,12 @@ export function Play() {
   function pickQuestion(letter: string, exclude: Set<number>) {
     const pool = (onlyPicked: boolean) =>
       bank.questions.filter((x) => x.letter === letter && !exclude.has(x.id) && (!onlyPicked || pickedIds.has(x.category_id)));
-    // الترتيب: سؤال جديد من فئاتكم ← سؤال جديد من أي فئة ← الأقدم مشاهدة من فئاتكم ← من أي فئة
+    // سؤال جديد على الحساب من فئاتكم، وإذا خلصت من أي فئة. المشاهد ما يرجع أبداً.
     const seen = loadSeen();
-    const inPicks = pool(true);
-    const anywhere = pool(false);
-    const hasFresh = (list: Question[]) => list.some((x) => !seen.has(x.id));
-    let candidates = inPicks;
-    if (!hasFresh(inPicks) && hasFresh(anywhere)) candidates = anywhere.filter((x) => !seen.has(x.id));
-    else if (!inPicks.length) candidates = anywhere;
-    const outside = candidates !== inPicks;
+    const isFresh = (x: Question) => !seen.has(x.id);
+    const inPicks = pool(true).filter(isFresh);
+    const outside = inPicks.length === 0;
+    const candidates = outside ? pool(false).filter(isFresh) : inPicks;
     const usedQs = g.used.map((id) => qById.get(id)).filter((x): x is Question => !!x);
     const picked = chooseQuestion(candidates, usedQs, seen);
     if (!picked) return null;
@@ -180,8 +182,13 @@ export function Play() {
 
   function openCell(index: number) {
     if (!g.board || g.board.cells[index].owner) return;
-    const res = pickQuestion(g.board.cells[index].letter, usedSet);
-    if (!res) return;
+    const letter = g.board.cells[index].letter;
+    const res = pickQuestion(letter, usedSet);
+    if (!res) {
+      setNotice(`ما بقى سؤال جديد بحرف «${letter}» لهذا الحساب. اختاروا خلية ثانية.`);
+      return;
+    }
+    setNotice(null);
     sfx.select();
     setLeft(null);
     patch({
@@ -241,7 +248,11 @@ export function Play() {
       patch({ ...markUsed, qs: { ...g.qs, shown: g.qs.shown + 1 } });
     } else if (id === "changeQuestion") {
       const res = pickQuestion(q.letter, usedSet);
-      if (!res) return;
+      if (!res) {
+        setNotice(`ما بقى سؤال جديد ثاني بحرف «${q.letter}».`);
+        return;
+      }
+      setNotice(null);
       stopTimer.current?.();
       setLeft(null);
       patch({ ...markUsed, used: [...g.used, res.q.id], qs: { ...g.qs, qid: res.q.id, outsidePicks: res.outside, shown: 1, buzzed: null, passedTo: null } });
@@ -549,6 +560,19 @@ export function Play() {
   }
 
   // ---------- اللوحة ----------
+  if (g.phase === "exhausted") {
+    return stage(
+      <div className="win-screen" role="status">
+        <p className="eyebrow">خلصت الأسئلة الجديدة</p>
+        <h1>لعبتوا كل أسئلتنا!</h1>
+        <p>الأسئلة الجديدة الباقية لهذا الحساب ما تكفي لوحة كاملة، وحنا ما نكرر عليكم سؤال طلع لكم قبل. نضيف أسئلة جديدة باستمرار، ارجعوا لنا قريب.</p>
+        <div className="g-actions center">
+          <Link to="/" className="btn primary big">الرئيسية</Link>
+        </div>
+      </div>,
+    );
+  }
+
   if (g.phase === "board" || g.phase === "roundWon") {
     return stage(
       <>
@@ -558,6 +582,7 @@ export function Play() {
         ) : (
           g.roundWinner && <div className={`g-banner ${g.roundWinner.team}`} role="status">{g.names[g.roundWinner.team]} فاز بالجولة {formatNumber(g.round)}!</div>
         )}
+        {notice && g.phase === "board" && <p className="g-note strong" role="status">{notice}</p>}
         {hexBoard(g.phase === "board")}
         <div className="g-actions center">
           {g.phase === "board" && <button type="button" className="btn ghost" disabled={!history.length} onClick={undo}>تراجع عن آخر خلية</button>}
@@ -581,7 +606,7 @@ export function Play() {
           <div className="g-letter">{board.cells[qs.cellIndex].letter}</div>
           <div>
             <span className="chip">{cat?.name}</span>
-            {qs.outsidePicks && <span className="g-note">من خارج فئاتكم (أسئلة هذا الحرف في فئاتكم خلصت أو طلعت لكم قبل)</span>}
+            {qs.outsidePicks && <span className="g-note">من خارج فئاتكم (أسئلة هذا الحرف في فئاتكم طلعت لكم قبل)</span>}
             {qs.twoAnswers && <span className="g-note strong">{g.names[qs.twoAnswers]} يجاوب جوابين</span>}
           </div>
           {left !== null && (
@@ -621,6 +646,7 @@ export function Play() {
                 <button type="button" className="g-buzz green" onClick={() => buzz("green")}>جرس<br />{g.names.green}</button>
               </div>
             )}
+            {notice && <p className="g-note strong" role="status">{notice}</p>}
             <div className="q-helpers">
               <span>مساعدة {g.names[helperTeam]}:</span>
               {g.helperPicks[helperTeam].map((id) => {

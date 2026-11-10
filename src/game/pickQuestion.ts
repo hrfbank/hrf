@@ -1,6 +1,6 @@
 // اختيار سؤال لخلية: عشوائي، موزّع بالتساوي على الفئات المختارة،
-// وما يكرر على الحساب سؤال طلع له قبل (إلا لو خلصت كل الأسئلة الجديدة،
-// فيرجع للأقدم مشاهدة). كل حساب له سجله، والسؤال عادي يطلع لحساب ثاني.
+// والسؤال اللي طلع للحساب ما يرجع له نهائياً (لا في جولة ولا في لعبة ثانية).
+// كل حساب له سجله، والسؤال عادي يطلع لحساب ثاني.
 //
 // السجل ينحفظ على الجهاز لكل حساب (hrf-seen:<id>)، ولما يكون فيه
 // تسجيل دخول ينحفظ كمان في Supabase (جدول seen_questions) عشان يتبع
@@ -64,13 +64,23 @@ export function markSeen(id: number) {
   }
 }
 
+/** عدد الأسئلة اللي طلعت للحساب الحالي. */
+export const seenCount = () => loadSeen().size;
+
+/** يمسح سجل الحساب الحالي (على الجهاز وفي Supabase)، فترجع كل الأسئلة جديدة له. */
+export async function clearSeen() {
+  cache = new Map();
+  writeLocal();
+  if (account !== "guest" && supabase) await supabase.from("seen_questions").delete().eq("user_id", account);
+}
+
 const randomOf = <T,>(arr: T[], rand = Math.random) => arr[Math.floor(rand() * arr.length)];
 
 /**
  * candidates: أسئلة الحرف المتاحة. usedInMatch: الأسئلة اللي طلعت في المباراة الحالية.
- * 1) لو فيه أسئلة ما شافها الحساب، نختار منها بس.
+ * 1) نستبعد كل سؤال شافه الحساب. لو ما بقى شي نرجع null (ما نكرر أبداً).
  * 2) نختار الفئة الأقل استخداماً في المباراة (والتعادل بالقرعة)، عشان كل الفئات تاخذ نصيبها.
- * 3) داخل الفئة سؤال عشوائي. ولو كل الأسئلة انشافت، ناخذ الأقدم مشاهدة.
+ * 3) داخل الفئة سؤال عشوائي.
  */
 export function chooseQuestion(
   candidates: Question[],
@@ -78,12 +88,8 @@ export function chooseQuestion(
   seen: Seen,
   rand = Math.random,
 ): Question | null {
-  if (!candidates.length) return null;
   const fresh = candidates.filter((q) => !seen.has(q.id));
-  if (!fresh.length) {
-    const oldest = Math.min(...candidates.map((q) => seen.get(q.id)!));
-    return randomOf(candidates.filter((q) => seen.get(q.id) === oldest), rand);
-  }
+  if (!fresh.length) return null;
 
   const catUse = new Map<number, number>();
   for (const q of usedInMatch) catUse.set(q.category_id, (catUse.get(q.category_id) ?? 0) + 1);
