@@ -1,6 +1,10 @@
 import { hash } from "../lib/hash";
 import { CategoryIllustration, ILLUSTRATIONS } from "./CategoryIllustrations";
 
+// صور البطاقات الاحترافية: src/assets/categories/<slug>.webp (أو png/jpg)
+const ART = import.meta.glob("../assets/categories/*.{webp,png,jpg}", { eager: true, import: "default" }) as Record<string, string>;
+const artFor = (slug: string) => Object.entries(ART).find(([path]) => path.split("/").pop()!.split(".")[0] === slug)?.[1];
+
 const TONES = ["henna", "sea", "saffron", "palm", "rose", "indigo"] as const;
 
 export function toneFor(slug: string) {
@@ -16,6 +20,14 @@ export function initialOf(name: string) {
 /** غلاف المجال: حرف كبير فوق نقش النجمة الثمانية */
 export function CategoryArt({ name, slug }: { name: string; slug: string }) {
   const id = `star-${slug}`;
+  const painted = artFor(slug);
+  if (painted) {
+    return (
+      <div className="cat-art painted" aria-hidden="true">
+        <img src={painted} alt="" loading="lazy" />
+      </div>
+    );
+  }
   if (ILLUSTRATIONS[slug]) {
     return (
       <div className="cat-art illustrated" aria-hidden="true">
