@@ -5,6 +5,7 @@ import { buildBoard, winningPath, type Board, type Team } from "../game/hex";
 import { sfx, startCountdown, startMusic, stopMusic, isMusicPlaying } from "../game/sound";
 import { formatNumber } from "../lib/format";
 import type { Question } from "../lib/types";
+import { useAuth } from "../lib/auth";
 
 type Phase = "setup" | "categories" | "board" | "question" | "roundWon" | "matchWon";
 type QState = {
@@ -22,6 +23,7 @@ const BUZZ_KEYS: Record<string, Team> = { a: "red", ش: "red", l: "green", م: "
 
 export function Play() {
   const cfg = GAME_CONFIG;
+  const { enabled: authOn, player } = useAuth();
   const [phase, setPhase] = useState<Phase>("setup");
   const [names, setNames] = useState<Record<Team, string>>({ red: cfg.teams.red.name, green: cfg.teams.green.name });
   const [seconds, setSeconds] = useState<number>(cfg.answerSeconds.default);
@@ -201,7 +203,8 @@ export function Play() {
       <section className="g-wrap">
         <header className="page-head">
           <p className="eyebrow">لعبة جديدة</p>
-          <h1>جهّزوا الفريقين</h1>
+          <h1>{player ? `حيّاك ${player.name}، جهّزوا الفريقين` : "جهّزوا الفريقين"}</h1>
+          {!authOn && <p className="g-note">نسخة تجربة: تسجيل الدخول بـ Apple و Google يشتغل في النسخة المنشورة على الإنترنت.</p>}
           <p className="lead">الأحمر يوصل من اليمين إلى اليسار، والأخضر من الأعلى إلى الأسفل. أول فريق يفوز بـ{formatNumber(cfg.match.roundsToWin)} جولات يكسب المباراة.</p>
         </header>
         <div className="g-setup">

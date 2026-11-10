@@ -12,6 +12,20 @@ import { SearchPage } from "./pages/SearchPage";
 import { NotFound } from "./pages/NotFound";
 import { Sounds } from "./pages/Sounds";
 import { Play } from "./pages/Play";
+import { Login } from "./pages/Login";
+import { AuthProvider, useAuth } from "./lib/auth";
+import { Navigate, useLocation } from "react-router-dom";
+import type { ReactNode } from "react";
+
+/** اللعبة لصاحب حساب، لما يكون تسجيل الدخول مفعّل */
+function RequireOwner({ children }: { children: ReactNode }) {
+  const { enabled, loading, player } = useAuth();
+  const location = useLocation();
+  if (!enabled) return <>{children}</>;
+  if (loading) return null;
+  if (!player) return <Navigate to="/login" replace state={{ from: location.pathname }} />;
+  return <>{children}</>;
+}
 
 export function App() {
   const { data, loading, error } = useAsync(
@@ -26,6 +40,7 @@ export function App() {
   };
 
   return (
+    <AuthProvider>
     <CatalogContext.Provider value={catalog}>
       <HashRouter>
         <Routes>
@@ -37,11 +52,13 @@ export function App() {
             <Route path="letter/:letter" element={<LetterPage />} />
             <Route path="search" element={<SearchPage />} />
             <Route path="sounds" element={<Sounds />} />
-            <Route path="play" element={<Play />} />
+            <Route path="play" element={<RequireOwner><Play /></RequireOwner>} />
+            <Route path="login" element={<Login />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </HashRouter>
     </CatalogContext.Provider>
+    </AuthProvider>
   );
 }

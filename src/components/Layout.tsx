@@ -1,10 +1,12 @@
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useState, type FormEvent } from "react";
 import { ThemeToggle } from "./ThemeToggle";
+import { useAuth } from "../lib/auth";
 
 export function Layout() {
   const navigate = useNavigate();
   const [q, setQ] = useState("");
+  const { enabled, player, signOut } = useAuth();
 
   function onSearch(e: FormEvent) {
     e.preventDefault();
@@ -37,6 +39,14 @@ export function Layout() {
             />
           </form>
           <ThemeToggle />
+          {enabled && (player ? (
+            <button type="button" className="account" onClick={signOut} title="تسجيل الخروج">
+              {player.avatar ? <img src={player.avatar} alt="" /> : <span>{player.name.charAt(0)}</span>}
+              <em>خروج</em>
+            </button>
+          ) : (
+            <NavLink to="/login" className="btn ghost account-login">دخول</NavLink>
+          ))}
         </div>
       </header>
       <main className="page">

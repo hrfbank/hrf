@@ -1692,6 +1692,92 @@ body::before {
   .g-buzz { min-height: 96px; font-size: 20px; }
 }
 
+
+/* ============ تسجيل الدخول ============ */
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  align-items: center;
+  gap: 32px;
+  min-height: 60vh;
+}
+
+.login-tiles { position: relative; height: 300px; }
+
+.login-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 28px;
+  border-radius: 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lift);
+}
+
+.login-card h1 { font-size: clamp(30px, 5vw, 42px); }
+
+.login-buttons { display: flex; flex-direction: column; gap: 10px; }
+
+.auth-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 54px;
+  border-radius: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.auth-btn svg { width: 22px; height: 22px; stroke: none; }
+.auth-btn.apple { background: #000; color: #fff; border: 1px solid #000; }
+.auth-btn.apple svg { fill: #fff; }
+.auth-btn.google { background: #fff; color: #1f1f1f; border: 1px solid #747775; }
+.auth-btn:hover:not(:disabled) { transform: translateY(-2px); }
+.auth-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.login-error { color: var(--team-red); font-weight: 600; }
+.login-note {
+  font-size: 14px;
+  color: var(--muted);
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: var(--bg-deep);
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 999px;
+  padding: 3px 10px 3px 3px;
+  flex-shrink: 0;
+}
+
+.account img, .account span {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: grid;
+  place-items: center;
+  background: var(--henna);
+  color: var(--henna-ink);
+  font-weight: 700;
+}
+
+.account em { font-style: normal; font-size: 13px; color: var(--muted); }
+.account-login { height: 40px; padding-inline: 16px; }
+
+@media (max-width: 760px) {
+  .login { grid-template-columns: 1fr; }
+  .login-tiles { height: 150px; order: -1; }
+}
+
 /* ============ حركة ============ */
 @keyframes rise {
   from { opacity: 0; transform: translateY(10px); }
