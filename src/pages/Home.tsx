@@ -26,7 +26,8 @@ export function Home() {
           </h1>
           <p className="lead">تصفّح الأسئلة حسب المجال أو الحرف، واكشف الجواب متى ما كنت جاهز.</p>
           <div className="hero-actions">
-            <Link to="/categories" className="btn primary">تصفّح المجالات</Link>
+            <Link to="/play" className="btn primary">ابدأ لعبة</Link>
+            <Link to="/categories" className="btn ghost">تصفّح المجالات</Link>
             <Link to="/letters" className="btn ghost">اختر حرفاً</Link>
           </div>
         </div>

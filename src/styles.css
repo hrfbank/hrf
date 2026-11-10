@@ -24,6 +24,8 @@
   --tone-palm: #4d7c0f;
   --tone-rose: #be185d;
   --tone-indigo: #3730a3;
+  --team-red: #c8102e;
+  --team-green: #15803d;
 
   --radius: 18px;
   --radius-sm: 12px;
@@ -56,6 +58,8 @@
     --tone-palm: #6a9e22;
     --tone-rose: #db2f78;
     --tone-indigo: #5b54d6;
+    --team-red: #e0384f;
+    --team-green: #22a35a;
     color-scheme: dark;
   }
 }
@@ -81,6 +85,8 @@
   --tone-palm: #6a9e22;
   --tone-rose: #db2f78;
   --tone-indigo: #5b54d6;
+  --team-red: #e0384f;
+  --team-green: #22a35a;
   color-scheme: dark;
 }
 
@@ -1379,6 +1385,311 @@ body::before {
   font-size: 12px;
   direction: ltr;
   opacity: 0.7;
+}
+
+
+/* ============ اللعبة ============ */
+.g-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nav a.nav-play {
+  background: var(--henna);
+  color: var(--henna-ink);
+}
+
+.g-setup {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 520px;
+}
+
+.g-name,
+.g-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.g-name input {
+  height: 50px;
+  padding-inline: 16px;
+  border-radius: 14px;
+  border: 2px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 18px;
+}
+
+.g-name.red input { border-color: var(--team-red); }
+.g-name.green input { border-color: var(--team-green); }
+
+.g-tag {
+  padding: 0 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.g-tag.red { background: var(--team-red); }
+.g-tag.green { background: var(--team-green); }
+
+.g-cats {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.g-cat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 14px;
+  text-align: start;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--line);
+  background: var(--surface);
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.g-cat span { font-size: 13px; color: var(--muted); }
+.g-cat:hover:not(:disabled) { transform: translateY(-2px); }
+.g-cat:disabled { opacity: 0.4; cursor: not-allowed; }
+.g-cat.picked { color: #fff; border-color: transparent; }
+.g-cat.picked span { color: inherit; opacity: 0.85; }
+.g-cat.picked.red { background: var(--team-red); }
+.g-cat.picked.green { background: var(--team-green); }
+
+.g-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+
+.g-score {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.g-team {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border-radius: 14px;
+  color: #fff;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.75;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.g-team.red { background: var(--team-red); }
+.g-team.green { background: var(--team-green); }
+.g-team.turn { opacity: 1; transform: scale(1.02); box-shadow: var(--shadow-lift); }
+
+.g-hint { color: var(--muted); font-weight: 600; }
+
+.g-banner {
+  padding: 14px 18px;
+  border-radius: 14px;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  animation: pop 0.4s ease;
+}
+
+.g-banner.red { background: var(--team-red); }
+.g-banner.green { background: var(--team-green); }
+
+/* اللوحة السداسية */
+.hex-frame {
+  --hex-w: min(17vw, 104px);
+  --hex-h: calc(var(--hex-w) * 1.1547);
+  position: relative;
+  align-self: center;
+  padding: 18px 22px;
+  max-width: 100%;
+}
+
+.hex-edge { position: absolute; border-radius: 6px; }
+.hex-edge.top, .hex-edge.bottom { inset-inline: 22px; height: 8px; background: var(--team-green); }
+.hex-edge.top { top: 0; }
+.hex-edge.bottom { bottom: 0; }
+.hex-edge.left, .hex-edge.right { inset-block: 18px; width: 8px; background: var(--team-red); }
+.hex-edge.left { left: 0; }
+.hex-edge.right { right: 0; }
+
+.hex-grid {
+  display: flex;
+  flex-direction: column;
+  padding-inline-end: calc(var(--hex-w) / 2);
+}
+
+.hex-row {
+  display: flex;
+  gap: 4px;
+  margin-bottom: calc(var(--hex-h) * -0.25 + 4px);
+}
+
+.hex-row:last-child { margin-bottom: 0; }
+.hex-row.odd { margin-left: calc(var(--hex-w) / 2 + 2px); }
+
+.hex {
+  width: var(--hex-w);
+  height: var(--hex-h);
+  flex-shrink: 0;
+  padding: 0;
+  border: 0;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  background: var(--surface);
+  box-shadow: inset 0 -4px 0 var(--bg-deep);
+  display: grid;
+  place-items: center;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.hex span {
+  font-family: var(--font-letter);
+  font-size: calc(var(--hex-w) * 0.42);
+  line-height: 1;
+  padding-bottom: 6%;
+}
+
+.hex:hover:not(:disabled) { background: var(--saffron); color: #fff; transform: scale(1.06); }
+.hex:disabled { cursor: default; }
+.hex.red { background: var(--team-red); color: #fff; animation: pop 0.4s ease; }
+.hex.green { background: var(--team-green); color: #fff; animation: pop 0.4s ease; }
+.hex.win { filter: brightness(1.2) saturate(1.2); animation: pulse 0.9s ease-in-out infinite; }
+
+/* شاشة السؤال */
+.g-question {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 22px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.g-q-head { display: flex; align-items: center; gap: 14px; }
+.g-q-head .clock { margin-inline-start: auto; }
+
+.g-letter {
+  display: grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
+  border-radius: 22px;
+  background: var(--henna);
+  color: var(--henna-ink);
+  font-family: var(--font-letter);
+  font-size: 52px;
+  line-height: 1;
+  padding-bottom: 6px;
+  flex-shrink: 0;
+  transform: rotate(-5deg);
+}
+
+.g-note { display: block; margin-top: 6px; font-size: 13px; color: var(--muted); }
+
+.g-clues {
+  margin: 0;
+  padding-inline-start: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-size: clamp(20px, 3.4vw, 28px);
+  line-height: 1.5;
+}
+
+.g-clues li { animation: pop 0.35s ease; }
+.g-clues li::marker { color: var(--saffron); }
+
+.g-buzzers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+
+.g-buzz {
+  min-height: 110px;
+  border: 0;
+  border-radius: 22px;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  box-shadow: inset 0 -6px 0 rgb(0 0 0 / 22%);
+  transition: transform 0.1s;
+}
+
+.g-buzz:active { transform: translateY(3px); box-shadow: inset 0 -2px 0 rgb(0 0 0 / 22%); }
+.g-buzz.red { background: var(--team-red); }
+.g-buzz.green { background: var(--team-green); }
+
+.g-buzzed {
+  padding: 16px;
+  border-radius: 16px;
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  animation: pop 0.3s ease;
+}
+
+.g-buzzed.red { background: var(--team-red); }
+.g-buzzed.green { background: var(--team-green); }
+
+.g-answer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--sea) 12%, transparent);
+  animation: pop 0.4s ease;
+}
+
+.g-answer span { color: var(--sea); font-weight: 600; }
+.g-answer strong { font-family: var(--font-display); font-size: 34px; }
+.g-answer em { font-style: normal; color: var(--muted); font-size: 14px; }
+
+.g-judge-title { font-weight: 700; font-size: 18px; }
+.g-judge { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+
+.g-btn {
+  height: 56px;
+  border: 0;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.g-btn.red { background: var(--team-red); }
+.g-btn.green { background: var(--team-green); }
+.g-btn.none { grid-column: 1 / -1; background: var(--muted); }
+
+.g-keys { font-size: 13px; color: var(--muted); }
+
+@media (max-width: 760px) {
+  .g-score { flex-wrap: wrap; }
+  .g-letter { width: 64px; height: 64px; font-size: 40px; }
+  .g-buzz { min-height: 96px; font-size: 20px; }
 }
 
 /* ============ حركة ============ */

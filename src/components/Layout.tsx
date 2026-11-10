@@ -24,6 +24,7 @@ export function Layout() {
             <NavLink to="/" end>الرئيسية</NavLink>
             <NavLink to="/categories">المجالات</NavLink>
             <NavLink to="/letters">الحروف</NavLink>
+            <NavLink to="/play" className="nav-play">العب</NavLink>
           </nav>
           <form className="top-search" role="search" onSubmit={onSearch}>
             <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" /><path d="m20 20-4.2-4.2" /></svg>

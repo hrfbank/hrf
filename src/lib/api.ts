@@ -55,6 +55,9 @@ const categories: Category[] = db.categories
 const fold = (s: string) =>
   s.replace(/[ً-ٰٟـ]/g, "").replace(/[أإآ]/g, "ا").replace(/ى/g, "ي").replace(/ة/g, "ه");
 
+/** للعبة: نسخة متزامنة من الأسئلة المدققة والفئات */
+export const bank = { questions, categories };
+
 export const api = {
   categories: async (): Promise<Category[]> => categories,
 
