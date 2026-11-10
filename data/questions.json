@@ -3728,6 +3728,171 @@
    "source": "https://www.aletihad.ae/articleamp/5238/2015/سعد-الفرج..فارس-المسرح",
    "verified_at": "2026-11-10",
    "review_note": null
+  },
+  {
+   "id": 197,
+   "category": "which-country",
+   "question": "أي دولة على علمها ورقة شجر حمراء في الوسط بين شريطين أحمرين؟",
+   "clues": [
+    "الورقة من شجرة القيقب، ولها ١١ رأساً.",
+    "رُفع العلم أول مرة أمام البرلمان في أوتاوا.",
+    "قبله كانت تستخدم «الراية الحمراء» وفيها علم بريطانيا."
+   ],
+   "answer": "كندا",
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.history.com/this-day-in-history/february-15/canada-adopts-maple-leaf-flag",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 198,
+   "category": "which-country",
+   "question": "أي دولة عربية على علمها شجرة أرز خضراء بين شريطين أحمرين؟",
+   "clues": [
+    "الأبيض في العلم يرمز للسلام وللجبال المكسوّة بالثلج.",
+    "يلقّبونها «أرض الأرز».",
+    "اعتُمد العلم مع استقلالها عن الانتداب الفرنسي."
+   ],
+   "answer": "لبنان",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://britannica.com/EBchecked/topic/1355352",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 199,
+   "category": "cars",
+   "question": "أي شركة سيارات ألمانية شعارها نجمة ثلاثية داخل دائرة؟",
+   "clues": [
+    "رؤوس النجمة الثلاثة ترمز لمحركات تشتغل في البر والبحر والجو.",
+    "فكرة النجمة من أبناء غوتليب دايملر.",
+    "اندمجت مع «بنز» وصار الاسمان اسم شركة وحدة."
+   ],
+   "answer": "مرسيدس",
+   "accepted": [
+    "مرسيدس بنز"
+   ],
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://creativebloq.com/news/mercedes-logo",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 200,
+   "category": "cars",
+   "question": "أي شركة سيارات بريطانية فاخرة على مقدمة سياراتها تمثال امرأة ممدودة الذراعين اسمه «روح النشوة»؟",
+   "clues": [
+    "صمم التمثال النحات تشارلز سايكس.",
+    "كان اسمه الأول «روح السرعة».",
+    "في بعض طرازاتها يختفي التمثال داخل السيارة إذا انطفأ المحرك."
+   ],
+   "answer": "رولز رويس",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.louwmanmuseum.nl/en/exhibitions/world-of-stories/rolls-royce",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 201,
+   "category": "history",
+   "question": "ما المدينة اللي بناها الخليفة العباسي أبو جعفر المنصور مدوّرة على نهر دجلة؟",
+   "clues": [
+    "اسمها الرسمي على نقود العباسيين «مدينة السلام».",
+    "كان من المشرفين على بنائها الإمام أبو حنيفة.",
+    "عاصمة العراق اليوم."
+   ],
+   "answer": "بغداد",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1461357262570863300",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 202,
+   "category": "history",
+   "question": "ما المدينة اللي بناها القائد جوهر الصقلي للخليفة الفاطمي المعز لدين الله؟",
+   "clues": [
+    "كان اسمها الأول «المنصورية».",
+    "من أشهر أبواب سورها باب زويلة وباب الفتوح.",
+    "بنى فيها جوهر جامعاً صار اسمه «الأزهر»."
+   ],
+   "answer": "القاهرة",
+   "accepted": [
+    "قاهرة"
+   ],
+   "letter": "ق",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.youm7.com/5715733",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 203,
+   "category": "geography",
+   "question": "ما أكبر جزيرة في العالم، اللي يغطي الجليد نحو ٨٠٪ منها؟",
+   "clues": [
+    "تتمتع بحكم ذاتي ضمن مملكة الدنمارك.",
+    "فيها ثاني أكبر غطاء جليدي بعد القارة القطبية الجنوبية.",
+    "عاصمتها «نوك»."
+   ],
+   "answer": "غرينلاند",
+   "accepted": [
+    "غرينلندا"
+   ],
+   "letter": "غ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2014/11/20/غرينلاند",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 204,
+   "category": "currencies",
+   "question": "إذا سافرت إلى موسكو، بأي عملة تدفع؟",
+   "clues": [
+    "تنقسم إلى ١٠٠ «كوبيك».",
+    "يقال إنها أول عملة أوروبية اعتمدت النظام العشري، في عهد بطرس الأكبر.",
+    "يرجع اسمها إلى مدينة نوفغورود في القرون الوسطى."
+   ],
+   "answer": "الروبل",
+   "accepted": [
+    "روبل"
+   ],
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://corporatefinanceinstitute.com/resources/foreign-exchange/russian-ruble-rub",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 205,
+   "category": "famous-places",
+   "question": "ما الفندق الشهير في دبي اللي شكله شراع، ومبني على جزيرة صناعية في البحر؟",
+   "clues": [
+    "صممه المهندس توم رايت.",
+    "يتصل بالبر بجسر منحنٍ خاص.",
+    "يوصف بأنه فندق «سبع نجوم»."
+   ],
+   "answer": "برج العرب",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://e3arabi.com/%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9/%D8%A8%D8%B1%D8%AC-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-burj-al-arab/",
+   "verified_at": "2026-11-10",
+   "review_note": null
   }
  ]
 }
