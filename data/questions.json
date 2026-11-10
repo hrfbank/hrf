@@ -3081,6 +3081,313 @@
    "source": "https://WWW.Britannica.com/question/Why-was-the-Great-Wall-of-China-built",
    "verified_at": "2026-11-10",
    "review_note": null
+  },
+  {
+   "id": 161,
+   "category": "islamic",
+   "question": "ما الليلة اللي وصفها القرآن بأنها «خير من ألف شهر»؟",
+   "clues": [
+    "يتحرّاها المسلمون في الليالي الوتر من العشر الأواخر من رمضان.",
+    "من قامها إيماناً واحتساباً غُفر له ما تقدّم من ذنبه.",
+    "ألف شهر تساوي أكثر من ٨٣ سنة."
+   ],
+   "answer": "ليلة القدر",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2015/7/8/القدر-ليلة-بعمر",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 162,
+   "category": "islamic",
+   "question": "في أي مشعر يقف الحجاج في التاسع من ذي الحجة، وهو أعظم أركان الحج؟",
+   "clues": [
+    "صيام يومه لغير الحاج يكفّر سنتين، كما في صحيح مسلم.",
+    "يومه يسبق عيد الأضحى مباشرة."
+   ],
+   "answer": "عرفة",
+   "accepted": [
+    "عرفات"
+   ],
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://dorar.net/hadith/sharh/138039",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 163,
+   "category": "seerah",
+   "question": "من مرضعة النبي ﷺ اللي أخذته إلى بادية بني سعد؟",
+   "clues": [
+    "المراضع ما رضوا ياخذونه لأنه يتيم، فأخذته لما ما لقت غيره.",
+    "يقال إن البركة عمّت بيتها بعدها، فصارت ناقتها تدرّ الحليب.",
+    "بنتها «الشيماء» أخت النبي ﷺ من الرضاعة."
+   ],
+   "answer": "حليمة السعدية",
+   "accepted": [
+    "حليمة"
+   ],
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://al-ain.com/article/prophet-breastfeeding-banusaad",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 164,
+   "category": "seerah",
+   "question": "في أي غزوة ترك الرماة أماكنهم على الجبل، فانقلب النصر إلى شدّة؟",
+   "clues": [
+    "قائد الرماة كان عبدالله بن جبير.",
+    "التف خالد بن الوليد، وكان وقتها على الشرك، من خلف المسلمين.",
+    "استشهد فيها حمزة بن عبدالمطلب."
+   ],
+   "answer": "أحد",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.masrawy.com/islameyat/sera-hayat_elrasoul/details/2014/4/28/227639/غزوة-أحد",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 165,
+   "category": "history",
+   "question": "من القائد اللي عبر المضيق وفتح الأندلس، وسُمّي الجبل اللي نزل فيه باسمه؟",
+   "clues": [
+    "سبقته حملة استكشافية بقيادة طريف بن مالك.",
+    "هزم جيش «لذريق» ملك القوط.",
+    "قصة إحراقه لسفنه يشكك فيها أغلب المؤرخين."
+   ],
+   "answer": "طارق بن زياد",
+   "letter": "ط",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/history/2025/9/5/طارق-بن-زياد-لم-يحرق-سفنه-لأنه-أذكى-من",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 166,
+   "category": "history",
+   "question": "أي خليفة عباسي أهدى شارلمان ساعة مائية أدهشت الأوروبيين؟",
+   "clues": [
+    "الساعة كانت تُسقط كرات معدنية عند تمام كل ساعة.",
+    "أهدى شارلمان كذلك فيلاً عاش في بلاطه.",
+    "ارتبط اسمه بعصر بغداد الذهبي و«بيت الحكمة»."
+   ],
+   "answer": "هارون الرشيد",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://arabicpost.net/%d9%85%d9%86%d9%88%d8%b9%d8%a7%d8%aa/2023/08/17/%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 167,
+   "category": "who-said",
+   "question": "من قائل هذا البيت على لسان اللغة العربية: «أنا البحرُ في أحشائه الدرُّ كامنٌ، فهل سألوا الغوّاص عن صدفاتي»؟",
+   "clues": [
+    "يلقّبونه «شاعر النيل».",
+    "القصيدة عنوانها «اللغة العربية تنعى حظها بين أهلها».",
+    "قصيدته هذه في كتب المدارس إلى اليوم."
+   ],
+   "answer": "حافظ إبراهيم",
+   "letter": "ح",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%84%D8%BA%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_%D8%AA%D9%86%D8%B9%D9%89_%D8%AD%D8%B8%D9%87%D8%A7",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 168,
+   "category": "arabic-poetry",
+   "question": "من الشاعر الجاهلي الملقّب بـ«حكيم الشعراء»، صاحب المعلقة اللي مطلعها «أمِن أمّ أوفى دمنةٌ لم تكلّمِ»؟",
+   "clues": [
+    "قصائده تسمّى «الحوليات» لأنه ينقّح القصيدة سنة كاملة.",
+    "مدح في معلقته من أصلحوا بعد حرب داحس والغبراء.",
+    "من قبيلة مزينة، واسم أبيه «أبو سُلمى»."
+   ],
+   "answer": "زهير",
+   "letter": "ز",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.tarajm.com/people/51145",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 169,
+   "category": "arabic-poetry",
+   "question": "من الشاعرة اللي اشتهرت برثاء أخيها صخر؟",
+   "clues": [
+    "اسمها الحقيقي تماضر بنت عمرو.",
+    "قال عنها النابغة الذبياني: «أشعر الجن والإنس».",
+    "استشهد أبناؤها الأربعة في معركة القادسية."
+   ],
+   "answer": "الخنساء",
+   "accepted": [
+    "خنساء"
+   ],
+   "letter": "خ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.alkhaleej.ae/ملحق/الخنساء-استشهد-أبناؤها-الأربعة-فحمدت-الله",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 170,
+   "category": "geography",
+   "question": "ما البحيرة المالحة اللي شواطئها أخفض يابسة على وجه الأرض؟",
+   "clues": [
+    "ملوحتها الشديدة تخلي الإنسان يطفو بسهولة.",
+    "يسمّونها كذلك «بحر لوط».",
+    "مستوى مائها ينخفض سنة بعد سنة."
+   ],
+   "answer": "البحر الميت",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ajel.sa/misc/r6b4hc",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 171,
+   "category": "geography",
+   "question": "ما النهر اللي يصب في المحيط الأطلسي ماءً أكثر من أي نهر ثاني في العالم؟",
+   "clues": [
+    "حوضه أكبر حوض نهري في العالم.",
+    "غاباته يسمّونها «رئة الأرض».",
+    "يجري في أمريكا الجنوبية."
+   ],
+   "answer": "الأمازون",
+   "accepted": [
+    "امازون"
+   ],
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2015/10/4/نهر-الأمازون",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 172,
+   "category": "world-football",
+   "question": "أي نادٍ إسباني شعاره «أكثر من مجرد نادٍ»؟",
+   "clues": [
+    "قالها أول مرة رئيسه ناركيس دي كاريراس في خطاب ترشحه.",
+    "صار رمزاً للهوية الكتالونية.",
+    "ملعبه «كامب نو»."
+   ],
+   "answer": "برشلونة",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.fcbarcelona.com/en/news/759120/fc-barcelona-launches-international-campaign-commemorating-the-50th-anniversary-of-its-slogan-more-than-club",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 173,
+   "category": "world-football",
+   "question": "من قائد الأرجنتين اللي رفع كأس العالم في قطر؟",
+   "clues": [
+    "سجّل هدفين في النهائي ضد فرنسا.",
+    "اختير أفضل لاعب في البطولة.",
+    "بدأ مسيرته الكبيرة في برشلونة."
+   ],
+   "answer": "ميسي",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://qna.org.qa/ar-QA/News-Area/Special-News/2022-12/18/0091-كأس-العالم-fifa-قطر-2022-النجم-الأرجنتيني-ميسي-يفوز-بجائزة-أفضل-لاعب-في-المونديال",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 174,
+   "category": "which-country",
+   "question": "أي دولة علمها صليب أبيض على أرض حمراء، وشعار «الصليب الأحمر» صُمّم بعكس ألوانه؟",
+   "clues": [
+    "مؤسس الصليب الأحمر هنري دونان من أهلها.",
+    "عُرفت بالحياد العسكري من زمان.",
+    "فيها مدينة جنيف."
+   ],
+   "answer": "سويسرا",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.Wikipedia.com/wiki/Red_Crystal",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 175,
+   "category": "products",
+   "question": "ما الجهاز اللي قدّمه ستيف جوبز على أنه «آيبود وهاتف وجهاز إنترنت» في جهاز واحد؟",
+   "clues": [
+    "عُرض أول مرة في مؤتمر «ماك وورلد» بسان فرانسيسكو.",
+    "اختارته مجلة «تايم» أفضل اختراع في سنته.",
+    "من إنتاج شركة آبل."
+   ],
+   "answer": "آيفون",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.history.com/this-day-in-history/January-9/steve-jobs-debuts-the-iphone",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 176,
+   "category": "cars",
+   "question": "أي شركة سيارات إيطالية شعارها ثور ذهبي على خلفية سوداء؟",
+   "clues": [
+    "مؤسسها كان يصنع الجرارات قبل السيارات.",
+    "يقال إنه اختار الثور لأنه من مواليد برج الثور.",
+    "منافستها التاريخية شركة «الحصان الجامح»."
+   ],
+   "answer": "لامبورغيني",
+   "accepted": [
+    "لمبرجيني",
+    "لامبورجيني"
+   ],
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.motor1.com/features/808352/lamborghini-logo-history/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 177,
+   "category": "currencies",
+   "question": "إذا سافرت إلى طوكيو، بأي عملة تدفع؟",
+   "clues": [
+    "رمزها حرف Y عليه خطان.",
+    "نفس الرمز تستخدمه الصين لعملتها.",
+    "داخل بلدها تُكتب بحرف «円» بعد الرقم."
+   ],
+   "answer": "الين",
+   "accepted": [
+    "ين"
+   ],
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2016/7/13/الين-الياباني",
+   "verified_at": "2026-11-10",
+   "review_note": null
   }
  ]
 }
