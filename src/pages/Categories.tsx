@@ -26,9 +26,9 @@ export function Categories() {
               <div className="section-head">
                 <h2>قيد الإعداد</h2>
               </div>
-              <ul className="upcoming">
-                {upcoming.map((c) => <li key={c.id}>{c.name}</li>)}
-              </ul>
+              <div className="cat-grid">
+                {upcoming.map((c, i) => <CategoryCard key={c.id} category={c} index={i} soon />)}
+              </div>
             </section>
           )}
         </>
