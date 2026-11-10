@@ -3388,6 +3388,346 @@
    "source": "https://www.ajnet.me/encyclopedia/2016/7/13/الين-الياباني",
    "verified_at": "2026-11-10",
    "review_note": null
+  },
+  {
+   "id": 178,
+   "category": "malls",
+   "question": "ما أكبر مجمع تجاري في الكويت، على الدائري الخامس في منطقة الري؟",
+   "clues": [
+    "فيه منطقة للماركات الفاخرة اسمها «برستيج».",
+    "يطل على طريق الغزالي السريع.",
+    "الشركة المالكة تبني نسخة منه في الرياض."
+   ],
+   "answer": "الأفنيوز",
+   "accepted": [
+    "افنيوز"
+   ],
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D8%A7%D9%84%D8%A3%D9%81%D9%86%D9%8A%D9%88%D8%B2",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 179,
+   "category": "restaurants",
+   "question": "أي سلسلة مقاهٍ شعارها حورية بحر بذيلين؟",
+   "clues": [
+    "انطلقت من مدينة سياتل الأمريكية.",
+    "اسمها مأخوذ من ضابط في رواية «موبي ديك».",
+    "كادت تتسمى «بيكود» على اسم سفينة في نفس الرواية."
+   ],
+   "answer": "ستاربكس",
+   "accepted": [
+    "ستاربكس كوفي"
+   ],
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.foodrepublic.com/1438110/classic-novel-inspired-starbucks-name/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 180,
+   "category": "restaurants",
+   "question": "أي سلسلة مطاعم دجاج مقلي على شعارها صورة «الكولونيل» بلحيته البيضاء؟",
+   "clues": [
+    "خلطتها السرية من ١١ عشبة وتوابل.",
+    "مؤسسها اسمه هارلاند ساندرز.",
+    "اسمها الإنجليزي يبدأ باسم ولاية أمريكية."
+   ],
+   "answer": "كنتاكي",
+   "accepted": [
+    "كي اف سي"
+   ],
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1500564470423266800",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 181,
+   "category": "womens-accessories",
+   "question": "ما اسم الحلية اللي تلبسها المرأة حول كاحلها، وتصدر صوتاً إذا مشت؟",
+   "clues": [
+    "نهى القرآن عن الضرب بالأرجل ليُعلم ما خفي منها.",
+    "تُلبس في الساق قرب الكعب.",
+    "جمعها «خلاخل»."
+   ],
+   "answer": "الخلخال",
+   "accepted": [
+    "خلخال"
+   ],
+   "letter": "خ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://fiqh.islamonline.net/%D8%AD%D9%83%D9%85-%D9%84%D8%A8%D8%B3-%D8%A7%D9%84%D8%AE%D9%84%D8%AE%D8%A7%D9%84/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 182,
+   "category": "womens-accessories",
+   "question": "ما اسم حلية الذهب الخليجية القديمة الثقيلة، الدائرية، اللي تغطي قمة رأس العروس وجوانبه؟",
+   "clues": [
+    "تكون بحجم رأس المرأة تقريباً.",
+    "بعضها يُشبك بالشعر أو يُجدل مع الضفيرة.",
+    "اسمها نفس اسم إناء الشرب المعدني."
+   ],
+   "answer": "الطاسة",
+   "accepted": [
+    "طاسة"
+   ],
+   "letter": "ط",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.emaratalyoum.com/life/culture/2019-06-01-1.1219263",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 183,
+   "category": "womens-accessories",
+   "question": "ما اسم أقراط الذهب الخليجية القديمة اللي تشبه القبة وتتدلى منها قطع ذهب صغيرة؟",
+   "clues": [
+    "تُعلّق في الأذن.",
+    "مفردها «كوشيه»."
+   ],
+   "answer": "الكواشي",
+   "accepted": [
+    "كواشي"
+   ],
+   "letter": "ك",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.albayan.ae/culture-art/heritage/2023-03-21-1.4635836",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 184,
+   "category": "womens-accessories",
+   "question": "ما اسم قلادة الذهب الخليجية القديمة العريضة، بمربعات صغيرة تتدلى منها سلاسل تنتهي بلؤلؤ أو حجر كريم؟",
+   "clues": [
+    "تغطي الصدر، ويصل عرضها إلى ١٥ سنتيمتراً.",
+    "تذكرها الجدات مع «المرية» و«الطاسة»."
+   ],
+   "answer": "المرتعشة",
+   "accepted": [
+    "مرتعشة"
+   ],
+   "letter": "م",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.emaratalyoum.com/life/culture/2019-06-01-1.1219263",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 186,
+   "category": "language-literature",
+   "question": "ما اسم العلامة اللي تنكتب فوق الحرف وتدل أنه حرفان: الأول ساكن والثاني متحرك؟",
+   "clues": [
+    "تسمّى كذلك علامة التضعيف.",
+    "تجدها فوق اللام في «علَّم».",
+    "شكلها يشبه حرف «w» صغير."
+   ],
+   "answer": "الشدة",
+   "accepted": [
+    "شدة"
+   ],
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/قاعدة_الشدة_والتضعيف",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 187,
+   "category": "synonyms-antonyms",
+   "question": "ما الكلمة اللي تعني المطر النافع اللي يجي وقت الحاجة، وينقذ الناس من الجدب؟",
+   "clues": [
+    "فرّق بينها وبين «المطر» أبو هلال العسكري في «الفروق اللغوية».",
+    "في القرآن تأتي غالباً في سياق الرحمة.",
+    "اسم من أسماء الرجال كذلك."
+   ],
+   "answer": "الغيث",
+   "accepted": [
+    "غيث"
+   ],
+   "letter": "غ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://mawdoo3.com/الفرق_بين_المطر_والغيث",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 188,
+   "category": "titles-nicknames",
+   "question": "بأي لقب اشتهر الأديب العباسي صاحب «البخلاء» و«البيان والتبيين»؟",
+   "clues": [
+    "لُقّب بهذا لأن عينيه كانتا بارزتين.",
+    "قيل له كذلك «الحدقي».",
+    "اسمه عمرو بن بحر، وكنيته أبو عثمان."
+   ],
+   "answer": "الجاحظ",
+   "accepted": [
+    "جاحظ"
+   ],
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/history/2020/2/19/أبو-عثمان-الجاحظ-رائد-النثر-وإمام-الفص",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 189,
+   "category": "titles-nicknames",
+   "question": "من الرحالة المغربي اللي لقّبوه «أمير الرحالة المسلمين»؟",
+   "clues": [
+    "خرج من مدينة طنجة، ودامت رحلته نحو ٢٧ سنة.",
+    "أملى رحلته على ابن جزي بأمر السلطان أبي عنان.",
+    "كتابه «تحفة النظار في غرائب الأمصار وعجائب الأسفار»."
+   ],
+   "answer": "ابن بطوطة",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.noonpost.com/42529/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 190,
+   "category": "titles-nicknames",
+   "question": "ما لقب أبي بكر رضي الله عنه، اللي اشتهر به بعد تصديقه خبر الإسراء والمعراج؟",
+   "clues": [
+    "قال للمشركين: «إن كان قال ذلك فقد صدق».",
+    "تذكر بعض الروايات أنه عُرف به في الجاهلية لصدقه.",
+    "مأخوذ من الفعل «صدّق»."
+   ],
+   "answer": "الصديق",
+   "accepted": [
+    "صديق"
+   ],
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/encyclopedia/2023/1/2/أول-الخلفاء-الراشدين-وأول-رجل-حر-أسلم",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 191,
+   "category": "kuwait",
+   "question": "ما الاسم اللي ظهرت فيه الكويت في خرائط الرحالة الأوروبيين قبل اسمها الحالي؟",
+   "clues": [
+    "أول خريطة ورد فيها هي خريطة كيلن.",
+    "ظل الاسم الأكثر وروداً في الخرائط حتى أواخر القرن التاسع عشر.",
+    "يحمل اسمه اليوم مهرجان ثقافي كويتي سنوي."
+   ],
+   "answer": "القرين",
+   "accepted": [
+    "قرين"
+   ],
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://mawdoo3.com/لماذا_سميت_الكويت_بهذا_الاسم",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 192,
+   "category": "kuwait-regions",
+   "question": "ما المنطقة على ساحل جون الكويت اللي انتصر فيها خالد بن الوليد على الفرس في معركة «ذات السلاسل»؟",
+   "clues": [
+    "تقع شمال مدينة الكويت بنحو ٤٠ كيلو.",
+    "يقول باحثون إن اسمها كان يُطلق على أرض الكويت قديماً.",
+    "يحمل اسمها نادٍ رياضي كويتي."
+   ],
+   "answer": "كاظمة",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.alraimedia.com/ampArticle/636167",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 193,
+   "category": "kuwait",
+   "question": "ما أول فيلم روائي طويل كويتي، اللي يحكي حياة الغواصين قبل النفط؟",
+   "clues": [
+    "أخرجه خالد الصديق.",
+    "بطله ابن غواص فقير يمنعه أبوه من الغوص.",
+    "من أبطاله سعد الفرج."
+   ],
+   "answer": "بس يا بحر",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1490174700702933400",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 194,
+   "category": "products",
+   "question": "أي شركة جوالات فنلندية بدأت مصنعاً للورق، وأخذت اسمها من بلدة ونهر؟",
+   "clues": [
+    "أسسها المهندس فريدريك إيدستام.",
+    "توسعت قبل الجوالات إلى المطاط والكابلات.",
+    "باعت أعمال الهواتف لمايكروسوفت."
+   ],
+   "answer": "نوكيا",
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://stptrans.com/nokia-how-a-finnish-paper-mill-grew-into-a-world-renowned-company/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 195,
+   "category": "actors",
+   "question": "من الفنان السعودي اللي شارك عبدالله السدحان بطولة «طاش ما طاش»، ولعب دور «خالد» في «العاصوف»؟",
+   "clues": [
+    "باكورة أعماله مسلسل «عيون ترقب الزمن».",
+    "رجع للمسرح بمسرحية «الذيب في القليب».",
+    "يرأس جمعية المسرح والفنون الأدائية."
+   ],
+   "answer": "ناصر القصبي",
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://saudipedia.com/%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%82%D8%B5%D8%A8%D9%8A",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 196,
+   "category": "actors",
+   "question": "من الفنان الكويتي اللي لعب دور الأخ الكبير «سعد» في «درب الزلق»؟",
+   "clues": [
+    "من مؤسسي فرقة المسرح العربي.",
+    "بدأ مسيرته بمسلسل «صقر قريش» ووصل إلى فيلم «تورا بورا».",
+    "وثّقت سيرته شركة نفط الكويت بفيلم «بقشة سعد»."
+   ],
+   "answer": "سعد الفرج",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aletihad.ae/articleamp/5238/2015/سعد-الفرج..فارس-المسرح",
+   "verified_at": "2026-11-10",
+   "review_note": null
   }
  ]
 }
