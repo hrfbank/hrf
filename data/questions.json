@@ -2101,6 +2101,176 @@
    "source": "https://ecb.eu/press/pr/date/2002/html/pr020228.en.html",
    "verified_at": "2026-11-09",
    "review_note": null
+  },
+  {
+   "id": 108,
+   "category": "islamic",
+   "question": "من الصحابي الملقّب بـ«سيف الله المسلول»؟",
+   "clues": [
+    "لُقّب بهذا اللقب بعد غزوة مؤتة.",
+    "قاد جيش المسلمين في معركة اليرموك.",
+    "يُروى أنه خاض أكثر من مئة معركة."
+   ],
+   "answer": "خالد بن الوليد",
+   "letter": "خ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/%D9%85%D9%86_%D9%87%D9%88_%D8%B3%D9%8A%D9%81_%D8%A7%D9%84%D9%84%D9%87",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 109,
+   "category": "titles-nicknames",
+   "question": "ما لقب الخليفة عمر بن الخطاب؟",
+   "clues": [
+    "لقّبه به النبي ﷺ.",
+    "سببه أنه أعلن إسلامه جهراً أمام سادة مكة.",
+    "معناه: الذي يفرّق بين الحق والباطل."
+   ],
+   "answer": "الفاروق",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/بما_لقب_عمر_بن_الخطاب",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 110,
+   "category": "titles-nicknames",
+   "question": "ما الكنية التي اشتهر بها الصحابي عبد الرحمن بن صخر الدوسي؟",
+   "clues": [
+    "صحابي من أكثر الصحابة رواية للحديث.",
+    "قال الشافعي إنه أحفظ من روى الحديث في دهره.",
+    "كُنّي بذلك لأنه وجد هرّة فحملها في كُمّه."
+   ],
+   "answer": "أبو هريرة",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://islamqa.info/ar/126377",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 111,
+   "category": "arabic-poetry",
+   "question": "من الشاعر الجاهلي الفارس الذي اشتهر بحبه لعبلة؟",
+   "clues": [
+    "شاعر بني عبس وفارسهم.",
+    "كانت أمه حبشية، فعاش عبداً في أول أمره.",
+    "قال له أبوه: «كُرّ وأنت حر»."
+   ],
+   "answer": "عنترة",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://adabworld.com/poets/antara-bin-shaddad",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 112,
+   "category": "titles-nicknames",
+   "question": "من الشخصية العربية التي يُضرب بها المثل في الكرم؟",
+   "clues": [
+    "سيد قبيلة طيء.",
+    "كان شاعراً وله ديوان.",
+    "يقال للكريم: «أكرم من ...»."
+   ],
+   "answer": "حاتم الطائي",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://e3arabi.com/%D8%AD%D9%83%D9%85-%D9%88%D8%A3%D9%82%D9%88%D8%A7%D9%84/%D8%A3%D9%83%D8%B1%D9%85-%D9%85%D9%86-%D8%AD%D8%A7%D8%AA%D9%85/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 113,
+   "category": "who-said",
+   "question": "من قائل البيت: «إذا الشعبُ يوماً أراد الحياة، فلا بدّ أن يستجيب القدر»؟",
+   "clues": [
+    "شاعر تونسي توفي شاباً عن نحو ٢٥ عاماً.",
+    "البيت من قصيدة «إرادة الحياة».",
+    "رُفع البيت شعاراً في ثورات الربيع العربي."
+   ],
+   "answer": "أبو القاسم الشابي",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/encyclopedia/2015/3/2/أبو-القاسم-الشابي",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 114,
+   "category": "countries-capitals",
+   "question": "ما عاصمة أستراليا، علماً أنها ليست سيدني؟",
+   "clues": [
+    "مدينة اختيرت عاصمة لأنها تقع بين أكبر مدينتين في البلد.",
+    "تبعد نحو ٢٨٠ كم جنوب غرب سيدني.",
+    "العاصمة الاتحادية لأستراليا."
+   ],
+   "answer": "كانبرا",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://mawdoo3.com/ما_هي_عاصمة_أستراليا",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 115,
+   "category": "countries-capitals",
+   "question": "ما عاصمة البرازيل، علماً أنها ليست ريو دي جانيرو؟",
+   "clues": [
+    "مدينة بُنيت من الصفر لتنمية داخل البلاد.",
+    "صمّمها لوسيو كوستا مع المعماري أوسكار نيماير.",
+    "تحمل اسماً قريباً من اسم الدولة."
+   ],
+   "answer": "برازيليا",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.ebsco.com/research-starters/history/brazil-builds-new-capital-city",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 116,
+   "category": "countries-capitals",
+   "question": "ما عاصمة تركيا، علماً أنها ليست إسطنبول؟",
+   "clues": [
+    "كانت مقر حركة التحرير في حرب الاستقلال التركية.",
+    "صوّت البرلمان على جعلها عاصمة قبل إعلان الجمهورية بأسبوعين.",
+    "اسمها القديم «أنقيرة»."
+   ],
+   "answer": "أنقرة",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://arabi21.com/story/1307295",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 117,
+   "category": "countries-capitals",
+   "question": "ما عاصمة نيجيريا، علماً أنها ليست لاغوس؟",
+   "clues": [
+    "مدينة اختيرت لأنها أكثر حياداً بين مكونات البلد وأكثر مركزية.",
+    "صمّم مركزها الإداري المعماري الياباني كنزو تانغه.",
+    "لاغوس بقيت المركز التجاري، وهي صارت مقر الحكومة."
+   ],
+   "answer": "أبوجا",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.blackpast.org/gah/abuja-nigeria-1991",
+   "verified_at": "2026-11-10",
+   "review_note": null
   }
  ]
 }
