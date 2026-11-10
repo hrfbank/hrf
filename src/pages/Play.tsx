@@ -205,12 +205,12 @@ export function Play() {
           <p className="eyebrow">لعبة جديدة</p>
           <h1>{player ? `حيّاك ${player.name}، جهّزوا الفريقين` : "جهّزوا الفريقين"}</h1>
           {!authOn && <p className="g-note">نسخة تجربة: تسجيل الدخول بـ Apple و Google يشتغل في النسخة المنشورة على الإنترنت.</p>}
-          <p className="lead">الأحمر يوصل من اليمين إلى اليسار، والأخضر من الأعلى إلى الأسفل. أول فريق يفوز بـ{formatNumber(cfg.match.roundsToWin)} جولات يكسب المباراة.</p>
+          <p className="lead">{cfg.teams.red.name} يوصل من اليمين إلى اليسار، و{cfg.teams.green.name} من الأعلى إلى الأسفل. أول فريق يفوز بـ{formatNumber(cfg.match.roundsToWin)} جولات يكسب المباراة.</p>
         </header>
         <div className="g-setup">
           {(["red", "green"] as Team[]).map((t) => (
             <label key={t} className={`g-name ${t}`} htmlFor={`team-${t}`}>
-              <span>اسم الفريق {t === "red" ? "الأحمر" : "الأخضر"}</span>
+              <span>اسم الفريق {cfg.teams[t].name}</span>
               <input
                 id={`team-${t}`}
                 value={names[t]}
@@ -275,10 +275,11 @@ export function Play() {
   if (!board) return null;
 
   const hexBoard = (interactive: boolean) => (
+    <div className="g-stage" style={{ ["--cols" as string]: board.cols, ["--rows" as string]: board.rows }}>
     <div className="hex-frame" dir="ltr">
       <div className="hex-edge top" /><div className="hex-edge bottom" />
       <div className="hex-edge left" /><div className="hex-edge right" />
-      <div className="hex-grid" style={{ ["--cols" as string]: board.cols }}>
+      <div className="hex-grid">
         {Array.from({ length: board.rows }, (_, r) => (
           <div key={r} className={`hex-row${r % 2 ? " odd" : ""}`}>
             {board.cells.slice(r * board.cols, (r + 1) * board.cols).map((cell, c) => {
@@ -300,6 +301,7 @@ export function Play() {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 

@@ -32,8 +32,8 @@ export const GAME_CONFIG = {
 
   /** الفريقان */
   teams: {
-    red: { name: "الأحمر", direction: "horizontal" as const },
-    green: { name: "الأخضر", direction: "vertical" as const },
+    red: { name: "الفيروزي", direction: "horizontal" as const },
+    green: { name: "الأصفر", direction: "vertical" as const },
     /** كل فريق يكتب اسمه عند البداية (الاسم الافتراضي فوق) */
     customNames: { enabled: true, maxLength: 16 },
   },
