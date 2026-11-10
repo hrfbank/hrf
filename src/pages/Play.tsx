@@ -6,7 +6,7 @@ import { buildBoard, winningPath, type Board, type Team } from "../game/hex";
 import { sfx, startCountdown, startMusic, stopMusic, isMusicPlaying } from "../game/sound";
 import { loadSettings } from "../game/settings";
 import { clearGame, loadGame, saveGame } from "../game/save";
-import { chooseQuestion, loadSeen, markSeen } from "../game/pickQuestion";
+import { chooseQuestion, loadSeen, markSeen, setSeenAccount } from "../game/pickQuestion";
 import { formatNumber } from "../lib/format";
 import type { Question } from "../lib/types";
 import { useAuth } from "../lib/auth";
@@ -88,6 +88,11 @@ export function Play() {
   const { enabled: authOn, player } = useAuth();
   const fresh = (location.state as { fresh?: boolean } | null)?.fresh;
 
+  // سجل الأسئلة المستهلكة يتبع الحساب المسجّل (أو الضيف)
+  useEffect(() => {
+    void setSeenAccount(player?.id ?? null);
+  }, [player?.id]);
+
   const [g, setG] = useState<Game>(() => {
     if (fresh) {
       clearGame();
@@ -130,11 +135,13 @@ export function Play() {
   const q: Question | undefined = g.qs ? qById.get(g.qs.qid) : undefined;
 
   // ---------- اللوحة ----------
-  function letterCounts(onlyPicked: boolean, used = usedSet) {
+  function letterCounts(onlyPicked: boolean, used = usedSet, onlyFresh = false) {
     const counts: Record<string, number> = {};
+    const seen = loadSeen();
     for (const x of bank.questions) {
       if (used.has(x.id)) continue;
       if (onlyPicked && !pickedIds.has(x.category_id)) continue;
+      if (onlyFresh && seen.has(x.id)) continue;
       counts[x.letter] = (counts[x.letter] ?? 0) + 1;
     }
     return counts;
@@ -142,20 +149,30 @@ export function Play() {
 
   function newRound(nextRound = g.round) {
     const { rows, cols } = cfg.board;
+    // كل الحروف المتاحة، والأولوية: حرف فيه سؤال جديد للحساب من فئاتكم ← من أي فئة ← الحروف اللي كل أسئلتها انشافت
+    const freshInPicks = letterCounts(true, usedSet, true);
+    const freshAnywhere = letterCounts(false, usedSet, true);
     const inPicks = letterCounts(true);
-    const counts = Object.keys(inPicks).length >= rows * cols ? inPicks : { ...letterCounts(false), ...inPicks };
+    const priority = (l: string) => (freshInPicks[l] ? 0 : freshAnywhere[l] ? 1 : inPicks[l] ? 2 : 3);
+    const board = buildBoard(rows, cols, letterCounts(false), Math.random, priority);
     setHistory([]);
-    patch({ board: buildBoard(rows, cols, counts), roundWinner: null, qs: null, phase: "board", round: nextRound });
+    patch({ board, roundWinner: null, qs: null, phase: "board", round: nextRound });
   }
 
   function pickQuestion(letter: string, exclude: Set<number>) {
     const pool = (onlyPicked: boolean) =>
       bank.questions.filter((x) => x.letter === letter && !exclude.has(x.id) && (!onlyPicked || pickedIds.has(x.category_id)));
-    let candidates = pool(true);
-    const outside = candidates.length === 0;
-    if (outside) candidates = pool(false);
+    // الترتيب: سؤال جديد من فئاتكم ← سؤال جديد من أي فئة ← الأقدم مشاهدة من فئاتكم ← من أي فئة
+    const seen = loadSeen();
+    const inPicks = pool(true);
+    const anywhere = pool(false);
+    const hasFresh = (list: Question[]) => list.some((x) => !seen.has(x.id));
+    let candidates = inPicks;
+    if (!hasFresh(inPicks) && hasFresh(anywhere)) candidates = anywhere.filter((x) => !seen.has(x.id));
+    else if (!inPicks.length) candidates = anywhere;
+    const outside = candidates !== inPicks;
     const usedQs = g.used.map((id) => qById.get(id)).filter((x): x is Question => !!x);
-    const picked = chooseQuestion(candidates, usedQs, loadSeen());
+    const picked = chooseQuestion(candidates, usedQs, seen);
     if (!picked) return null;
     markSeen(picked.id);
     return { q: picked, outside };
@@ -564,7 +581,7 @@ export function Play() {
           <div className="g-letter">{board.cells[qs.cellIndex].letter}</div>
           <div>
             <span className="chip">{cat?.name}</span>
-            {qs.outsidePicks && <span className="g-note">من خارج فئاتكم (ما فيه سؤال بهذا الحرف في فئاتكم)</span>}
+            {qs.outsidePicks && <span className="g-note">من خارج فئاتكم (أسئلة هذا الحرف في فئاتكم خلصت أو طلعت لكم قبل)</span>}
             {qs.twoAnswers && <span className="g-note strong">{g.names[qs.twoAnswers]} يجاوب جوابين</span>}
           </div>
           {left !== null && (

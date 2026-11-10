@@ -64,9 +64,17 @@ function shuffle<T>(arr: T[], rand = Math.random): T[] {
  * يبني لوحة من الحروف المتاحة. الحروف اللي فيها أسئلة أكثر لها أولوية،
  * ولو الحروف المتاحة أقل من عدد الخلايا تتكرر بعض الحروف.
  */
-export function buildBoard(rows: number, cols: number, available: Record<string, number>, rand = Math.random): Board {
+export function buildBoard(
+  rows: number,
+  cols: number,
+  available: Record<string, number>,
+  rand = Math.random,
+  priority: (letter: string) => number = () => 0,
+): Board {
   const size = rows * cols;
-  const letters = shuffle(Object.keys(available).filter((l) => available[l] > 0), rand);
+  // الحروف الأعلى أولوية (رقم أصغر) أولاً، وداخل كل مستوى بترتيب عشوائي
+  const all = shuffle(Object.keys(available).filter((l) => available[l] > 0), rand);
+  const letters = [...all].sort((a, b) => priority(a) - priority(b));
   const chosen: string[] = letters.slice(0, size);
   // تكرار الحروف اللي عندها أسئلة كافية لو اللوحة ما امتلت
   const spare = letters.filter((l) => available[l] > 1);
