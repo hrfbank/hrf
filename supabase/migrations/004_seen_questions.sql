@@ -3,7 +3,7 @@
 
 create table public.seen_questions (
   user_id     uuid not null references auth.users(id) on delete cascade,
-  question_id int  not null,
+  question_id bigint not null,
   seen_at     timestamptz not null default now(),
   primary key (user_id, question_id)
 );

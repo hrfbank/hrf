@@ -21,6 +21,11 @@ type AuthState = {
   enabled: boolean;
   loading: boolean;
   player: Player | null;
+  /** صاحب اللعبة (المطوّر): يشوف بنك الأسئلة والأجوبة كامل. */
+  isAdmin: boolean;
+  /** في النسخة بدون تسجيل دخول: يعاين اللعبة مثل اللاعب العادي. */
+  previewAsPlayer: boolean;
+  setPreviewAsPlayer: (on: boolean) => void;
   signIn: (p: Provider) => Promise<string | null>;
   signOut: () => Promise<void>;
 };
@@ -29,6 +34,9 @@ const AuthContext = createContext<AuthState>({
   enabled: false,
   loading: false,
   player: null,
+  isAdmin: false,
+  previewAsPlayer: false,
+  setPreviewAsPlayer: () => undefined,
   signIn: async () => "تسجيل الدخول غير متاح هنا",
   signOut: async () => undefined,
 });
@@ -45,9 +53,41 @@ function toPlayer(session: Session | null): Player | null {
   };
 }
 
+const PREVIEW_KEY = "hrf-preview-player";
+const readPreview = () => {
+  try {
+    return localStorage.getItem(PREVIEW_KEY) === "1";
+  } catch {
+    return false;
+  }
+};
+
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [player, setPlayer] = useState<Player | null>(null);
   const [loading, setLoading] = useState(authEnabled);
+  const [serverAdmin, setServerAdmin] = useState(false);
+  const [previewAsPlayer, setPreview] = useState(readPreview);
+
+  // مع تسجيل الدخول: صاحب اللعبة يتحدد من جدول admins في Supabase (مو من المتصفح)
+  useEffect(() => {
+    if (!supabase || !player) {
+      setServerAdmin(false);
+      return;
+    }
+    supabase.rpc("is_admin").then(({ data }) => setServerAdmin(data === true));
+  }, [player?.id]);
+
+  function setPreviewAsPlayer(on: boolean) {
+    setPreview(on);
+    try {
+      localStorage.setItem(PREVIEW_KEY, on ? "1" : "0");
+    } catch {
+      /* التخزين غير متاح */
+    }
+  }
+
+  // بدون تسجيل دخول (نسخة Claude الخاصة فيك): أنت صاحب اللعبة، إلا لو فعّلت «معاينة كلاعب»
+  const isAdmin = authEnabled ? serverAdmin : !previewAsPlayer;
 
   useEffect(() => {
     if (!supabase) return;
@@ -73,7 +113,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setPlayer(null);
   }
 
-  return <AuthContext.Provider value={{ enabled: authEnabled, loading, player, signIn, signOut }}>{children}</AuthContext.Provider>;
+  return <AuthContext.Provider value={{ enabled: authEnabled, loading, player, isAdmin, previewAsPlayer, setPreviewAsPlayer, signIn, signOut }}>{children}</AuthContext.Provider>;
 }
 
 export const useAuth = () => useContext(AuthContext);

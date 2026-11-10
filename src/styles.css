@@ -2453,3 +2453,21 @@ a.icon-btn { display: grid; place-items: center; }
   color: var(--team-ink);
   font-weight: 700;
 }
+
+/* لوحة صاحب اللعبة في الرئيسية */
+.admin-zone {
+  margin-block: 28px;
+  padding: 18px;
+  border: 2.5px dashed var(--line);
+  border-radius: 22px;
+}
+.admin-tag {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--edge);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}

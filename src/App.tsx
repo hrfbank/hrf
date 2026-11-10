@@ -29,6 +29,14 @@ function RequireOwner({ children }: { children: ReactNode }) {
   return <>{children}</>;
 }
 
+/** بنك الأسئلة والأجوبة سري: صفحات التصفح لصاحب اللعبة بس */
+function RequireAdmin({ children }: { children: ReactNode }) {
+  const { loading, isAdmin } = useAuth();
+  if (loading) return null;
+  if (!isAdmin) return <Navigate to="/" replace />;
+  return <>{children}</>;
+}
+
 export function App() {
   const { data, loading, error } = useAsync(
     () => Promise.all([api.categories(), api.letterCounts()]),
@@ -48,11 +56,11 @@ export function App() {
         <Routes>
           <Route element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="categories" element={<Categories />} />
-            <Route path="c/:slug" element={<CategoryPage />} />
-            <Route path="letters" element={<Letters />} />
-            <Route path="letter/:letter" element={<LetterPage />} />
-            <Route path="search" element={<SearchPage />} />
+            <Route path="categories" element={<RequireAdmin><Categories /></RequireAdmin>} />
+            <Route path="c/:slug" element={<RequireAdmin><CategoryPage /></RequireAdmin>} />
+            <Route path="letters" element={<RequireAdmin><Letters /></RequireAdmin>} />
+            <Route path="letter/:letter" element={<RequireAdmin><LetterPage /></RequireAdmin>} />
+            <Route path="search" element={<RequireAdmin><SearchPage /></RequireAdmin>} />
             <Route path="sounds" element={<Sounds />} />
             <Route path="play" element={<RequireOwner><Play /></RequireOwner>} />
             <Route path="login" element={<Login />} />

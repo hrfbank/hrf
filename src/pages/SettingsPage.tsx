@@ -11,7 +11,7 @@ import { bank } from "../lib/api";
 
 export function SettingsPage() {
   const [s, set] = useSettings();
-  const { player } = useAuth();
+  const { player, enabled: authOn, previewAsPlayer, setPreviewAsPlayer } = useAuth();
   const [seen, setSeen] = useState(0);
   useEffect(() => {
     void setSeenAccount(player?.id ?? null).then(() => setSeen(seenCount()));
@@ -72,6 +72,17 @@ export function SettingsPage() {
             امسح السجل
           </button>
         </div>
+        {!authOn && (
+          <div className="setting">
+            <div>
+              <h3>معاينة كلاعب</h3>
+              <p>يخفي بنك الأسئلة والأجوبة والتصفح، عشان تشوف اللعبة مثل اللي يشتريها.</p>
+            </div>
+            <button type="button" className={`switch${previewAsPlayer ? " on" : ""}`} role="switch" aria-checked={previewAsPlayer} aria-label="معاينة كلاعب" onClick={() => setPreviewAsPlayer(!previewAsPlayer)}>
+              <span />
+            </button>
+          </div>
+        )}
         <div className="setting">
           <div><h3>جرّب الأصوات</h3><p>اسمع الجرس والموسيقى وباقي المؤثرات.</p></div>
           <Link to="/sounds" className="btn ghost">تجربة الأصوات</Link>
