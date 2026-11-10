@@ -2,6 +2,8 @@ import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useState, type FormEvent } from "react";
 import { ThemeToggle } from "./ThemeToggle";
 import { useAuth } from "../lib/auth";
+import { BrandLogo } from "./BrandLogo";
+import brandIcon from "../assets/brand/icon.svg";
 
 export function Layout() {
   const navigate = useNavigate();
@@ -19,8 +21,7 @@ export function Layout() {
       <header className="topbar">
         <div className="topbar-inner">
           <NavLink to="/" className="brand" aria-label="حروف، الصفحة الرئيسية">
-            <span className="brand-tile">ح</span>
-            <span className="brand-word">حروف</span>
+            <BrandLogo />
           </NavLink>
           <nav className="nav" aria-label="التنقل الرئيسي">
             <NavLink to="/" end>الرئيسية</NavLink>
@@ -53,7 +54,7 @@ export function Layout() {
         <Outlet />
       </main>
       <footer className="footer">
-        <span className="brand-tile small">ح</span>
+        <img src={brandIcon} alt="" className="footer-icon" />
         <p>حروف: بنك أسئلة ثقافية عربية. كل سؤال يمرّ بمرحلة تدقيق قبل نشره.</p>
         <NavLink to="/sounds" className="link">تجربة الأصوات</NavLink>
       </footer>

@@ -1860,6 +1860,21 @@ body::before {
   .login-tiles { height: 150px; order: -1; }
 }
 
+
+/* ============ الشعار ============ */
+.brand-logo { display: block; height: 40px; width: auto; transition: transform 0.3s cubic-bezier(0.3, 1.6, 0.5, 1); }
+.brand:hover .brand-logo { transform: scale(1.05) rotate(-2deg); }
+.brand-logo.on-dark { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .brand-logo.on-light { display: none; }
+  :root:not([data-theme="light"]) .brand-logo.on-dark { display: block; }
+}
+:root[data-theme="dark"] .brand-logo.on-light { display: none; }
+:root[data-theme="dark"] .brand-logo.on-dark { display: block; }
+.login-logo { height: 64px; }
+.footer-icon { width: 32px; height: 32px; }
+@media (max-width: 760px) { .brand-logo { height: 32px; } }
+
 /* ============ حركة ============ */
 @keyframes rise {
   from { opacity: 0; transform: translateY(10px); }

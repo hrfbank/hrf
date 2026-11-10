@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Navigate, useLocation } from "react-router-dom";
 import { useAuth, type Provider } from "../lib/auth";
+import { BrandLogo } from "../components/BrandLogo";
 
 const HERO_LETTERS = ["ح", "ر", "و", "ف"];
 
@@ -29,6 +30,7 @@ export function Login() {
         {HERO_LETTERS.map((l, i) => <span key={l} className={`hero-tile t${i}`}>{l}</span>)}
       </div>
       <div className="login-card">
+        <BrandLogo className="login-logo" />
         <h1>أهلاً في حروف</h1>
         <p className="lead">سجّل دخولك بضغطة وحدة، ونسوي لك حساب تلقائياً. تحتاجه بس لصاحب اللعبة، والفرق يدخلون بالباركود بدون تسجيل.</p>
 
