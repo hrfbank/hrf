@@ -6,6 +6,7 @@ import { buildBoard, winningPath, type Board, type Team } from "../game/hex";
 import { sfx, startCountdown, startMusic, stopMusic, isMusicPlaying } from "../game/sound";
 import { loadSettings } from "../game/settings";
 import { clearGame, loadGame, saveGame } from "../game/save";
+import { chooseQuestion, loadSeen, markSeen } from "../game/pickQuestion";
 import { formatNumber } from "../lib/format";
 import type { Question } from "../lib/types";
 import { useAuth } from "../lib/auth";
@@ -153,8 +154,11 @@ export function Play() {
     let candidates = pool(true);
     const outside = candidates.length === 0;
     if (outside) candidates = pool(false);
-    if (!candidates.length) return null;
-    return { q: candidates[Math.floor(Math.random() * candidates.length)], outside };
+    const usedQs = g.used.map((id) => qById.get(id)).filter((x): x is Question => !!x);
+    const picked = chooseQuestion(candidates, usedQs, loadSeen());
+    if (!picked) return null;
+    markSeen(picked.id);
+    return { q: picked, outside };
   }
 
   function openCell(index: number) {
