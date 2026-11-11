@@ -4934,6 +4934,121 @@
    "source": "https://mawdoo3.com/كيفية_تنفس_الضفدع",
    "verified_at": "2026-11-11",
    "review_note": null
+  },
+  {
+   "id": 263,
+   "category": "world-football",
+   "question": "من اللاعب الوحيد اللي فاز بكأس العالم ثلاث مرات؟",
+   "clues": [
+    "فاز بأول كأس وعمره ١٧ سنة، وسجّل هدفين في النهائي ضد السويد.",
+    "يلقّبونه «الجوهرة السوداء» و«الملك».",
+    "أسطورة البرازيل."
+   ],
+   "answer": "بيليه",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/sport/2022/12/30/الوحيد-الذي-فاز-بكأس-العالم-3-مرات-5",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 264,
+   "category": "world-football",
+   "question": "من صاحب هدف «يد الله» في مرمى إنجلترا؟",
+   "clues": [
+    "بعده بأربع دقائق سجّل «هدف القرن» بعد ما راوغ نص الفريق.",
+    "قال إن الهدف جاء «برأسه قليلاً وبيد الله قليلاً».",
+    "قاد الأرجنتين للفوز بكأس العالم في المكسيك."
+   ],
+   "answer": "مارادونا",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.scotsman.com/sport/football/hand-god-diego-maradonas-legendary-goal-argentina-v-england-1986-world-cup-remembered-3048226",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 265,
+   "category": "world-football",
+   "question": "من نجم فرنسا اللي انطرد في نهائي كأس العالم بعد ما نطح المدافع الإيطالي ماتيراتزي؟",
+   "clues": [
+    "سجّل هدف فرنسا في نفس المباراة من ركلة جزاء.",
+    "كانت آخر مباراة دولية في مسيرته.",
+    "النهائي كان في برلين، وفازت به إيطاليا بركلات الترجيح."
+   ],
+   "answer": "زيدان",
+   "accepted": [
+    "زين الدين زيدان"
+   ],
+   "letter": "ز",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.alarabiya.net/sport/2022/11/17/مونديال-2006-نطحة-زيدان-البرازيلي-والميدالية-الذهبية-داخل-نعش",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 266,
+   "category": "islamic",
+   "question": "ما الركن من أركان الإسلام اللي مقداره في الذهب والفضة «ربع العُشر» إذا بلغ النصاب وحال عليه الحول؟",
+   "clues": [
+    "نصاب الذهب فيه ٨٥ غراماً.",
+    "نصاب الفضة فيه ٥٩٥ غراماً.",
+    "ربع العشر يعني ٢.٥ بالمئة."
+   ],
+   "answer": "الزكاة",
+   "accepted": [
+    "زكاة"
+   ],
+   "letter": "ز",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://binbaz.org.sa/fatwas/18233/%D8%B2%D9%83%D8%A7%D8%A9-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%88%D8%A7%D9%84%D9%81%D8%B6%D8%A9-%D9%88%D9%86%D8%B5%D8%A7%D8%A8%D9%87%D9%85%D8%A7",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 267,
+   "category": "islamic",
+   "question": "ما الطهارة اللي تقوم مقام الوضوء إذا ما لقى المسلم ماء، وتكون بالصعيد الطيب؟",
+   "clues": [
+    "في الحديث: الصعيد الطيب وضوء المسلم «ولو إلى عشر سنين».",
+    "تبطل إذا وُجد الماء وقدر على استعماله.",
+    "تكون بضرب اليدين على التراب الطاهر."
+   ],
+   "answer": "التيمم",
+   "accepted": [
+    "تيمم"
+   ],
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://hadeethenc.com/ar/browse/hadith/10023",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 268,
+   "category": "products",
+   "question": "ما المشروب الغازي اللي اخترعه صيدلي في أتلانتا، وبيع أول كوب منه في صيدلية بخمسة سنتات؟",
+   "clues": [
+    "مخترعه الصيدلي جون بمبرتون.",
+    "كان يُسوّق أول شي كدواء للصداع وتهدئة الأعصاب.",
+    "وصفته السرية محفوظة في خزنة في أتلانتا."
+   ],
+   "answer": "كوكاكولا",
+   "accepted": [
+    "كوكا كولا",
+    "كولا"
+   ],
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.coca-cola.com/ae/ar/about-us/history",
+   "verified_at": "2026-11-11",
+   "review_note": null
   }
  ]
 }
