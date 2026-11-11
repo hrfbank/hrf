@@ -5049,6 +5049,212 @@
    "source": "https://www.coca-cola.com/ae/ar/about-us/history",
    "verified_at": "2026-11-11",
    "review_note": null
+  },
+  {
+   "id": 269,
+   "category": "kuwaiti-plays",
+   "question": "ما المسرحية الكويتية اللي انتقدت ثلاثة تجار جشعين يستغلون البسطاء، وتوقّف عرضها بعد بدايته؟",
+   "clues": [
+    "تدور أحداثها في الكويت قبل النفط.",
+    "يتصدى للتجار فيها رجل فقيه.",
+    "اسمها يبدأ باسم إشارة."
+   ],
+   "answer": "هذا سيفوه",
+   "letter": "ه",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://elcinema.com/work/1850987/",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 270,
+   "category": "kuwaiti-plays",
+   "question": "ما المسرحية الكويتية الكوميدية اللي تقرر فيها ربة بيت الترشح لمجلس الأمة بعد التحرير؟",
+   "clues": [
+    "لعبت دور البطولة انتصار الشراح.",
+    "شارك فيها داود حسين وعبدالرحمن العقل.",
+    "كتبها محمد الرشود."
+   ],
+   "answer": "انتخبوا أم علي",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://elcinema.com/work/1573489/",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 271,
+   "category": "womens-accessories",
+   "question": "ما اسم قلادة الذهب الخليجية القديمة المكوّنة من سلاسل بأطوال مختلفة، وتنتهي بدلاية على شكل هلال؟",
+   "clues": [
+    "بعضها مزيّن بعملات ذهبية على طول السلسلة.",
+    "بعضها حبّات صغيرة متراصّة تشبه السبحة.",
+    "تذكرها الجدات مع «المرتعشة» و«الطاسة»."
+   ],
+   "answer": "المرية",
+   "accepted": [
+    "مرية"
+   ],
+   "letter": "م",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.emaratalyoum.com/life/culture/2019-06-01-1.1219263",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 272,
+   "category": "womens-accessories",
+   "question": "ما الزينة اللي تُنقش على كفّي العروس وقدميها في ليلة خاصة قبل العرس؟",
+   "clues": [
+    "اللي تنقشها تسمّى «المحنّية».",
+    "أُدرجت عاداتها في قائمة اليونسكو للتراث غير المادي.",
+    "تتسمّى الليلة باسمها."
+   ],
+   "answer": "الحناء",
+   "accepted": [
+    "حناء",
+    "الحنة",
+    "حنة"
+   ],
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://saudipedia.com/%D8%A7%D9%84%D8%AD%D9%86%D8%A7%D8%A1",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 273,
+   "category": "malls",
+   "question": "ما المجمع التجاري الكويتي على شارع الخليج العربي في منطقة شرق، اللي يطل على مرسى اليخوت وانتقل له مزاد السمك؟",
+   "clues": [
+    "افتُتح في أواخر التسعينيات.",
+    "بُني بنظام البناء والتشغيل ثم التحويل للدولة.",
+    "اسمه يبدأ بكلمة «سوق»."
+   ],
+   "answer": "سوق شرق",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.alraimedia.com/article/1699714/اقتصاد/سوق-شرق-من-الزخم-للخواء-تاريخ-سياحي-وتجاري-ينتظر-القطاع-الخاص-لإحيائه",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 274,
+   "category": "malls",
+   "question": "ما البرج والمجمع التجاري في منطقة شرق اللي يُعدّ أطول برج في الكويت؟",
+   "clues": [
+    "ارتفاعه أكثر من ٤٠٠ متر، وطوابقه ٨٠.",
+    "بُني في موقع أول دار سينما في الكويت.",
+    "اسمه لون."
+   ],
+   "answer": "الحمراء",
+   "accepted": [
+    "الحمرا"
+   ],
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1462112164499976700/amp",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 275,
+   "category": "restaurants",
+   "question": "أي سلسلة مطاعم برجر أشهر وجباتها «الوابر»؟",
+   "clues": [
+    "افتُتح أول فرع لها في ميامي بولاية فلوريدا.",
+    "كان اسمها الأول «إنستا» ومعه اسمها الحالي.",
+    "اسمها يعني ملك البرجر."
+   ],
+   "answer": "برجر كنج",
+   "accepted": [
+    "برغر كنغ",
+    "برجر كينج"
+   ],
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.britannica.com/topic/Burger-King",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 276,
+   "category": "restaurants",
+   "question": "أي سلسلة قهوة ودونات كان اسمها الأول «أوبن كيتل»، ثم حذفت كلمة «دونتس» من اسمها؟",
+   "clues": [
+    "أسسها ويليام روزنبرغ في ولاية ماساتشوستس.",
+    "كانت تبيع الدونات بخمسة سنتات والقهوة بعشرة.",
+    "اسمها من فكرة غمس الدونات في القهوة."
+   ],
+   "answer": "دانكن",
+   "accepted": [
+    "دانكن دونتس",
+    "دانكن دوناتس"
+   ],
+   "letter": "د",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.entrepreneur.com/article/319245",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 277,
+   "category": "cars",
+   "question": "أي شركة سيارات ألمانية شعارها دائرة بالأزرق والأبيض، ألوان علم بافاريا؟",
+   "clues": [
+    "اسمها اختصار «مصانع المحركات البافارية».",
+    "يظن كثيرون أن شعارها مروحة طائرة، والشركة تقول إنه غلط شائع.",
+    "اسمها ثلاثة حروف."
+   ],
+   "answer": "بي إم دبليو",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.bmwblog.com/2020/03/12/bmw-sets-record-straight-on-the-meaning-of-its-logo/",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 278,
+   "category": "cars",
+   "question": "أي شركة سيارات ألمانية شعارها أربع حلقات متداخلة؟",
+   "clues": [
+    "كل حلقة تمثل شركة من أربع شركات اتحدت أيام الأزمة الاقتصادية.",
+    "اسم الاتحاد كان «أوتو يونيون».",
+    "من الشركات الأربع: هورش وفاندرر و DKW."
+   ],
+   "answer": "أودي",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.creativebloq.com/design/logos-icons/the-history-of-the-audi-logo",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 279,
+   "category": "cars",
+   "question": "أي شركة سيارات كهربائية سُمّيت تكريماً لمخترع محرك التيار المتردد؟",
+   "clues": [
+    "أسسها مارتن إيبرهارد ومارك تاربنينغ.",
+    "انضم لها إيلون ماسك بعد التأسيس وصار رئيسها.",
+    "قال ماسك إن الاسم البديل كان «فاراداي»."
+   ],
+   "answer": "تسلا",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.foxbusiness.com/business-leaders/elon-musk-tesla-name-martin-eberhard",
+   "verified_at": "2026-11-11",
+   "review_note": null
   }
  ]
 }
