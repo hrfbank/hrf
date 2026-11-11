@@ -4570,6 +4570,182 @@
    "source": "https://mawdoo3.com/قصة_ملكة_سبأ",
    "verified_at": "2026-11-11",
    "review_note": null
+  },
+  {
+   "id": 244,
+   "category": "geography",
+   "question": "أي إمارة إماراتية اختيرت عاصمة للثقافة العربية، ثم «عاصمة عالمية للكتاب»؟",
+   "clues": [
+    "أول مدينة خليجية تنال لقب عاصمة الكتاب من اليونسكو.",
+    "كان شعار احتفالها «افتح كتاباً.. تفتح أذهاناً».",
+    "فيها معرض دولي للكتاب من أشهر المعارض العربية."
+   ],
+   "answer": "الشارقة",
+   "accepted": [
+    "شارقة"
+   ],
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.emaratalyoum.com/local-section/other/2017-06-27-1.1006660",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 245,
+   "category": "history",
+   "question": "ما آخر مدينة حكمها المسلمون في الأندلس، قبل ما يسلّمها أبو عبدالله الصغير؟",
+   "clues": [
+    "حكمها بنو الأحمر أكثر من قرنين ونصف.",
+    "سُلّمت للملكين الكاثوليكيين بمعاهدة.",
+    "فيها قصر الحمراء."
+   ],
+   "answer": "غرناطة",
+   "letter": "غ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/doc/2019/10/7/أبو-عبد-الله-الصغير-آخر-ملوك-الأندلس-ا",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 246,
+   "category": "proverbs-riddles",
+   "question": "ما الحيوان اللي ضربت به العرب المثل في المكر والمراوغة، فقالوا: «أروغ من ...»؟",
+   "clues": [
+    "يقولون كذلك «أروغ من ثُعالة»، وهو اسم ثاني له.",
+    "ومن أمثالهم فيه: «أعجز من ... عن العنقود».",
+    "تكلم الجاحظ عن خبثه في كتاب «الحيوان»."
+   ],
+   "answer": "الثعلب",
+   "accepted": [
+    "ثعلب"
+   ],
+   "letter": "ث",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://diwanalarab.com/%D8%AC%D9%88%D9%84%D8%A9-%D9%85%D8%B9-%D8%B1%D9%88%D8%BA%D8%A7%D9%86-%D8%A7%D9%84%D8%AB%D8%B9%D9%84%D8%A8.html",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 247,
+   "category": "history",
+   "question": "ما المعركة اللي انتصرت فيها قبائل العرب على جيش كسرى قبل الإسلام، بقيادة هانئ بن مسعود الشيباني؟",
+   "clues": [
+    "سببها أن هانئاً رفض يسلّم كسرى ودائع النعمان بن المنذر.",
+    "كان قائد الفرس فيها «الهامرز».",
+    "تُعدّ من أشهر «أيام العرب»."
+   ],
+   "answer": "ذي قار",
+   "accepted": [
+    "ذو قار"
+   ],
+   "letter": "ذ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D9%8A%D9%88%D9%85_%D8%B0%D9%8A_%D9%82%D8%A7%D8%B1",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 248,
+   "category": "which-country",
+   "question": "أي دولة مكتوب على علمها «النظام والتقدم» على شريط يقطع كرة زرقاء مليانة نجوم؟",
+   "clues": [
+    "العبارة مأخوذة من فلسفة أوغست كونت.",
+    "نجوم العلم ٢٧، بعدد ولاياتها ومقاطعتها الفيدرالية.",
+    "العبارة مكتوبة بالبرتغالية."
+   ],
+   "answer": "البرازيل",
+   "accepted": [
+    "برازيل"
+   ],
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://britannica.com/topic/flag-of-Brazil",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 249,
+   "category": "which-country",
+   "question": "ما الدولة الوحيدة اللي تشغل قارة كاملة؟",
+   "clues": [
+    "قارتها أصغر القارات، وهي سادس أكبر دولة في العالم.",
+    "أكثر من ٨٠٪ من ثديياتها ونباتاتها ما توجد في مكان ثاني.",
+    "موطن الكنغر والكوالا."
+   ],
+   "answer": "أستراليا",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.worldatlas.com/articles/is-australia-a-country-or-a-continent.html",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 250,
+   "category": "malls",
+   "question": "ما المجمع التجاري على شاطئ السالمية اللي يعبر شارع الخليج العربي بجسر مكيّف، وفيه مرسى لليخوت؟",
+   "clues": [
+    "جسره يوصله بـ«الكريسنت»، وهي منطقة مطاعم على البحر.",
+    "افتُتح في مطلع الألفينات على ثلاث مراحل.",
+    "اسمه يعني المرسى."
+   ],
+   "answer": "المارينا",
+   "accepted": [
+    "مارينا مول",
+    "المارينا مول",
+    "مارينا"
+   ],
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://gulfconstructiononline.com/Article/5386",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 251,
+   "category": "restaurants",
+   "question": "ما الأكلة اللي تنشوى على سيخ عمودي دوّار، واسمها العربي مأخوذ من كلمة تركية تعني «الدوران»؟",
+   "clues": [
+    "ظهر سيخها العمودي في الدولة العثمانية.",
+    "الأتراك يسمّونها «دونر».",
+    "قريبتها اليونانية اسمها «جيروس»."
+   ],
+   "answer": "الشاورما",
+   "accepted": [
+    "شاورما"
+   ],
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.emaratalyoum.com/life/life-style/2024-07-28-1.1871488",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 252,
+   "category": "general",
+   "question": "ما أكبر الرئيسيات حجماً، اللي يسمّون ذكرها الكبير «الظهر الفضي»؟",
+   "clues": [
+    "تعيش في غابات وسط أفريقيا.",
+    "حمضها النووي يشبه حمض الإنسان بنسبة عالية جداً.",
+    "مهددة بالانقراض بسبب الصيد وفقدان الغابات."
+   ],
+   "answer": "الغوريلا",
+   "accepted": [
+    "غوريلا"
+   ],
+   "letter": "غ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ifaw.org/animals/gorillas",
+   "verified_at": "2026-11-11",
+   "review_note": null
   }
  ]
 }
