@@ -5255,6 +5255,202 @@
    "source": "https://www.foxbusiness.com/business-leaders/elon-musk-tesla-name-martin-eberhard",
    "verified_at": "2026-11-11",
    "review_note": null
+  },
+  {
+   "id": 280,
+   "category": "kuwait",
+   "question": "ما الجزيرة الكويتية الرملية الصغيرة اللي تحيط بها الشعاب المرجانية، ويقصدها الغواصون؟",
+   "clues": [
+    "تبعد عن ساحل الزور نحو ٣٠ كيلومتراً.",
+    "فريق الغوص الكويتي ركّب حولها مرابط بحرية لحماية المرجان.",
+    "محطة مهمة للطيور البحرية."
+   ],
+   "answer": "كبر",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.aljarida.com/article/147555",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 281,
+   "category": "kuwait-regions",
+   "question": "أي منطقة كويتية فيها مستشفى مبارك الكبير ومستشفى هادي وبنك الدم؟",
+   "clues": [
+    "فيها كذلك الحرم الصحي لجامعة الكويت.",
+    "فيها مستشفى «رويال حياة»."
+   ],
+   "answer": "الجابرية",
+   "accepted": [
+    "جابرية"
+   ],
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Areas_of_Kuwait",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 282,
+   "category": "kuwait-regions",
+   "question": "أي منطقة كويتية على ساحل الخليج بنى فيها البريطانيون معسكرهم، ثم سكنها كبار موظفي الحكومة بعد الاستقلال؟",
+   "clues": [
+    "تتكوّن من خمس قطع.",
+    "انضمت إلى شبكة المدن الصحية الإقليمية.",
+    "ارتبط اسمها عند الناس بالمقبرة اللي بجنبها."
+   ],
+   "answer": "الصليبخات",
+   "accepted": [
+    "صليبخات",
+    "الصليبيخات"
+   ],
+   "letter": "ص",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Sulaibikhat",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 283,
+   "category": "saudi-regions",
+   "question": "ما المدينة السعودية الملقّبة بـ«سيدة الضباب» و«عروس الجبل»، عاصمة منطقة عسير؟",
+   "clues": [
+    "قربها جبال السودة، أعلى قمم المملكة.",
+    "اختيرت عاصمة للسياحة العربية.",
+    "فيها «ممشى الضباب» بين السحب."
+   ],
+   "answer": "أبها",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://saudipedia.com/%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D8%A3%D8%A8%D9%87%D8%A7",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 284,
+   "category": "saudi-regions",
+   "question": "ما المدينة السعودية الملقّبة بـ«عروس البحر الأحمر»؟",
+   "clues": [
+    "فيها نافورة الملك فهد، المسجّلة في غينيس أطول نافورة في العالم.",
+    "كانت البوابة الرئيسية للحجاج القادمين بحراً.",
+    "حيها التاريخي يسمّى «البلد»."
+   ],
+   "answer": "جدة",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://saudipedia.com/%D9%86%D8%A7%D9%81%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83-%D9%81%D9%87%D8%AF",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 285,
+   "category": "saudi",
+   "question": "ما المشروع السعودي في منطقة تبوك اللي فيه مدينة «ذا لاين» الخطية بطول ١٧٠ كيلومتراً؟",
+   "clues": [
+    "مدينته بلا سيارات ولا شوارع ولا انبعاثات كربونية.",
+    "أعلن عنه ولي العهد الأمير محمد بن سلمان.",
+    "يمتد من البحر الأحمر باتجاه تبوك."
+   ],
+   "answer": "نيوم",
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.alarabiya.net/aswaq/economy/2021/01/10/ذا-لاين-ما-هو-مشروع-ذا-لاين-المخطط-الحضري-لمدينة-نيوم-؟",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 286,
+   "category": "which-country",
+   "question": "أي دولة قال عنها المؤرخ هيرودوت إنها «هبة النيل»؟",
+   "clues": [
+    "جاءت العبارة في كتابه الثاني من «التاريخ».",
+    "يختلف الباحثون: هل قصد البلد كله أم طين الدلتا.",
+    "فيها الأهرامات."
+   ],
+   "answer": "مصر",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://pages.uoregon.edu/klio/nile-class.htm",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 287,
+   "category": "which-country",
+   "question": "أي دولة أوروبية داخل عاصمتها دولة مستقلة مساحتها أقل من نصف كيلومتر مربع؟",
+   "clues": [
+    "داخل حدودها دولة مستقلة ثانية اسمها سان مارينو.",
+    "تتبعها أكبر جزيرتين في البحر المتوسط: صقلية وسردينيا.",
+    "الدولة الصغيرة هي الفاتيكان، والعاصمة روما."
+   ],
+   "answer": "إيطاليا",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.globalsecurity.org/military/world/europe/it-geography.htm",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 288,
+   "category": "which-country",
+   "question": "أي دولة أوروبية اسمها يعني «الأراضي المنخفضة»، وجزء كبير من أرضها تحت مستوى سطح البحر؟",
+   "clues": [
+    "استخدم أهلها طواحين الهواء لضخ الماء وتجفيف الأرض.",
+    "تحميها السدود ومشروع «الدلتا».",
+    "أدنى نقطة فيها قرب روتردام."
+   ],
+   "answer": "هولندا",
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://al-ain.com/article/netherlands-europe-holland-tourism",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 289,
+   "category": "which-country",
+   "question": "أي دولة تُسلَّم في عاصمتها جائزة نوبل للسلام، مع أن باقي جوائز نوبل تُسلَّم في السويد؟",
+   "clues": [
+    "تُسلَّم الجائزة كل ١٠ ديسمبر في مبنى بلدية العاصمة.",
+    "يسمّونها «أرض شمس منتصف الليل».",
+    "مشهورة بالفيوردات، وعاصمتها أوسلو."
+   ],
+   "answer": "النرويج",
+   "accepted": [
+    "نرويج"
+   ],
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://theoslobook.no/2016/08/21/nobel-peace-prize-oslo/",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 290,
+   "category": "which-country",
+   "question": "أي دولة تقع أراضيها في قارتين، ويفصل بين جزأيها مضيق البوسفور؟",
+   "clues": [
+    "نحو ٩٧٪ من مساحتها في آسيا.",
+    "يفصل بين جزأيها كذلك بحر مرمرة ومضيق الدردنيل.",
+    "أكبر مدنها إسطنبول."
+   ],
+   "answer": "تركيا",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/في_أي_قارة_تقع_تركيا",
+   "verified_at": "2026-11-11",
+   "review_note": null
   }
  ]
 }
