@@ -4746,6 +4746,194 @@
    "source": "https://www.ifaw.org/animals/gorillas",
    "verified_at": "2026-11-11",
    "review_note": null
+  },
+  {
+   "id": 253,
+   "category": "history",
+   "question": "من السلطان المملوكي اللي قاد مقدمة الجيش في عين جالوت، ثم استرد أنطاكية من الصليبيين؟",
+   "clues": [
+    "خدع قائد المغول كتبغا لما ظهر له بعدد قليل من الجند.",
+    "يلقّبونه «قاهر الصليبيين والتتار»، وأُلّفت فيه سيرة شعبية.",
+    "أطول سلاطين المماليك حكماً."
+   ],
+   "answer": "الظاهر بيبرس",
+   "accepted": [
+    "ظاهر بيبرس"
+   ],
+   "letter": "ظ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2022/11/4/الظاهر-بيبرس-أطول-حكام-المماليك-عمرا",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 254,
+   "category": "who-said",
+   "question": "من الإمام الفقيه اللي يُنسب له: «دعِ الأيامَ تفعلُ ما تشاءُ، وطِبْ نفساً إذا حكمَ القضاءُ»؟",
+   "clues": [
+    "القصيدة في الحكمة والرضا بالقدر.",
+    "اسمه محمد بن إدريس.",
+    "صاحب أحد المذاهب الفقهية الأربعة."
+   ],
+   "answer": "الشافعي",
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aldiwan.net/poem24737.html",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 255,
+   "category": "who-said",
+   "question": "من قائل: «قُمْ للمعلّمِ وفِّهِ التبجيلا، كادَ المعلّمُ أن يكونَ رسولا»؟",
+   "clues": [
+    "القصيدة تنتقد كذلك حال التعليم في مصر أيامه.",
+    "يلقّبونه «أمير الشعراء».",
+    "قصيدته هذه ٦٦ بيتاً على بحر الكامل."
+   ],
+   "answer": "أحمد شوقي",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikisource.org/wiki/%D9%82%D9%85_%D9%84%D9%84%D9%85%D8%B9%D9%84%D9%85",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 256,
+   "category": "famous-places",
+   "question": "ما الشلالات الأفريقية اللي يسمّيها أهلها «الدخان الذي يرعد»؟",
+   "clues": [
+    "تقع على نهر زامبيزي بين زامبيا وزيمبابوي.",
+    "ارتفاعها تقريباً ضعف ارتفاع شلالات نياغارا.",
+    "سمّاها المستكشف ليفنغستون على اسم ملكة بريطانيا."
+   ],
+   "answer": "فيكتوريا",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.Britannica.Com/place/Victoria-Falls-waterfall-Zambia-Zimbabwe",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 257,
+   "category": "synonyms-antonyms",
+   "question": "ما اسم ذكر النعام في اللغة العربية؟",
+   "clues": [
+    "اسمه من نفس جذر كلمة «الظلام».",
+    "قيل إنه سُمّي بذلك لسواد لونه.",
+    "العرب تضرب به المثل في قوة الشم."
+   ],
+   "answer": "الظليم",
+   "accepted": [
+    "ظليم"
+   ],
+   "letter": "ظ",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://usul.ai/en/t/hasr-harf-za/4",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 258,
+   "category": "synonyms-antonyms",
+   "question": "ما الاسم اللي يبدأ بحرف الغين من أسماء الأسد في العربية؟",
+   "clues": [
+    "من إخوانه في المعنى: الضرغام والضيغم والليث.",
+    "خمسة حروف، وفيه نون يقول بعض اللغويين إنها زائدة.",
+    "تجده في المعاجم تحت مادة «غضفر»."
+   ],
+   "answer": "الغضنفر",
+   "accepted": [
+    "غضنفر"
+   ],
+   "letter": "غ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://arabiclexicon.hawramani.com/غضفر/",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 259,
+   "category": "synonyms-antonyms",
+   "question": "ما الاسم القديم للشمس في العربية، اللي نسبوا له الصبح فسمّوه «ابن ...»؟",
+   "clues": [
+    "مشتق من «ذَكَت النار» يعني توقّدت.",
+    "علَم ما تدخله «ال» التعريف.",
+    "نفس حروف كلمة تعني الفطنة وسرعة الفهم."
+   ],
+   "answer": "ذكاء",
+   "letter": "ذ",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://arabiclexicon.hawramani.com/%d8%b0%d9%83%d8%a7/",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 260,
+   "category": "synonyms-antonyms",
+   "question": "ما الكلمة اللي تعني أصوات المعركة وجلبتها، ثم صارت اسماً للحرب نفسها؟",
+   "clues": [
+    "يقولون «ساحة ...» ويقصدون ميدان القتال.",
+    "في خطبة للإمام علي: «إذا حَمِسَ ...» يعني اشتد القتال.",
+    "أولها واو وآخرها ألف مقصورة."
+   ],
+   "answer": "الوغى",
+   "accepted": [
+    "وغى"
+   ],
+   "letter": "و",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://arabiclexicon.hawramani.com/%d9%88%d8%ba%d9%89/",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 261,
+   "category": "synonyms-antonyms",
+   "question": "ما الكلمة اللي تعني التراب النديّ، وتقابلها النجوم في المثل: «أين ... من الثريا»؟",
+   "clues": [
+    "المثل يُضرب للفرق الشاسع بين شيئين.",
+    "تجي كذلك بمعنى باطن الأرض.",
+    "يقولون عن الميت: «وُوري ...»."
+   ],
+   "answer": "الثرى",
+   "accepted": [
+    "ثرى"
+   ],
+   "letter": "ث",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/الفرق_بين_الثرى_والثريا",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 262,
+   "category": "general",
+   "question": "ما الحيوان البرمائي اللي يتنفس من جلده الرطب، وصغيره «أبو ذنيبة» يعيش في الماء بخياشيم؟",
+   "clues": [
+    "قلبه وهو بالغ ثلاث حجرات.",
+    "صغيره له ذيل طويل ويتغذى على الطحالب.",
+    "يتحول من السباحة إلى القفز لما تطلع له أربع أرجل."
+   ],
+   "answer": "الضفدع",
+   "accepted": [
+    "ضفدع"
+   ],
+   "letter": "ض",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/كيفية_تنفس_الضفدع",
+   "verified_at": "2026-11-11",
+   "review_note": null
   }
  ]
 }
