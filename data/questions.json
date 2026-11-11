@@ -5451,6 +5451,94 @@
    "source": "https://mawdoo3.com/في_أي_قارة_تقع_تركيا",
    "verified_at": "2026-11-11",
    "review_note": null
+  },
+  {
+   "id": 291,
+   "category": "actors",
+   "question": "من الفنان الكويتي اللي لعب دور الجار «بو صالح» في مسلسل «درب الزلق»؟",
+   "clues": [
+    "بدأ التمثيل وهو طالب في المدرسة الأحمدية.",
+    "من مسرحياته «صقر قريش» و«الكويت سنة ٢٠٠٠».",
+    "من مسلسلاته «إلى أبي وأمي مع التحية» و«خالتي قماشة»."
+   ],
+   "answer": "خالد النفيسي",
+   "letter": "خ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D8%AF%D8%B1%D8%A8_%D8%A7%D9%84%D8%B2%D9%84%D9%82",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 292,
+   "category": "actors",
+   "question": "من الفنان الكويتي اللي ساهم في تأسيس فرقة المسرح العربي وعمره ١٨ سنة، ولعب شخصية «نهاش» في «باي باي لندن»؟",
+   "clues": [
+    "شكّل ثنائياً فنياً مع حياة الفهد.",
+    "شارك في فيلم «الفخ».",
+    "كرّمه مهرجان القرين الثقافي بعد رحيله."
+   ],
+   "answer": "غانم الصالح",
+   "letter": "غ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1579711169243667100",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 293,
+   "category": "sports",
+   "question": "من الملاكم الأمريكي الملقّب بـ«الأعظم»، اللي كان يقول إنه «يطير كالفراشة ويلسع كالنحلة»؟",
+   "clues": [
+    "كان اسمه كاسيوس كلاي، وقال عنه إنه «اسم عبودية».",
+    "قال عبارته الشهيرة قبل نزاله مع سوني ليستون.",
+    "غيّر اسمه بعد إسلامه."
+   ],
+   "answer": "محمد علي",
+   "accepted": [
+    "محمد علي كلاي"
+   ],
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.Britannica.Com/biography/Muhammad-Ali-boxer",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 294,
+   "category": "sports",
+   "question": "من العدّاء الجامايكي صاحب الرقم القياسي العالمي في سباق ١٠٠ متر؟",
+   "clues": [
+    "سجّل رقمه في بطولة العالم في برلين.",
+    "حطّم به رقمه السابق اللي سجّله في أولمبياد بكين.",
+    "حلّ خلفه ثانياً في ذلك السباق الأمريكي تايسون غاي."
+   ],
+   "answer": "بولت",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://worldathletics.org/news/news/bolt-again-958-world-record-in-berlin-updat",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 295,
+   "category": "general",
+   "question": "ما أقسى مادة طبيعية معروفة، وتاخذ الدرجة ١٠ على مقياس موس للصلابة؟",
+   "clues": [
+    "تكوّنت تحت حرارة وضغط شديدين في باطن الأرض.",
+    "أليَن معدن على نفس المقياس هو التلك.",
+    "أقسى بأربع مرات تقريباً من الكوراندوم اللي تحتها مباشرة."
+   ],
+   "answer": "الألماس",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://science.howstuffworks.com/environmental/earth/geology/mohs-hardness-scale.htm",
+   "verified_at": "2026-11-11",
+   "review_note": null
   }
  ]
 }
