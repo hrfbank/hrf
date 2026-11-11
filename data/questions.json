@@ -4096,6 +4096,77 @@
    "source": "https://en.wikipedia.org/wiki/Saudi_national_dress",
    "verified_at": "2026-11-10",
    "review_note": null
+  },
+  {
+   "id": 217,
+   "category": "titles-nicknames",
+   "question": "من الصحابي الأنصاري الملقّب بـ«خطيب رسول الله ﷺ»؟",
+   "clues": [
+    "لقبه يشبه لقب حسان بن ثابت «شاعر رسول الله».",
+    "استُشهد في معركة اليمامة.",
+    "يقال إنه لا يُعرف أحد نُفّذت وصيته بعد موته غيره."
+   ],
+   "answer": "ثابت بن قيس",
+   "letter": "ث",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://hadithtransmitters.hawramani.com/%D8%AB%D8%A7%D8%A8%D8%AA-%D8%A8%D9%86-%D9%82%D9%8A%D8%B3-%D8%A8%D9%86-%D8%B4%D9%85%D8%A7%D8%B3-%D8%A7%D9%84%D8%A3%D9%86%D8%B5%D8%A7%D8%B1%D9%8A/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 218,
+   "category": "countries-capitals",
+   "question": "ما العاصمة العربية اللي مدينتها القديمة على قائمة التراث العالمي، ومبانيها متعددة الطوابق مزيّنة بأشكال هندسية بيضاء؟",
+   "clues": [
+    "يحدّ واديها جبل نُقم من الشرق وجبل عيبان من الغرب.",
+    "بوابتها الرئيسية اسمها «باب اليمن».",
+    "عاصمة اليمن التاريخية."
+   ],
+   "answer": "صنعاء",
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/culture/2013/5/30/صنعاء-القديمة-هل-تغادر-التراث-العالمي",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 219,
+   "category": "seerah",
+   "question": "من ابن عم خديجة اللي قال للنبي ﷺ بعد أول الوحي: «هذا الناموس الذي نزل على موسى»؟",
+   "clues": [
+    "اعتزل الأوثان في الجاهلية وقرأ كتب الأديان.",
+    "كان شيخاً كبيراً قد عمي.",
+    "تمنّى أن يكون شاباً حين يُخرج النبيَّ قومُه."
+   ],
+   "answer": "ورقة بن نوفل",
+   "letter": "و",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://islamonline.net/ورقة-بن-نوفل/",
+   "verified_at": "2026-11-10",
+   "review_note": null
+  },
+  {
+   "id": 220,
+   "category": "quran",
+   "question": "ما السورة اللي نزلت تطمئن النبي ﷺ بعد ما فتر عنه الوحي، وفيها: «ما ودّعك ربك وما قلى»؟",
+   "clues": [
+    "قال المشركون لما أبطأ الوحي: «قد وُدّع محمد».",
+    "تذكّر النبي ﷺ بنعم الله عليه: يتيماً فآواه.",
+    "اسمها وقت من النهار بعد شروق الشمس."
+   ],
+   "answer": "الضحى",
+   "accepted": [
+    "ضحى"
+   ],
+   "letter": "ض",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/سبب_نزول_سورة_الضحى",
+   "verified_at": "2026-11-10",
+   "review_note": null
   }
  ]
 }
