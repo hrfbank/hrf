@@ -4167,6 +4167,193 @@
    "source": "https://mawdoo3.com/سبب_نزول_سورة_الضحى",
    "verified_at": "2026-11-10",
    "review_note": null
+  },
+  {
+   "id": 221,
+   "category": "history",
+   "question": "ما اسم أول معركة بحرية كبرى انتصر فيها المسلمون على أسطول الروم؟",
+   "clues": [
+    "قاد أسطول المسلمين فيها عبدالله بن سعد بن أبي السرح.",
+    "سُمّيت بهذا لكثرة السفن وأعمدة أشرعتها.",
+    "يرجّح باحثون أنها وقعت قبالة شواطئ الإسكندرية."
+   ],
+   "answer": "ذات الصواري",
+   "letter": "ذ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://islamonline.net/%d8%b0%d8%a7%d8%aa-%d8%a7%d9%84%d8%b5%d9%88%d8%a7%d8%b1%d9%8a-%d9%83%d9%8a%d9%81-%d8%a3%d8%b5%d8%a8%d8%ad%d8%aa-%d9%84%d9%84%d9%85%d8%b3%d9%84%d9%85%d9%8a%d9%86-%d9%82%d9%88%d8%a9-%d8%a8%d8%ad%d8%b1/",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 222,
+   "category": "seerah",
+   "question": "ما آخر غزوة خرج فيها النبي ﷺ بنفسه، وتسمّى «غزوة العسرة»؟",
+   "clues": [
+    "كانت في حر شديد وقحط، ولم يقع فيها قتال.",
+    "جهّز عثمان بن عفان جيشها بنفقة عظيمة.",
+    "تسمّى كذلك «الفاضحة» لأنها كشفت المنافقين."
+   ],
+   "answer": "تبوك",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikisource.org/wiki/%D8%BA%D8%B2%D9%88%D8%A9_%D8%AA%D8%A8%D9%88%D9%83",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 223,
+   "category": "arabic-poetry",
+   "question": "من الشاعر الأنصاري الملقّب بـ«شاعر الرسول ﷺ»؟",
+   "clues": [
+    "شاعر مخضرم، قيل إنه عاش ستين سنة في الجاهلية وستين في الإسلام.",
+    "كان قبل الإسلام شاعر الخزرج ولسانهم على الأوس.",
+    "كان يرد بشعره على هجاء قريش للمسلمين."
+   ],
+   "answer": "حسان بن ثابت",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/حسان_بن_ثابت_شاعر_الرسول",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 224,
+   "category": "who-said",
+   "question": "من قائل: «أراكَ عصيَّ الدمعِ شيمتُكَ الصبرُ، أما للهوى نهيٌ عليكَ ولا أمرُ»؟",
+   "clues": [
+    "شاعر وفارس، وابن عم سيف الدولة.",
+    "قصائده اللي قالها وهو أسير عند الروم تسمّى «الروميات».",
+    "طال أسره أربع سنوات، وكتب فيها لابن عمه يستعجله الفداء."
+   ],
+   "answer": "أبو فراس الحمداني",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2023/3/21/أبو-فراس-الحمداني-الشاعر-الفارس",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 225,
+   "category": "malls",
+   "question": "أي مجمع تجاري في دبي ملاصق لأطول برج في العالم، وفيه حوض أسماك عملاق وحلبة تزلج على الجليد؟",
+   "clues": [
+    "يطل على النافورة الراقصة.",
+    "فيه أكثر من ١٢٠٠ متجر.",
+    "اسمه اسم المدينة نفسها."
+   ],
+   "answer": "دبي مول",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://burjkhalifa.ae/en/downtown-dubai/dubai-mall",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 226,
+   "category": "restaurants",
+   "question": "أي سلسلة مطاعم عالمية اشتهرت فروعها بسقفها الأحمر؟",
+   "clues": [
+    "أسسها أخوان طالبان بقرض ٦٠٠ دولار من أمهما.",
+    "اسمها قصير لأن اللافتة ما كانت تتسع إلا لثمانية حروف.",
+    "انطلقت من مدينة ويتشيتا في ولاية كانساس."
+   ],
+   "answer": "بيتزا هت",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.kansashistory.gov/kansapedia/dan-and-frank-carney/12003",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 227,
+   "category": "products",
+   "question": "أي محرك بحث جاء اسمه من خطأ إملائي في كلمة «googol»، اللي تعني واحد وأمامه مئة صفر؟",
+   "clues": [
+    "أسسه لاري بيج وسيرجي برين وهما طالبان في ستانفورد.",
+    "كان اسمه الأول «باك رَب».",
+    "صار اسمه فعلاً يستخدمه الناس بمعنى «ابحث»."
+   ],
+   "answer": "جوجل",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://graphics.stanford.edu/%7edk/google_name_origin.html",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 228,
+   "category": "products",
+   "question": "أي تطبيق تواصل كان شعاره طائراً أزرق قبل ما يغيّر إيلون ماسك اسمه إلى «إكس»؟",
+   "clues": [
+    "اشتراه ماسك، وسمّى شركته «إكس كورب».",
+    "شعاره الجديد حرف أبيض على خلفية سوداء.",
+    "صار عنوان موقعه x.com."
+   ],
+   "answer": "تويتر",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.emaratalyoum.com/business/arab-and-inter/2023-07-24-1.1769759",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 229,
+   "category": "kuwait",
+   "question": "ما الجزيرة الكويتية في أقصى الشمال، شمال جزيرة بوبيان، قبالة الساحل العراقي؟",
+   "clues": [
+    "يحيط بها خور عبدالله وخور الصبية.",
+    "تبعد كيلومتراً واحداً تقريباً عن البر العراقي.",
+    "مساحتها نحو ٣٧ كيلومتراً مربعاً."
+   ],
+   "answer": "وربة",
+   "letter": "و",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D9%88%D8%B1%D8%A8%D8%A9",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 230,
+   "category": "kuwait-regions",
+   "question": "ما المنطقة الكويتية اللي يقول المؤرخ سيف الشملان إن اسمها جاء من حلاوة ماء آبارها؟",
+   "clues": [
+    "اكتُشفت فيها بئر غزيرة عذبة، وكان الناس يبيعون ماءها في مدينة الكويت.",
+    "فيها سدرة قديمة عمرها نحو مئتي سنة.",
+    "تأسست في مطلع القرن العشرين بعد اكتشاف البئر."
+   ],
+   "answer": "حولي",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1547371811320194700",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 231,
+   "category": "kuwait",
+   "question": "ما اسم التلال اللي تمتد شمال جون الكويت داخل محمية صباح الأحمد الطبيعية؟",
+   "clues": [
+    "طولها نحو ١٦ كيلومتراً.",
+    "أعلى نقطة فيها نحو ١٥٠ متراً.",
+    "يمر بقربها طريق الصبية."
+   ],
+   "answer": "جال الزور",
+   "letter": "ج",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1535726653609796100",
+   "verified_at": "2026-11-11",
+   "review_note": null
   }
  ]
 }
