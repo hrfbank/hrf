@@ -4354,6 +4354,222 @@
    "source": "https://www.aljarida.com/articles/1535726653609796100",
    "verified_at": "2026-11-11",
    "review_note": null
+  },
+  {
+   "id": 232,
+   "category": "gulf-series",
+   "question": "ما المسلسل الكويتي الكوميدي عن أختين تشتغلان في سوق الحريم، وتنقلب حياتهما بعد تثمين بيتهما؟",
+   "clues": [
+    "بعد الثروة المفاجئة تقعان ضحية للنصّابين مرة ورا مرة.",
+    "بطولة حياة الفهد وسعاد عبدالله.",
+    "عنوانه اسما الأختين."
+   ],
+   "answer": "رقية وسبيكة",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.sayidaty.net/مشاهير/سينما-وتلفزيون/1829078-أقوى-مسلسلات-حياة-الفهد",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 233,
+   "category": "gulf-series",
+   "question": "ما المسلسل الكوميدي السعودي الرمضاني اللي قدّمه ناصر القصبي بعد «طاش ما طاش»، بحلقات منفصلة تناقش قضايا المجتمع بجرأة؟",
+   "clues": [
+    "شاركه البطولة حبيب الحبيب ومحمد الطويان.",
+    "كتب جزأه الثاني خلف الحربي.",
+    "اسمه كلمة إنجليزية تعني صورة يلتقطها الشخص لنفسه."
+   ],
+   "answer": "سيلفي",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1463926402970160500",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 234,
+   "category": "kuwaiti-plays",
+   "question": "ما المسرحية السياسية الكويتية لسعد الفرج، اللي يقولون إنها استقرأت أزمات البلد قبل وقوعها؟",
+   "clues": [
+    "كتبها عبدالأمير التركي وسعد الفرج.",
+    "عُرضت في منتصف الثمانينيات.",
+    "حوّلها الفرج لاحقاً إلى فيلم تسجيلي بنفس الاسم."
+   ],
+   "answer": "حامي الديار",
+   "letter": "ح",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.alraimedia.com/article/884860/أخيرة/سعد-الفرج-استقرأ-الأزمة-عام-1987-في-مسرحية-حامي-الديار",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 235,
+   "category": "actors",
+   "question": "من الفنان الكوميدي الكويتي الملقّب بـ«إمبراطور المسرح»، وقدّم برنامج «طارق وهيونة»؟",
+   "clues": [
+    "وُلد في الجهراء.",
+    "شاركته البرنامج هيا الشعيبي.",
+    "من مسلسلاته «الفلتة» و«خالي وصل»."
+   ],
+   "answer": "طارق العلي",
+   "letter": "ط",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/طارق_العلي_(ممثل_كوميدي_كويتي)",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 236,
+   "category": "cars",
+   "question": "ما سيارة تويوتا اللي بدأت «جيب» للشرطة اليابانية، وصارت من أشهر سيارات البر عند أهل الخليج؟",
+   "clues": [
+    "نموذجها الأول كان اسمه «BJ».",
+    "كانت أول مركبة تصعد إلى المحطة السادسة في جبل فوجي.",
+    "باعت أكثر من عشرة ملايين سيارة في العالم."
+   ],
+   "answer": "لاندكروزر",
+   "accepted": [
+    "لاند كروزر"
+   ],
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.yallamotor.com/ar/news/the-history-of-the-toyota-land-cruiser-12216",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 237,
+   "category": "currencies",
+   "question": "ما العملة اللي تتعامل بها الإمارات والمغرب، واسمها مأخوذ من «الدراخما» اليونانية؟",
+   "clues": [
+    "وصلت الكلمة للعربية عن طريق الفارسية.",
+    "كانت كذلك وحدة وزن قديمة.",
+    "ذُكرت بصيغة الجمع في سورة يوسف: «دراهم معدودة»."
+   ],
+   "answer": "الدرهم",
+   "accepted": [
+    "درهم"
+   ],
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.britannica.com/topic/dirham",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 238,
+   "category": "geography",
+   "question": "ما أكبر بحيرة في العالم، مع أن الناس يسمّونها بحراً؟",
+   "clues": [
+    "مسطح مائي مغلق لا يتصل بأي محيط.",
+    "تطل عليها خمس دول، منها روسيا وإيران.",
+    "تطل عليها كذلك أذربيجان وكازاخستان وتركمانستان."
+   ],
+   "answer": "قزوين",
+   "letter": "ق",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/الدول_المطلة_على_بحر_قزوين",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 239,
+   "category": "geography",
+   "question": "ما المضيق اللي يربط الخليج العربي بخليج عُمان، ويمر منه أكثر من ربع تجارة النفط البحرية؟",
+   "clues": [
+    "تحدّه إيران من الشمال وسلطنة عُمان من الجنوب.",
+    "هو المنفذ البحري الوحيد للخليج إلى المياه المفتوحة.",
+    "يحمل اسم جزيرة تقع في مدخله."
+   ],
+   "answer": "هرمز",
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/citiesandregions/strait/2014/11/9/مضيق-هرمز",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 240,
+   "category": "quran",
+   "question": "ما السورة اللي ورد في الحديث أنها «قلب القرآن»؟",
+   "clues": [
+    "فيها قصة أصحاب القرية والرجل اللي جاء من أقصى المدينة يسعى.",
+    "تسمّى كذلك سورة «حبيب النجار».",
+    "اسمها حرفان في أولها."
+   ],
+   "answer": "يس",
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://quran-tafsir.net/tantawy-katheer-ashour-mobdii/sura36-aya1.html",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 241,
+   "category": "quran",
+   "question": "ما السورة اللي ورد لفظ الجلالة «الله» في كل آية من آياتها؟",
+   "clues": [
+    "نزل أولها في خولة بنت ثعلبة.",
+    "تبدأ بقوله تعالى: «قد سمع الله قول التي تجادلك في زوجها».",
+    "اسمها من الجدال."
+   ],
+   "answer": "المجادلة",
+   "accepted": [
+    "مجادلة"
+   ],
+   "letter": "م",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://search.emarefa.net/en/detail/BIM-1451048-%D9%85%D9%86-%D8%A3%D8%AD%D9%83%D8%A7%D9%85-%D9%88%D8%A2%D8%AF%D8%A7%D8%A8-%D8%B3%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%AC%D8%A7%D8%AF%D9%84%D8%A9-%D8%AF%D8%B1%D8%A7%D8%B3%D8%A9-%D9%85%D9%88%D8%B6%D9%88%D8%B9%D9%8A%D8%A9",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 242,
+   "category": "prophets",
+   "question": "من النبي اللي كانت معجزته ناقة سمّاها القرآن «ناقة الله»؟",
+   "clues": [
+    "طلب قومه أن يُخرج لهم ناقة من صخرة تعجيزاً له.",
+    "أُمر قومه أن يقسموا ماء الشرب بينهم وبين الناقة.",
+    "عقروا الناقة، فنزل بهم العذاب."
+   ],
+   "answer": "صالح",
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://kalemtayeb.com/safahat/item/10399",
+   "verified_at": "2026-11-11",
+   "review_note": null
+  },
+  {
+   "id": 243,
+   "category": "prophets",
+   "question": "ما الطائر اللي غاب عن مجلس سليمان عليه السلام، ثم رجع بخبر ملكة سبأ؟",
+   "clues": [
+    "قال لسليمان: «أحطتُ بما لم تُحط به».",
+    "أخبره عن قوم يعبدون الشمس تحكمهم امرأة.",
+    "حمل كتاب سليمان إلى الملكة."
+   ],
+   "answer": "الهدهد",
+   "accepted": [
+    "هدهد"
+   ],
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/قصة_ملكة_سبأ",
+   "verified_at": "2026-11-11",
+   "review_note": null
   }
  ]
 }
