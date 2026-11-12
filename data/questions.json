@@ -5539,6 +5539,231 @@
    "source": "https://science.howstuffworks.com/environmental/earth/geology/mohs-hardness-scale.htm",
    "verified_at": "2026-11-11",
    "review_note": null
+  },
+  {
+   "id": 296,
+   "category": "language-literature",
+   "question": "من الراوية اللي أنقذت نفسها من الملك شهريار بحكاية كل ليلة في «ألف ليلة وليلة»؟",
+   "clues": [
+    "بنت الوزير، وتطوّعت بنفسها للزواج من الملك.",
+    "كانت توقف الحكاية عند أحلى مشهد، فيأجّل الملك قتلها.",
+    "ظلّت تحكي حتى أكملت ألف ليلة وليلة."
+   ],
+   "answer": "شهرزاد",
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/قصة_الف_ليلة_وليلة",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 297,
+   "category": "language-literature",
+   "question": "من الأديب اللي ابتكر فن «المقامات»، وبطل مقاماته أبو الفتح الإسكندري؟",
+   "clues": [
+    "راوي مقاماته عيسى بن هشام.",
+    "أقرّ له الحريري بالسبق في هذا الفن.",
+    "قيل: مقاماته فن، ومقامات الحريري صناعة."
+   ],
+   "answer": "بديع الزمان الهمذاني",
+   "accepted": [
+    "بديع الزمان"
+   ],
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://islamonline.net/archive/%d8%a7%d9%84%d9%85%d9%82%d8%a7%d9%85%d8%a9-%d8%a7%d9%84%d8%b5%d9%86%d8%b9%d8%a7%d9%86%d9%8a%d8%a9/",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 298,
+   "category": "language-literature",
+   "question": "من العالم اللي وضع علم العروض، وألّف «العين» أول معجم عربي؟",
+   "clues": [
+    "سمّى معجمه «العين» لأنه بدأه بحرف العين.",
+    "أستاذ سيبويه.",
+    "صاحب فكرة «الجذر» وتقليب الكلمات."
+   ],
+   "answer": "الفراهيدي",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.ajnet.me/opinions/2022/10/21/ذكاءات-الخليل-بن-أحمد-الفراهيدي",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 299,
+   "category": "language-literature",
+   "question": "من المؤرخ صاحب «المقدمة»، اللي يُعدّ مؤسس علم الاجتماع؟",
+   "clues": [
+    "سمّى علمه الجديد «علم العمران البشري».",
+    "مقدمته في الأصل جزء من كتابه «العبر».",
+    "قسّم مقدمته ستة أبواب."
+   ],
+   "answer": "ابن خلدون",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/ابن_خلدون_وعلم_الاجتماع",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 300,
+   "category": "arabic-poetry",
+   "question": "من الشاعر الأموي اللي تبادل «النقائض» مع جرير خمساً وأربعين سنة؟",
+   "clues": [
+    "هو وجرير والأخطل شعراء العصر الأموي الثلاثة الكبار.",
+    "النقيضة قصيدة يرد بها الشاعر على خصمه بنفس الوزن والقافية.",
+    "فضّله عمرو بن العلاء على جرير."
+   ],
+   "answer": "الفرزدق",
+   "accepted": [
+    "فرزدق"
+   ],
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://arabicpost.net/%d8%ab%d9%82%d8%a7%d9%81%d8%a9/2023/08/23/%d8%ac%d8%b1%d9%8a%d8%b1-%d9%88%d8%a7%d9%84%d9%81%d8%b1%d8%b2%d8%af%d9%82/",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 301,
+   "category": "arabic-poetry",
+   "question": "من الشاعر العذري الملقّب بـ«مجنون ليلى»؟",
+   "clues": [
+    "أحب ابنة عمه ليلى العامرية، ورفض أهلها تزويجه.",
+    "هام في الصحاري بعد ما زوّجوها غيره.",
+    "شكّك طه حسين في وجوده أصلاً."
+   ],
+   "answer": "قيس بن الملوح",
+   "accepted": [
+    "قيس"
+   ],
+   "letter": "ق",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://adabworld.com/poets/qays-ibn-al-mulawwah",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 302,
+   "category": "seerah",
+   "question": "ما اسم المدينة المنورة قبل الهجرة؟",
+   "clues": [
+    "ورد الاسم في القرآن: «يا أهل ...».",
+    "سمّاها النبي ﷺ «طيبة» و«طابة».",
+    "قيل إن اسمها القديم من «التثريب»، وهو اللوم."
+   ],
+   "answer": "يثرب",
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://islamqa.info/ar/answers/228126",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 303,
+   "category": "history",
+   "question": "ما المعركة اللي هزم فيها المسلمون الروم بقيادة خالد بن الوليد، وفتحت لهم بلاد الشام؟",
+   "clues": [
+    "تنازل أبو عبيدة بن الجراح عن القيادة لخالد.",
+    "نظّم خالد الجيش فيها على هيئة «كراديس».",
+    "دامت ستة أيام، واستشهد فيها عكرمة بن أبي جهل."
+   ],
+   "answer": "اليرموك",
+   "accepted": [
+    "يرموك"
+   ],
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.worldhistory.org/trans/ar/2-1563/",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 304,
+   "category": "titles-nicknames",
+   "question": "من الصحابي الفارس الشاعر، أخو خولة بنت الأزور؟",
+   "clues": [
+    "من بني أسد، وكنيته أبو الأزور.",
+    "شارك في فتح دمشق مع خالد بن الوليد.",
+    "وقع أسيراً عند الروم ثم حرّره المسلمون."
+   ],
+   "answer": "ضرار بن الأزور",
+   "accepted": [
+    "ضرار"
+   ],
+   "letter": "ض",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://sabq.org/saudia/p9mxv3",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 305,
+   "category": "islamic",
+   "question": "ما الصلاة اللي يدخل وقتها بزوال الشمس عن وسط السماء؟",
+   "clues": [
+    "أربع ركعات، والقراءة فيها سرّية.",
+    "يمتد وقتها حتى بداية وقت العصر.",
+    "يوم الجمعة تحلّ محلها صلاة الجمعة لمن صلّاها في المسجد."
+   ],
+   "answer": "الظهر",
+   "accepted": [
+    "ظهر"
+   ],
+   "letter": "ظ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/كم_عدد_ركعات_صلاة_الظهر",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 306,
+   "category": "gulf-series",
+   "question": "ما المسلسل السعودي اللي يحكي تحولات الرياض من السبعينات عن طريق عائلة «الطيّان»؟",
+   "clues": [
+    "بطله ناصر القصبي بدور «خالد».",
+    "كتبه عبدالرحمن الوابلي وأخرجه المثنى صبح.",
+    "جزؤه الثاني ينتهي بحادثة اقتحام الحرم."
+   ],
+   "answer": "العاصوف",
+   "accepted": [
+    "عاصوف"
+   ],
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://saudipedia.com/%D9%85%D8%B3%D9%84%D8%B3%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%88%D9%81",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 307,
+   "category": "gulf-series",
+   "question": "ما الثلاثية الدرامية الكويتية اللي جزؤها الثالث «وطن النهار» عن أيام الغزو؟",
+   "clues": [
+    "كتبها فهد العليوة وأخرجها محمد دحام الشمري.",
+    "أحداثها تبدأ في السبعينات مع ثلاث عائلات.",
+    "عُرضت ثلاث سنوات ورا بعض في رمضان."
+   ],
+   "answer": "ساهر الليل",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://al-ain.com/article/mohammed-daham-alshamri-saudi-director",
+   "verified_at": "2026-11-12",
+   "review_note": null
   }
  ]
 }
