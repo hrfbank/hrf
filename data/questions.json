@@ -5988,6 +5988,111 @@
    "source": "https://www.britannica.com/biography/William-Shakespeare/Theatrical-conditions",
    "verified_at": "2026-11-12",
    "review_note": null
+  },
+  {
+   "id": 320,
+   "category": "quran",
+   "question": "ما أطول سورة في القرآن الكريم؟",
+   "clues": [
+    "فيها أطول آية في القرآن، آية الدَّين.",
+    "فيها آية الكرسي.",
+    "تُلقّب «فسطاط القرآن»."
+   ],
+   "answer": "البقرة",
+   "accepted": [
+    "بقرة"
+   ],
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/اطول_سورة_في_القران",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 321,
+   "category": "quran",
+   "question": "ما السورة اللي تكررت فيها آية «فبأيّ آلاء ربكما تكذّبان» إحدى وثلاثين مرة؟",
+   "clues": [
+    "عدد آياتها ٧٨.",
+    "التكرار فيها للتنبيه على شكر النعم.",
+    "اسمها اسم من أسماء الله الحسنى."
+   ],
+   "answer": "الرحمن",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://areq.net/m/سورة_الرحمن.html",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 322,
+   "category": "prophets",
+   "question": "من النبي اللي يُضرب بصبره المثل، ودعا ربه: «أنّي مسّني الضرّ وأنت أرحم الراحمين»؟",
+   "clues": [
+    "ابتُلي في جسده وأهله وماله.",
+    "عرض حاله على ربه بأدب، وما طلب رفع البلاء صراحة.",
+    "دعاؤه في سورة الأنبياء، وقصته كذلك في سورة ص."
+   ],
+   "answer": "أيوب",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://quran.ksu.edu.sa/tafseer/ibn-katheer-baghawy-saadi/sura21-aya83.html",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 323,
+   "category": "prophets",
+   "question": "من النبي اللي كسّر أصنام قومه، فألقوه في النار فكانت عليه برداً وسلاماً؟",
+   "clues": [
+    "قال حين أُلقي: «حسبي الله ونعم الوكيل».",
+    "يلقّبونه «أبو الأنبياء» و«خليل الله».",
+    "ما بُعث نبي بعده إلا من نسله."
+   ],
+   "answer": "إبراهيم",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://islamqa.info/ar/categories/very-important/123?page=2",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 324,
+   "category": "proverbs-riddles",
+   "question": "ما الاسم اللي يكمل المثل: «رجع بخُفَّي ...»، اللي يُضرب لمن خاب سعيه؟",
+   "clues": [
+    "صاحب الاسم إسكافي من الحيرة.",
+    "ساومه أعرابي على خُفّين وما اشترى، فانتقم منه بحيلة.",
+    "رمى له الخفّين متفرقين في الطريق، وسرق بعيره."
+   ],
+   "answer": "حنين",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://sabq.org/saudia/smgjvn",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 325,
+   "category": "proverbs-riddles",
+   "question": "من المهندس اللي يُضرب به المثل لمن يُجازى على الإحسان بالإساءة، فيقال: «جزاء ...»؟",
+   "clues": [
+    "بنى للملك النعمان قصر «الخورنق».",
+    "كان جزاؤه أن أُلقي من أعلى القصر.",
+    "خاف الملك أن يبني لغيره قصراً مثله."
+   ],
+   "answer": "سنمار",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D8%B3%D9%86%D9%85%D8%A7%D8%B1",
+   "verified_at": "2026-11-12",
+   "review_note": null
   }
  ]
 }
