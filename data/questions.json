@@ -5764,6 +5764,230 @@
    "source": "https://al-ain.com/article/mohammed-daham-alshamri-saudi-director",
    "verified_at": "2026-11-12",
    "review_note": null
+  },
+  {
+   "id": 308,
+   "category": "products",
+   "question": "أي ماركة ساعات سويسرية فاخرة شعارها تاج بخمسة رؤوس؟",
+   "clues": [
+    "أسسها هانز ويلسدورف وعمره ٢٤ سنة.",
+    "كان اسم الشركة أول شي «ويلسدورف وديفيس».",
+    "يقال إن رؤوس التاج الخمسة بعدد حروف اسمها بالإنجليزي."
+   ],
+   "answer": "رولكس",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.britannica.com/topic/Rolex",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 309,
+   "category": "products",
+   "question": "أي شركة كورية عملاقة بدأت متجراً للأغذية يبيع السمك المجفف والنودلز، واسمها يعني «ثلاث نجوم»؟",
+   "clues": [
+    "أسسها لي بيونغ تشول في مدينة دايغو.",
+    "ما دخلت الإلكترونيات إلا بعد ثلاثين سنة تقريباً من تأسيسها.",
+    "كانت تصدّر بضاعتها أول شي إلى منشوريا وبكين."
+   ],
+   "answer": "سامسونج",
+   "accepted": [
+    "سامسونغ"
+   ],
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.britannica.com/money/Samsung-Electronics",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 310,
+   "category": "products",
+   "question": "ما الشراب البريطاني الأحمر اللي صار من ثوابت سفرة الفطور في رمضان عند أهل الخليج؟",
+   "clues": [
+    "بدأ «مقوّياً عشبياً» يعطي شاربه الحيوية.",
+    "وصل الخليج في العشرينات عن طريق شركة العوجان السعودية.",
+    "أغلب مبيعاته في المنطقة تكون قبل رمضان وخلاله."
+   ],
+   "answer": "فيمتو",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.esquireme.com/news/45945-why-vimto-became-a-ramadan-tradition-in-the-middle-east",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 311,
+   "category": "famous-places",
+   "question": "ما المنطقة الترفيهية الأشهر في موسم الرياض، اللي فيها «محمد عبده أرينا» ومنطقة ثلجية ونافورة؟",
+   "clues": [
+    "تتكوّن من تسع مناطق متنوعة.",
+    "فيها متحف لمسلسل «درب الزلق».",
+    "زارها في يوم واحد أكثر من ٢٠٠ ألف زائر."
+   ],
+   "answer": "بوليفارد رياض سيتي",
+   "accepted": [
+    "بوليفارد",
+    "البوليفارد"
+   ],
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.alraimedia.com/article/1561268/أخيرة/أخبار-منوعة/بوليفارد-رياض-سيتي-9-مناطق-غنية-بالتجارب-الترفيهية-بينها-متحف-درب-الزلق",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 312,
+   "category": "womens-accessories",
+   "question": "ما اسم غطاء الوجه الخليجي التراثي اللامع كأنه معدن، اللي يثبت على الأنف بعود رفيع يسمّى «السيف»؟",
+   "clues": [
+    "يُربط خلف الرأس بخيوط تسمّى «الشبج».",
+    "صار لبسه مقصوراً على المتزوجات وكبيرات السن.",
+    "يسمّونه كذلك «البطولة»."
+   ],
+   "answer": "البرقع",
+   "accepted": [
+    "برقع",
+    "البطولة"
+   ],
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.wam.ae/ar/article/b4df4lt-البرقع-علامة-مميزة-تجذب-زائرات-مهرجان-ليوا-للرطب",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 313,
+   "category": "general",
+   "question": "ما الجوهرة اللي تتكوّن داخل المحار لما تدخل صدفته حبة رمل؟",
+   "clues": [
+    "المحار يفرز مادة تغطي الجسم الغريب طبقة فوق طبقة.",
+    "كان الخليج أكبر مركز لإنتاجها الطبيعي في العالم.",
+    "الغوص عليها كان مهنة أهل الكويت قبل النفط."
+   ],
+   "answer": "اللؤلؤ",
+   "accepted": [
+    "لؤلؤ"
+   ],
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aletihad.ae/articleamp/62449/2010/اللؤلؤ-..-فتنة-ساحرة-تسبح-في-مياه-الخليج",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 314,
+   "category": "general",
+   "question": "ما الغاز اللي تمتصه النباتات من الجو في عملية البناء الضوئي؟",
+   "clues": [
+    "تحتاج معه النبتة ماءً وضوء شمس وكلوروفيل.",
+    "النبتة تطلق الأكسجين في المقابل.",
+    "نطلقه حنا مع الزفير."
+   ],
+   "answer": "ثاني أكسيد الكربون",
+   "letter": "ث",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://live-aab-ws2.ws.asu.edu/sites/default/files/resources/articles/photosynthesis/photosynthesis_arabic/plant-poster-45-arabic.pdf",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 315,
+   "category": "history",
+   "question": "من القائد اللي استرد القدس من الصليبيين بعد انتصاره في حطين؟",
+   "clues": [
+    "وُلد في قلعة تكريت، وأصله كردي.",
+    "سمح لأهل المدينة بالخروج، وتسامح مع فقرائهم العاجزين عن الفدية.",
+    "وحّد مصر والشام قبل المعركة."
+   ],
+   "answer": "صلاح الدين",
+   "accepted": [
+    "صلاح الدين الأيوبي"
+   ],
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.emaratalyoum.com/politics/reports-and-translation/2017-12-21-1.1054481",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 316,
+   "category": "countries-capitals",
+   "question": "ما عاصمة الولايات المتحدة، المسماة على اسم أول رئيس لها؟",
+   "clues": [
+    "ما تتبع أي ولاية، وتقع بين ميريلاند وفرجينيا.",
+    "صمّم مخططها المهندس الفرنسي بيير لانفان.",
+    "فيها البيت الأبيض ومبنى الكابيتول."
+   ],
+   "answer": "واشنطن",
+   "letter": "و",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2014/12/28/واشنطن-دي-سي",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 317,
+   "category": "countries-capitals",
+   "question": "ما عاصمة المغرب، علماً أنها ليست الدار البيضاء؟",
+   "clues": [
+    "تقع على ساحل المحيط الأطلسي.",
+    "فيها صومعة حسان اللي بناها يعقوب المنصور الموحدي وما اكتملت.",
+    "فيها قصبة الوداية وحدائقها الأندلسية."
+   ],
+   "answer": "الرباط",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2014/11/5/الرباط",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 318,
+   "category": "countries-capitals",
+   "question": "أي عاصمة أوروبية تسمّى «مدينة التلال السبعة»؟",
+   "clues": [
+    "تقول الأسطورة إن مؤسسها قتل أخاه التوأم، وإنهما رضعا من ذئبة.",
+    "أقدم آثارها على تل «بالاتين» قرب نهر التيبر.",
+    "تؤرخ الأسطورة تأسيسها بسنة ٧٥٣ قبل الميلاد."
+   ],
+   "answer": "روما",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.theculturetrip.com/europe/italy/articles/what-are-the-seven-hills-of-rome",
+   "verified_at": "2026-11-12",
+   "review_note": null
+  },
+  {
+   "id": 319,
+   "category": "language-literature",
+   "question": "من الكاتب المسرحي الإنجليزي مؤلف «هاملت» و«روميو وجولييت»؟",
+   "clues": [
+    "وُلد ومات في بلدة ستراتفورد.",
+    "كان شريكاً في ملكية مسرح «غلوب» في لندن.",
+    "من مآسيه «عطيل» و«ماكبث» و«الملك لير»."
+   ],
+   "answer": "شكسبير",
+   "accepted": [
+    "شيكسبير"
+   ],
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.britannica.com/biography/William-Shakespeare/Theatrical-conditions",
+   "verified_at": "2026-11-12",
+   "review_note": null
   }
  ]
 }
