@@ -5,3 +5,4 @@ dist
 !.env.example
 *.tsbuildinfo
 tools/images/cache/
+__pycache__/
