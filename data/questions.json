@@ -7421,6 +7421,83 @@
    "source": "https://areq.net/m/على_الدنيا_السلام_(مسلسل).html",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 399,
+   "category": "malls",
+   "question": "ما المجمع التجاري في أبوظبي اللي يتصل مباشرة بمدينة ملاهي «عالم فيراري»؟",
+   "clues": [
+    "طوّرته وتديره شركة الدار العقارية.",
+    "فيه أكثر من ٣٧٠ محلاً.",
+    "يحمل اسم الجزيرة اللي فيها حلبة الفورمولا ١."
+   ],
+   "answer": "ياس مول",
+   "letter": "ي",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://yasmarinacircuit.com/en/aboutus/discover-yas-island/yas-mall",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 400,
+   "category": "kuwait-regions",
+   "question": "أي منطقة في محافظة العاصمة فيها أكبر ميناء تجاري في الكويت، ومنطقة صناعية مشهورة بكراجات تصليح السيارات؟",
+   "clues": [
+    "فيها مناطق تجارية وتعليمية وصحية تحمل اسمها.",
+    "المنطقة الصناعية فيها مقسّمة لثلاث قطع.",
+    "فيها محطة كهرباء وتقطير مياه تخدم مدينة الكويت."
+   ],
+   "answer": "الشويخ",
+   "accepted": [
+    "شويخ"
+   ],
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Shuwaikh_Industrial_Area",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 401,
+   "category": "language-literature",
+   "question": "ما الحركة اللي هي علامة الجر الأصلية في اللغة العربية؟",
+   "clues": [
+    "تنوب عنها الياء في المثنى وجمع المذكر السالم.",
+    "تنوب عنها الفتحة في الاسم الممنوع من الصرف.",
+    "تظهر تحت آخر الاسم بعد حرف الجر."
+   ],
+   "answer": "الكسرة",
+   "accepted": [
+    "كسرة"
+   ],
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D8%AC%D8%B1_(%D9%86%D8%AD%D9%88)",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 402,
+   "category": "arabic-poetry",
+   "question": "ما الاسم اللي يُطلق على القصائد الجاهلية الطوال المشهورة، ويقال إنها كُتبت بماء الذهب وعُلّقت على الكعبة؟",
+   "clues": [
+    "يقال إن حماد الراوية أول من جمعها.",
+    "من أصحابها امرؤ القيس وزهير ولبيد وعنترة.",
+    "بعضهم يعدّها سبعاً وبعضهم عشراً."
+   ],
+   "answer": "المعلقات",
+   "accepted": [
+    "معلقات"
+   ],
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/المعلقات_في_العصر_الجاهلي",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
