@@ -10965,6 +10965,126 @@
     "license": "علامة تجارية (استخدام شخصي)",
     "source": "https://www.knpc.com"
    }
+  },
+  {
+   "id": 547,
+   "category": "logos",
+   "question": "ما هما اللونان الأساسيان في شعار بنك برقان؟",
+   "clues": [
+    "اللون الأول لون البحر.",
+    "اللون الثاني لون فاكهة."
+   ],
+   "answer": "أزرق وبرتقالي",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.wikidata.org/wiki/Property:P154",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/bc4c1a25e4_a.svg",
+    "mode": "grayscale",
+    "key": "brandcolor:burgan",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.wikidata.org/wiki/Property:P154"
+   }
+  },
+  {
+   "id": 548,
+   "category": "logos",
+   "question": "ما هما اللونان الأساسيان في شعار بنك الخليج؟",
+   "clues": [
+    "اللون الأول لون الشراع.",
+    "اللون الثاني لون الكتابة والقارب."
+   ],
+   "answer": "أحمر وأزرق",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.wikidata.org/wiki/Property:P154",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/5956d8510f_a.svg",
+    "mode": "grayscale",
+    "key": "brandcolor:gulfbank",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.wikidata.org/wiki/Property:P154"
+   }
+  },
+  {
+   "id": 549,
+   "category": "logos",
+   "question": "ما هما اللونان الأساسيان في شعار فنادق ميلينيوم؟",
+   "clues": [
+    "اللون الأول لون الأعمدة.",
+    "اللون الثاني لون الكتابة."
+   ],
+   "answer": "أحمر وأسود",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.wikidata.org/wiki/Property:P154",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/084cb1184f_a.svg",
+    "mode": "grayscale",
+    "key": "brandcolor:millennium",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.wikidata.org/wiki/Property:P154"
+   }
+  },
+  {
+   "id": 550,
+   "category": "logos",
+   "question": "ما هما اللونان الأساسيان في شعار طيران أديل؟",
+   "clues": [
+    "اللون الأول لون الكتابة.",
+    "اللون الثاني فاتح ومائل للأصفر."
+   ],
+   "answer": "بنفسجي وأخضر",
+   "letter": "ب",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.wikidata.org/wiki/Property:P154",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/7f299b2ce1_a.svg",
+    "mode": "grayscale",
+    "key": "brandcolor:Q24035331",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.wikidata.org/wiki/Property:P154"
+   }
+  },
+  {
+   "id": 551,
+   "category": "logos",
+   "question": "ما هما اللونان الأساسيان في شعار الملا للصيرفة؟",
+   "clues": [
+    "اللون الأول لون النجمة.",
+    "اللون الثاني لون الكتابة."
+   ],
+   "answer": "أخضر وأسود",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.wikidata.org/wiki/Property:P154",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/9e3e9bb47e_a.svg",
+    "mode": "grayscale",
+    "key": "brandcolor:almulla",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.wikidata.org/wiki/Property:P154"
+   }
   }
  ]
 }

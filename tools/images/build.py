@@ -462,6 +462,24 @@ def build_logo_symbols(cfg):
     return out
 
 
+def build_logo_colors(cfg):
+    """«ما هما اللونان الأساسيان في شعار ...؟»: الشعار بدون ألوان، والجواب يرجّع ألوانه.
+    يستخدم نفس ملف الشعار الكامل من مجموعة brand (ما ينكتب ملف جديد)."""
+    out = []
+    for key, name, colors, difficulty, clues in cfg["picks"]:
+        fid = file_id(f"{cfg['from']}:{key}")
+        if not os.path.exists(os.path.join(IMAGES, f"{fid}_a.svg")):
+            print(f"  ✗ {name}: شعاره مو موجود (شغّل مجموعة {cfg['from']} أول)")
+            continue
+        out.append({
+            "key": f"{cfg['key']}:{key}", "category": cfg["category"],
+            "question": cfg["question"].format(name=name),
+            "answer": colors, "letter": norm_letter(colors), "difficulty": difficulty, "clues": clues,
+            "files": {}, "image": {"file": f"images/{fid}_a.svg", "mode": "grayscale"},
+        })
+    return out
+
+
 def build_celebrities(cfg):
     sys.path.insert(0, HERE)
     import photos  # يحتاج mediapipe (انظر photos.py)
@@ -470,7 +488,7 @@ def build_celebrities(cfg):
 
 KINDS = {"kuwait_area_shape": build_kuwait_areas, "country_shape": build_countries, "flag": build_flags,
          "celebrity_eyes": build_celebrities, "logo": build_logos,
-         "logo_symbol": build_logo_symbols}
+         "logo_symbol": build_logo_symbols, "logo_colors": build_logo_colors}
 
 
 def main():
