@@ -426,10 +426,20 @@ def build_logo_symbols(cfg):
     for pick in cfg["picks"]:
         key, answer, difficulty, url, rect = pick[:5]
         clues = pick[5] if len(pick) > 5 else []
+        # rect: [x,y,w,h] للقص، أو {"crop": [...], "masks": [[x,y,w,h], ...], "bg": "#fff"}
+        # masks = مستطيلات تنشال (تتعبى بلون الخلفية) لما الاسم داخل الرمز نفسه، مثل Dole
+        masks, bg = [], "#ffffff"
+        if isinstance(rect, dict):
+            masks, bg = rect.get("masks", []), rect.get("bg", "#ffffff")
+            rect = rect.get("crop", [0, 0, 1, 1])
         data = fetch(url)
         mime, (vx, vy, vw, vh) = _intrinsic(data, url)
         href = f"data:{mime};base64,{base64.b64encode(data).decode()}"
         img = f'<image href="{href}" x="{vx}" y="{vy}" width="{vw}" height="{vh}" preserveAspectRatio="none"/>'
+
+        cover = "".join(
+            f'<rect x="{vx + mx * vw:.2f}" y="{vy + my * vh:.2f}" width="{mw * vw:.2f}" height="{mh * vh:.2f}" fill="{bg}"/>'
+            for mx, my, mw, mh in masks)
 
         def frame(x, y, w, h, pad, clip=False):
             cx, cy, cw, ch = x, y, w, h
@@ -442,10 +452,10 @@ def build_logo_symbols(cfg):
             else:
                 nh = w / 1.6
                 y, h = y - (nh - h) / 2, nh
-            body = img
+            body = img + (cover if clip else "")
             if clip:  # أي شي برا مستطيل الرمز (حروف الاسم) ما يبين
                 body = (f'<defs><clipPath id="s"><rect x="{cx:.2f}" y="{cy:.2f}" width="{cw:.2f}" height="{ch:.2f}"/></clipPath></defs>'
-                        f'<g clip-path="url(#s)">{img}</g>')
+                        f'<g clip-path="url(#s)">{body}</g>')
             return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x:.2f} {y:.2f} {w:.2f} {h:.2f}" width="1600" height="1000">'
                     f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" fill="#ffffff"/>{body}</svg>')
 
