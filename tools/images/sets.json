@@ -1166,6 +1166,74 @@
       "سلسلة فنادق ومنتجعات.",
       "اسمها يعني «الألفية»."
      ]
+    ],
+    [
+     "almulla",
+     "الملا للصيرفة",
+     2,
+     "https://boot-site.pages.dev/1569cf609ad640770c77.svg",
+     [
+      0,
+      0.02,
+      0.27,
+      0.96
+     ],
+     [
+      "شركة صرافة كويتية.",
+      "تحمل اسم عائلة كويتية معروفة في التجارة."
+     ],
+     "https://www.almullaexchange.com"
+    ],
+    [
+     "burgan",
+     "برقان",
+     1,
+     "https://www.burgan.com/media/original_images/logo.svg",
+     [
+      0,
+      0,
+      0.335,
+      1
+     ],
+     [
+      "بنك كويتي.",
+      "اسمه نفس اسم حقل نفط كويتي كبير."
+     ],
+     "https://www.burgan.com"
+    ],
+    [
+     "gulfbank",
+     "بنك الخليج",
+     2,
+     "https://www.gulfbank.com.kw/static/images/gbk_logo.svg",
+     [
+      0,
+      0,
+      0.265,
+      1
+     ],
+     [
+      "بنك كويتي.",
+      "رمزه سفينة شراعية."
+     ],
+     "https://www.gulfbank.com.kw"
+    ],
+    [
+     "knpc",
+     "البترول الوطنية",
+     2,
+     "https://www.knpc.com/en-us/assets/images/logo-color.svg",
+     [
+      0,
+      0,
+      1,
+      0.7
+     ],
+     [
+      "شركة نفط كويتية تملك المصافي.",
+      "تابعة لمؤسسة البترول الكويتية."
+     ],
+     "https://www.knpc.com"
     ]
    ],
    "credit": "الشعار لصاحبه",

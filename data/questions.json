@@ -10865,6 +10865,106 @@
     "license": "علامة تجارية (استخدام شخصي)",
     "source": "https://www.millenniumhotels.com/mhb-media/static-files/assets/img/mhr-logo-20221205.svg?rev=2e52b5a8e2da47c79cc92d710e3b4782&hash=CFE6DD858412A7EF7F1D88556D4AEE5C"
    }
+  },
+  {
+   "id": 543,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة صرافة كويتية.",
+    "تحمل اسم عائلة كويتية معروفة في التجارة."
+   ],
+   "answer": "الملا للصيرفة",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.almullaexchange.com",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/9e3e9bb47e_a.svg",
+    "question_file": "images/9e3e9bb47e_q.svg",
+    "mode": "mask",
+    "key": "brand:almulla",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.almullaexchange.com"
+   }
+  },
+  {
+   "id": 544,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "بنك كويتي.",
+    "اسمه نفس اسم حقل نفط كويتي كبير."
+   ],
+   "answer": "برقان",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.burgan.com",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/bc4c1a25e4_a.svg",
+    "question_file": "images/bc4c1a25e4_q.svg",
+    "mode": "mask",
+    "key": "brand:burgan",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.burgan.com"
+   }
+  },
+  {
+   "id": 545,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "بنك كويتي.",
+    "رمزه سفينة شراعية."
+   ],
+   "answer": "بنك الخليج",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.gulfbank.com.kw",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/5956d8510f_a.svg",
+    "question_file": "images/5956d8510f_q.svg",
+    "mode": "mask",
+    "key": "brand:gulfbank",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.gulfbank.com.kw"
+   }
+  },
+  {
+   "id": 546,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة نفط كويتية تملك المصافي.",
+    "تابعة لمؤسسة البترول الكويتية."
+   ],
+   "answer": "البترول الوطنية",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.knpc.com",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/454d445d78_a.svg",
+    "question_file": "images/454d445d78_q.svg",
+    "mode": "mask",
+    "key": "brand:knpc",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.knpc.com"
+   }
   }
  ]
 }
