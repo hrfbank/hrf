@@ -175,9 +175,12 @@ def biggest(names, size_of, exclude=()):
     return max(names, key=size_of) if names else None
 
 
-def write_image(name: str, content: str) -> str:
+def write_image(name: str, content) -> str:
     os.makedirs(IMAGES, exist_ok=True)
-    open(os.path.join(IMAGES, name), "w", encoding="utf-8").write(content)
+    if isinstance(content, bytes):
+        open(os.path.join(IMAGES, name), "wb").write(content)
+    else:
+        open(os.path.join(IMAGES, name), "w", encoding="utf-8").write(content)
     return f"images/{name}"
 
 
@@ -364,7 +367,48 @@ def build_flags(cfg):
     return out
 
 
-KINDS = {"kuwait_area_shape": build_kuwait_areas, "country_shape": build_countries, "flag": build_flags}
+def build_logos(cfg):
+    """شعارات من simple-icons (npm). السؤال: جزء من الشعار (crop) أو الشعار بدون ألوان (grayscale)"""
+    import io
+    import tarfile
+    tgz = fetch(cfg["package_url"])
+    tar = tarfile.open(fileobj=io.BytesIO(tgz))
+    meta = json.loads(tar.extractfile("package/data/simple-icons.json").read())
+    icons = meta if isinstance(meta, list) else meta["icons"]
+    hexes = {}
+    for i in icons:
+        slug = i.get("slug") or re.sub(r"[^a-z0-9]", "", i["title"].lower())
+        hexes[slug] = i["hex"]
+    out = []
+    for pick in cfg["picks"]:
+        slug, answer, category, difficulty, mode = pick[:5]
+        raw = tar.extractfile(f"package/icons/{slug}.svg").read().decode()
+        path = re.search(r'<path d="([^"]+)"', raw).group(1)
+        color = "#" + hexes.get(slug, "14202b")
+        # ٢٤×٢٤ ← لوحة ٨٠٠×٨٠٠ بهامش
+        body = f'<rect width="800" height="800" fill="#ffffff"/><g transform="translate(130 130) scale(22.5)"><path d="{path}" fill="{color}"/></g>'
+        fid = file_id(f"{cfg['key']}:{slug}")
+        image = {"file": f"images/{fid}_a.svg", "mode": mode}
+        if mode == "crop":
+            x, y, w = pick[5] if len(pick) > 5 else (0.3, 0.32, 0.4)
+            image["crop"] = {"x": x, "y": y, "w": w, "h": round(w * 0.625, 4)}
+        out.append({
+            "key": f"{cfg['key']}:{slug}", "category": category, "question": cfg["questions"][category],
+            "answer": answer, "letter": norm_letter(answer), "difficulty": difficulty,
+            "clues": pick[6] if len(pick) > 6 else [],
+            "files": {f"{fid}_a.svg": svg(body)}, "image": image,
+        })
+    return out
+
+
+def build_celebrities(cfg):
+    sys.path.insert(0, HERE)
+    import photos  # يحتاج mediapipe (انظر photos.py)
+    return photos.build_celebs(cfg, file_id, norm_letter)
+
+
+KINDS = {"kuwait_area_shape": build_kuwait_areas, "country_shape": build_countries, "flag": build_flags,
+         "celebrity_eyes": build_celebrities, "logo": build_logos}
 
 
 def main():
@@ -381,12 +425,15 @@ def main():
         for item in KINDS[cfg["kind"]](cfg):
             for name, content in item["files"].items():
                 write_image(name, content)
-            image = {**item["image"], "key": item["key"], "credit": cfg["credit"], "license": cfg["license"], "source": cfg["source_url"]}
+            image = {**item["image"], "key": item["key"], "credit": item.get("credit", cfg.get("credit")),
+                     "license": item.get("license", cfg.get("license")), "source": item.get("source", cfg.get("source_url"))}
+            if item.get("license_url"):
+                image["license_url"] = item["license_url"]
             q = by_key.get(item["key"])
             fields = {
                 "category": item["category"], "question": item["question"], "clues": item["clues"],
                 "answer": item["answer"], "letter": item["letter"], "difficulty": item["difficulty"],
-                "source": cfg["source_url"], "image": image,
+                "source": item.get("source", cfg.get("source_url")), "image": image,
             }
             if q:
                 if q["status"] == "pending":

@@ -9887,6 +9887,726 @@
     "license": "MIT",
     "source": "https://github.com/lipis/flag-icons"
    }
+  },
+  {
+   "id": 505,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات يابانية.",
+    "من سياراتها لاندكروزر وكامري."
+   ],
+   "answer": "تويوتا",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/c378c51554_a.svg",
+    "mode": "grayscale",
+    "key": "logo:toyota",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 506,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات ألمانية.",
+    "شعارها حلقات متشابكة."
+   ],
+   "answer": "أودي",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/6e3bed9dd7_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.22,
+     "y": 0.38,
+     "w": 0.32,
+     "h": 0.2
+    },
+    "key": "logo:audi",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 507,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات رياضية إيطالية.",
+    "لونها المشهور الأحمر."
+   ],
+   "answer": "فيراري",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/615f8bd52c_a.svg",
+    "mode": "grayscale",
+    "key": "logo:ferrari",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 508,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات رياضية إيطالية.",
+    "شعارها حيوان هائج."
+   ],
+   "answer": "لامبورغيني",
+   "letter": "ل",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/0cb262e6f5_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.3,
+     "y": 0.25,
+     "w": 0.4,
+     "h": 0.25
+    },
+    "key": "logo:lamborghini",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 509,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات أمريكية.",
+    "من سياراتها تاهو وكابريس."
+   ],
+   "answer": "شيفروليه",
+   "letter": "ش",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/67d96bb1e3_a.svg",
+    "mode": "grayscale",
+    "key": "logo:chevrolet",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 510,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات يابانية.",
+    "من سياراتها باجيرو ولانسر."
+   ],
+   "answer": "ميتسوبيشي",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/e652769efa_a.svg",
+    "mode": "grayscale",
+    "key": "logo:mitsubishi",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 511,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات أمريكية فاخرة.",
+    "من سياراتها إسكاليد."
+   ],
+   "answer": "كاديلاك",
+   "letter": "ك",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/3fba5a1bf6_a.svg",
+    "mode": "grayscale",
+    "key": "logo:cadillac",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 512,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات إيطالية فاخرة.",
+    "شعارها رمح بثلاث شعب."
+   ],
+   "answer": "مازيراتي",
+   "letter": "م",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/5fda246b11_a.svg",
+    "mode": "grayscale",
+    "key": "logo:maserati",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 513,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات يابانية.",
+    "نجوم شعارها من مجموعة الثريا."
+   ],
+   "answer": "سوبارو",
+   "letter": "س",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/2349f9a0f0_a.svg",
+    "mode": "grayscale",
+    "key": "logo:subaru",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 514,
+   "category": "cars",
+   "question": "شعار أي شركة سيارات هذا؟",
+   "clues": [
+    "شركة سيارات فرنسية.",
+    "شعارها على شكل معيّن."
+   ],
+   "answer": "رينو",
+   "letter": "ر",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/33099eaa0e_a.svg",
+    "mode": "grayscale",
+    "key": "logo:renault",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 515,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "تطبيق محادثات.",
+    "تملكه شركة ميتا."
+   ],
+   "answer": "واتساب",
+   "letter": "و",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/a80abf052e_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.25,
+     "y": 0.25,
+     "w": 0.5,
+     "h": 0.3125
+    },
+    "key": "logo:whatsapp",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 516,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "تطبيق صور وقصص تختفي.",
+    "شعاره شبح."
+   ],
+   "answer": "سناب شات",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/47e5e5fce1_a.svg",
+    "mode": "grayscale",
+    "key": "logo:snapchat",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 517,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "تطبيق صور وفيديو.",
+    "تملكه شركة ميتا."
+   ],
+   "answer": "إنستغرام",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/0570035f40_a.svg",
+    "mode": "grayscale",
+    "key": "logo:instagram",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 518,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "تطبيق فيديوهات قصيرة.",
+    "شركته الأم صينية."
+   ],
+   "answer": "تيك توك",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/01d0378a42_a.svg",
+    "mode": "grayscale",
+    "key": "logo:tiktok",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 519,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "موقع فيديوهات.",
+    "تملكه جوجل."
+   ],
+   "answer": "يوتيوب",
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/11901ccfdc_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.3,
+     "y": 0.38,
+     "w": 0.4,
+     "h": 0.25
+    },
+    "key": "logo:youtube",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 520,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "تطبيق موسيقى وبودكاست.",
+    "شركته سويدية."
+   ],
+   "answer": "سبوتيفاي",
+   "letter": "س",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/c3e006e6d7_a.svg",
+    "mode": "grayscale",
+    "key": "logo:spotify",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 521,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "تطبيق محادثات.",
+    "شعاره طيارة ورق."
+   ],
+   "answer": "تيليجرام",
+   "letter": "ت",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d986ec2785_a.svg",
+    "mode": "grayscale",
+    "key": "logo:telegram",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 522,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "شركة أمريكية تصنع الآيفون.",
+    "شعارها فاكهة مقضومة."
+   ],
+   "answer": "أبل",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/07412fe581_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.38,
+     "y": 0.15,
+     "w": 0.3,
+     "h": 0.1875
+    },
+    "key": "logo:apple",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 523,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "جهاز ألعاب.",
+    "تصنعه شركة سوني اليابانية."
+   ],
+   "answer": "بلايستيشن",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/ddded89e0e_a.svg",
+    "mode": "grayscale",
+    "key": "logo:playstation",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 524,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "شركة هواتف واتصالات.",
+    "شركة صينية."
+   ],
+   "answer": "هواوي",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d66f0a1927_a.svg",
+    "mode": "grayscale",
+    "key": "logo:huawei",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 525,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "ماركة رياضية أمريكية.",
+    "اسمها اسم إلهة النصر عند الإغريق."
+   ],
+   "answer": "نايكي",
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/dcc88aee98_a.svg",
+    "mode": "grayscale",
+    "key": "logo:nike",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 526,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "ماركة رياضية ألمانية.",
+    "شعارها ثلاث خطوط."
+   ],
+   "answer": "أديداس",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/262eabdd19_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.45,
+     "y": 0.3,
+     "w": 0.4,
+     "h": 0.25
+    },
+    "key": "logo:adidas",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 527,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "ماركة رياضية ألمانية.",
+    "شعارها حيوان من فصيلة القطط."
+   ],
+   "answer": "بوما",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/e6e852483a_a.svg",
+    "mode": "grayscale",
+    "key": "logo:puma",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 528,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "مشروب طاقة.",
+    "شركته نمساوية."
+   ],
+   "answer": "ريد بول",
+   "letter": "ر",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/7c904324eb_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.08,
+     "y": 0.32,
+     "w": 0.4,
+     "h": 0.25
+    },
+    "key": "logo:redbull",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 529,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "شركة نفط وبنزين.",
+    "شعارها صدفة بحرية."
+   ],
+   "answer": "شل",
+   "letter": "ش",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/3d5f196ab7_a.svg",
+    "mode": "grayscale",
+    "key": "logo:shell",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 530,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "شركة بطاقات دفع.",
+    "شعارها دائرتين متداخلتين."
+   ],
+   "answer": "ماستركارد",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/98bb361f63_a.svg",
+    "mode": "grayscale",
+    "key": "logo:mastercard",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 531,
+   "category": "products",
+   "question": "شعار أي ماركة أو تطبيق هذا؟",
+   "clues": [
+    "تطبيق لحجز السكن عند الناس.",
+    "شركة أمريكية."
+   ],
+   "answer": "إيربنب",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/509b21e751_a.svg",
+    "mode": "grayscale",
+    "key": "logo:airbnb",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 532,
+   "category": "restaurants",
+   "question": "شعار أي مطعم أو مقهى هذا؟",
+   "clues": [
+    "سلسلة مقاهٍ أمريكية.",
+    "شعارها حورية بحر."
+   ],
+   "answer": "ستاربكس",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://simpleicons.org/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/7812fcb984_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.34,
+     "y": 0.3,
+     "w": 0.32,
+     "h": 0.2
+    },
+    "key": "logo:starbucks",
+    "credit": "Simple Icons",
+    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
+    "source": "https://simpleicons.org/"
+   }
   }
  ]
 }
