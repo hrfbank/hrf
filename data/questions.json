@@ -11335,6 +11335,56 @@
     "license": "علامة تجارية (استخدام شخصي)",
     "source": "https://cdn.worldvectorlogo.com/logos/rolex.svg"
    }
+  },
+  {
+   "id": 563,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "تطبيق توصيل ومشاوير.",
+    "بدأ من دبي، والحين تابع لأوبر."
+   ],
+   "answer": "كريم",
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.careem.com",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d79a650466_a.svg",
+    "question_file": "images/d79a650466_q.svg",
+    "mode": "mask",
+    "key": "brand:careem",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.careem.com"
+   }
+  },
+  {
+   "id": 564,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة لوجستيات ومخازن كويتية.",
+    "رمزها تنين."
+   ],
+   "answer": "أجيليتي",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.agility.com",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/50bf2470aa_a.svg",
+    "question_file": "images/50bf2470aa_q.svg",
+    "mode": "mask",
+    "key": "brand:agility",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.agility.com"
+   }
   }
  ]
 }
