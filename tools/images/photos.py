@@ -79,15 +79,58 @@ def eyes_crop(img: Image.Image, det, level: str):
     return {"x": round(x / W, 4), "y": round(y / H, 4), "w": round(w / W, 4), "h": round(h / H, 4)}, None
 
 
+def _openverse(name: str) -> list[dict]:
+    """صور مرخصة ترخيص مفتوح من Openverse (تجمع Flickr و Wikimedia وغيرها)"""
+    import json
+    import urllib.parse
+    url = "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode({"q": name, "page_size": 30})
+    try:
+        res = json.loads(wiki._get(url)).get("results", [])
+    except Exception as e:  # noqa: BLE001
+        print(f"    Openverse ما رد: {e}")
+        return []
+    tokens = [t.lower() for t in name.replace("-", " ").split() if len(t) > 3]
+    out = []
+    for r in res:
+        title = (r.get("title") or "").lower().replace("-", " ").replace("_", " ")
+        if tokens and not any(t in title for t in tokens):
+            continue  # غالباً شخص ثاني
+        if min(r.get("width") or 0, r.get("height") or 0) < 800:
+            continue
+        lic = r.get("license", "")
+        name_l = {"cc0": "CC0", "pdm": "Public domain"}.get(lic, f"CC {lic.upper()} {r.get('license_version') or ''}".strip())
+        out.append({"url": r["url"], "width": r["width"], "height": r["height"], "author": r.get("creator") or "غير مذكور",
+                    "license": name_l, "license_url": r.get("license_url") or "", "page": r.get("foreign_landing_url") or r["url"]})
+    return sorted(out, key=lambda c: -min(c["width"], c["height"]))
+
+
+def _candidates(r: dict, en: str) -> list[dict]:
+    """كل الصور المرشحة لمشهور: صورة Wikidata الرئيسية ثم نتائج Openverse، الأكبر أول"""
+    cands = []
+    if r.get("img"):
+        try:
+            ii = wiki.image_info(wiki.file_title(r["img"]))
+            if ii and min(ii["width"], ii["height"]) >= 800:
+                cands.append({"url": ii["original"], "width": ii["width"], "height": ii["height"], "author": ii["author"],
+                              "license": ii["license"], "license_url": ii["license_url"], "page": ii["page"]})
+        except Exception as e:  # noqa: BLE001
+            print(f"    Commons ما رد: {e}")
+    if en:
+        seen = {c["url"] for c in cands}
+        cands += [c for c in _openverse(en) if c["url"] not in seen][:6]
+    return cands
+
+
 def build_celebs(cfg, file_id, norm_letter):
     qids = [p[0] for p in cfg["picks"]]
-    rows = wiki.sparql("""SELECT ?p ?img ?g (GROUP_CONCAT(DISTINCT ?occL; separator="، ") AS ?occs)
+    rows = wiki.sparql("""SELECT ?p ?img ?g ?en (GROUP_CONCAT(DISTINCT ?occL; separator="، ") AS ?occs)
       (SAMPLE(?ctryL) AS ?ctry) WHERE {
       VALUES ?p { %s }
-      ?p wdt:P18 ?img. OPTIONAL { ?p wdt:P21 ?g }
+      OPTIONAL { ?p wdt:P18 ?img } OPTIONAL { ?p wdt:P21 ?g }
+      OPTIONAL { ?p rdfs:label ?en FILTER(lang(?en)="en") }
       OPTIONAL { ?p wdt:P106 ?o. ?o rdfs:label ?occL FILTER(lang(?occL)="ar") }
       OPTIONAL { ?p wdt:P27 ?c. ?c rdfs:label ?ctryL FILTER(lang(?ctryL)="ar") }
-    } GROUP BY ?p ?img ?g""" % " ".join(f"wd:{q}" for q in qids))
+    } GROUP BY ?p ?img ?g ?en""" % " ".join(f"wd:{q}" for q in qids))
     info = {}
     for r in rows:
         info.setdefault(wiki.qid(r["p"]), r)
@@ -98,19 +141,25 @@ def build_celebs(cfg, file_id, norm_letter):
         level = {1: "easy", 2: "medium", 3: "hard"}[difficulty]
         r = info.get(qid)
         if not r:
-            print(f"  ✗ {answer}: ما فيه صورة في Wikidata")
+            print(f"  ✗ {answer}: ما لقيته في Wikidata")
             continue
-        title = pick[3] if len(pick) > 3 else wiki.file_title(r["img"])
-        ii = wiki.image_info(title)
-        if not ii or min(ii["width"], ii["height"]) < 800:
-            print(f"  ✗ {answer}: الصورة صغيرة أو ناقصة")
+        chosen, reasons = None, []
+        for c in _candidates(r, r.get("en", "")):
+            try:
+                img = Image.open(io.BytesIO(wiki.download(c["url"])))
+                img.thumbnail((1600, 1600), Image.LANCZOS)
+            except Exception as e:  # noqa: BLE001
+                reasons.append(f"تنزيل: {str(e)[:40]}")
+                continue
+            crop, why = eyes_crop(img, det, level)
+            if crop:
+                chosen = (c, img, crop)
+                break
+            reasons.append(why)
+        if not chosen:
+            print(f"  ✗ {answer}: {'، '.join(reasons) or 'ما فيه صورة كبيرة كفاية'}")
             continue
-        img = Image.open(io.BytesIO(wiki.download(ii["original"])))
-        img.thumbnail((1600, 1600), Image.LANCZOS)
-        crop, why = eyes_crop(img, det, level)
-        if not crop:
-            print(f"  ✗ {answer}: {why}")
-            continue
+        c, img, crop = chosen
         female = r.get("g", "").endswith("Q6581072")
         clues = []
         if r.get("ctry"):
@@ -129,7 +178,7 @@ def build_celebs(cfg, file_id, norm_letter):
             "clues": clues[:3],
             "files": {f"{fid}_a.webp": webp(img)},
             "image": {"file": f"images/{fid}_a.webp", "mode": "crop", "crop": crop, "wikidata": qid},
-            "credit": ii["author"], "license": ii["license"], "license_url": ii["license_url"], "source": ii["page"],
+            "credit": c["author"], "license": c["license"], "license_url": c["license_url"], "source": c["page"],
         })
         print(f"  ✓ {answer} ({level})")
     return out
