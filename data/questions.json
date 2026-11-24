@@ -6316,6 +6316,103 @@
    "source": "https://aawsat.com/node/4355391",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 338,
+   "category": "general",
+   "question": "ما الطائر اللي يفرد ذيله الملوّن مثل المروحة، وهو الطائر الوطني للهند؟",
+   "clues": [
+    "ذيل الذكر فيه نحو ٢٠٠ ريشة طويلة.",
+    "الأنثى بنية اللون وما لها ذيل طويل.",
+    "يفرد ريشه في رقصة التودد أيام التزاوج."
+   ],
+   "answer": "الطاووس",
+   "accepted": [
+    "طاووس"
+   ],
+   "letter": "ط",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://knowindia.india.gov.in/national-identity-elements/national-bird.php",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 339,
+   "category": "general",
+   "question": "ما الحيوان الثديي الوحيد القادر على الطيران الحقيقي؟",
+   "clues": [
+    "كثير من أنواعه يعتمد على الصدى عشان يعرف طريقه وأكله.",
+    "يقضي جزءاً كبيراً من حياته معلقاً رأساً على عقب.",
+    "ينام النهار في الكهوف ويطلع بالليل."
+   ],
+   "answer": "الخفاش",
+   "accepted": [
+    "خفاش"
+   ],
+   "letter": "خ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.nps.gov/pisp/learn/photosmultimedia/bats.htm",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 340,
+   "category": "kuwait",
+   "question": "ما اسم الطاقية البيضاء الصغيرة اللي يلبسها الكويتي تحت الغترة؟",
+   "clues": [
+    "تساعد الغترة إنها ما تزحلق من على الراس.",
+    "لونها أبيض دائماً إذا انلبست تحت الغترة.",
+    "اسمها الفصيح «الطاقية»."
+   ],
+   "answer": "القحفية",
+   "accepted": [
+    "قحفية"
+   ],
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.daleeeel.com/en-kw/article/10861/men-traditional-dress-in-kuwait",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 341,
+   "category": "language-literature",
+   "question": "ما الحركة اللي هي علامة الرفع الأصلية في اللغة العربية؟",
+   "clues": [
+    "تظهر على آخر المبتدأ والخبر والفاعل.",
+    "تُقدَّر على الألف في كلمة مثل «هدى».",
+    "تنوب عنها الواو في جمع المذكر السالم."
+   ],
+   "answer": "الضمة",
+   "accepted": [
+    "ضمة"
+   ],
+   "letter": "ض",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/علامات_الرفع_في_الأسماء",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 342,
+   "category": "which-country",
+   "question": "أي دولة خليجية شعارها خنجر تقليدي معقوف في غمده فوق سيفين متقاطعين؟",
+   "clues": [
+    "الشعار يظهر على علمها بجانب السارية.",
+    "الشعار بدأ شعاراً لأسرة البوسعيد الحاكمة.",
+    "الرجال يلبسون الخنجر فيها مع اللباس الوطني في المناسبات."
+   ],
+   "answer": "عمان",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.fm.gov.om/ar/about-oman/state/flag-emblem-and-national-anthem/",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
