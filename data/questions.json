@@ -6413,6 +6413,198 @@
    "source": "https://www.fm.gov.om/ar/about-oman/state/flag-emblem-and-national-anthem/",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 343,
+   "category": "kuwaiti-plays",
+   "question": "ما المسرحية الكويتية عن امرأة عادية تنقلب تصرفاتها مع أهلها ومعارفها بعد ما يتعيّن زوجها وزيراً؟",
+   "clues": [
+    "أعدّها سعد الفرج عن نص للكاتب اليوغوسلافي نوشيتش.",
+    "من أبطالها حياة الفهد وخالد النفيسي وغانم الصالح.",
+    "انعرضت في العراق باسم «حرم صاحب المعالي»."
+   ],
+   "answer": "حرم سعادة الوزير",
+   "letter": "ح",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://elcinema.com/work/1685880/",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 344,
+   "category": "kuwaiti-plays",
+   "question": "ما المسرحية الكويتية اللي يرفض فيها «أبو ناصر» الأحزاب والجماعات المتطرفة، وتدعو للوحدة الوطنية؟",
+   "clues": [
+    "كتبها سعد الفرج وعبدالأمير التركي.",
+    "عُرضت في منتصف الثمانينات.",
+    "اسمها يعني أن الوقت حان."
+   ],
+   "answer": "دقت الساعة",
+   "letter": "د",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://elcinema.com/work/1886171/",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 345,
+   "category": "kuwait",
+   "question": "ما اسم الثوب النسائي الكويتي التراثي الطويل بأكمام طويلة، المطرّز بخيوط ذهبية؟",
+   "clues": [
+    "يُصنع من القطن أو الحرير.",
+    "صار اليوم يُلبس بأطوال وقصّات مختلفة، حتى بحزام.",
+    "تُلبس مع غطاء للرأس."
+   ],
+   "answer": "الدراعة",
+   "accepted": [
+    "دراعة"
+   ],
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://kuwaittimes.com/traditional-womens-clothing-reflective-of-kuwaits-desert-sea-heritage/amp",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 346,
+   "category": "womens-accessories",
+   "question": "ما اسم غطاء الرأس التراثي اللي تلبسه البنات الصغار، ويغطي الرأس والرقبة ويُثبت تحت الذقن؟",
+   "clues": [
+    "اسمه مأخوذ من الفعل «خنق».",
+    "يُطرّز أحياناً على أطرافه.",
+    "ينزل لحد الصدر."
+   ],
+   "answer": "البخنق",
+   "accepted": [
+    "بخنق",
+    "البخنوق"
+   ],
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://thezay.org/dictionary/bukhnuq/",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 347,
+   "category": "womens-accessories",
+   "question": "ما اسم القلادة الكويتية القديمة الأغلى قيمة، اللي كانت تُهدى للعروس يوم زواجها؟",
+   "clues": [
+    "قلادة كبيرة مزيّنة بالأحجار والخرز.",
+    "ذكرها كتاب «البيت الكويتي القديم».",
+    "تُذكر مع «الخزامة» و«الحجل» و«الترشية»."
+   ],
+   "answer": "البغمة",
+   "accepted": [
+    "بغمة"
+   ],
+   "letter": "ب",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.pressreader.com/kuwait/kuwait-times/20161022/281672549478738",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 348,
+   "category": "womens-accessories",
+   "question": "ما الاسم الكويتي القديم للأقراط، اللي كانت كل امرأة كويتية تملك منها؟",
+   "clues": [
+    "تُصنع من الذهب أو الفضة.",
+    "ذكرها كتاب «البيت الكويتي القديم».",
+    "تأتي بأشكال وأسماء كثيرة."
+   ],
+   "answer": "الترشية",
+   "accepted": [
+    "ترشية"
+   ],
+   "letter": "ت",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.pressreader.com/kuwait/kuwait-times/20161022/281672549478738",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 349,
+   "category": "womens-accessories",
+   "question": "ما الاسم الكويتي القديم للخلخال اللي تزيّن به المرأة كاحلها؟",
+   "clues": [
+    "ذكره كتاب «البيت الكويتي القديم» بين حلي المرأة الكويتية.",
+    "يُلبس في الساق قرب الكعب.",
+    "تذكره المصادر مع «البغمة» و«الترشية»."
+   ],
+   "answer": "الحجل",
+   "accepted": [
+    "حجل"
+   ],
+   "letter": "ح",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.pressreader.com/kuwait/kuwait-times/20161022/281672549478738",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 350,
+   "category": "restaurants",
+   "question": "أي سلسلة مطاعم ساندويتشات بدأت بقرض ألف دولار لشاب عمره ١٧ سنة؟",
+   "clues": [
+    "أسسها فريد ديلوكا مع صديق العائلة بيتر باك.",
+    "أول فرع كان اسمه «بيتس سوبر سبمارينز».",
+    "تخلّيك تختار خبزك وحشوتك قدامك."
+   ],
+   "answer": "صب واي",
+   "accepted": [
+    "صبواي"
+   ],
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.britannica.com/money/Subway-restaurant-chain",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 351,
+   "category": "restaurants",
+   "question": "أي سلسلة مقاهٍ كندية تحمل اسم لاعب هوكي أسسها؟",
+   "clues": [
+    "تأسست في مدينة هاميلتون الكندية.",
+    "صاحب الاسم فاز بكأس ستانلي أربع مرات مع تورونتو.",
+    "تشتهر بالقهوة والدونات."
+   ],
+   "answer": "تيم هورتنز",
+   "accepted": [
+    "تيم هورتونز"
+   ],
+   "letter": "ت",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://thecanadianencyclopedia.ca/en/article/tim-hortons",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 352,
+   "category": "who-said",
+   "question": "من الشاعر الأندلسي صاحب قصيدة رثاء الأندلس اللي مطلعها: «لكلّ شيءٍ إذا ما تمَّ نقصانُ، فلا يُغَرَّ بطيبِ العيشِ إنسانُ»؟",
+   "clues": [
+    "وُلد في مدينة رَندة في الأندلس.",
+    "ذكر في قصيدته سقوط بلنسية ومرسية.",
+    "تسمّى قصيدته «النونية»."
+   ],
+   "answer": "أبو البقاء الرندي",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://e3arabi.com/literature/%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%A9-%D9%82%D8%B5%D9%8A%D8%AF%D8%A9-%D9%84%D9%83%D9%84-%D8%B4%D9%8A%D8%A1-%D8%A5%D8%B0%D8%A7-%D9%85%D8%A7-%D8%AA%D9%85-%D9%86%D9%82%D8%B5%D8%A7%D9%86-%D9%81%D9%8A/",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
