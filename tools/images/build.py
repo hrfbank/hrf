@@ -401,6 +401,67 @@ def build_logos(cfg):
     return out
 
 
+def _intrinsic(data: bytes, url: str):
+    """مقاس الشعار الأصلي: viewBox للـ SVG، والبكسلات للصور"""
+    if data.lstrip()[:5] in (b"<?xml", b"<svg ") or b"<svg" in data[:500]:
+        head = data[:4000].decode("utf-8", "ignore")
+        vb = re.search(r'viewBox="\s*([-\d.]+)[ ,]+([-\d.]+)[ ,]+([\d.]+)[ ,]+([\d.]+)', head)
+        if vb:
+            return "image/svg+xml", tuple(float(v) for v in vb.groups())
+        w = re.search(r'\swidth="([\d.]+)', head)
+        h = re.search(r'\sheight="([\d.]+)', head)
+        return "image/svg+xml", (0.0, 0.0, float(w.group(1)), float(h.group(1)))
+    import io
+    from PIL import Image
+    im = Image.open(io.BytesIO(data))
+    return f"image/{(im.format or 'png').lower()}", (0.0, 0.0, float(im.width), float(im.height))
+
+
+def build_logo_symbols(cfg):
+    """شعارات بالطريقة المعروفة: السؤال = رمز الشعار بس (بدون الاسم)، الجواب = الشعار كامل بالاسم.
+    الرمز يتحدد بمستطيل نسبي [x, y, w, h] من الشعار. الملفات SVG تلف الشعار الأصلي (بدون إعادة رسم)."""
+    import base64
+    out = []
+    for pick in cfg["picks"]:
+        key, answer, difficulty, url, rect = pick[:5]
+        clues = pick[5] if len(pick) > 5 else []
+        data = fetch(url)
+        mime, (vx, vy, vw, vh) = _intrinsic(data, url)
+        href = f"data:{mime};base64,{base64.b64encode(data).decode()}"
+        img = f'<image href="{href}" x="{vx}" y="{vy}" width="{vw}" height="{vh}" preserveAspectRatio="none"/>'
+
+        def frame(x, y, w, h, pad, clip=False):
+            cx, cy, cw, ch = x, y, w, h
+            px = max(w, h) * pad
+            x, y, w, h = x - px, y - px, w + 2 * px, h + 2 * px
+            # إطار اللعبة ١٦:١٠: نوسّع الضلع القصير عشان الشعار يبقى بالنص
+            if w / h < 1.6:
+                nw = h * 1.6
+                x, w = x - (nw - w) / 2, nw
+            else:
+                nh = w / 1.6
+                y, h = y - (nh - h) / 2, nh
+            body = img
+            if clip:  # أي شي برا مستطيل الرمز (حروف الاسم) ما يبين
+                body = (f'<defs><clipPath id="s"><rect x="{cx:.2f}" y="{cy:.2f}" width="{cw:.2f}" height="{ch:.2f}"/></clipPath></defs>'
+                        f'<g clip-path="url(#s)">{img}</g>')
+            return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{x:.2f} {y:.2f} {w:.2f} {h:.2f}" width="1600" height="1000">'
+                    f'<rect x="{x:.2f}" y="{y:.2f}" width="{w:.2f}" height="{h:.2f}" fill="#ffffff"/>{body}</svg>')
+
+        rx, ry, rw, rh = rect
+        q_svg = frame(vx + rx * vw, vy + ry * vh, rw * vw, rh * vh, 0.35, clip=True)
+        a_svg = frame(vx, vy, vw, vh, 0.12)
+        fid = file_id(f"{cfg['key']}:{key}")
+        out.append({
+            "key": f"{cfg['key']}:{key}", "category": cfg["category"], "question": cfg["question"],
+            "answer": answer, "letter": norm_letter(answer), "difficulty": difficulty, "clues": clues,
+            "files": {f"{fid}_q.svg": q_svg, f"{fid}_a.svg": a_svg},
+            "image": {"file": f"images/{fid}_a.svg", "question_file": f"images/{fid}_q.svg", "mode": "mask"},
+            "source": pick[6] if len(pick) > 6 else url,
+        })
+    return out
+
+
 def build_celebrities(cfg):
     sys.path.insert(0, HERE)
     import photos  # يحتاج mediapipe (انظر photos.py)
@@ -408,7 +469,8 @@ def build_celebrities(cfg):
 
 
 KINDS = {"kuwait_area_shape": build_kuwait_areas, "country_shape": build_countries, "flag": build_flags,
-         "celebrity_eyes": build_celebrities, "logo": build_logos}
+         "celebrity_eyes": build_celebrities, "logo": build_logos,
+         "logo_symbol": build_logo_symbols}
 
 
 def main():

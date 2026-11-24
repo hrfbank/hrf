@@ -279,6 +279,14 @@
    "sort_order": 35,
    "priority": false,
    "kind": "text"
+  },
+  {
+   "slug": "logos",
+   "name": "شعارات",
+   "description": "لمن هذا الشعار؟ رمز الشعار بدون الاسم، والجواب الشعار كامل",
+   "sort_order": 36,
+   "priority": false,
+   "kind": "image"
   }
  ],
  "questions": [
@@ -10606,6 +10614,256 @@
     "credit": "Simple Icons",
     "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
     "source": "https://simpleicons.org/"
+   }
+  },
+  {
+   "id": 533,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "بنك قطري.",
+    "يُعرف باختصار من ثلاث حروف إنجليزية."
+   ],
+   "answer": "بنك قطر الوطني",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "http://commons.wikimedia.org/wiki/Special:FilePath/QNB%20Logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/67e2823ca3_a.svg",
+    "question_file": "images/67e2823ca3_q.svg",
+    "mode": "mask",
+    "key": "brand:Q1136759",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "http://commons.wikimedia.org/wiki/Special:FilePath/QNB%20Logo.svg"
+   }
+  },
+  {
+   "id": 534,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة اتصالات كويتية.",
+    "اسمها كلمة عربية معناها جميل."
+   ],
+   "answer": "زين",
+   "letter": "ز",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Zain%20%28Unternehmen%29%20logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/f84890f7e3_a.svg",
+    "question_file": "images/f84890f7e3_q.svg",
+    "mode": "mask",
+    "key": "brand:Q144364",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Zain%20%28Unternehmen%29%20logo.svg"
+   }
+  },
+  {
+   "id": 535,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "بنك سعودي.",
+    "اختصاره بالإنجليزي SNB."
+   ],
+   "answer": "الأهلي السعودي",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Saudi%20National%20Bank%20Logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/ebb781d8e4_a.svg",
+    "question_file": "images/ebb781d8e4_q.svg",
+    "mode": "mask",
+    "key": "brand:Q1518238",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Saudi%20National%20Bank%20Logo.svg"
+   }
+  },
+  {
+   "id": 536,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة إنتاج فني وقنوات.",
+    "مقرها السعودية."
+   ],
+   "answer": "روتانا",
+   "letter": "ر",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Rotana%20Group%20Logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/b6b5f4a405_a.svg",
+    "question_file": "images/b6b5f4a405_q.svg",
+    "mode": "mask",
+    "key": "brand:Q17069901",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Rotana%20Group%20Logo.svg"
+   }
+  },
+  {
+   "id": 537,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "مصرف سعودي.",
+    "اسمه اسم عائلة مؤسسيه."
+   ],
+   "answer": "الراجحي",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Al%20Rajhi%20Bank%20Logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/9180f9ee0f_a.svg",
+    "question_file": "images/9180f9ee0f_q.svg",
+    "mode": "mask",
+    "key": "brand:Q1761176",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Al%20Rajhi%20Bank%20Logo.svg"
+   }
+  },
+  {
+   "id": 538,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة طيران سعودية اقتصادية.",
+    "تابعة للخطوط السعودية."
+   ],
+   "answer": "طيران أديل",
+   "letter": "ط",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Flyadeal%20Logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/7f299b2ce1_a.svg",
+    "question_file": "images/7f299b2ce1_q.svg",
+    "mode": "mask",
+    "key": "brand:Q24035331",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Flyadeal%20Logo.svg"
+   }
+  },
+  {
+   "id": 539,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "منصة لتداول العملات الرقمية.",
+    "من أكبر منصات البيتكوين في العالم."
+   ],
+   "answer": "بينانس",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Binance%20logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/5cc23e8637_a.svg",
+    "question_file": "images/5cc23e8637_q.svg",
+    "mode": "mask",
+    "key": "brand:Q51403327",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "http://commons.wikimedia.org/wiki/Special:FilePath/Binance%20logo.svg"
+   }
+  },
+  {
+   "id": 540,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "بنك إسلامي كويتي.",
+    "يسمونه «بيتك»."
+   ],
+   "answer": "بيت التمويل الكويتي",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.kfh.com/.resources/kfh-templates/webresources/kfh-theme/images/rebranding-2025/site-logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/71d653b041_a.svg",
+    "question_file": "images/71d653b041_q.svg",
+    "mode": "mask",
+    "key": "brand:kfh",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.kfh.com/.resources/kfh-templates/webresources/kfh-theme/images/rebranding-2025/site-logo.svg"
+   }
+  },
+  {
+   "id": 541,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "علامة كويتية.",
+    "رمزها شجرة."
+   ],
+   "answer": "أرجان بداية",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://arganbedaya.com/wp-content/uploads/thegem-logos/logo_31c788dc6602151cec350f0de4d2c94b_3x.png",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/016c57a360_a.svg",
+    "question_file": "images/016c57a360_q.svg",
+    "mode": "mask",
+    "key": "brand:argan",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://arganbedaya.com/wp-content/uploads/thegem-logos/logo_31c788dc6602151cec350f0de4d2c94b_3x.png"
+   }
+  },
+  {
+   "id": 542,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "سلسلة فنادق ومنتجعات.",
+    "اسمها يعني «الألفية»."
+   ],
+   "answer": "ميلينيوم",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.millenniumhotels.com/mhb-media/static-files/assets/img/mhr-logo-20221205.svg?rev=2e52b5a8e2da47c79cc92d710e3b4782&hash=CFE6DD858412A7EF7F1D88556D4AEE5C",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/084cb1184f_a.svg",
+    "question_file": "images/084cb1184f_q.svg",
+    "mode": "mask",
+    "key": "brand:millennium",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://www.millenniumhotels.com/mhb-media/static-files/assets/img/mhr-logo-20221205.svg?rev=2e52b5a8e2da47c79cc92d710e3b4782&hash=CFE6DD858412A7EF7F1D88556D4AEE5C"
    }
   }
  ]

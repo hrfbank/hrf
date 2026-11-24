@@ -999,6 +999,177 @@
      ]
     ]
    ]
+  },
+  {
+   "key": "brand",
+   "kind": "logo_symbol",
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "_picks": "[مفتاح، الاسم، الصعوبة، رابط الشعار، مستطيل الرمز [x,y,w,h] من ٠ إلى ١، التلميحات]",
+   "picks": [
+    [
+     "Q1136759",
+     "بنك قطر الوطني",
+     2,
+     "http://commons.wikimedia.org/wiki/Special:FilePath/QNB%20Logo.svg",
+     [
+      0,
+      0,
+      0.285,
+      1
+     ],
+     [
+      "بنك قطري.",
+      "يُعرف باختصار من ثلاث حروف إنجليزية."
+     ]
+    ],
+    [
+     "Q144364",
+     "زين",
+     1,
+     "http://commons.wikimedia.org/wiki/Special:FilePath/Zain%20%28Unternehmen%29%20logo.svg",
+     [
+      0,
+      0,
+      0.27,
+      1
+     ],
+     [
+      "شركة اتصالات كويتية.",
+      "اسمها كلمة عربية معناها جميل."
+     ]
+    ],
+    [
+     "Q1518238",
+     "الأهلي السعودي",
+     3,
+     "http://commons.wikimedia.org/wiki/Special:FilePath/Saudi%20National%20Bank%20Logo.svg",
+     [
+      0.07,
+      0,
+      0.16,
+      0.3
+     ],
+     [
+      "بنك سعودي.",
+      "اختصاره بالإنجليزي SNB."
+     ]
+    ],
+    [
+     "Q17069901",
+     "روتانا",
+     2,
+     "http://commons.wikimedia.org/wiki/Special:FilePath/Rotana%20Group%20Logo.svg",
+     [
+      0.76,
+      0,
+      0.24,
+      1
+     ],
+     [
+      "شركة إنتاج فني وقنوات.",
+      "مقرها السعودية."
+     ]
+    ],
+    [
+     "Q1761176",
+     "الراجحي",
+     1,
+     "http://commons.wikimedia.org/wiki/Special:FilePath/Al%20Rajhi%20Bank%20Logo.svg",
+     [
+      0.63,
+      0,
+      0.37,
+      1
+     ],
+     [
+      "مصرف سعودي.",
+      "اسمه اسم عائلة مؤسسيه."
+     ]
+    ],
+    [
+     "Q24035331",
+     "طيران أديل",
+     3,
+     "http://commons.wikimedia.org/wiki/Special:FilePath/Flyadeal%20Logo.svg",
+     [
+      0,
+      0.45,
+      0.2,
+      0.4
+     ],
+     [
+      "شركة طيران سعودية اقتصادية.",
+      "تابعة للخطوط السعودية."
+     ]
+    ],
+    [
+     "Q51403327",
+     "بينانس",
+     2,
+     "http://commons.wikimedia.org/wiki/Special:FilePath/Binance%20logo.svg",
+     [
+      0,
+      0,
+      0.19,
+      1
+     ],
+     [
+      "منصة لتداول العملات الرقمية.",
+      "من أكبر منصات البيتكوين في العالم."
+     ]
+    ],
+    [
+     "kfh",
+     "بيت التمويل الكويتي",
+     1,
+     "https://www.kfh.com/.resources/kfh-templates/webresources/kfh-theme/images/rebranding-2025/site-logo.svg",
+     [
+      0,
+      0,
+      0.3,
+      1
+     ],
+     [
+      "بنك إسلامي كويتي.",
+      "يسمونه «بيتك»."
+     ]
+    ],
+    [
+     "argan",
+     "أرجان بداية",
+     3,
+     "https://arganbedaya.com/wp-content/uploads/thegem-logos/logo_31c788dc6602151cec350f0de4d2c94b_3x.png",
+     [
+      0,
+      0,
+      1,
+      0.68
+     ],
+     [
+      "علامة كويتية.",
+      "رمزها شجرة."
+     ]
+    ],
+    [
+     "millennium",
+     "ميلينيوم",
+     2,
+     "https://www.millenniumhotels.com/mhb-media/static-files/assets/img/mhr-logo-20221205.svg?rev=2e52b5a8e2da47c79cc92d710e3b4782&hash=CFE6DD858412A7EF7F1D88556D4AEE5C",
+     [
+      0.4,
+      0,
+      0.2,
+      0.43
+     ],
+     [
+      "سلسلة فنادق ومنتجعات.",
+      "اسمها يعني «الألفية»."
+     ]
+    ]
+   ],
+   "credit": "الشعار لصاحبه",
+   "license": "علامة تجارية (استخدام شخصي)"
   }
  ]
 }
