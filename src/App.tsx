@@ -15,6 +15,7 @@ import { Play } from "./pages/Play";
 import { Login } from "./pages/Login";
 import { HowTo } from "./pages/HowTo";
 import { SettingsPage } from "./pages/SettingsPage";
+import { QuestionTable } from "./pages/QuestionTable";
 import { AuthProvider, useAuth } from "./lib/auth";
 import { Navigate, useLocation } from "react-router-dom";
 import type { ReactNode } from "react";
@@ -60,6 +61,7 @@ export function App() {
             <Route path="c/:slug" element={<RequireAdmin><CategoryPage /></RequireAdmin>} />
             <Route path="letters" element={<RequireAdmin><Letters /></RequireAdmin>} />
             <Route path="letter/:letter" element={<RequireAdmin><LetterPage /></RequireAdmin>} />
+            <Route path="table" element={<RequireAdmin><QuestionTable /></RequireAdmin>} />
             <Route path="search" element={<RequireAdmin><SearchPage /></RequireAdmin>} />
             <Route path="sounds" element={<Sounds />} />
             <Route path="play" element={<RequireOwner><Play /></RequireOwner>} />

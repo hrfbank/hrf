@@ -56,6 +56,10 @@ export function Home() {
             </dl>
           )}
 
+          <div className="hero-actions">
+            <Link to="/table" className="btn primary">جدول الأسئلة والتنزيل (Excel / PDF)</Link>
+          </div>
+
           <DailyQuestion />
 
           <section className="section">

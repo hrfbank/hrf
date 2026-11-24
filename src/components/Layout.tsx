@@ -60,6 +60,7 @@ export function Layout() {
         <img src={brandIcon} alt="" className="footer-icon" />
         <p>حروف: لعبة أسئلة جماعية. كل سؤال يمرّ بتدقيق قبل ما يدخل اللعبة.</p>
         {isAdmin && <NavLink to="/letters" className="link">تصفّح بالحروف</NavLink>}
+        {isAdmin && <NavLink to="/table" className="link">جدول الأسئلة</NavLink>}
         <NavLink to="/how" className="link">كيف تلعب</NavLink>
         <NavLink to="/settings" className="link">الإعدادات</NavLink>
       </footer>

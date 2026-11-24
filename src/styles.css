@@ -2471,3 +2471,47 @@ a.icon-btn { display: grid; place-items: center; }
   font-size: 13px;
   font-weight: 700;
 }
+
+/* جدول الأسئلة (لصاحب اللعبة) */
+.qt-cats { display: flex; flex-wrap: wrap; gap: 8px; margin-block-end: 18px; }
+.qt-cat {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 14px; border-radius: 999px;
+  border: 2px solid var(--line); background: var(--surface); color: var(--ink);
+  font: inherit; font-weight: 600; cursor: pointer;
+}
+.qt-cat span { font-size: 12.5px; color: var(--muted); }
+.qt-cat:hover { border-color: var(--sea); }
+.qt-cat.active { background: var(--henna); border-color: var(--edge); color: var(--henna-ink); }
+.qt-cat.active span { color: var(--henna-ink); }
+.qt-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-block: 22px 14px; }
+.qt-bar h2 { font-size: 24px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.qt-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.qt-note { color: var(--muted); margin-block: 8px; }
+.qt-random {
+  display: flex; gap: 16px; align-items: flex-start;
+  padding: 18px; margin-block-end: 18px;
+  border: 2.5px solid var(--edge); border-radius: var(--radius);
+  background: var(--surface); box-shadow: 0 4px 0 var(--edge);
+}
+.qt-letter {
+  flex: none; display: grid; place-items: center; width: 64px; height: 64px;
+  border-radius: 16px; background: var(--henna); color: var(--henna-ink);
+  font-family: var(--font-letter); font-size: 38px;
+}
+.qt-meta { color: var(--muted); font-size: 13px; }
+.qt-q { font-size: 20px; font-weight: 600; margin-block: 4px 12px; }
+.qt-a { font-size: 22px; font-weight: 700; color: var(--sea); }
+.qt-wrap { overflow-x: auto; border: 2px solid var(--line); border-radius: var(--radius-sm); background: var(--surface); }
+.qt-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+.qt-table th, .qt-table td { padding: 10px 12px; border-block-end: 1px solid var(--line); text-align: start; vertical-align: top; }
+.qt-table thead th { position: sticky; top: 0; background: var(--bg-deep); font-weight: 700; white-space: nowrap; }
+.qt-table td.num, .qt-table td.let { text-align: center; white-space: nowrap; color: var(--muted); }
+.qt-table td.let { font-family: var(--font-letter); font-size: 20px; color: var(--ink); }
+.qt-table td.ans { font-weight: 700; color: var(--sea); min-width: 120px; }
+.qt-table tr.hit td { background: color-mix(in srgb, var(--henna) 18%, transparent); }
+@media (max-width: 640px) {
+  .qt-table { font-size: 14px; }
+  .qt-table th, .qt-table td { padding: 8px; }
+  .qt-actions .btn { flex: 1 1 auto; }
+}
