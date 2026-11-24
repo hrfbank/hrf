@@ -6842,6 +6842,173 @@
    "source": "https://www.britannica.com/biography/Napoleon-I/Exile-on-St-Helena",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 366,
+   "category": "titles-nicknames",
+   "question": "ما لقب الخليفة عثمان بن عفان، اللي لُقّب به لأنه تزوج ابنتين من بنات النبي ﷺ؟",
+   "clues": [
+    "تزوج رقية ثم أم كلثوم رضي الله عنهما.",
+    "استشهد في بيته وهو يقرأ القرآن.",
+    "هو ثالث الخلفاء الراشدين."
+   ],
+   "answer": "ذو النورين",
+   "accepted": [
+    "ذي النورين"
+   ],
+   "letter": "ذ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/لماذا_لقب_عثمان_بذي_النورين",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 367,
+   "category": "islamic",
+   "question": "ما اسم السيف المشهور اللي يرتبط اسمه بعلي بن أبي طالب رضي الله عنه؟",
+   "clues": [
+    "كان قبل ذلك من سيوف النبي ﷺ.",
+    "يقال إن اسمه جاء من حفر صغيرة على نصله تشبه فقرات الظهر.",
+    "اسمه يبدأ بكلمة «صاحب» بصيغة «ذو»."
+   ],
+   "answer": "ذو الفقار",
+   "accepted": [
+    "ذوالفقار"
+   ],
+   "letter": "ذ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://sotor.com/%D8%B3%D9%8A%D9%81-%D8%B0%D9%88-%D8%A7%D9%84%D9%81%D9%82%D8%A7%D8%B1/",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 368,
+   "category": "proverbs-riddles",
+   "question": "أكمل المثل العربي اللي يُضرب لحادّ النظر: «أبصر من ...»؟",
+   "clues": [
+    "امرأة من قبيلة جديس عاشت في نجد قبل الإسلام.",
+    "تقول الرواية إنها رأت جيشاً قادماً من بعيد وحذّرت قومها فما صدّقوها.",
+    "اسمها فيه لون ومنطقة في نجد."
+   ],
+   "answer": "زرقاء اليمامة",
+   "letter": "ز",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://mawdoo3.com/قصة_زرقاء_اليمامة",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 369,
+   "category": "seerah",
+   "question": "من الصحابي اللي قال عنه النبي ﷺ: «إن لكل نبي حوارياً، وحواريّ ...»؟",
+   "clues": [
+    "ابن عمة النبي ﷺ صفية بنت عبدالمطلب.",
+    "من العشرة المبشرين بالجنة.",
+    "يقال إنه أول من سلّ سيفه في سبيل الله."
+   ],
+   "answer": "الزبير بن العوام",
+   "accepted": [
+    "الزبير",
+    "زبير"
+   ],
+   "letter": "ز",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://gate.ahram.org.eg/News/5676982.aspx",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 370,
+   "category": "prophets",
+   "question": "ما النبي اللي ألقاه إخوته في البئر، ثم صار على خزائن مصر؟",
+   "clues": [
+    "نزلت باسمه سورة كاملة تحكي قصته من أولها لآخرها.",
+    "امرأة العزيز شقّت قميصه من الخلف.",
+    "أبوه يعقوب عليه السلام."
+   ],
+   "answer": "يوسف",
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/قصة_يوسف_عليه_السلام",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 371,
+   "category": "history",
+   "question": "ما القبيلة العربية اللي سكنت الطائف، وكان صنم «اللات» صنمها؟",
+   "clues": [
+    "من رجالها الصحابي عروة بن مسعود.",
+    "هدم المغيرة بن شعبة وأبو سفيان صنمها بعد ما أسلمت.",
+    "ما زال أبناؤها يعيشون في الطائف وحولها."
+   ],
+   "answer": "ثقيف",
+   "letter": "ث",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D8%AB%D9%82%D9%8A%D9%81",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 372,
+   "category": "history",
+   "question": "من الخليفة الأموي اللي بنى الجامع الأموي في دمشق وزيّنه بالفسيفساء؟",
+   "clues": [
+    "أبوه عبدالملك بن مروان باني قبة الصخرة.",
+    "أرسل عمّالاً وذهباً لعمر بن عبدالعزيز عشان يعيد بناء المسجد النبوي.",
+    "بنى الجامع مكان كنيسة بعد ما عوّض أصحابها."
+   ],
+   "answer": "الوليد بن عبدالملك",
+   "accepted": [
+    "الوليد",
+    "وليد بن عبدالملك"
+   ],
+   "letter": "و",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/misc/2022/4/7/الجامع-الأموي-مفخرة-دمشق-وباب-عطائها",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 373,
+   "category": "geography",
+   "question": "أي مدينة عُمانية يقصدها الخليجيون في الصيف عشان «الخريف» والضباب والمطر؟",
+   "clues": [
+    "عاصمة محافظة ظفار.",
+    "من أماكنها المشهورة وادي دربات وعين أثوم وشاطئ المغسيل.",
+    "تنزل حرارتها في الموسم تحت ٣٠ درجة."
+   ],
+   "answer": "صلالة",
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljazeera.net/lifestyle/2024/6/13/عمان-5",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 374,
+   "category": "famous-places",
+   "question": "في أي مدينة تقع ساعة «بيغ بن»؟",
+   "clues": [
+    "«بيغ بن» أصلاً اسم الجرس الكبير داخل البرج.",
+    "البرج في طرف قصر وستمنستر.",
+    "صار اسم البرج رسمياً «برج إليزابيث»."
+   ],
+   "answer": "لندن",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://kids.britannica.com/students/article/Big-Ben/317468",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
