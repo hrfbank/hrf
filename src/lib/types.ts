@@ -23,7 +23,20 @@ export type Question = {
 
 /** crop: الجزء اللي يظهر قبل الجواب، كنِسب من الصورة (٠ إلى ١). مع الجواب تظهر الصورة كاملة */
 export type Crop = { x: number; y: number; w: number; h: number };
-export type QuestionImage = { file: string; credit: string; license: string; source?: string; alt?: string; crop?: Crop };
+/** طريقة إخفاء صورة السؤال قبل الجواب */
+export type RevealMode = "crop" | "shape" | "grayscale" | "mask" | "silhouette";
+/** file = صورة الجواب (الأصل). question_file = نسخة السؤال المعدّلة إذا تختلف عنها */
+export type QuestionImage = {
+  file: string;
+  question_file?: string;
+  mode?: RevealMode;
+  key?: string;
+  credit: string;
+  license: string;
+  source?: string;
+  alt?: string;
+  crop?: Crop;
+};
 
 export type LetterCount = { category_id: number; letter: string; question_count: number };
 

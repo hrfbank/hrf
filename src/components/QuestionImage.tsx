@@ -11,46 +11,62 @@ function lerp(a: Crop, b: Crop, t: number): Crop {
 
 type Props = { image: Img; /** كم تلميح انكشف */ step: number; steps: number; revealed: boolean };
 
-/** صورة السؤال: مقصوصة قبل الجواب (وتتوسع مع التلميحات)، وكاملة مع الجواب */
+/**
+ * صورة السؤال. قبل الجواب تنعرض مخفية حسب mode:
+ * crop = جزء يتوسع مع التلميحات، grayscale = بدون ألوان،
+ * shape / mask / silhouette = نسخة معدّلة جاهزة (question_file).
+ * مع الجواب: الصورة الأصلية كاملة (file).
+ */
 export function QuestionImage({ image, step, steps, revealed }: Props) {
   const { crop } = image;
+  const mode = image.mode ?? (crop ? "crop" : undefined);
   const caption = (
     <figcaption>
-      تصوير: {image.credit} · {image.license === "own" ? "صورة خاصة" : image.license}
+      {image.license === "own" ? "صورة خاصة" : `المصدر: ${image.credit} · ${image.license}`}
       {image.source && (
         <>
           {" · "}
-          <a href={image.source} target="_blank" rel="noopener noreferrer">المصدر</a>
+          <a href={image.source} target="_blank" rel="noopener noreferrer">الرابط</a>
         </>
       )}
     </figcaption>
   );
 
-  if (!crop || revealed) {
+  if (revealed || !mode) {
     return (
-      <figure className={`q-image${crop ? " revealed" : ""}`}>
+      <figure className={`q-image${mode ? " revealed" : ""}`}>
         <img src={image.file} alt={revealed ? image.alt ?? "صورة الجواب" : "صورة السؤال"} loading="lazy" />
         {caption}
       </figure>
     );
   }
 
-  const progressive = GAME_CONFIG.features.imageReveal.progressive;
-  const t = progressive && steps > 0 ? Math.min(step / (steps + 1), 1) : 0;
-  const c = lerp(crop, FULL, t);
-  const pos = (v: number, size: number) => (size >= 1 ? 0 : (v / (1 - size)) * 100);
+  if (mode === "crop" && crop) {
+    const progressive = GAME_CONFIG.features.imageReveal.progressive;
+    const t = progressive && steps > 0 ? Math.min(step / (steps + 1), 1) : 0;
+    const c = lerp(crop, FULL, t);
+    const pos = (v: number, size: number) => (size >= 1 ? 0 : (v / (1 - size)) * 100);
+    return (
+      <figure className="q-image cropped">
+        <div
+          className="q-crop"
+          role="img"
+          aria-label="جزء من صورة"
+          style={{
+            backgroundImage: `url("${image.file}")`,
+            backgroundSize: `${100 / c.w}% auto`,
+            backgroundPosition: `${pos(c.x, c.w)}% ${pos(c.y, c.h)}%`,
+          }}
+        />
+        {caption}
+      </figure>
+    );
+  }
+
+  const src = image.question_file ?? image.file;
   return (
-    <figure className="q-image cropped">
-      <div
-        className="q-crop"
-        role="img"
-        aria-label="جزء من صورة"
-        style={{
-          backgroundImage: `url("${image.file}")`,
-          backgroundSize: `${100 / c.w}% auto`,
-          backgroundPosition: `${pos(c.x, c.w)}% ${pos(c.y, c.h)}%`,
-        }}
-      />
+    <figure className={`q-image mode-${mode}`}>
+      <img src={src} alt="صورة السؤال" loading="lazy" />
       {caption}
     </figure>
   );

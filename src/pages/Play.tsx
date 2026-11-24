@@ -11,6 +11,7 @@ import { formatNumber } from "../lib/format";
 import type { Question } from "../lib/types";
 import { useAuth } from "../lib/auth";
 import { CategoryArt } from "../components/CategoryArt";
+import { QuestionImage } from "../components/QuestionImage";
 
 type Phase = "setup" | "categories" | "board" | "question" | "roundWon" | "matchWon" | "exhausted";
 type HelperId = (typeof GAME_CONFIG.features.helpers.kinds)[number]["id"];
@@ -618,6 +619,13 @@ export function Play() {
             <div className={`clock${left <= cfg.tickLastSeconds ? " urgent" : ""}`} aria-live="polite">{formatNumber(Math.max(left, 0))}</div>
           )}
         </div>
+
+        {q.image && (
+          <>
+            <p className="g-q-text">{q.question}</p>
+            <QuestionImage image={q.image} step={qs.shown} steps={q.clues.length} revealed={qs.revealed} />
+          </>
+        )}
 
         <ol className="g-clues">
           {q.clues.slice(0, qs.shown).map((c, i) => <li key={i}>{c}</li>)}

@@ -122,8 +122,14 @@ function validate(db) {
     // أسئلة الصور (المعيار ١٢)
     if (q.image !== undefined) {
       const im = q.image ?? {};
-      if (!/^images\/[\w.-]+\.(jpe?g|png|webp)$/i.test(im.file ?? "")) err(q, "image.file لازم يكون images/اسم.jpg|png|webp");
-      else if (!existsSync(fileURLToPath(new URL(`../public/${im.file}`, import.meta.url)))) err(q, `ملف الصورة مو موجود: public/${im.file}`);
+      for (const [field, path] of [["file", im.file], ["question_file", im.question_file]]) {
+        if (field === "question_file" && path === undefined) continue;
+        if (!/^images\/[\w.-]+\.(jpe?g|png|webp|svg)$/i.test(path ?? "")) err(q, `image.${field} لازم يكون images/اسم.jpg|png|webp|svg`);
+        else if (!existsSync(fileURLToPath(new URL(`../public/${path}`, import.meta.url)))) err(q, `ملف الصورة مو موجود: public/${path}`);
+      }
+      if (im.mode !== undefined && !["crop", "shape", "grayscale", "mask", "silhouette"].includes(im.mode)) err(q, `image.mode غير معروف: ${im.mode}`);
+      if (["shape", "mask", "silhouette"].includes(im.mode) && !im.question_file) err(q, `النمط ${im.mode} يحتاج image.question_file`);
+      if (im.mode === "crop" && !im.crop) err(q, "النمط crop يحتاج image.crop");
       if (!im.credit?.trim()) err(q, "صورة بدون اسم المصوّر (image.credit)");
       if (!im.license?.trim()) err(q, "صورة بدون رخصة (image.license)");
       if (!/^https?:\/\//.test(im.source ?? "") && im.license !== "own") err(q, "صورة بدون رابط مصدر (image.source)");
@@ -158,6 +164,11 @@ function validate(db) {
   for (let i = 0; i < live.length; i++) {
     for (let j = i + 1; j < live.length; j++) {
       const a = live[i], b = live[j];
+      // أسئلة الصور نصها واحد ("ما هي الدولة...؟") والفرق في الصورة: التكرار = نفس الجواب في نفس المجال
+      if (a.image && b.image) {
+        if (a.category === b.category && normalize(a.answer) === normalize(b.answer)) errors.push(`#${a.id} و #${b.id} سؤالين صورة لنفس الجواب في نفس المجال`);
+        continue;
+      }
       if (normalize(a.question) === normalize(b.question)) {
         errors.push(`#${a.id} و #${b.id} نفس السؤال`);
         continue;

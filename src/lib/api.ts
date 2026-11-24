@@ -58,6 +58,25 @@ const fold = (s: string) =>
 /** للعبة: نسخة متزامنة من الأسئلة المدققة والفئات */
 export const bank = { questions, categories };
 
+/** أسئلة الصور اللي تنتظر مراجعة صاحب اللعبة (ما تدخل اللعب) */
+export type ReviewItem = Question & { status: string; category_name: string };
+export const pendingImages: ReviewItem[] = db.questions
+  .filter((q) => q.image && q.status === "pending")
+  .map((q) => ({
+    id: q.id,
+    category_id: idBySlug.get(q.category)!,
+    category_name: db.categories.find((c) => c.slug === q.category)?.name ?? q.category,
+    question: q.question,
+    answer: q.answer,
+    letter: q.letter,
+    difficulty: q.difficulty,
+    source: q.source,
+    clues: q.clues ?? [],
+    image: q.image,
+    accepted: q.accepted,
+    status: q.status,
+  }));
+
 export const api = {
   categories: async (): Promise<Category[]> => categories,
 

@@ -1,0 +1,72 @@
+{
+ "_doc": "كل مجموعة = فئة أسئلة صور. أضف مجموعة جديدة هنا بدون تعديل الكود، طالما نوعها (kind) مدعوم في build.py",
+ "sets": [
+  {
+   "key": "kw-area",
+   "kind": "kuwait_area_shape",
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "island_question": "ما هي الجزيرة الكويتية اللي هذا شكلها؟",
+   "source_url": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "data_url": "https://raw.githubusercontent.com/ahmedalmazidi/Kuwait-GeoJSON/master/kuwait.geojson",
+   "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+   "license": "غير مذكور في المصدر",
+   "picks": [
+    ["السالمية", 1], ["الجابرية", 1], ["حولي", 1], ["الرميثية", 2], ["مشرف", 2],
+    ["بيان", 2], ["سلوى", 2], ["كيفان", 2], ["الخالدية", 3], ["الشامية", 3],
+    ["الفيحاء", 3], ["العديلية", 3], ["اليرموك", 2], ["قرطبة", 2], ["السرة", 3],
+    ["الفحيحيل", 2], ["المنقف", 3], ["خيطان", 3], ["جزيرة فيلكا", 1], ["جزيرة بوبيان", 1],
+    ["جزيرة وربة", 2], ["جزيرة كبر", 3]
+   ]
+  },
+  {
+   "key": "country",
+   "kind": "country_shape",
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "source_url": "https://www.naturalearthdata.com/",
+   "data_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+   "credit": "Natural Earth",
+   "license": "ملكية عامة",
+   "picks": [
+    ["SA", "السعودية", 1], ["EG", "مصر", 1], ["IT", "إيطاليا", 1], ["JP", "اليابان", 1], ["IN", "الهند", 1],
+    ["BR", "البرازيل", 2], ["CL", "تشيلي", 2], ["AU", "أستراليا", 1], ["TR", "تركيا", 2], ["YE", "اليمن", 2],
+    ["OM", "عمان", 2], ["MA", "المغرب", 2], ["SO", "الصومال", 2], ["NO", "النرويج", 3], ["MG", "مدغشقر", 3],
+    ["CU", "كوبا", 3], ["MX", "المكسيك", 2], ["IR", "إيران", 2], ["IQ", "العراق", 1], ["GB", "بريطانيا", 2]
+   ]
+  },
+  {
+   "key": "flag",
+   "kind": "flag",
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "source_url": "https://github.com/lipis/flag-icons",
+   "file_url": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/{code}.svg",
+   "credit": "flag-icons (lipis)",
+   "license": "MIT",
+   "_mode": "grayscale = العلم بدون ألوان. crop = جزء منه [x,y,w,h] من ٠ إلى ١",
+   "picks": [
+    ["LB", "لبنان", 1, "crop", [0.36, 0.28, 0.28, 0.44]],
+    ["CA", "كندا", 1, "crop", [0.36, 0.22, 0.28, 0.56]],
+    ["PK", "باكستان", 2, "crop", [0.45, 0.2, 0.42, 0.6]],
+    ["KR", "كوريا الجنوبية", 2, "crop", [0.34, 0.25, 0.32, 0.5]],
+    ["IN", "الهند", 2, "crop", [0.4, 0.37, 0.2, 0.26]],
+    ["MX", "المكسيك", 2, "crop", [0.37, 0.27, 0.26, 0.46]],
+    ["JO", "الأردن", 3, "crop", [0.04, 0.3, 0.3, 0.4]],
+    ["DZ", "الجزائر", 3, "crop", [0.36, 0.25, 0.32, 0.5]],
+    ["KH", "كمبوديا", 3, "crop", [0.3, 0.3, 0.4, 0.4]],
+    ["JP", "اليابان", 2, "grayscale"],
+    ["TR", "تركيا", 1, "grayscale"],
+    ["CH", "سويسرا", 1, "grayscale"],
+    ["QA", "قطر", 2, "grayscale"],
+    ["BH", "البحرين", 2, "grayscale"],
+    ["NP", "نيبال", 2, "grayscale"],
+    ["CY", "قبرص", 2, "grayscale"],
+    ["SA", "السعودية", 1, "grayscale"],
+    ["TN", "تونس", 2, "grayscale"],
+    ["GR", "اليونان", 2, "grayscale"],
+    ["KE", "كينيا", 3, "crop", [0.38, 0.22, 0.24, 0.56]]
+   ]
+  }
+ ]
+}

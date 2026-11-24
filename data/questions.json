@@ -8239,6 +8239,1654 @@
    "source": "https://elcinema.com/work/1154324/",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 442,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة حولي.",
+    "من المناطق اللي تجاورها: حولي.",
+    "مساحتها تقريباً 14 كم²."
+   ],
+   "answer": "السالمية",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/89dc8dd06f_a.svg",
+    "question_file": "images/89dc8dd06f_q.svg",
+    "mode": "shape",
+    "key": "kw-area:207",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 443,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة حولي.",
+    "من المناطق اللي تجاورها: السالمية.",
+    "مساحتها تقريباً 6.2 كم²."
+   ],
+   "answer": "الجابرية",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/fae0c6ccf5_a.svg",
+    "question_file": "images/fae0c6ccf5_q.svg",
+    "mode": "shape",
+    "key": "kw-area:217",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 444,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تحمل نفس اسم محافظتها.",
+    "من المناطق اللي تجاورها: السالمية.",
+    "مساحتها تقريباً 6.7 كم²."
+   ],
+   "answer": "حولي",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/bec9e5ea38_a.svg",
+    "question_file": "images/bec9e5ea38_q.svg",
+    "mode": "shape",
+    "key": "kw-area:204",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 445,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة حولي.",
+    "من المناطق اللي تجاورها: السالمية.",
+    "مساحتها تقريباً 5.3 كم²."
+   ],
+   "answer": "الرميثية",
+   "letter": "ر",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/ec50a19881_a.svg",
+    "question_file": "images/ec50a19881_q.svg",
+    "mode": "shape",
+    "key": "kw-area:208",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 446,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة حولي.",
+    "من المناطق اللي تجاورها: صباح السالم.",
+    "مساحتها تقريباً 6.4 كم²."
+   ],
+   "answer": "مشرف",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/49701056f2_a.svg",
+    "question_file": "images/49701056f2_q.svg",
+    "mode": "shape",
+    "key": "kw-area:209",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 447,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة حولي.",
+    "من المناطق اللي تجاورها: مشرف.",
+    "مساحتها تقريباً 9.5 كم²."
+   ],
+   "answer": "بيان",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/1ba5742171_a.svg",
+    "question_file": "images/1ba5742171_q.svg",
+    "mode": "shape",
+    "key": "kw-area:213",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 448,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة حولي.",
+    "من المناطق اللي تجاورها: بيان.",
+    "مساحتها تقريباً 5.9 كم²."
+   ],
+   "answer": "سلوى",
+   "letter": "س",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/28836d4e6f_a.svg",
+    "question_file": "images/28836d4e6f_q.svg",
+    "mode": "shape",
+    "key": "kw-area:210",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 449,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "من المناطق اللي تجاورها: الشويخ.",
+    "مساحتها تقريباً 3.1 كم²."
+   ],
+   "answer": "كيفان",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/251272ebaa_a.svg",
+    "question_file": "images/251272ebaa_q.svg",
+    "mode": "shape",
+    "key": "kw-area:116",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 450,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "من المناطق اللي تجاورها: كيفان.",
+    "مساحتها تقريباً 2.6 كم²."
+   ],
+   "answer": "الخالدية",
+   "letter": "خ",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/2ceb8e22a0_a.svg",
+    "question_file": "images/2ceb8e22a0_q.svg",
+    "mode": "shape",
+    "key": "kw-area:201",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 451,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "من المناطق اللي تجاورها: كيفان.",
+    "مساحتها تقريباً 2.1 كم²."
+   ],
+   "answer": "الشامية",
+   "letter": "ش",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/783a62ec25_a.svg",
+    "question_file": "images/783a62ec25_q.svg",
+    "mode": "shape",
+    "key": "kw-area:109",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 452,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "من المناطق اللي تجاورها: كيفان.",
+    "مساحتها تقريباً 1.7 كم²."
+   ],
+   "answer": "الفيحاء",
+   "letter": "ف",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/bccc752858_a.svg",
+    "question_file": "images/bccc752858_q.svg",
+    "mode": "shape",
+    "key": "kw-area:113",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 453,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "من المناطق اللي تجاورها: قرطبة.",
+    "مساحتها تقريباً 2.7 كم²."
+   ],
+   "answer": "العديلية",
+   "letter": "ع",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/5957e6bb8c_a.svg",
+    "question_file": "images/5957e6bb8c_q.svg",
+    "mode": "shape",
+    "key": "kw-area:202",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 454,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "من المناطق اللي تجاورها: خيطان.",
+    "مساحتها تقريباً 2.3 كم²."
+   ],
+   "answer": "اليرموك",
+   "letter": "ي",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/7137e77d38_a.svg",
+    "question_file": "images/7137e77d38_q.svg",
+    "mode": "shape",
+    "key": "kw-area:214",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 455,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "من المناطق اللي تجاورها: الصديق.",
+    "مساحتها تقريباً 3.2 كم²."
+   ],
+   "answer": "قرطبة",
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/22b0a23952_a.svg",
+    "question_file": "images/22b0a23952_q.svg",
+    "mode": "shape",
+    "key": "kw-area:215",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 456,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "من المناطق اللي تجاورها: الجابرية.",
+    "مساحتها تقريباً 3.7 كم²."
+   ],
+   "answer": "السرة",
+   "letter": "س",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/026ebb1052_a.svg",
+    "question_file": "images/026ebb1052_q.svg",
+    "mode": "shape",
+    "key": "kw-area:216",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 457,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة الأحمدي.",
+    "من المناطق اللي تجاورها: المنقف.",
+    "مساحتها تقريباً 6.4 كم²."
+   ],
+   "answer": "الفحيحيل",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/69c1af5f2c_a.svg",
+    "question_file": "images/69c1af5f2c_q.svg",
+    "mode": "shape",
+    "key": "kw-area:310",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 458,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة الأحمدي.",
+    "من المناطق اللي تجاورها: الصباحية.",
+    "مساحتها تقريباً 6.3 كم²."
+   ],
+   "answer": "المنقف",
+   "letter": "م",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/e006c3edcd_a.svg",
+    "question_file": "images/e006c3edcd_q.svg",
+    "mode": "shape",
+    "key": "kw-area:308",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 459,
+   "category": "kuwait-regions",
+   "question": "ما هي المنطقة الكويتية اللي هذا شكل حدودها؟",
+   "clues": [
+    "تقع في محافظة الفروانية.",
+    "من المناطق اللي تجاورها: المطار الدولي.",
+    "مساحتها تقريباً 7.0 كم²."
+   ],
+   "answer": "خيطان",
+   "letter": "خ",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/45150d0df9_a.svg",
+    "question_file": "images/45150d0df9_q.svg",
+    "mode": "shape",
+    "key": "kw-area:252",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 460,
+   "category": "kuwait-regions",
+   "question": "ما هي الجزيرة الكويتية اللي هذا شكلها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "تقع شرق مدينة الكويت.",
+    "مساحتها تقريباً 46 كم²."
+   ],
+   "answer": "فيلكا",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/6fbf4e3e74_a.svg",
+    "question_file": "images/6fbf4e3e74_q.svg",
+    "mode": "shape",
+    "key": "kw-area:120",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 461,
+   "category": "kuwait-regions",
+   "question": "ما هي الجزيرة الكويتية اللي هذا شكلها؟",
+   "clues": [
+    "تقع في محافظة الجهراء.",
+    "تقع شمال شرق مدينة الكويت.",
+    "مساحتها تقريباً 832 كم²."
+   ],
+   "answer": "بوبيان",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/a8a3006db5_a.svg",
+    "question_file": "images/a8a3006db5_q.svg",
+    "mode": "shape",
+    "key": "kw-area:122",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 462,
+   "category": "kuwait-regions",
+   "question": "ما هي الجزيرة الكويتية اللي هذا شكلها؟",
+   "clues": [
+    "تقع في محافظة الجهراء.",
+    "تقع شمال مدينة الكويت.",
+    "مساحتها تقريباً 37 كم²."
+   ],
+   "answer": "وربة",
+   "letter": "و",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/b401c1e8e8_a.svg",
+    "question_file": "images/b401c1e8e8_q.svg",
+    "mode": "shape",
+    "key": "kw-area:121",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 463,
+   "category": "kuwait-regions",
+   "question": "ما هي الجزيرة الكويتية اللي هذا شكلها؟",
+   "clues": [
+    "تقع في محافظة العاصمة.",
+    "تقع جنوب شرق مدينة الكويت.",
+    "مساحتها تقريباً 0.1 كم²."
+   ],
+   "answer": "كبر",
+   "letter": "ك",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/13d7276442_a.svg",
+    "question_file": "images/13d7276442_q.svg",
+    "mode": "shape",
+    "key": "kw-area:125",
+    "credit": "Kuwait-GeoJSON (ahmedalmazidi)",
+    "license": "غير مذكور في المصدر",
+    "source": "https://github.com/ahmedalmazidi/Kuwait-GeoJSON"
+   }
+  },
+  {
+   "id": 464,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: اليمن."
+   ],
+   "answer": "السعودية",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/342923cc4b_a.svg",
+    "question_file": "images/342923cc4b_q.svg",
+    "mode": "shape",
+    "key": "country:SA",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 465,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أفريقيا.",
+    "منطقتها: شمال أفريقيا.",
+    "من جيرانها: السودان."
+   ],
+   "answer": "مصر",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/9cb4d7c15c_a.svg",
+    "question_file": "images/9cb4d7c15c_q.svg",
+    "mode": "shape",
+    "key": "country:EG",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 466,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أوروبا.",
+    "منطقتها: جنوب أوروبا.",
+    "من جيرانها: فرنسا."
+   ],
+   "answer": "إيطاليا",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/af2e169e66_a.svg",
+    "question_file": "images/af2e169e66_q.svg",
+    "mode": "shape",
+    "key": "country:IT",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 467,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: شرق آسيا.",
+    "ما لها حدود برية مع أي دولة."
+   ],
+   "answer": "اليابان",
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/840878a0ec_a.svg",
+    "question_file": "images/840878a0ec_q.svg",
+    "mode": "shape",
+    "key": "country:JP",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 468,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: جنوب آسيا.",
+    "من جيرانها: الصين."
+   ],
+   "answer": "الهند",
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/abfd2d4229_a.svg",
+    "question_file": "images/abfd2d4229_q.svg",
+    "mode": "shape",
+    "key": "country:IN",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 469,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أمريكا الجنوبية.",
+    "من جيرانها: الأرجنتين."
+   ],
+   "answer": "البرازيل",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/b81086f29d_a.svg",
+    "question_file": "images/b81086f29d_q.svg",
+    "mode": "shape",
+    "key": "country:BR",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 470,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أمريكا الجنوبية.",
+    "من جيرانها: الأرجنتين."
+   ],
+   "answer": "تشيلي",
+   "letter": "ت",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/b381598685_a.svg",
+    "question_file": "images/b381598685_q.svg",
+    "mode": "shape",
+    "key": "country:CL",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 471,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أوقيانوسيا.",
+    "ما لها حدود برية مع أي دولة."
+   ],
+   "answer": "أستراليا",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/b2592dbd17_a.svg",
+    "question_file": "images/b2592dbd17_q.svg",
+    "mode": "shape",
+    "key": "country:AU",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 472,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: إيران."
+   ],
+   "answer": "تركيا",
+   "letter": "ت",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/b7dc358225_a.svg",
+    "question_file": "images/b7dc358225_q.svg",
+    "mode": "shape",
+    "key": "country:TR",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 473,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: السعودية."
+   ],
+   "answer": "اليمن",
+   "letter": "ي",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/90198fb82a_a.svg",
+    "question_file": "images/90198fb82a_q.svg",
+    "mode": "shape",
+    "key": "country:YE",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 474,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: السعودية."
+   ],
+   "answer": "عمان",
+   "letter": "ع",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/e7c21506e2_a.svg",
+    "question_file": "images/e7c21506e2_q.svg",
+    "mode": "shape",
+    "key": "country:OM",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 475,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أفريقيا.",
+    "منطقتها: شمال أفريقيا.",
+    "من جيرانها: الجزائر."
+   ],
+   "answer": "المغرب",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/69a9b2f0f5_a.svg",
+    "question_file": "images/69a9b2f0f5_q.svg",
+    "mode": "shape",
+    "key": "country:MA",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 476,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أفريقيا.",
+    "منطقتها: شرق أفريقيا.",
+    "من جيرانها: إثيوبيا."
+   ],
+   "answer": "الصومال",
+   "letter": "ص",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/2e22d0871e_a.svg",
+    "question_file": "images/2e22d0871e_q.svg",
+    "mode": "shape",
+    "key": "country:SO",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 477,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أوروبا.",
+    "منطقتها: شمال أوروبا.",
+    "من جيرانها: روسيا."
+   ],
+   "answer": "النرويج",
+   "letter": "ن",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/66d143ffac_a.svg",
+    "question_file": "images/66d143ffac_q.svg",
+    "mode": "shape",
+    "key": "country:NO",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 478,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أفريقيا.",
+    "منطقتها: شرق أفريقيا.",
+    "ما لها حدود برية مع أي دولة."
+   ],
+   "answer": "مدغشقر",
+   "letter": "م",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d40bf6d15b_a.svg",
+    "question_file": "images/d40bf6d15b_q.svg",
+    "mode": "shape",
+    "key": "country:MG",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 479,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أمريكا الشمالية.",
+    "منطقتها: البحر الكاريبي.",
+    "ما لها حدود برية مع أي دولة."
+   ],
+   "answer": "كوبا",
+   "letter": "ك",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/164ac05af0_a.svg",
+    "question_file": "images/164ac05af0_q.svg",
+    "mode": "shape",
+    "key": "country:CU",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 480,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أمريكا الشمالية.",
+    "منطقتها: أمريكا الوسطى.",
+    "من جيرانها: الولايات المتحدة."
+   ],
+   "answer": "المكسيك",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/b3902d30a8_a.svg",
+    "question_file": "images/b3902d30a8_q.svg",
+    "mode": "shape",
+    "key": "country:MX",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 481,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: جنوب آسيا.",
+    "من جيرانها: باكستان."
+   ],
+   "answer": "إيران",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/ba27ad43a7_a.svg",
+    "question_file": "images/ba27ad43a7_q.svg",
+    "mode": "shape",
+    "key": "country:IR",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 482,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: السعودية."
+   ],
+   "answer": "العراق",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/f09b31d08a_a.svg",
+    "question_file": "images/f09b31d08a_q.svg",
+    "mode": "shape",
+    "key": "country:IQ",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 483,
+   "category": "maps",
+   "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
+   "clues": [
+    "تقع في قارة أوروبا.",
+    "منطقتها: شمال أوروبا.",
+    "من جيرانها: جمهورية أيرلندا."
+   ],
+   "answer": "بريطانيا",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.naturalearthdata.com/",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/93161b7b70_a.svg",
+    "question_file": "images/93161b7b70_q.svg",
+    "mode": "shape",
+    "key": "country:GB",
+    "credit": "Natural Earth",
+    "license": "ملكية عامة",
+    "source": "https://www.naturalearthdata.com/"
+   }
+  },
+  {
+   "id": 484,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: سوريا."
+   ],
+   "answer": "لبنان",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/739d95fe90_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.36,
+     "y": 0.28,
+     "w": 0.28,
+     "h": 0.44
+    },
+    "key": "flag:LB",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 485,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة أمريكا الشمالية.",
+    "من جيرانها: الولايات المتحدة."
+   ],
+   "answer": "كندا",
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/7e2808cc20_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.36,
+     "y": 0.22,
+     "w": 0.28,
+     "h": 0.56
+    },
+    "key": "flag:CA",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 487,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: شرق آسيا.",
+    "من جيرانها: كوريا الشمالية."
+   ],
+   "answer": "كوريا الجنوبية",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/9972ffc738_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.34,
+     "y": 0.25,
+     "w": 0.32,
+     "h": 0.5
+    },
+    "key": "flag:KR",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 488,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: جنوب آسيا.",
+    "من جيرانها: الصين."
+   ],
+   "answer": "الهند",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/24949e5050_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.4,
+     "y": 0.37,
+     "w": 0.2,
+     "h": 0.26
+    },
+    "key": "flag:IN",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 489,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة أمريكا الشمالية.",
+    "منطقتها: أمريكا الوسطى.",
+    "من جيرانها: الولايات المتحدة."
+   ],
+   "answer": "المكسيك",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/7dae3ab9ac_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.37,
+     "y": 0.27,
+     "w": 0.26,
+     "h": 0.46
+    },
+    "key": "flag:MX",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 490,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: السعودية."
+   ],
+   "answer": "الأردن",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/39a26391cf_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.04,
+     "y": 0.3,
+     "w": 0.3,
+     "h": 0.4
+    },
+    "key": "flag:JO",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 491,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة أفريقيا.",
+    "منطقتها: شمال أفريقيا.",
+    "من جيرانها: ليبيا."
+   ],
+   "answer": "الجزائر",
+   "letter": "ج",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/163f0e329e_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.36,
+     "y": 0.25,
+     "w": 0.32,
+     "h": 0.5
+    },
+    "key": "flag:DZ",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 492,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: جنوب شرق آسيا.",
+    "من جيرانها: تايلاند."
+   ],
+   "answer": "كمبوديا",
+   "letter": "ك",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/dc9567bbc9_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.3,
+     "y": 0.3,
+     "w": 0.4,
+     "h": 0.4
+    },
+    "key": "flag:KH",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 493,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: شرق آسيا.",
+    "ما لها حدود برية مع أي دولة."
+   ],
+   "answer": "اليابان",
+   "letter": "ي",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/06b5a8d8e4_a.svg",
+    "mode": "grayscale",
+    "key": "flag:JP",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 494,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: إيران."
+   ],
+   "answer": "تركيا",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/e0d07e452e_a.svg",
+    "mode": "grayscale",
+    "key": "flag:TR",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 495,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة أوروبا.",
+    "منطقتها: غرب أوروبا.",
+    "من جيرانها: فرنسا."
+   ],
+   "answer": "سويسرا",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/b7d406fbf9_a.svg",
+    "mode": "grayscale",
+    "key": "flag:CH",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 496,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: السعودية."
+   ],
+   "answer": "قطر",
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/75e2025873_a.svg",
+    "mode": "grayscale",
+    "key": "flag:QA",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 497,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "ما لها حدود برية مع أي دولة."
+   ],
+   "answer": "البحرين",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/ce137d20ec_a.svg",
+    "mode": "grayscale",
+    "key": "flag:BH",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 498,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: جنوب آسيا.",
+    "من جيرانها: الصين."
+   ],
+   "answer": "نيبال",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/c08b4724f5_a.svg",
+    "mode": "grayscale",
+    "key": "flag:NP",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 499,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "ما لها حدود برية مع أي دولة."
+   ],
+   "answer": "قبرص",
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/64dc92c407_a.svg",
+    "mode": "grayscale",
+    "key": "flag:CY",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 500,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: غرب آسيا.",
+    "من جيرانها: اليمن."
+   ],
+   "answer": "السعودية",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/5e8e7f8f9a_a.svg",
+    "mode": "grayscale",
+    "key": "flag:SA",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 501,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة أفريقيا.",
+    "منطقتها: شمال أفريقيا.",
+    "من جيرانها: الجزائر."
+   ],
+   "answer": "تونس",
+   "letter": "ت",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/a96aada2bb_a.svg",
+    "mode": "grayscale",
+    "key": "flag:TN",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 502,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة أوروبا.",
+    "منطقتها: جنوب أوروبا.",
+    "من جيرانها: تركيا."
+   ],
+   "answer": "اليونان",
+   "letter": "ي",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/1879556d24_a.svg",
+    "mode": "grayscale",
+    "key": "flag:GR",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 503,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة أفريقيا.",
+    "منطقتها: شرق أفريقيا.",
+    "من جيرانها: إثيوبيا."
+   ],
+   "answer": "كينيا",
+   "letter": "ك",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/213fa29488_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.38,
+     "y": 0.22,
+     "w": 0.24,
+     "h": 0.56
+    },
+    "key": "flag:KE",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
+  },
+  {
+   "id": 504,
+   "category": "which-country",
+   "question": "علم أي دولة هذا؟",
+   "clues": [
+    "تقع في قارة آسيا.",
+    "منطقتها: جنوب آسيا.",
+    "من جيرانها: الصين."
+   ],
+   "answer": "باكستان",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://github.com/lipis/flag-icons",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/3733b429a9_a.svg",
+    "mode": "crop",
+    "crop": {
+     "x": 0.45,
+     "y": 0.2,
+     "w": 0.42,
+     "h": 0.6
+    },
+    "key": "flag:PK",
+    "credit": "flag-icons (lipis)",
+    "license": "MIT",
+    "source": "https://github.com/lipis/flag-icons"
+   }
   }
  ]
 }

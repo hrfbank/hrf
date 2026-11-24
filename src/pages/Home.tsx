@@ -58,6 +58,7 @@ export function Home() {
 
           <div className="hero-actions">
             <Link to="/table" className="btn primary">جدول الأسئلة والتنزيل (Excel / PDF)</Link>
+            <Link to="/review" className="btn secondary">مراجعة أسئلة الصور</Link>
           </div>
 
           <DailyQuestion />
