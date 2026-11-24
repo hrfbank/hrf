@@ -7852,6 +7852,120 @@
    "source": "https://saudipedia.com/ar/وادي-الثمامة",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 422,
+   "category": "arabic-poetry",
+   "question": "من الشاعرة الأندلسية بنت الخليفة الأموي، اللي أحبها الشاعر ابن زيدون؟",
+   "clues": [
+    "كان مجلسها في قرطبة مقصداً للشعراء والأدباء.",
+    "تقول الروايات إنها طرّزت أبياتاً من شعرها على طرف ثوبها.",
+    "في قرطبة نُصب تذكاري لقصة حبهما اسمه «نُصب الحب»."
+   ],
+   "answer": "ولادة بنت المستكفي",
+   "accepted": [
+    "ولادة"
+   ],
+   "letter": "و",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://gate.ahram.org.eg/News/5577514.aspx",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 423,
+   "category": "countries-capitals",
+   "question": "ما عاصمة مملكة بوتان، العاصمة اللي ما فيها إشارات مرور ضوئية، والشرطة تنظّم السير بأيديها؟",
+   "clues": [
+    "تقع في جبال الهيمالايا.",
+    "حطوا فيها إشارة ضوئية مرة وشالوها بسرعة لأن الناس ما حبوها.",
+    "بلدها مشهور بقياس «السعادة القومية» بدل الدخل."
+   ],
+   "answer": "تيمفو",
+   "accepted": [
+    "تيمبو"
+   ],
+   "letter": "ت",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://blog.wego.com/this-country-has-zero-traffic-lights/",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 424,
+   "category": "history",
+   "question": "ما الجزيرة الإيطالية الكبيرة اللي حكمها المسلمون أكثر من قرنين، وكانت عاصمتها بلرمو؟",
+   "clues": [
+    "بدأ فتحها الأغالبة من تونس، ثم حكمها الفاطميون.",
+    "أهم مرجع في تاريخ المسلمين فيها كتبه المؤرخ الإيطالي ميكيلي أماري."
+   ],
+   "answer": "صقلية",
+   "letter": "ص",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.marefa.org/Muslim_conquest_of_Sicily",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 425,
+   "category": "world-football",
+   "question": "أي نادٍ مصري منحه الاتحاد الأفريقي لقب «نادي القرن» في أفريقيا، وأضافه لشعاره؟",
+   "clues": [
+    "تسلّم الجائزة رئيسه صالح سليم في جوهانسبرغ.",
+    "منافسه التقليدي الزمالك يرى أنه الأحق باللقب.",
+    "في شعاره اليوم عبارة «نادي القرن» بالإنجليزي بجانب سنة تأسيسه."
+   ],
+   "answer": "الأهلي",
+   "accepted": [
+    "الأهلي المصري"
+   ],
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.alkhaleej.ae/2023-08-20/فيديو-الأهلي-المصري-يضم-لقب-نادي-القرن-إلى-شعاره-الرسمي/رياضة-عربي/رياضة",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 426,
+   "category": "currencies",
+   "question": "ما العملة اللي شالت منها تركيا ستة أصفار مرة وحدة، فصار المليون منها يساوي واحد بس؟",
+   "clues": [
+    "سمّوها لفترة «الجديدة» قبل ما يرجعون اسمها القديم.",
+    "تنقسم إلى مئة «قرش».",
+    "رمزها ₺."
+   ],
+   "answer": "الليرة",
+   "accepted": [
+    "الليرة التركية",
+    "ليرة"
+   ],
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.zawya.com/en/business/turkish-banknotes-lose-six-zeroes-in-currency-reform-j3yc8xet",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 427,
+   "category": "world-football",
+   "question": "من اللاعب البرتغالي الهداف التاريخي للمنتخبات في كرة القدم للرجال؟",
+   "clues": [
+    "وُلد في جزيرة ماديرا البرتغالية.",
+    "كسر رقم الكويتي بدر المطوع في عدد المباريات الدولية.",
+    "لعب لمانشستر يونايتد وريال مدريد ويوفنتوس والنصر."
+   ],
+   "answer": "رونالدو",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.uefa.com/news/026a-1297500e1b34-a17bbbcad258-1000--ronaldo-is-all-time-top-scorer/",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
