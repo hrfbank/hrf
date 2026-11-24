@@ -1234,6 +1234,134 @@
       "تابعة لمؤسسة البترول الكويتية."
      ],
      "https://www.knpc.com"
+    ],
+    [
+     "timberland",
+     "تمبرلاند",
+     1,
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Timberland-logo.png",
+     [
+      0.8,
+      0,
+      0.2,
+      1
+     ],
+     [
+      "ماركة أحذية وملابس أمريكية.",
+      "رمزها شجرة."
+     ]
+    ],
+    [
+     "lacoste",
+     "لاكوست",
+     1,
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Lacoste%202026.svg",
+     [
+      0.695,
+      0,
+      0.305,
+      1
+     ],
+     [
+      "ماركة ملابس فرنسية.",
+      "رمزها حيوان من الزواحف."
+     ]
+    ],
+    [
+     "mercedes-benz",
+     "مرسيدس",
+     1,
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20Logo%202010.svg",
+     [
+      0,
+      0,
+      0.25,
+      1
+     ],
+     [
+      "شركة سيارات ألمانية.",
+      "رمزها نجمة بثلاث رؤوس."
+     ]
+    ],
+    [
+     "pizza-hut",
+     "بيتزا هت",
+     1,
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20Hut%20%282019%29.svg",
+     [
+      0,
+      0,
+      1,
+      0.3
+     ],
+     [
+      "سلسلة مطاعم أمريكية.",
+      "رمزها سقف أحمر."
+     ]
+    ],
+    [
+     "vodafone",
+     "فودافون",
+     2,
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Vodafone%20logo%202017.svg",
+     [
+      0,
+      0,
+      0.245,
+      1
+     ],
+     [
+      "شركة اتصالات بريطانية.",
+      "رمزها علامة تنصيص."
+     ]
+    ],
+    [
+     "infiniti",
+     "إنفينيتي",
+     3,
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Infiniti%20logo%202023.svg",
+     [
+      0.25,
+      0,
+      0.5,
+      0.55
+     ],
+     [
+      "ماركة سيارات فاخرة يابانية.",
+      "تابعة لنيسان."
+     ]
+    ],
+    [
+     "mazda",
+     "مازدا",
+     2,
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20logo%202024%20%28vertical%29.svg",
+     [
+      0,
+      0,
+      1,
+      0.72
+     ],
+     [
+      "شركة سيارات يابانية.",
+      "رمزها جناحين داخل دائرة."
+     ]
+    ],
+    [
+     "converse",
+     "كونفرس",
+     2,
+     "https://commons.wikimedia.org/wiki/Special:FilePath/Converse%20logo.svg",
+     [
+      0,
+      0,
+      1,
+      0.76
+     ],
+     [
+      "ماركة أحذية رياضية أمريكية.",
+      "رمزها نجمة."
+     ]
     ]
    ],
    "credit": "الشعار لصاحبه",

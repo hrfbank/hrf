@@ -11085,6 +11085,206 @@
     "license": "علامة تجارية (استخدام شخصي)",
     "source": "https://www.wikidata.org/wiki/Property:P154"
    }
+  },
+  {
+   "id": 552,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "ماركة أحذية وملابس أمريكية.",
+    "رمزها شجرة."
+   ],
+   "answer": "تمبرلاند",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Timberland-logo.png",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/32d3951399_a.svg",
+    "question_file": "images/32d3951399_q.svg",
+    "mode": "mask",
+    "key": "brand:timberland",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Timberland-logo.png"
+   }
+  },
+  {
+   "id": 553,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "ماركة ملابس فرنسية.",
+    "رمزها حيوان من الزواحف."
+   ],
+   "answer": "لاكوست",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Lacoste%202026.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/79434bb376_a.svg",
+    "question_file": "images/79434bb376_q.svg",
+    "mode": "mask",
+    "key": "brand:lacoste",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Lacoste%202026.svg"
+   }
+  },
+  {
+   "id": 554,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة سيارات ألمانية.",
+    "رمزها نجمة بثلاث رؤوس."
+   ],
+   "answer": "مرسيدس",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20Logo%202010.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d17a2d07e2_a.svg",
+    "question_file": "images/d17a2d07e2_q.svg",
+    "mode": "mask",
+    "key": "brand:mercedes-benz",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20Logo%202010.svg"
+   }
+  },
+  {
+   "id": 556,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "سلسلة مطاعم أمريكية.",
+    "رمزها سقف أحمر."
+   ],
+   "answer": "بيتزا هت",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20Hut%20%282019%29.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/544f8d1359_a.svg",
+    "question_file": "images/544f8d1359_q.svg",
+    "mode": "mask",
+    "key": "brand:pizza-hut",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20Hut%20%282019%29.svg"
+   }
+  },
+  {
+   "id": 557,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة اتصالات بريطانية.",
+    "رمزها علامة تنصيص."
+   ],
+   "answer": "فودافون",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Vodafone%20logo%202017.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/270af52184_a.svg",
+    "question_file": "images/270af52184_q.svg",
+    "mode": "mask",
+    "key": "brand:vodafone",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Vodafone%20logo%202017.svg"
+   }
+  },
+  {
+   "id": 558,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "ماركة سيارات فاخرة يابانية.",
+    "تابعة لنيسان."
+   ],
+   "answer": "إنفينيتي",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Infiniti%20logo%202023.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/8ec064fdbe_a.svg",
+    "question_file": "images/8ec064fdbe_q.svg",
+    "mode": "mask",
+    "key": "brand:infiniti",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Infiniti%20logo%202023.svg"
+   }
+  },
+  {
+   "id": 559,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "شركة سيارات يابانية.",
+    "رمزها جناحين داخل دائرة."
+   ],
+   "answer": "مازدا",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20logo%202024%20%28vertical%29.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/166dcb762e_a.svg",
+    "question_file": "images/166dcb762e_q.svg",
+    "mode": "mask",
+    "key": "brand:mazda",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20logo%202024%20%28vertical%29.svg"
+   }
+  },
+  {
+   "id": 560,
+   "category": "logos",
+   "question": "لمن هذا الشعار؟",
+   "clues": [
+    "ماركة أحذية رياضية أمريكية.",
+    "رمزها نجمة."
+   ],
+   "answer": "كونفرس",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Converse%20logo.svg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d0e5be6dcc_a.svg",
+    "question_file": "images/d0e5be6dcc_q.svg",
+    "mode": "mask",
+    "key": "brand:converse",
+    "credit": "الشعار لصاحبه",
+    "license": "علامة تجارية (استخدام شخصي)",
+    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Converse%20logo.svg"
+   }
   }
  ]
 }

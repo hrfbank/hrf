@@ -53,7 +53,7 @@ def eyes_crop(img: Image.Image, det, level: str):
     span = abs(lo[0] - ro[0])
     xs = [p.x * W for p in lm]
     face_w = max(xs) - min(xs)
-    if face_w < 300:
+    if face_w < 150:
         return None, f"الوجه صغير ({int(face_w)}px)"
     # مواجه للكاميرا: الأنف في النص بين العينين تقريباً
     mid = (ri[0] + li[0]) / 2
@@ -61,22 +61,26 @@ def eyes_crop(img: Image.Image, det, level: str):
         return None, "الوجه مو مواجه للكاميرا"
     cx = (ro[0] + lo[0]) / 2
     cy = (ro[1] + lo[1]) / 2
+    # شريط عريض فيه العينين والحواجب (مثل مسابقات «منو المشهور»)
     if level == "hard":  # عين وحدة قريب
         eye_w = abs(ri[0] - ro[0])
         w = eye_w * 2.2
+        h = w / 1.6
         cx = (ro[0] + ri[0]) / 2
-    elif level == "easy":  # العينين مع الحواجب وأعلى الأنف
-        w = span * 1.9
-        cy = cy + span * 0.08
-    else:  # العينين
-        w = span * 1.45
-    h = w / ASPECT
-    if w < 260:
+    elif level == "easy":  # العينين والحواجب وأعلى الأنف
+        w = span * 1.8
+        h = w / 1.9
+        cy = cy - span * 0.05
+    else:  # العينين والحواجب
+        w = span * 1.55
+        h = w / 2.2
+        cy = cy - span * 0.1
+    if w < 170:
         return None, "القصّة تحتاج تكبير زايد"
     x, y = cx - w / 2, cy - h / 2
     if x < 0 or y < 0 or x + w > W or y + h > H:
         return None, "القصّة طالعة برا الصورة"
-    return {"x": round(x / W, 4), "y": round(y / H, 4), "w": round(w / W, 4), "h": round(h / H, 4)}, None
+    return {"x": round(x / W, 4), "y": round(y / H, 4), "w": round(w / W, 4), "h": round(h / H, 4), "aspect": round(w / h, 3)}, None
 
 
 def _openverse(name: str) -> list[dict]:
@@ -95,7 +99,7 @@ def _openverse(name: str) -> list[dict]:
         title = (r.get("title") or "").lower().replace("-", " ").replace("_", " ")
         if tokens and not any(t in title for t in tokens):
             continue  # غالباً شخص ثاني
-        if min(r.get("width") or 0, r.get("height") or 0) < 800:
+        if min(r.get("width") or 0, r.get("height") or 0) < 500:
             continue
         lic = r.get("license", "")
         name_l = {"cc0": "CC0", "pdm": "Public domain"}.get(lic, f"CC {lic.upper()} {r.get('license_version') or ''}".strip())
@@ -110,7 +114,7 @@ def _candidates(r: dict, en: str) -> list[dict]:
     if r.get("img"):
         try:
             ii = wiki.image_info(wiki.file_title(r["img"]))
-            if ii and min(ii["width"], ii["height"]) >= 800:
+            if ii and min(ii["width"], ii["height"]) >= 500:
                 cands.append({"url": ii["original"], "width": ii["width"], "height": ii["height"], "author": ii["author"],
                               "license": ii["license"], "license_url": ii["license_url"], "page": ii["page"]})
         except Exception as e:  # noqa: BLE001
@@ -177,7 +181,7 @@ def build_celebs(cfg, file_id, norm_letter):
             "difficulty": difficulty,
             "clues": clues[:3],
             "files": {f"{fid}_a.webp": webp(img)},
-            "image": {"file": f"images/{fid}_a.webp", "mode": "crop", "crop": crop, "wikidata": qid},
+            "image": {"file": f"images/{fid}_a.webp", "mode": "crop", "aspect": crop.pop("aspect"), "crop": crop, "wikidata": qid},
             "credit": c["author"], "license": c["license"], "license_url": c["license_url"], "source": c["page"],
         })
         print(f"  ✓ {answer} ({level})")

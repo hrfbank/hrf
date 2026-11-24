@@ -405,7 +405,8 @@ def _intrinsic(data: bytes, url: str):
     """مقاس الشعار الأصلي: viewBox للـ SVG، والبكسلات للصور"""
     if data.lstrip()[:5] in (b"<?xml", b"<svg ") or b"<svg" in data[:500]:
         head = data[:4000].decode("utf-8", "ignore")
-        vb = re.search(r'viewBox="\s*([-\d.]+)[ ,]+([-\d.]+)[ ,]+([\d.]+)[ ,]+([\d.]+)', head)
+        num = r"[-\d.eE+]+"
+        vb = re.search(rf'viewBox="\s*({num})[ ,]+({num})[ ,]+({num})[ ,]+({num})', head)
         if vb:
             return "image/svg+xml", tuple(float(v) for v in vb.groups())
         w = re.search(r'\swidth="([\d.]+)', head)

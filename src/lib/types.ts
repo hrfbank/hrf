@@ -36,6 +36,8 @@ export type QuestionImage = {
   source?: string;
   alt?: string;
   crop?: Crop;
+  /** نسبة عرض القصّة لطولها بالبكسل (مثلاً شريط العيون ٢٫٢). بدونها الإطار ١٦:١٠ */
+  aspect?: number;
 };
 
 export type LetterCount = { category_id: number; letter: string; question_count: number };

@@ -53,6 +53,7 @@ export function QuestionImage({ image, step, steps, revealed }: Props) {
           role="img"
           aria-label="جزء من صورة"
           style={{
+            ...(image.aspect ? { aspectRatio: String(image.aspect) } : {}),
             backgroundImage: `url("${image.file}")`,
             backgroundSize: `${100 / c.w}% auto`,
             backgroundPosition: `${pos(c.x, c.w)}% ${pos(c.y, c.h)}%`,
