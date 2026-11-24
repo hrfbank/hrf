@@ -7966,6 +7966,86 @@
    "source": "https://www.uefa.com/news/026a-1297500e1b34-a17bbbcad258-1000--ronaldo-is-all-time-top-scorer/",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 428,
+   "category": "malls",
+   "question": "ما المجمع التجاري في الدوحة المصمم على الطراز الإيطالي، وفيه قناة داخلية تمشي فيها قوارب الجندول؟",
+   "clues": [
+    "فيه مدينة ألعاب اسمها «جوندولانيا» مستوحاة من البندقية.",
+    "يقع في منطقة «أسباير زون» جنب حديقة أسباير.",
+    "اسمه كلمة إيطالية تعني «القرية»."
+   ],
+   "answer": "فيلاجيو",
+   "accepted": [
+    "فيلاجيو مول"
+   ],
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://visitqatar.com/qa-ar/things-to-do/shopping/malls/villaggio-mall",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 429,
+   "category": "malls",
+   "question": "ما المجمع التجاري في دبي المقسّم لستة أقسام على طراز البلدان اللي زارها رحالة مغربي مشهور؟",
+   "clues": [
+    "أقسامه: الصين والهند وفارس ومصر وتونس والأندلس.",
+    "في قسم الصين سفينة صينية بالحجم الكامل، وفي قسم الهند «ساعة الفيل».",
+    "يحمل اسم صاحب رحلة «تحفة النظار»."
+   ],
+   "answer": "ابن بطوطة مول",
+   "accepted": [
+    "ابن بطوطة"
+   ],
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.thenationalnews.com/business/malls-of-the-uae-part-1-dubais-ibn-battuta-transports-shopping-into-voyage-of-discovery-1.74831",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 430,
+   "category": "seerah",
+   "question": "من سيد أهل اليمامة اللي أسره المسلمون وربطوه في سارية من سواري المسجد النبوي، ثم أطلقه النبي ﷺ فأسلم؟",
+   "clues": [
+    "كان من سادات بني حنيفة.",
+    "لما سأله النبي ﷺ: «ما عندك؟» قال: «عندي يا محمد خير».",
+    "اغتسل في نخل قريب من المسجد ثم رجع ونطق الشهادتين."
+   ],
+   "answer": "ثمامة بن أثال",
+   "accepted": [
+    "ثمامة"
+   ],
+   "letter": "ث",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://hadeethenc.com/ar/browse/hadith/10037",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 431,
+   "category": "kuwaiti-plays",
+   "question": "ما المسرحية الكويتية السياسية اللي يحاول فيها «مرجان الجان» مع شخصية اسمها «عرب» يوحّدون العرب؟",
+   "clues": [
+    "كتبها نبيل بدران، مؤلف «باي باي لندن».",
+    "بطولة عبدالحسين عبدالرضا.",
+    "انعرضت في منتصف الثمانينات."
+   ],
+   "answer": "باي باي عرب",
+   "accepted": [
+    "باي باي يا عرب"
+   ],
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://elcinema.com/work/1277368/",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
