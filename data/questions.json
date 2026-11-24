@@ -7198,6 +7198,121 @@
    "source": "https://www.aljarida.com/articles/1461794633837703800/amp",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 387,
+   "category": "cars",
+   "question": "ما شركة السيارات الألمانية الرياضية اللي تحمل اسم المهندس اللي صمّم سيارة «فولكس فاجن بيتل»؟",
+   "clues": [
+    "فتح المؤسس مكتب تصميم في شتوتغارت.",
+    "كمّل ابنه «فيري» المشوار وصارت الشركة تصنع سياراتها الخاصة.",
+    "من أشهر موديلاتها «٩١١» و«كايين»."
+   ],
+   "answer": "بورشه",
+   "accepted": [
+    "بورش"
+   ],
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.britannica.com/biography/Ferdinand-Porsche",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 388,
+   "category": "cars",
+   "question": "ما شركة السيارات اليابانية اللي اسمها مأخوذ من عائلة مؤسسها «تويودا» بعد تغيير حرف واحد؟",
+   "clues": [
+    "بدأت العائلة بصناعة أنوال النسيج قبل السيارات.",
+    "المؤسس كيئيتشيرو أطلق قسم السيارات من شركة أبيه.",
+    "من سياراتها كامري وكورولا ولاندكروزر."
+   ],
+   "answer": "تويوتا",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://abcnews.go.com/Business/toyota-toyoda/story?id=9936713",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 389,
+   "category": "world-football",
+   "question": "أي نادٍ إيطالي من مدينة تورينو يلقّبونه «السيدة العجوز»؟",
+   "clues": [
+    "اسمه يعني «الشباب» باللاتينية.",
+    "أسسه طلاب مدرسة ثانوية في تورينو.",
+    "ارتبطت إدارته طويلاً بعائلة أنييلي مالكة شركة فيات."
+   ],
+   "answer": "يوفنتوس",
+   "accepted": [
+    "اليوفي",
+    "يوفي"
+   ],
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.ajnet.me/encyclopedia/2016/9/20/يوفنتوس-السيدة-العجوز",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 390,
+   "category": "world-football",
+   "question": "أي نادٍ إنجليزي نشيده «لن تسير وحدك أبداً»، وتغنيه الجماهير قبل كل مباراة في ملعب «أنفيلد»؟",
+   "clues": [
+    "الأغنية أصلها من مسرحية غنائية أمريكية.",
+    "اشتهرت بصوت فرقة «جيري آند ذا بيسميكرز» من نفس المدينة.",
+    "كلمات النشيد مكتوبة على شعار النادي."
+   ],
+   "answer": "ليفربول",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.liverpoolfc.com/info/why-youll-never-walk-alone-liverpool-fcs-anthem",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 391,
+   "category": "kuwait-regions",
+   "question": "أي منطقة ساحلية في محافظة الأحمدي يشتهر سوق السمك فيها، والسمك ينزل من الطراريد مباشرة للرصيف؟",
+   "clues": [
+    "تقع على ساحل الخليج شرق منطقة الأحمدي.",
+    "فيها مجمع «الكوت» على البحر."
+   ],
+   "answer": "الفحيحيل",
+   "accepted": [
+    "فحيحيل"
+   ],
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Fahaheel",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 392,
+   "category": "currencies",
+   "question": "ما عملة سويسرا، اللي تستخدمها كذلك إمارة ليختنشتاين المجاورة؟",
+   "clues": [
+    "ليختنشتاين اعتمدتها بعد ما انهارت عملة النمسا إثر الحرب العالمية الأولى.",
+    "كانت فرنسا وبلجيكا تستخدم عملة بنفس الاسم قبل اليورو.",
+    "يسمونها بالإنجليزي «فرانك»."
+   ],
+   "answer": "الفرنك",
+   "accepted": [
+    "الفرنك السويسري",
+    "فرنك"
+   ],
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.eda.admin.ch/countries/liechtenstein/en/home/switzerland-and/bilateral-relations.html",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
