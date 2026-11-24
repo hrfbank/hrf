@@ -7084,6 +7084,120 @@
    "source": "https://world.new7wonders.com/wonders/roman-colosseum-70-82-a-d-rome-italy",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 381,
+   "category": "restaurants",
+   "question": "ما سلسلة مطاعم الدجاج «البروستد» اللي بدأت من جدة، ويوقف الناس طوابير عشانها؟",
+   "clues": [
+    "أسسها شكور أبو غزالة في مستودع قديم على طريق المطار القديم.",
+    "بعد وفاته كمّل أولاده المشوار، وصار عندهم خلطتهم السرية.",
+    "مقرها الرئيسي إلى اليوم في جدة."
+   ],
+   "answer": "البيك",
+   "accepted": [
+    "بيك"
+   ],
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D8%A7%D9%84%D8%A8%D9%8A%D9%83",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 382,
+   "category": "restaurants",
+   "question": "ما سلسلة مطاعم البرجر السعودية اللي افتتحت أول فروعها في الرياض، وأسسها أحمد السعيد؟",
+   "clues": [
+    "فتحت مخبزها الخاص بعد سنة من التأسيس عشان تضبط جودة الخبز.",
+    "عندها مئات الفروع في السعودية، وفروع في الكويت.",
+    "صارت لاحقاً تابعة لمجموعة صافولا."
+   ],
+   "answer": "هرفي",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://200listedsecurities.saudiexchange.sa/Resources/200ListedSecurities/consumer_discretionary/herfy_food_services_company.html",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 383,
+   "category": "products",
+   "question": "ما الماركة الرياضية الألمانية اللي أسسها «آدي داسلر» بعد ما اختلف مع أخوه؟",
+   "clues": [
+    "أخوه رودولف أسس شركة منافسة اسمها «بوما».",
+    "الشركتان في نفس البلدة الألمانية، وكل وحدة على ضفة من النهر.",
+    "شعارها المشهور ثلاثة خطوط."
+   ],
+   "answer": "أديداس",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.history.com/articles/adidas-puma-rivalry-dassler",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 384,
+   "category": "products",
+   "question": "ما الماركة الرياضية الأمريكية اللي تحمل اسم إلهة النصر عند الإغريق؟",
+   "clues": [
+    "رسمت شعارها طالبة تصميم جامعية مقابل مبلغ بسيط.",
+    "شعارها علامة منحنية اسمها «سووش» مستوحاة من جناح.",
+    "كان اسمها الأول «بلو ريبون سبورتس»."
+   ],
+   "answer": "نايكي",
+   "accepted": [
+    "نايك"
+   ],
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.retailbrew.com/stories/2022/09/09/logo-big-or-go-home-how-nike-got-its-swoosh-for-just-usd35",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 385,
+   "category": "actors",
+   "question": "من الممثل الكويتي الكوميدي صاحب برنامج «داووديات» وبرنامج «داود شو»؟",
+   "clues": [
+    "تخرج من المعهد العالي للفنون المسرحية في الكويت.",
+    "شارك عبدالحسين عبدالرضا في مسرحية «باي باي لندن».",
+    "اشتهر بتقليد الشخصيات واللهجات."
+   ],
+   "answer": "داود حسين",
+   "accepted": [
+    "داوود حسين"
+   ],
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.marefa.org/داوود_حسين",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 386,
+   "category": "actors",
+   "question": "من الممثلة الكويتية الملقبة بـ«سندريلا الشاشة الخليجية»؟",
+   "clues": [
+    "من مسلسلاتها «أم البنات» و«الوجيهة».",
+    "وقفت على المسرح مع فرقة المسرح الكويتي في مسرحيات مثل «قاضي إشبيلية».",
+    "أدت دور «موزة» في «زوارة خميس»."
+   ],
+   "answer": "سعاد عبدالله",
+   "accepted": [
+    "سعاد عبد الله"
+   ],
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1461794633837703800/amp",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
