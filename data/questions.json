@@ -7634,6 +7634,114 @@
    "source": "https://www.ebc.com/ar/forex/271011.html",
    "verified_at": "2026-11-24",
    "review_note": null
+  },
+  {
+   "id": 410,
+   "category": "saudi-regions",
+   "question": "أي منطقة سعودية يسمونها «عروس الشمال»، وفيها جبلا «أجا وسلمى»؟",
+   "clues": [
+    "سكنها حاتم الطائي وقومه، وفيها آثار قصره في قرية توارن.",
+    "جبل أجا أعلى جبال هضبة نجد.",
+    "تلقّب كذلك بأرض الجود والكرم."
+   ],
+   "answer": "حائل",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://saudipedia.com/%D8%AC%D8%A8%D9%84%D8%A7-%D8%A3%D8%AC%D8%A7-%D9%88%D8%B3%D9%84%D9%85%D9%89",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 411,
+   "category": "saudi-regions",
+   "question": "ما اسم الأرخبيل السعودي في جنوب البحر الأحمر، اللي يتبع منطقة جازان ويضم عشرات الجزر؟",
+   "clues": [
+    "فيه نحو ٩٠ جزيرة، المأهول منها ثلاث فقط.",
+    "من أوائل المحميات الطبيعية في السعودية.",
+    "يعيش فيه أكثر من ١٦٠ نوعاً من الطيور."
+   ],
+   "answer": "فرسان",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.aleqt.com/2021/09/16/article_2172396.html",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 412,
+   "category": "saudi-regions",
+   "question": "أي منطقة سعودية شمالية تنتج أغلب زيت الزيتون في المملكة، ومقرّها الإداري سكاكا؟",
+   "clues": [
+    "فيها «قلعة مارد» اللي عجزت الملكة زنوبيا عن اقتحامها.",
+    "من محافظاتها دومة الجندل والقريات.",
+    "فيها مسجد عمر بن الخطاب الأثري."
+   ],
+   "answer": "الجوف",
+   "accepted": [
+    "جوف"
+   ],
+   "letter": "ج",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.alyaum.com/ampArticle/6193669",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 413,
+   "category": "saudi",
+   "question": "أكمل اسم السوق الشعبي القديم في الرياض قرب قصر الحكم، المشهور بالبشوت والسجاد: «سوق ...»؟",
+   "clues": [
+    "تأسس في عهد الملك عبدالعزيز.",
+    "اسمه مأخوذ من «الزولية» يعني السجادة.",
+    "دخل ضمن مناطق موسم الرياض."
+   ],
+   "answer": "الزل",
+   "accepted": [
+    "زل"
+   ],
+   "letter": "ز",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://sabq.org/article/JE4TZJZ",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 414,
+   "category": "famous-places",
+   "question": "ما مدينة الإنكا الأثرية المبنية فوق جبال الأنديز في البيرو، ويسمونها «المدينة المفقودة»؟",
+   "clues": [
+    "اسمها يعني «قمة الجبل القديمة».",
+    "أعاد اكتشافها المستكشف الأمريكي هيرام بينغهام.",
+    "اختيرت من عجائب الدنيا السبع الجديدة."
+   ],
+   "answer": "ماتشو بيتشو",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://mawdoo3.com/مدينة_ماتشو_بيتشو",
+   "verified_at": "2026-11-24",
+   "review_note": null
+  },
+  {
+   "id": 415,
+   "category": "famous-places",
+   "question": "ما التمثال النحاسي الضخم في نيويورك، اللي أهداه الشعب الفرنسي للأمريكان؟",
+   "clues": [
+    "نحته الفرنسي بارتولدي.",
+    "صمم هيكله الداخلي غوستاف إيفل صاحب البرج المشهور.",
+    "انشحن مفككاً في صناديق عبر الأطلسي وانركّب هناك."
+   ],
+   "answer": "تمثال الحرية",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.history.com/topics/statue-of-liberty",
+   "verified_at": "2026-11-24",
+   "review_note": null
   }
  ]
 }
