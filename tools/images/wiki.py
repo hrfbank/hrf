@@ -40,7 +40,8 @@ def _get(url: str, binary=False, accept=None):
             if attempt == 4:
                 raise
             print(f"  إعادة المحاولة بعد خطأ: {e} ← {url[:120]}")
-            time.sleep(5 * 2 ** attempt)
+            retry_after = getattr(e, "headers", None) and e.headers.get("Retry-After")
+            time.sleep(int(retry_after) if retry_after and retry_after.isdigit() else 15 * 2 ** attempt)
     raise RuntimeError(url)
 
 

@@ -41,11 +41,15 @@ def hide(img: Image.Image, box) -> Image.Image:
 def build_cars(cfg, file_id, norm_letter):
     out = []
     for it in cfg["items"]:
-        ii = wiki.image_info(it["file"], 1280)
-        if not ii:
-            print(f"  ✗ {it['answer']}: الملف مو موجود في Commons")
+        try:
+            ii = wiki.image_info(it["file"], 1280)
+            if not ii:
+                print(f"  ✗ {it['answer']}: الملف مو موجود في Commons")
+                continue
+            img = Image.open(io.BytesIO(wiki.download(ii["thumb"]))).convert("RGB")
+        except Exception as e:  # noqa: BLE001  واحد فشل ما يوقف الباقي
+            print(f"  ✗ {it['answer']}: {str(e)[:60]}")
             continue
-        img = Image.open(io.BytesIO(wiki.download(ii["thumb"]))).convert("RGB")
         q = img
         for m in it.get("masks", []):
             q = hide(q, m)
