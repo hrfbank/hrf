@@ -6,3 +6,4 @@ dist
 *.tsbuildinfo
 tools/images/cache/
 __pycache__/
+data/questions.json.lock

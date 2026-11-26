@@ -505,6 +505,9 @@ KINDS = {"kuwait_area_shape": build_kuwait_areas, "country_shape": build_countri
 def main():
     sets = json.load(open(os.path.join(HERE, "sets.json"), encoding="utf-8"))["sets"]
     only = set(sys.argv[1:])
+    import fcntl
+    lock = open(DB + ".lock", "w")
+    fcntl.flock(lock, fcntl.LOCK_EX)  # تشغيلين بنفس الوقت ما يمسحون شغل بعض
     db = json.load(open(DB, encoding="utf-8"))
     by_key = {q.get("image", {}).get("key"): q for q in db["questions"] if q.get("image", {}).get("key")}
     next_id = max(q["id"] for q in db["questions"]) + 1
