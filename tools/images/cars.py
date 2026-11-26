@@ -16,26 +16,22 @@ from photos import webp
 
 
 def hide(img: Image.Image, box) -> Image.Image:
-    """يطمس مستطيل: يعبيه بلون محيطه بعد تمويه قوي، بحواف ناعمة عشان ما يبان مكانه"""
+    """يمسح مستطيل (شعار، لوحة، كتابة) ويعبيه من محيطه (inpainting).
+    ما يستخدم أي بكسل من داخل المستطيل، فما يبقى أثر لشكل الشعار مثل التمويه."""
+    import cv2
+    import numpy as np
     W, H = img.size
-    x, y, w, h = box[0] * W, box[1] * H, box[2] * W, box[3] * H
-    r = max(w, h)
-    # المحيط بس (بدون المستطيل نفسه) يتمَوّه ويعبّي المكان، فما يبقى أي أثر من الشعار
-    ring = (max(0, int(x - r * 0.6)), max(0, int(y - r * 0.6)), min(W, int(x + w + r * 0.6)), min(H, int(y + h + r * 0.6)))
-    area = img.crop(ring)
-    ax, ay = x - ring[0], y - ring[1]
-    hole = Image.new("L", area.size, 255)
-    ImageDraw.Draw(hole).rectangle([ax, ay, ax + w, ay + h], fill=0)
-    filled = area.copy()
-    for radius in (r * 0.5, r * 0.3, r * 0.15):
-        blur = filled.filter(ImageFilter.GaussianBlur(radius))
-        filled = Image.composite(area, blur, hole)  # المحيط يبقى أصلي، والحفرة تاخذ من التمويه
-    feather = Image.new("L", area.size, 0)
-    ImageDraw.Draw(feather).rectangle([ax, ay, ax + w, ay + h], fill=255)
-    feather = feather.filter(ImageFilter.GaussianBlur(max(2, r * 0.08)))
-    out = img.copy()
-    out.paste(Image.composite(filled.filter(ImageFilter.GaussianBlur(max(1, r * 0.04))), area, feather), ring[:2])
-    return out
+    x0, y0 = int(box[0] * W), int(box[1] * H)
+    x1, y1 = int((box[0] + box[2]) * W), int((box[1] + box[3]) * H)
+    arr = cv2.cvtColor(np.asarray(img.convert("RGB")), cv2.COLOR_RGB2BGR)
+    mask = np.zeros(arr.shape[:2], np.uint8)
+    mask[y0:y1, x0:x1] = 255
+    out = cv2.inpaint(arr, mask, max(3, (x1 - x0) // 6), cv2.INPAINT_TELEA)
+    # تمويه خفيف داخل المكان بس، عشان ما يطلع فيه خطوط من الحواف
+    soft = cv2.GaussianBlur(out, (0, 0), max(1.5, (x1 - x0) / 25))
+    feather = cv2.GaussianBlur(mask, (0, 0), 3).astype(np.float32)[..., None] / 255
+    out = (out * (1 - feather) + soft * feather).astype(np.uint8)
+    return Image.fromarray(cv2.cvtColor(out, cv2.COLOR_BGR2RGB))
 
 
 def build_cars(cfg, file_id, norm_letter):
