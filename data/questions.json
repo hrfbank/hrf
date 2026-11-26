@@ -10896,6 +10896,39 @@
     "license": "علامة تجارية (استخدام شخصي)",
     "source": "https://www.agility.com"
    }
+  },
+  {
+   "id": 569,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "لاعب مصري بدأ مسيرته في نادي المقاولون العرب.",
+    "فاز مع ليفربول بدوري أبطال أوروبا."
+   ],
+   "answer": "محمد صلاح",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/a728699523_a.webp",
+    "mode": "crop",
+    "aspect": 1.9,
+    "crop": {
+     "x": 0.2504,
+     "y": 0.1881,
+     "w": 0.5199,
+     "h": 0.189
+    },
+    "wikidata": "Q1354960",
+    "key": "celeb:Q1354960",
+    "credit": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_(cropped).jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
   }
  ]
 }
