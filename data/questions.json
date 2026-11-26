@@ -10896,6 +10896,241 @@
     "license": "علامة تجارية (استخدام شخصي)",
     "source": "https://www.agility.com"
    }
+  },
+  {
+   "id": 569,
+   "category": "cars",
+   "question": "لأي شركة يعود هذا الجزء من السيارة؟",
+   "clues": [
+    "شركة ألمانية مقرها ميونخ.",
+    "تملك علامة «رولز رويس» البريطانية."
+   ],
+   "answer": "بي إم دبليو",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:BMW_kidney_grille_20170524.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d2126591e3_a.webp",
+    "question_file": "images/d2126591e3_q.webp",
+    "mode": "mask",
+    "key": "car:bmw-grille",
+    "credit": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:BMW_kidney_grille_20170524.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
+   "id": 570,
+   "category": "cars",
+   "question": "لأي شركة يعود هذا الجزء من السيارة؟",
+   "clues": [
+    "شركة بريطانية للسيارات الفاخرة تملكها «بي إم دبليو».",
+    "من سياراتها «فانتوم» و«كولينان»."
+   ],
+   "answer": "رولز رويس",
+   "letter": "ر",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:Rolls_Royce_Grille_2223.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/995cda2e46_a.webp",
+    "question_file": "images/995cda2e46_q.webp",
+    "mode": "mask",
+    "key": "car:rr-grille",
+    "credit": "Anna Anichkova",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rolls_Royce_Grille_2223.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  },
+  {
+   "id": 571,
+   "category": "cars",
+   "question": "ما اسم هذه السيارة؟",
+   "clues": [
+    "سيارة رياضية أمريكية من «فورد».",
+    "انطلقت سنة ١٩٦٤، واسمها مأخوذ من طائرة مقاتلة."
+   ],
+   "answer": "موستنق",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:2015_Ford_Mustang_GT_Coupe_(16576203342).jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/0278565b9e_a.webp",
+    "question_file": "images/0278565b9e_q.webp",
+    "mode": "mask",
+    "key": "car:mustang",
+    "credit": "Sicnag",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Ford_Mustang_GT_Coupe_(16576203342).jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+   }
+  },
+  {
+   "id": 572,
+   "category": "cars",
+   "question": "ما اسم هذه السيارة؟",
+   "clues": [
+    "سيارة دفع رباعي يابانية من «تويوتا».",
+    "من أشهر سيارات البر عند أهل الخليج."
+   ],
+   "answer": "لاندكروزر",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_LAND_CRUISER_200_China_(4).jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/2258e5f115_a.webp",
+    "question_file": "images/2258e5f115_q.webp",
+    "mode": "mask",
+    "key": "car:landcruiser",
+    "credit": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TOYOTA_LAND_CRUISER_200_China_(4).jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
+   "id": 573,
+   "category": "cars",
+   "question": "ما اسم هذه السيارة؟",
+   "clues": [
+    "سيارة دفع رباعي يابانية من «نيسان».",
+    "أول جيل منها صدر سنة ١٩٥١ وصعد جبل فوجي."
+   ],
+   "answer": "باترول",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:NISSAN_PATROL_Y62_China_(5).jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/1450a5ea1c_a.webp",
+    "question_file": "images/1450a5ea1c_q.webp",
+    "mode": "mask",
+    "key": "car:patrol",
+    "credit": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NISSAN_PATROL_Y62_China_(5).jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
+   "id": 574,
+   "category": "cars",
+   "question": "لأي شركة تعود هذه السيارة؟",
+   "clues": [
+    "شركة ألمانية.",
+    "صمّم هذه السيارة فرديناند بورشه.",
+    "اسم الشركة يعني «سيارة الشعب»."
+   ],
+   "answer": "فولكس فاجن",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:VW_Type_1_aka_Beetle_late_1960s_Schaffen-Diest_2012.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/5a4e89766e_a.webp",
+    "question_file": "images/5a4e89766e_q.webp",
+    "mode": "mask",
+    "key": "car:beetle",
+    "credit": "Charles01",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:VW_Type_1_aka_Beetle_late_1960s_Schaffen-Diest_2012.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+   }
+  },
+  {
+   "id": 575,
+   "category": "cars",
+   "question": "لأي شركة يعود هذا الجزء من السيارة؟",
+   "clues": [
+    "علامة أمريكية بدأت بسيارة عسكرية في الحرب العالمية الثانية.",
+    "من سياراتها «رانجلر» و«شيروكي»."
+   ],
+   "answer": "جيب",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:%22_15_-_ITALY_-_Jeep_(Fiat)_stand_in_Milan_-_Jeep_Wrangler_Rubicon_BEAST_4x4_plastic_Monocoque_05.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/c25ad1f82e_a.webp",
+    "question_file": "images/c25ad1f82e_q.webp",
+    "mode": "mask",
+    "key": "car:jeep-grille",
+    "credit": "Pava, Milan ( from IT WIKI)",
+    "license": "CC BY-SA 3.0 it",
+    "source": "https://commons.wikimedia.org/wiki/File:%22_15_-_ITALY_-_Jeep_(Fiat)_stand_in_Milan_-_Jeep_Wrangler_Rubicon_BEAST_4x4_plastic_Monocoque_05.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/it/deed.en"
+   }
+  },
+  {
+   "id": 576,
+   "category": "cars",
+   "question": "لأي شركة يعود هذا الجزء من السيارة؟",
+   "clues": [
+    "شركة ألمانية للسيارات الرياضية.",
+    "أشهر سياراتها تحمل الرقم «٩١١»."
+   ],
+   "answer": "بورشه",
+   "letter": "ب",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:Porsche_911_(991)_Turbo_S_LED_headlight.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/dfa057792c_a.webp",
+    "question_file": "images/dfa057792c_q.webp",
+    "mode": "mask",
+    "key": "car:porsche-light",
+    "credit": "Yahya S. on Flickr : https://www.flickr.com/photos/128326674@N06/",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Porsche_911_(991)_Turbo_S_LED_headlight.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+   }
+  },
+  {
+   "id": 577,
+   "category": "cars",
+   "question": "لأي شركة تعود هذه السيارة؟",
+   "clues": [
+    "شركة إيطالية بدأ مؤسسها بصناعة الجرارات.",
+    "من سياراتها «أوروس» و«مورسيلاغو»."
+   ],
+   "answer": "لامبورغيني",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_LP750-4_SV_IMG_9103_(cropped).jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d0c80abf19_a.webp",
+    "question_file": "images/d0c80abf19_q.webp",
+    "mode": "mask",
+    "key": "car:lamborghini",
+    "credit": "Alexander-93",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_LP750-4_SV_IMG_9103_(cropped).jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
   }
  ]
 }
