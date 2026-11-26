@@ -1496,6 +1496,450 @@
       "صمّم هذه السيارة فرديناند بورشه.",
       "اسم الشركة يعني «سيارة الشعب»."
      ]
+    },
+    {
+     "id": "camry-rear",
+     "file": "1995 Toyota Camry V6 XLE (rear).jpg",
+     "question": "ما هي السيارة (اسم السيارة)؟",
+     "answer": "كامري",
+     "difficulty": 1,
+     "masks": [
+      [
+       0.155,
+       0.355,
+       0.04,
+       0.075
+      ],
+      [
+       0.105,
+       0.455,
+       0.13,
+       0.05
+      ],
+      [
+       0.283,
+       0.395,
+       0.065,
+       0.05
+      ],
+      [
+       0.035,
+       0.365,
+       0.045,
+       0.045
+      ],
+      [
+       0.122,
+       0.635,
+       0.085,
+       0.16
+      ],
+      [
+       0.56,
+       0.72,
+       0.032,
+       0.065
+      ],
+      [
+       0.915,
+       0.545,
+       0.032,
+       0.065
+      ]
+     ],
+     "clues": [
+      "سيارة سيدان يابانية من «تويوتا».",
+      "اسمها مأخوذ من كلمة يابانية تعني «التاج»."
+     ]
+    },
+    {
+     "id": "toyota-interior",
+     "file": "2022 Toyota Camry 2.5 V Hybrid (Interior).jpg",
+     "question": "داخلية أي سيارة (الشركة المصنعة)؟",
+     "answer": "تويوتا",
+     "difficulty": 2,
+     "masks": [
+      [
+       0.205,
+       0.49,
+       0.072,
+       0.068
+      ],
+      [
+       0.625,
+       0.665,
+       0.22,
+       0.21
+      ]
+     ],
+     "crop": [
+      0,
+      0.29,
+      1,
+      0.62
+     ],
+     "clues": [
+      "شركة يابانية مقرها مدينة تحمل اسمها.",
+      "من سياراتها «كامري» و«لاندكروزر»."
+     ]
+    },
+    {
+     "id": "gmc-interior",
+     "file": "2022 GMC Yukon interior.jpg",
+     "question": "داخلية أي سيارة (الشركة المصنعة)؟",
+     "answer": "جي إم سي",
+     "difficulty": 2,
+     "masks": [
+      [
+       0.158,
+       0.43,
+       0.1,
+       0.085
+      ]
+     ],
+     "crop": [
+      0,
+      0.27,
+      1,
+      0.73
+     ],
+     "clues": [
+      "علامة أمريكية تتبع «جنرال موتورز».",
+      "من سياراتها «يوكن» و«سييرا»."
+     ]
+    },
+    {
+     "id": "mercedes-interior",
+     "file": "2022 Mercedes-Benz G-Class interior.jpg",
+     "question": "داخلية أي سيارة (الشركة المصنعة)؟",
+     "answer": "مرسيدس",
+     "difficulty": 2,
+     "masks": [
+      [
+       0.168,
+       0.45,
+       0.07,
+       0.12
+      ],
+      [
+       0.82,
+       0.43,
+       0.07,
+       0.04
+      ],
+      [
+       0.497,
+       0.74,
+       0.035,
+       0.06
+      ]
+     ],
+     "crop": [
+      0,
+      0.3,
+      1,
+      0.7
+     ],
+     "clues": [
+      "شركة ألمانية مقرها شتوتغارت.",
+      "من سياراتها «جي كلاس» و«الفئة إس»."
+     ]
+    }
+   ]
+  },
+  {
+   "key": "loc",
+   "kind": "location",
+   "category": "maps",
+   "_doc": "مكان: query نص بحث في Places API، answer الاسم المميز بدون نوع المكان",
+   "items": [
+    {
+     "id": "towers",
+     "query": "Kuwait Towers",
+     "question": "ما اسم هذا المكان؟",
+     "answer": "أبراج الكويت",
+     "difficulty": 1,
+     "clues": [
+      "معلم على ساحل الخليج في مدينة الكويت.",
+      "افتُتحت سنة ١٩٧٩ وصارت رمزاً للكويت."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "grand-mosque",
+     "query": "Grand Mosque Kuwait",
+     "question": "ما اسم هذا المسجد؟",
+     "answer": "المسجد الكبير",
+     "difficulty": 1,
+     "clues": [
+      "يقع في مدينة الكويت قرب قصر السيف.",
+      "أكبر مساجد الكويت."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "mubarakiya",
+     "query": "Souq Al Mubarakiya Kuwait",
+     "question": "ما اسم هذا السوق؟",
+     "answer": "المباركية",
+     "difficulty": 1,
+     "clues": [
+      "سوق شعبي في مدينة الكويت.",
+      "من أقدم أسواق الكويت."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "liberation",
+     "query": "Liberation Tower Kuwait",
+     "question": "ما اسم هذا البرج؟",
+     "answer": "التحرير",
+     "difficulty": 2,
+     "clues": [
+      "برج اتصالات في مدينة الكويت.",
+      "سُمّي بهذا الاسم بعد تحرير الكويت."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "seif",
+     "query": "Seif Palace Kuwait",
+     "question": "ما اسم هذا القصر؟",
+     "answer": "السيف",
+     "difficulty": 1,
+     "clues": [
+      "قصر على البحر في مدينة الكويت.",
+      "بدأ بناؤه سنة ١٨٨٠، وبرج ساعته معروف."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "scientific",
+     "query": "The Scientific Center Kuwait Salmiya",
+     "question": "ما اسم هذا المكان؟",
+     "answer": "المركز العلمي",
+     "difficulty": 2,
+     "clues": [
+      "يقع في السالمية على البحر.",
+      "فيه أحواض أسماك كبيرة وسينما آيماكس."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "avenues",
+     "query": "The Avenues Mall Kuwait",
+     "question": "ما اسم هذا المجمع؟",
+     "answer": "الأفنيوز",
+     "difficulty": 1,
+     "clues": [
+      "من أكبر المجمعات التجارية في الكويت.",
+      "يقع في منطقة الري."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "marina",
+     "query": "Marina Mall Kuwait Salmiya",
+     "question": "ما اسم هذا المجمع؟",
+     "answer": "مارينا مول",
+     "difficulty": 2,
+     "clues": [
+      "مجمع تجاري على البحر.",
+      "يقع في السالمية."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "kout",
+     "query": "Al Kout Mall Fahaheel",
+     "question": "ما اسم هذا المجمع؟",
+     "answer": "الكوت",
+     "difficulty": 2,
+     "clues": [
+      "مجمع تجاري على البحر في محافظة الأحمدي.",
+      "يقع في الفحيحيل."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "souq-sharq",
+     "query": "Souk Sharq Kuwait",
+     "question": "ما اسم هذا المجمع؟",
+     "answer": "سوق شرق",
+     "difficulty": 2,
+     "clues": [
+      "مجمع تجاري على البحر في مدينة الكويت.",
+      "يقع في منطقة شرق، وجنبه مرسى للقوارب."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "mishref-coop",
+     "query": "Mishref Co-operative Society main branch",
+     "question": "ما اسم هذه الجمعية؟",
+     "answer": "مشرف",
+     "difficulty": 2,
+     "clues": [
+      "جمعية تعاونية في محافظة حولي.",
+      "في المنطقة أرض المعارض الدولية."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "rawda-coop",
+     "query": "Rawda and Hawalli Co-operative Society Rawda",
+     "question": "ما اسم هذه الجمعية؟",
+     "answer": "الروضة",
+     "difficulty": 2,
+     "clues": [
+      "جمعية تعاونية في محافظة العاصمة.",
+      "المنطقة بين الدائري الثالث والرابع، وكانت تُسمّى العديلية الشرقية."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "salmiya-coop",
+     "query": "Salmiya Co-operative Society main branch",
+     "question": "ما اسم هذه الجمعية؟",
+     "answer": "السالمية",
+     "difficulty": 2,
+     "clues": [
+      "جمعية تعاونية في محافظة حولي.",
+      "المنطقة فيها شارع سالم المبارك."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "adan-hosp",
+     "query": "Adan Hospital Kuwait",
+     "question": "ما اسم هذا المستشفى؟",
+     "answer": "العدان",
+     "difficulty": 2,
+     "clues": [
+      "مستشفى حكومي في محافظة الأحمدي.",
+      "يقع في منطقة هدية."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "amiri-hosp",
+     "query": "Al Amiri Hospital Kuwait",
+     "question": "ما اسم هذا المستشفى؟",
+     "answer": "الأميري",
+     "difficulty": 2,
+     "clues": [
+      "مستشفى حكومي على البحر في مدينة الكويت.",
+      "من أقدم مستشفيات الكويت."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "mubarak-hosp",
+     "query": "Mubarak Al-Kabeer Hospital Jabriya",
+     "question": "ما اسم هذا المستشفى؟",
+     "answer": "مبارك الكبير",
+     "difficulty": 2,
+     "clues": [
+      "مستشفى حكومي في محافظة حولي.",
+      "يقع في منطقة الجابرية."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "jahra-hosp",
+     "query": "Jahra Hospital Kuwait",
+     "question": "ما اسم هذا المستشفى؟",
+     "answer": "الجهراء",
+     "difficulty": 1,
+     "clues": [
+      "مستشفى حكومي في أكبر محافظات الكويت مساحة.",
+      "يحمل اسم المحافظة."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "qadsia",
+     "query": "Qadsia Sporting Club Hawalli",
+     "question": "ما اسم هذا النادي؟",
+     "answer": "القادسية",
+     "difficulty": 2,
+     "clues": [
+      "نادٍ رياضي في محافظة حولي.",
+      "لونه الأصفر."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "kuwait-club",
+     "query": "Kuwait Sporting Club Kaifan",
+     "question": "ما اسم هذا النادي؟",
+     "answer": "الكويت",
+     "difficulty": 2,
+     "clues": [
+      "نادٍ رياضي في منطقة كيفان.",
+      "لونه الأبيض، ويحمل اسم الدولة."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "arabi",
+     "query": "Al Arabi Sporting Club Kuwait Mansouriya",
+     "question": "ما اسم هذا النادي؟",
+     "answer": "العربي",
+     "difficulty": 2,
+     "clues": [
+      "نادٍ رياضي في منطقة المنصورية.",
+      "لونه الأخضر."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "ku",
+     "query": "Sabah Al-Salem University City Shadadiya",
+     "question": "ما اسم هذه الجامعة؟",
+     "answer": "جامعة الكويت",
+     "difficulty": 1,
+     "clues": [
+      "جامعة حكومية حرمها الجديد في الشدادية.",
+      "أول جامعة في الكويت."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "auk",
+     "query": "American University of Kuwait Salmiya",
+     "question": "ما اسم هذه الجامعة؟",
+     "answer": "الأمريكية",
+     "difficulty": 3,
+     "clues": [
+      "جامعة خاصة في السالمية.",
+      "اسمها يحمل اسم دولة غير الكويت."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "jaber-stadium",
+     "query": "Jaber Al-Ahmad International Stadium",
+     "question": "ما اسم هذا الاستاد؟",
+     "answer": "جابر الأحمد",
+     "difficulty": 2,
+     "clues": [
+      "استاد دولي في منطقة العارضية.",
+      "أكبر ملعب في الكويت."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "shaheed-park",
+     "query": "Al Shaheed Park Kuwait",
+     "question": "ما اسم هذه الحديقة؟",
+     "answer": "الشهيد",
+     "difficulty": 2,
+     "clues": [
+      "حديقة كبيرة في مدينة الكويت.",
+      "تقع على امتداد الدائري الأول."
+     ],
+     "zoom": 15
     }
    ]
   }

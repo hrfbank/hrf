@@ -60,3 +60,52 @@ def build(lat, lon, zoom=15, also_hide=()):
     q = np.where(m[..., None], np.asarray(off), np.asarray(on)).astype(np.uint8)
     cx, cy = on.width // 2, on.height // 2
     return pin(Image.fromarray(q), cx, cy, 1.2), pin(on, cx, cy, 1.2)
+
+
+def find_place(query: str):
+    """إحداثيات المكان واسمه وعنوانه من Places API (New)"""
+    import json
+    body = json.dumps({"textQuery": query, "languageCode": "ar", "regionCode": "KW"}).encode()
+    req = urllib.request.Request("https://places.googleapis.com/v1/places:searchText", data=body, headers={
+        "Content-Type": "application/json", "X-Goog-Api-Key": KEY,
+        "X-Goog-FieldMask": "places.displayName,places.location,places.formattedAddress,places.googleMapsUri"})
+    res = json.loads(urllib.request.urlopen(req, timeout=60).read()).get("places", [])
+    if not res:
+        return None
+    p = res[0]
+    return {"name": p["displayName"]["text"], "lat": p["location"]["latitude"], "lon": p["location"]["longitude"],
+            "address": p.get("formattedAddress", ""), "url": p.get("googleMapsUri", "")}
+
+
+def build_locations(cfg, file_id, norm_letter):
+    """مجموعة sets.json نوعها location: كل عنصر {id, query, question, answer, difficulty, clues, zoom?, also_hide?}"""
+    import json
+    from photos import webp
+    cache_p = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cache", "places.json")
+    cache = json.load(open(cache_p)) if os.path.exists(cache_p) else {}
+    out = []
+    for it in cfg["items"]:
+        try:
+            p = cache.get(it["query"]) or find_place(it["query"])
+            if not p:
+                print(f"  ✗ {it['answer']}: ما لقيته في قوقل")
+                continue
+            cache[it["query"]] = p
+            q, a = build(p["lat"], p["lon"], it.get("zoom", 15), it.get("also_hide", ()))
+        except Exception as e:  # noqa: BLE001
+            print(f"  ✗ {it['answer']}: {str(e)[:80]}")
+            continue
+        key = f"{cfg['key']}:{it['id']}"
+        fid = file_id(key)
+        out.append({
+            "key": key, "category": cfg["category"], "question": it["question"], "answer": it["answer"],
+            "letter": norm_letter(it["answer"]), "difficulty": it["difficulty"], "clues": it["clues"],
+            "files": {f"{fid}_q.webp": webp(q, 1280), f"{fid}_a.webp": webp(a, 1280)},
+            "image": {"file": f"images/{fid}_a.webp", "question_file": f"images/{fid}_q.webp", "mode": "mask",
+                      "place": p["name"], "lat": p["lat"], "lon": p["lon"]},
+            "credit": "Google", "license": "خرائط Google (قرار صاحب اللعبة)", "source": p["url"],
+        })
+        print(f"  ✓ {it['answer']} ← {p['name']} ({p['address'][:40]})")
+    os.makedirs(os.path.dirname(cache_p), exist_ok=True)
+    json.dump(cache, open(cache_p, "w"), ensure_ascii=False, indent=1)
+    return out

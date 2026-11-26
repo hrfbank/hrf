@@ -11131,6 +11131,110 @@
     "source": "https://commons.wikimedia.org/wiki/File:Lamborghini_Aventador_LP750-4_SV_IMG_9103_(cropped).jpg",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
    }
+  },
+  {
+   "id": 578,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "سيارة سيدان يابانية من «تويوتا».",
+    "اسمها مأخوذ من كلمة يابانية تعني «التاج»."
+   ],
+   "answer": "كامري",
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:1995_Toyota_Camry_V6_XLE_(rear).jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/768a4cfe32_a.webp",
+    "question_file": "images/768a4cfe32_q.webp",
+    "mode": "mask",
+    "key": "car:camry-rear",
+    "credit": "Spanish Coches",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1995_Toyota_Camry_V6_XLE_(rear).jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+   }
+  },
+  {
+   "id": 579,
+   "category": "cars",
+   "question": "داخلية أي سيارة (الشركة المصنعة)؟",
+   "clues": [
+    "شركة يابانية مقرها مدينة تحمل اسمها.",
+    "من سياراتها «كامري» و«لاندكروزر»."
+   ],
+   "answer": "تويوتا",
+   "letter": "ت",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Camry_2.5_V_Hybrid_(Interior).jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/f354abe47a_a.webp",
+    "question_file": "images/f354abe47a_q.webp",
+    "mode": "mask",
+    "key": "car:toyota-interior",
+    "credit": "Captainmorlypogi1959",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Toyota_Camry_2.5_V_Hybrid_(Interior).jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
+   "id": 580,
+   "category": "cars",
+   "question": "داخلية أي سيارة (الشركة المصنعة)؟",
+   "clues": [
+    "علامة أمريكية تتبع «جنرال موتورز».",
+    "من سياراتها «يوكن» و«سييرا»."
+   ],
+   "answer": "جي إم سي",
+   "letter": "ج",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:2022_GMC_Yukon_interior.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/c10fc25538_a.webp",
+    "question_file": "images/c10fc25538_q.webp",
+    "mode": "mask",
+    "key": "car:gmc-interior",
+    "credit": "deathpallie325",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_GMC_Yukon_interior.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
+   "id": 581,
+   "category": "cars",
+   "question": "داخلية أي سيارة (الشركة المصنعة)؟",
+   "clues": [
+    "شركة ألمانية مقرها شتوتغارت.",
+    "من سياراتها «جي كلاس» و«الفئة إس»."
+   ],
+   "answer": "مرسيدس",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:2022_Mercedes-Benz_G-Class_interior.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/74b9b3260c_a.webp",
+    "question_file": "images/74b9b3260c_q.webp",
+    "mode": "mask",
+    "key": "car:mercedes-interior",
+    "credit": "deathpallie325",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Mercedes-Benz_G-Class_interior.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
   }
  ]
 }

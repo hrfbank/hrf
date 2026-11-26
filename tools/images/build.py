@@ -504,10 +504,16 @@ def build_car_images(cfg):
     return cars.build_cars(cfg, file_id, norm_letter)
 
 
+def build_location_maps(cfg):
+    sys.path.insert(0, HERE)
+    import gmaps  # يحتاج GOOGLE_MAPS_KEY و scipy (انظر gmaps.py)
+    return gmaps.build_locations(cfg, file_id, norm_letter)
+
+
 KINDS = {"kuwait_area_shape": build_kuwait_areas, "country_shape": build_countries, "flag": build_flags,
          "celebrity_eyes": build_celebrities, "logo": build_logos,
          "logo_symbol": build_logo_symbols, "logo_colors": build_logo_colors,
-         "car": build_car_images}
+         "car": build_car_images, "location": build_location_maps}
 
 
 def main():
