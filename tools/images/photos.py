@@ -61,20 +61,13 @@ def eyes_crop(img: Image.Image, det, level: str):
         return None, "الوجه مو مواجه للكاميرا"
     cx = (ro[0] + lo[0]) / 2
     cy = (ro[1] + lo[1]) / 2
-    # شريط عريض فيه العينين والحواجب (مثل مسابقات «منو المشهور»)
-    if level == "hard":  # عين وحدة قريب
-        eye_w = abs(ri[0] - ro[0])
-        w = eye_w * 2.2
-        h = w / 1.6
-        cx = (ro[0] + ri[0]) / 2
-    elif level == "easy":  # العينين والحواجب وأعلى الأنف
-        w = span * 1.8
-        h = w / 1.9
-        cy = cy - span * 0.05
-    else:  # العينين والحواجب
-        w = span * 1.55
-        h = w / 2.2
-        cy = cy - span * 0.1
+    # شريط واحد للكل (أمثلة صاحب اللعبة): العينين مع الحواجب، من فوق الحاجب لتحت الجفن، بدون أنف
+    # الصعوبة تجي من شهرة الشخص، مو من القصّة
+    brow_y = min(lm[i].y * H for i in BROW)
+    lid_y = max(ro[1], lo[1]) + span * 0.12
+    w = span * 1.45
+    h = max(w / 2.6, (lid_y - brow_y) * 1.25)
+    cy = (brow_y + lid_y) / 2
     if w < 170:
         return None, "القصّة تحتاج تكبير زايد"
     x, y = cx - w / 2, cy - h / 2
