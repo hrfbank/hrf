@@ -1690,30 +1690,6 @@
      "zoom": 15
     },
     {
-     "id": "liberation",
-     "query": "Liberation Tower Kuwait",
-     "question": "ما اسم هذا البرج؟",
-     "answer": "التحرير",
-     "difficulty": 2,
-     "clues": [
-      "برج اتصالات في مدينة الكويت.",
-      "سُمّي بهذا الاسم بعد تحرير الكويت."
-     ],
-     "zoom": 15
-    },
-    {
-     "id": "seif",
-     "query": "Seif Palace Kuwait",
-     "question": "ما اسم هذا القصر؟",
-     "answer": "السيف",
-     "difficulty": 1,
-     "clues": [
-      "قصر على البحر في مدينة الكويت.",
-      "بدأ بناؤه سنة ١٨٨٠، وبرج ساعته معروف."
-     ],
-     "zoom": 15
-    },
-    {
      "id": "scientific",
      "query": "The Scientific Center Kuwait Salmiya",
      "question": "ما اسم هذا المكان؟",
@@ -1870,18 +1846,6 @@
      "zoom": 15
     },
     {
-     "id": "kuwait-club",
-     "query": "Kuwait Sporting Club Kaifan",
-     "question": "ما اسم هذا النادي؟",
-     "answer": "الكويت",
-     "difficulty": 2,
-     "clues": [
-      "نادٍ رياضي في منطقة كيفان.",
-      "لونه الأبيض، ويحمل اسم الدولة."
-     ],
-     "zoom": 15
-    },
-    {
      "id": "arabi",
      "query": "Al Arabi Sporting Club Kuwait Mansouriya",
      "question": "ما اسم هذا النادي؟",
@@ -1906,38 +1870,158 @@
      "zoom": 15
     },
     {
-     "id": "auk",
-     "query": "American University of Kuwait Salmiya",
-     "question": "ما اسم هذه الجامعة؟",
-     "answer": "الأمريكية",
+     "id": "adailiya-coop",
+     "query": "Adailiya Co-operative Society Kuwait",
+     "question": "ما اسم هذه الجمعية؟",
+     "answer": "العديلية",
+     "difficulty": 2,
+     "clues": [
+      "جمعية تعاونية في محافظة العاصمة.",
+      "المنطقة كانت تُسمّى العديلية الغربية."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "farwaniya-hosp",
+     "query": "Farwaniya Hospital Kuwait",
+     "question": "ما اسم هذا المستشفى؟",
+     "answer": "الفروانية",
+     "difficulty": 2,
+     "clues": [
+      "مستشفى حكومي يحمل اسم محافظته.",
+      "يقع قرب استاد جابر الأحمد."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "assembly",
+     "query": "National Assembly of Kuwait",
+     "question": "ما اسم هذا المكان؟",
+     "answer": "مجلس الأمة",
+     "difficulty": 1,
+     "clues": [
+      "مبنى على البحر في مدينة الكويت.",
+      "تحت قبته تنعقد جلسات النواب."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "justice",
+     "query": "Palace of Justice Kuwait",
+     "question": "ما اسم هذا المكان؟",
+     "answer": "قصر العدل",
+     "difficulty": 2,
+     "clues": [
+      "مبنى حكومي في مدينة الكويت.",
+      "فيه المحاكم."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "paci",
+     "query": "Public Authority for Civil Information Kuwait South Surra",
+     "question": "ما اسم هذا المكان؟",
+     "answer": "المعلومات المدنية",
+     "difficulty": 2,
+     "clues": [
+      "جهة حكومية في جنوب السرة.",
+      "منها تطلع البطاقة المدنية."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "ministries",
+     "query": "Ministries Complex Kuwait City",
+     "question": "ما اسم هذا المكان؟",
+     "answer": "مجمع الوزارات",
+     "difficulty": 2,
+     "clues": [
+      "مبنى حكومي في مدينة الكويت.",
+      "فيه مكاتب عدة وزارات مع بعض."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "mofa",
+     "query": "Ministry of Foreign Affairs Kuwait",
+     "question": "ما اسم هذه الوزارة؟",
+     "answer": "الخارجية",
+     "difficulty": 2,
+     "clues": [
+      "وزارة في مدينة الكويت.",
+      "تتعامل مع السفارات والعلاقات مع الدول."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "moe",
+     "query": "Ministry of Education Kuwait South Surra",
+     "question": "ما اسم هذه الوزارة؟",
+     "answer": "التربية",
+     "difficulty": 2,
+     "clues": [
+      "وزارة في جنوب السرة.",
+      "مسؤولة عن المدارس الحكومية."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "zakat",
+     "query": "Zakat House Kuwait",
+     "question": "ما اسم هذه الجهة الخيرية؟",
+     "answer": "بيت الزكاة",
+     "difficulty": 2,
+     "clues": [
+      "جهة حكومية خيرية.",
+      "تجمع الزكاة والصدقات وتوزعها على المحتاجين."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "redcrescent",
+     "query": "Kuwait Red Crescent Society",
+     "question": "ما اسم هذه الجهة الخيرية؟",
+     "answer": "الهلال الأحمر",
+     "difficulty": 2,
+     "clues": [
+      "جمعية إغاثة كويتية.",
+      "شعارها هلال أحمر."
+     ],
+     "zoom": 15
+    },
+    {
+     "id": "awqaf",
+     "query": "Kuwait Awqaf Public Foundation",
+     "question": "ما اسم هذا المكان؟",
+     "answer": "الأوقاف",
      "difficulty": 3,
      "clues": [
-      "جامعة خاصة في السالمية.",
-      "اسمها يحمل اسم دولة غير الكويت."
+      "جهة حكومية خيرية.",
+      "تدير أموال الوقف وتصرفها في الخير."
      ],
      "zoom": 15
     },
     {
-     "id": "jaber-stadium",
-     "query": "Jaber Al-Ahmad International Stadium",
-     "question": "ما اسم هذا الاستاد؟",
-     "answer": "جابر الأحمد",
+     "id": "sultan",
+     "query": "Sultan Center Salmiya",
+     "question": "ما اسم هذا المحل؟",
+     "answer": "سلطان سنتر",
      "difficulty": 2,
      "clues": [
-      "استاد دولي في منطقة العارضية.",
-      "أكبر ملعب في الكويت."
+      "سوبرماركت كويتي معروف.",
+      "هذا فرعه في السالمية."
      ],
      "zoom": 15
     },
     {
-     "id": "shaheed-park",
-     "query": "Al Shaheed Park Kuwait",
-     "question": "ما اسم هذه الحديقة؟",
-     "answer": "الشهيد",
+     "id": "ikea",
+     "query": "IKEA Kuwait Avenues",
+     "question": "ما اسم هذا المحل؟",
+     "answer": "ايكيا",
      "difficulty": 2,
      "clues": [
-      "حديقة كبيرة في مدينة الكويت.",
-      "تقع على امتداد الدائري الأول."
+      "محل أثاث سويدي.",
+      "فرعه داخل مجمع الأفنيوز."
      ],
      "zoom": 15
     }
