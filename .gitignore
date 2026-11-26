@@ -7,3 +7,4 @@ dist
 tools/images/cache/
 __pycache__/
 data/questions.json.lock
+tools/images/backups/

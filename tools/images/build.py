@@ -542,6 +542,13 @@ def main():
                 by_key[item["key"]] = q
                 next_id += 1
                 added += 1
+    # حماية: ما نحفظ إذا عدد الأسئلة نقص عن اللي قريناه (يعني فيه شي انمسح بالغلط)
+    before = len(json.load(open(DB, encoding="utf-8"))["questions"])
+    if len(db["questions"]) < before:
+        raise SystemExit(f"وقفت: الأسئلة نقصت من {before} إلى {len(db['questions'])}. ما حفظت شي.")
+    os.makedirs(os.path.join(HERE, "backups"), exist_ok=True)
+    open(os.path.join(HERE, "backups", time.strftime("questions-%Y%m%d-%H%M%S.json")), "w", encoding="utf-8").write(
+        open(DB, encoding="utf-8").read())
     open(DB, "w", encoding="utf-8").write(json.dumps(db, ensure_ascii=False, indent=1) + "\n")
     print(f"أُضيف {added}، تحدّث {updated}")
 
