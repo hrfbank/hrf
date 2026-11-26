@@ -1238,13 +1238,13 @@
    "key": "car",
    "kind": "car",
    "category": "cars",
-   "question": "ما هي السيارة؟ (اسم الشركة)",
+   "question": "ما هي السيارة (اسم الشركة)؟",
    "_items": "file: ملف Commons، crop/masks نسبية على الصورة الأصلية (انظر cars.py)",
    "items": [
     {
      "id": "bmw-grille",
      "file": "BMW kidney grille 20170524.jpg",
-     "question": "ما هي السيارة؟ (اسم الشركة)",
+     "question": "ما هي السيارة (اسم الشركة)؟",
      "answer": "بي إم دبليو",
      "difficulty": 1,
      "crop": [
@@ -1269,7 +1269,7 @@
     {
      "id": "jeep-grille",
      "file": "\" 15 - ITALY - Jeep (Fiat) stand in Milan - Jeep Wrangler Rubicon BEAST 4x4 plastic Monocoque 05.jpg",
-     "question": "ما هي السيارة؟ (اسم الشركة)",
+     "question": "ما هي السيارة (اسم الشركة)؟",
      "answer": "جيب",
      "difficulty": 1,
      "crop": [
@@ -1286,7 +1286,7 @@
     {
      "id": "rr-grille",
      "file": "Rolls Royce Grille 2223.jpg",
-     "question": "ما هي السيارة؟ (اسم الشركة)",
+     "question": "ما هي السيارة (اسم الشركة)؟",
      "answer": "رولز رويس",
      "difficulty": 2,
      "crop": [
@@ -1303,7 +1303,7 @@
     {
      "id": "porsche-light",
      "file": "Porsche 911 (991) Turbo S LED headlight.jpg",
-     "question": "ما هي السيارة؟ (اسم الشركة)",
+     "question": "ما هي السيارة (اسم الشركة)؟",
      "answer": "بورشه",
      "difficulty": 3,
      "clues": [
@@ -1314,7 +1314,7 @@
     {
      "id": "mustang",
      "file": "2015 Ford Mustang GT Coupe (16576203342).jpg",
-     "question": "ما هي السيارة؟ (اسم السيارة)",
+     "question": "ما هي السيارة (اسم السيارة)؟",
      "answer": "موستنق",
      "difficulty": 1,
      "crop": [
@@ -1345,7 +1345,7 @@
     {
      "id": "landcruiser",
      "file": "TOYOTA LAND CRUISER 200 China (4).jpg",
-     "question": "ما هي السيارة؟ (اسم السيارة)",
+     "question": "ما هي السيارة (اسم السيارة)؟",
      "answer": "لاندكروزر",
      "difficulty": 1,
      "crop": [
@@ -1382,7 +1382,7 @@
     {
      "id": "patrol",
      "file": "NISSAN PATROL Y62 China (5).jpg",
-     "question": "ما هي السيارة؟ (اسم السيارة)",
+     "question": "ما هي السيارة (اسم السيارة)؟",
      "answer": "باترول",
      "difficulty": 2,
      "crop": [
@@ -1419,7 +1419,7 @@
     {
      "id": "lamborghini",
      "file": "Lamborghini Aventador LP750-4 SV IMG 9103 (cropped).jpg",
-     "question": "ما هي السيارة؟ (اسم السيارة)",
+     "question": "ما هي السيارة (اسم السيارة)؟",
      "answer": "أفنتادور",
      "difficulty": 2,
      "masks": [
@@ -1462,7 +1462,7 @@
     {
      "id": "beetle",
      "file": "VW Type 1 aka Beetle late 1960s Schaffen-Diest 2012.jpg",
-     "question": "ما هي السيارة؟ (اسم الشركة)",
+     "question": "ما هي السيارة (اسم الشركة)؟",
      "answer": "فولكس فاجن",
      "difficulty": 1,
      "masks": [
