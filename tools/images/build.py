@@ -294,7 +294,8 @@ def build_countries(cfg):
         )
         clues = [f"تقع في قارة {CONTINENT_AR.get(p['CONTINENT'], p['CONTINENT'])}."]
         sub = SUBREGION_AR.get(p["SUBREGION"])
-        if sub and sub != CONTINENT_AR.get(p["CONTINENT"]) and strip_al(answer) not in sub:
+        # تصنيف الأمم المتحدة يحط إيران في «جنوب آسيا»، وهذا يلخبط اللاعب العربي
+        if sub and sub != CONTINENT_AR.get(p["CONTINENT"]) and strip_al(answer) not in sub and iso not in ("IR",):
             clues.append(f"منطقتها: {sub}.")
         clues.append(neighbour_clue(iso, nb, by_code))
         out.append({

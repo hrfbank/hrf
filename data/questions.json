@@ -9265,7 +9265,6 @@
    "question": "ما هي الدولة اللي هذا شكلها على الخريطة؟",
    "clues": [
     "تقع في قارة آسيا.",
-    "منطقتها: جنوب آسيا.",
     "من جيرانها: باكستان."
    ],
    "answer": "إيران",
@@ -9585,81 +9584,6 @@
    }
   },
   {
-   "id": 493,
-   "category": "which-country",
-   "question": "علم أي دولة هذا؟",
-   "clues": [
-    "تقع في قارة آسيا.",
-    "منطقتها: شرق آسيا.",
-    "ما لها حدود برية مع أي دولة."
-   ],
-   "answer": "اليابان",
-   "letter": "ي",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://github.com/lipis/flag-icons",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/06b5a8d8e4_a.svg",
-    "mode": "grayscale",
-    "key": "flag:JP",
-    "credit": "flag-icons (lipis)",
-    "license": "MIT",
-    "source": "https://github.com/lipis/flag-icons"
-   }
-  },
-  {
-   "id": 494,
-   "category": "which-country",
-   "question": "علم أي دولة هذا؟",
-   "clues": [
-    "تقع في قارة آسيا.",
-    "منطقتها: غرب آسيا.",
-    "من جيرانها: إيران."
-   ],
-   "answer": "تركيا",
-   "letter": "ت",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://github.com/lipis/flag-icons",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/e0d07e452e_a.svg",
-    "mode": "grayscale",
-    "key": "flag:TR",
-    "credit": "flag-icons (lipis)",
-    "license": "MIT",
-    "source": "https://github.com/lipis/flag-icons"
-   }
-  },
-  {
-   "id": 495,
-   "category": "which-country",
-   "question": "علم أي دولة هذا؟",
-   "clues": [
-    "تقع في قارة أوروبا.",
-    "منطقتها: غرب أوروبا.",
-    "من جيرانها: فرنسا."
-   ],
-   "answer": "سويسرا",
-   "letter": "س",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://github.com/lipis/flag-icons",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/b7d406fbf9_a.svg",
-    "mode": "grayscale",
-    "key": "flag:CH",
-    "credit": "flag-icons (lipis)",
-    "license": "MIT",
-    "source": "https://github.com/lipis/flag-icons"
-   }
-  },
-  {
    "id": 496,
    "category": "which-country",
    "question": "علم أي دولة هذا؟",
@@ -9710,31 +9634,6 @@
    }
   },
   {
-   "id": 498,
-   "category": "which-country",
-   "question": "علم أي دولة هذا؟",
-   "clues": [
-    "تقع في قارة آسيا.",
-    "منطقتها: جنوب آسيا.",
-    "من جيرانها: الصين."
-   ],
-   "answer": "نيبال",
-   "letter": "ن",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://github.com/lipis/flag-icons",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/c08b4724f5_a.svg",
-    "mode": "grayscale",
-    "key": "flag:NP",
-    "credit": "flag-icons (lipis)",
-    "license": "MIT",
-    "source": "https://github.com/lipis/flag-icons"
-   }
-  },
-  {
    "id": 499,
    "category": "which-country",
    "question": "علم أي دولة هذا؟",
@@ -9754,31 +9653,6 @@
     "file": "images/64dc92c407_a.svg",
     "mode": "grayscale",
     "key": "flag:CY",
-    "credit": "flag-icons (lipis)",
-    "license": "MIT",
-    "source": "https://github.com/lipis/flag-icons"
-   }
-  },
-  {
-   "id": 500,
-   "category": "which-country",
-   "question": "علم أي دولة هذا؟",
-   "clues": [
-    "تقع في قارة آسيا.",
-    "منطقتها: غرب آسيا.",
-    "من جيرانها: اليمن."
-   ],
-   "answer": "السعودية",
-   "letter": "س",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://github.com/lipis/flag-icons",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/5e8e7f8f9a_a.svg",
-    "mode": "grayscale",
-    "key": "flag:SA",
     "credit": "flag-icons (lipis)",
     "license": "MIT",
     "source": "https://github.com/lipis/flag-icons"
@@ -9897,36 +9771,12 @@
    }
   },
   {
-   "id": 505,
-   "category": "cars",
-   "question": "شعار أي شركة سيارات هذا؟",
-   "clues": [
-    "شركة سيارات يابانية.",
-    "من سياراتها لاندكروزر وكامري."
-   ],
-   "answer": "تويوتا",
-   "letter": "ت",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/c378c51554_a.svg",
-    "mode": "grayscale",
-    "key": "logo:toyota",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
    "id": 506,
    "category": "cars",
    "question": "شعار أي شركة سيارات هذا؟",
    "clues": [
-    "شركة سيارات ألمانية.",
-    "شعارها حلقات متشابكة."
+    "شركة ألمانية مقرها إنغولشتات.",
+    "من سياراتها R8 وQ7."
    ],
    "answer": "أودي",
    "letter": "ا",
@@ -9951,36 +9801,12 @@
    }
   },
   {
-   "id": 507,
-   "category": "cars",
-   "question": "شعار أي شركة سيارات هذا؟",
-   "clues": [
-    "شركة سيارات رياضية إيطالية.",
-    "لونها المشهور الأحمر."
-   ],
-   "answer": "فيراري",
-   "letter": "ف",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/615f8bd52c_a.svg",
-    "mode": "grayscale",
-    "key": "logo:ferrari",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
    "id": 508,
    "category": "cars",
    "question": "شعار أي شركة سيارات هذا؟",
    "clues": [
-    "شركة سيارات رياضية إيطالية.",
-    "شعارها حيوان هائج."
+    "شركة إيطالية بدأت بصناعة الجرارات الزراعية.",
+    "من سياراتها أفنتادور وأوروس."
    ],
    "answer": "لامبورغيني",
    "letter": "ل",
@@ -10005,156 +9831,12 @@
    }
   },
   {
-   "id": 509,
-   "category": "cars",
-   "question": "شعار أي شركة سيارات هذا؟",
-   "clues": [
-    "شركة سيارات أمريكية.",
-    "من سياراتها تاهو وكابريس."
-   ],
-   "answer": "شيفروليه",
-   "letter": "ش",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/67d96bb1e3_a.svg",
-    "mode": "grayscale",
-    "key": "logo:chevrolet",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 510,
-   "category": "cars",
-   "question": "شعار أي شركة سيارات هذا؟",
-   "clues": [
-    "شركة سيارات يابانية.",
-    "من سياراتها باجيرو ولانسر."
-   ],
-   "answer": "ميتسوبيشي",
-   "letter": "م",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/e652769efa_a.svg",
-    "mode": "grayscale",
-    "key": "logo:mitsubishi",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 511,
-   "category": "cars",
-   "question": "شعار أي شركة سيارات هذا؟",
-   "clues": [
-    "شركة سيارات أمريكية فاخرة.",
-    "من سياراتها إسكاليد."
-   ],
-   "answer": "كاديلاك",
-   "letter": "ك",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/3fba5a1bf6_a.svg",
-    "mode": "grayscale",
-    "key": "logo:cadillac",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 512,
-   "category": "cars",
-   "question": "شعار أي شركة سيارات هذا؟",
-   "clues": [
-    "شركة سيارات إيطالية فاخرة.",
-    "شعارها رمح بثلاث شعب."
-   ],
-   "answer": "مازيراتي",
-   "letter": "م",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/5fda246b11_a.svg",
-    "mode": "grayscale",
-    "key": "logo:maserati",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 513,
-   "category": "cars",
-   "question": "شعار أي شركة سيارات هذا؟",
-   "clues": [
-    "شركة سيارات يابانية.",
-    "نجوم شعارها من مجموعة الثريا."
-   ],
-   "answer": "سوبارو",
-   "letter": "س",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/2349f9a0f0_a.svg",
-    "mode": "grayscale",
-    "key": "logo:subaru",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 514,
-   "category": "cars",
-   "question": "شعار أي شركة سيارات هذا؟",
-   "clues": [
-    "شركة سيارات فرنسية.",
-    "شعارها على شكل معيّن."
-   ],
-   "answer": "رينو",
-   "letter": "ر",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/33099eaa0e_a.svg",
-    "mode": "grayscale",
-    "key": "logo:renault",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
    "id": 515,
    "category": "products",
    "question": "شعار أي ماركة أو تطبيق هذا؟",
    "clues": [
-    "تطبيق محادثات.",
-    "تملكه شركة ميتا."
+    "تطبيق محادثات تملكه ميتا.",
+    "اشترته فيسبوك بأكثر من ١٩ مليار دولار."
    ],
    "answer": "واتساب",
    "letter": "و",
@@ -10179,84 +9861,12 @@
    }
   },
   {
-   "id": 516,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "تطبيق صور وقصص تختفي.",
-    "شعاره شبح."
-   ],
-   "answer": "سناب شات",
-   "letter": "س",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/47e5e5fce1_a.svg",
-    "mode": "grayscale",
-    "key": "logo:snapchat",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 517,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "تطبيق صور وفيديو.",
-    "تملكه شركة ميتا."
-   ],
-   "answer": "إنستغرام",
-   "letter": "ا",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/0570035f40_a.svg",
-    "mode": "grayscale",
-    "key": "logo:instagram",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 518,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "تطبيق فيديوهات قصيرة.",
-    "شركته الأم صينية."
-   ],
-   "answer": "تيك توك",
-   "letter": "ت",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/01d0378a42_a.svg",
-    "mode": "grayscale",
-    "key": "logo:tiktok",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
    "id": 519,
    "category": "products",
    "question": "شعار أي ماركة أو تطبيق هذا؟",
    "clues": [
-    "موقع فيديوهات.",
-    "تملكه جوجل."
+    "موقع فيديوهات تملكه جوجل.",
+    "أول فيديو انرفع عليه كان في حديقة حيوان."
    ],
    "answer": "يوتيوب",
    "letter": "ي",
@@ -10281,60 +9891,12 @@
    }
   },
   {
-   "id": 520,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "تطبيق موسيقى وبودكاست.",
-    "شركته سويدية."
-   ],
-   "answer": "سبوتيفاي",
-   "letter": "س",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/c3e006e6d7_a.svg",
-    "mode": "grayscale",
-    "key": "logo:spotify",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 521,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "تطبيق محادثات.",
-    "شعاره طيارة ورق."
-   ],
-   "answer": "تيليجرام",
-   "letter": "ت",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/d986ec2785_a.svg",
-    "mode": "grayscale",
-    "key": "logo:telegram",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
    "id": 522,
    "category": "products",
    "question": "شعار أي ماركة أو تطبيق هذا؟",
    "clues": [
-    "شركة أمريكية تصنع الآيفون.",
-    "شعارها فاكهة مقضومة."
+    "شركة أمريكية أسسها ستيف جوبز.",
+    "من أجهزتها آيباد وماك."
    ],
    "answer": "أبل",
    "letter": "ا",
@@ -10359,84 +9921,12 @@
    }
   },
   {
-   "id": 523,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "جهاز ألعاب.",
-    "تصنعه شركة سوني اليابانية."
-   ],
-   "answer": "بلايستيشن",
-   "letter": "ب",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/ddded89e0e_a.svg",
-    "mode": "grayscale",
-    "key": "logo:playstation",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 524,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "شركة هواتف واتصالات.",
-    "شركة صينية."
-   ],
-   "answer": "هواوي",
-   "letter": "ه",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/d66f0a1927_a.svg",
-    "mode": "grayscale",
-    "key": "logo:huawei",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 525,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "ماركة رياضية أمريكية.",
-    "اسمها اسم إلهة النصر عند الإغريق."
-   ],
-   "answer": "نايكي",
-   "letter": "ن",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/dcc88aee98_a.svg",
-    "mode": "grayscale",
-    "key": "logo:nike",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
    "id": 526,
    "category": "products",
    "question": "شعار أي ماركة أو تطبيق هذا؟",
    "clues": [
     "ماركة رياضية ألمانية.",
-    "شعارها ثلاث خطوط."
+    "مؤسسها أخو مؤسس بوما."
    ],
    "answer": "أديداس",
    "letter": "ا",
@@ -10461,36 +9951,12 @@
    }
   },
   {
-   "id": 527,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "ماركة رياضية ألمانية.",
-    "شعارها حيوان من فصيلة القطط."
-   ],
-   "answer": "بوما",
-   "letter": "ب",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/e6e852483a_a.svg",
-    "mode": "grayscale",
-    "key": "logo:puma",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
    "id": 528,
    "category": "products",
    "question": "شعار أي ماركة أو تطبيق هذا؟",
    "clues": [
-    "مشروب طاقة.",
-    "شركته نمساوية."
+    "مشروب طاقة نمساوي.",
+    "يرعى فريق فورمولا ١ بنفس الاسم."
    ],
    "answer": "ريد بول",
    "letter": "ر",
@@ -10515,84 +9981,12 @@
    }
   },
   {
-   "id": 529,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "شركة نفط وبنزين.",
-    "شعارها صدفة بحرية."
-   ],
-   "answer": "شل",
-   "letter": "ش",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/3d5f196ab7_a.svg",
-    "mode": "grayscale",
-    "key": "logo:shell",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 530,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "شركة بطاقات دفع.",
-    "شعارها دائرتين متداخلتين."
-   ],
-   "answer": "ماستركارد",
-   "letter": "م",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/98bb361f63_a.svg",
-    "mode": "grayscale",
-    "key": "logo:mastercard",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
-   "id": 531,
-   "category": "products",
-   "question": "شعار أي ماركة أو تطبيق هذا؟",
-   "clues": [
-    "تطبيق لحجز السكن عند الناس.",
-    "شركة أمريكية."
-   ],
-   "answer": "إيربنب",
-   "letter": "ا",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://simpleicons.org/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/509b21e751_a.svg",
-    "mode": "grayscale",
-    "key": "logo:airbnb",
-    "credit": "Simple Icons",
-    "license": "CC0 (الشعارات علامات تجارية لأصحابها)",
-    "source": "https://simpleicons.org/"
-   }
-  },
-  {
    "id": 532,
    "category": "restaurants",
    "question": "شعار أي مطعم أو مقهى هذا؟",
    "clues": [
-    "سلسلة مقاهٍ أمريكية.",
-    "شعارها حورية بحر."
+    "سلسلة مقاهٍ أمريكية بدأت من سياتل.",
+    "اسمها مأخوذ من شخصية في رواية «موبي ديك»."
    ],
    "answer": "ستاربكس",
    "letter": "س",
@@ -10621,8 +10015,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "بنك قطري.",
-    "يُعرف باختصار من ثلاث حروف إنجليزية."
+    "أكبر بنك في قطر.",
+    "يرعى بطولات رياضية كبيرة."
    ],
    "answer": "بنك قطر الوطني",
    "letter": "ب",
@@ -10646,8 +10040,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "شركة اتصالات كويتية.",
-    "اسمها كلمة عربية معناها جميل."
+    "شركة اتصالات كويتية تأسست باسم MTC.",
+    "تعمل في عدة دول عربية."
    ],
    "answer": "زين",
    "letter": "ز",
@@ -10671,7 +10065,7 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "بنك سعودي.",
+    "بنك سعودي تكوّن من اندماج بنكين.",
     "اختصاره بالإنجليزي SNB."
    ],
    "answer": "الأهلي السعودي",
@@ -10696,8 +10090,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "شركة إنتاج فني وقنوات.",
-    "مقرها السعودية."
+    "شركة إنتاج فني وقنوات وفنادق.",
+    "يملكها الأمير الوليد بن طلال."
    ],
    "answer": "روتانا",
    "letter": "ر",
@@ -10721,7 +10115,7 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "مصرف سعودي.",
+    "مصرف إسلامي سعودي.",
     "اسمه اسم عائلة مؤسسيه."
    ],
    "answer": "الراجحي",
@@ -10796,7 +10190,7 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "بنك إسلامي كويتي.",
+    "أول بنك إسلامي في الكويت.",
     "يسمونه «بيتك»."
    ],
    "answer": "بيت التمويل الكويتي",
@@ -10821,8 +10215,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "علامة كويتية.",
-    "رمزها شجرة."
+    "مجمع ترفيهي ومطاعم على البحر في منطقة البدع.",
+    "تابع لشركة عقارية كويتية."
    ],
    "answer": "أرجان بداية",
    "letter": "ا",
@@ -10846,7 +10240,7 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "سلسلة فنادق ومنتجعات.",
+    "سلسلة فنادق عالمية.",
     "اسمها يعني «الألفية»."
    ],
    "answer": "ميلينيوم",
@@ -10871,7 +10265,7 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "شركة صرافة كويتية.",
+    "شركة صرافة وتحويل أموال كويتية.",
     "تحمل اسم عائلة كويتية معروفة في التجارة."
    ],
    "answer": "الملا للصيرفة",
@@ -10897,7 +10291,7 @@
    "question": "لمن هذا الشعار؟",
    "clues": [
     "بنك كويتي.",
-    "اسمه نفس اسم حقل نفط كويتي كبير."
+    "اسمه نفس اسم أكبر حقل نفط في الكويت."
    ],
    "answer": "برقان",
    "letter": "ب",
@@ -10921,8 +10315,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "بنك كويتي.",
-    "رمزه سفينة شراعية."
+    "بنك كويتي تأسس في الستينات.",
+    "اسمه اسم البحر اللي على ساحل الكويت."
    ],
    "answer": "بنك الخليج",
    "letter": "ب",
@@ -11015,54 +10409,6 @@
    }
   },
   {
-   "id": 549,
-   "category": "logos",
-   "question": "ما هما اللونان الأساسيان في شعار فنادق ميلينيوم؟",
-   "clues": [
-    "اللون الأول لون الأعمدة.",
-    "اللون الثاني لون الكتابة."
-   ],
-   "answer": "أحمر وأسود",
-   "letter": "ا",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://www.wikidata.org/wiki/Property:P154",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/084cb1184f_a.svg",
-    "mode": "grayscale",
-    "key": "brandcolor:millennium",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://www.wikidata.org/wiki/Property:P154"
-   }
-  },
-  {
-   "id": 550,
-   "category": "logos",
-   "question": "ما هما اللونان الأساسيان في شعار طيران أديل؟",
-   "clues": [
-    "اللون الأول لون الكتابة.",
-    "اللون الثاني فاتح ومائل للأصفر."
-   ],
-   "answer": "بنفسجي وأخضر",
-   "letter": "ب",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://www.wikidata.org/wiki/Property:P154",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/7f299b2ce1_a.svg",
-    "mode": "grayscale",
-    "key": "brandcolor:Q24035331",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://www.wikidata.org/wiki/Property:P154"
-   }
-  },
-  {
    "id": 551,
    "category": "logos",
    "question": "ما هما اللونان الأساسيان في شعار الملا للصيرفة؟",
@@ -11091,8 +10437,8 @@
    "category": "who-is-famous",
    "question": "من هو المشهور؟",
    "clues": [
-    "جنسيتها: الكويت.",
-    "من مهنها: ممثل."
+    "ممثلة كويتية يلقبونها «سندريلا الشاشة الخليجية».",
+    "من مسلسلاتها «رقية وسبيكة» و«خالتي قماشة»."
    ],
    "answer": "سعاد عبدالله",
    "letter": "س",
@@ -11124,8 +10470,8 @@
    "category": "who-is-famous",
    "question": "من هو المشهور؟",
    "clues": [
-    "جنسيته: مصر.",
-    "من مهنه: موسيقي تسجيلات، ممثل أفلام، مؤدي."
+    "مطرب مصري يلقبونه «الهضبة».",
+    "من أغانيه «تملي معاك» و«نور العين»."
    ],
    "answer": "عمرو دياب",
    "letter": "ع",
@@ -11157,8 +10503,8 @@
    "category": "who-is-famous",
    "question": "من هو المشهور؟",
    "clues": [
-    "جنسيته: مصر.",
-    "من مهنه: ممثل أفلام، ممثل تلفزي، ممثل مسرحي."
+    "ممثل مصري يلقبونه «الزعيم».",
+    "من أفلامه «الإرهاب والكباب» و«عمارة يعقوبيان»."
    ],
    "answer": "عادل إمام",
    "letter": "ع",
@@ -11190,8 +10536,8 @@
    "category": "who-is-famous",
    "question": "من هو المشهور؟",
    "clues": [
-    "جنسيته: إيطاليا.",
-    "من مهنه: لاعب كرة قدم."
+    "لاعب أرجنتيني قاد منتخب بلاده للفوز بكأس العالم في قطر.",
+    "لعب سنين طويلة لبرشلونة."
    ],
    "answer": "ميسي",
    "letter": "م",
@@ -11223,8 +10569,8 @@
    "category": "who-is-famous",
    "question": "من هو المشهور؟",
    "clues": [
-    "جنسيته: البرتغال.",
-    "من مهنه: لاعب كرة قدم."
+    "لاعب برتغالي لعب لريال مدريد ومانشستر يونايتد.",
+    "انتقل للعب في نادي النصر السعودي."
    ],
    "answer": "رونالدو",
    "letter": "ر",
@@ -11256,8 +10602,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "ماركة أحذية وملابس أمريكية.",
-    "رمزها شجرة."
+    "ماركة أحذية أمريكية.",
+    "تشتهر بالبوت الأصفر."
    ],
    "answer": "تمبرلاند",
    "letter": "ت",
@@ -11282,7 +10628,7 @@
    "question": "لمن هذا الشعار؟",
    "clues": [
     "ماركة ملابس فرنسية.",
-    "رمزها حيوان من الزواحف."
+    "مؤسسها لاعب تنس كان لقبه «التمساح»."
    ],
    "answer": "لاكوست",
    "letter": "ل",
@@ -11306,8 +10652,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "شركة سيارات ألمانية.",
-    "رمزها نجمة بثلاث رؤوس."
+    "شركة سيارات ألمانية مقرها شتوتغارت.",
+    "من سياراتها الجي كلاس والإس كلاس."
    ],
    "answer": "مرسيدس",
    "letter": "م",
@@ -11332,7 +10678,7 @@
    "question": "لمن هذا الشعار؟",
    "clues": [
     "سلسلة مطاعم أمريكية.",
-    "رمزها سقف أحمر."
+    "تأسست في ولاية كانساس."
    ],
    "answer": "بيتزا هت",
    "letter": "ب",
@@ -11357,7 +10703,7 @@
    "question": "لمن هذا الشعار؟",
    "clues": [
     "شركة اتصالات بريطانية.",
-    "رمزها علامة تنصيص."
+    "تعمل في مصر بنفس الاسم."
    ],
    "answer": "فودافون",
    "letter": "ف",
@@ -11406,8 +10752,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "شركة سيارات يابانية.",
-    "رمزها جناحين داخل دائرة."
+    "شركة سيارات يابانية مقرها هيروشيما.",
+    "من سياراتها CX-5 وMX-5."
    ],
    "answer": "مازدا",
    "letter": "م",
@@ -11431,8 +10777,8 @@
    "category": "logos",
    "question": "لمن هذا الشعار؟",
    "clues": [
-    "ماركة أحذية رياضية أمريكية.",
-    "رمزها نجمة."
+    "ماركة أحذية أمريكية تملكها نايكي.",
+    "أشهر حذاء لها «تشاك تايلور»."
    ],
    "answer": "كونفرس",
    "letter": "ك",
@@ -11482,7 +10828,7 @@
    "question": "لمن هذا الشعار؟",
    "clues": [
     "ماركة ساعات سويسرية فاخرة.",
-    "رمزها تاج."
+    "من موديلاتها دايتونا وصب مارينر."
    ],
    "answer": "رولكس",
    "letter": "ر",
@@ -11532,7 +10878,7 @@
    "question": "لمن هذا الشعار؟",
    "clues": [
     "شركة لوجستيات ومخازن كويتية.",
-    "رمزها تنين."
+    "كان اسمها «المخازن العمومية»."
    ],
    "answer": "أجيليتي",
    "letter": "ا",

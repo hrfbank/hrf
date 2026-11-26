@@ -171,6 +171,8 @@ def build_celebs(cfg, file_id, norm_letter):
         occs = [o for o in (r.get("occs") or "").split("، ") if o][:3]
         if occs:
             clues.append(f"{'من مهنها' if female else 'من مهنه'}: {'، '.join(occs)}.")
+        if qid in cfg.get("clues", {}):  # تلميحات مكتوبة يدوياً تتقدم على ويكي بيانات
+            clues = cfg["clues"][qid]
         fid = file_id(f"{cfg['key']}:{qid}")
         out.append({
             "key": f"{cfg['key']}:{qid}",
