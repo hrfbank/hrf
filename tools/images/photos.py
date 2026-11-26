@@ -108,20 +108,58 @@ def _openverse(name: str) -> list[dict]:
     return sorted(out, key=lambda c: -min(c["width"], c["height"]))
 
 
+def _commons(name: str) -> list[dict]:
+    """بحث في ملفات Commons باسم المشهور (طلب واحد فيه الترخيص والمقاسات)"""
+    import json
+    import urllib.parse
+    url = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode({
+        "action": "query", "format": "json", "generator": "search", "gsrnamespace": 6, "gsrlimit": 25,
+        "gsrsearch": f'"{name}" filetype:bitmap', "prop": "imageinfo",
+        "iiprop": "url|size|extmetadata|mime", "iiurlwidth": 1280})
+    try:
+        pages = json.loads(wiki._get(url)).get("query", {}).get("pages", {})
+    except Exception as e:  # noqa: BLE001
+        print(f"    بحث Commons ما رد: {e}")
+        return []
+    tokens = [t.lower() for t in name.replace("-", " ").split() if len(t) > 2]
+    out = []
+    for p in sorted(pages.values(), key=lambda p: p.get("index", 99)):
+        title = p["title"].lower().replace("_", " ").replace("-", " ")
+        ii = (p.get("imageinfo") or [{}])[0]
+        if not ii or ii.get("mime") not in ("image/jpeg", "image/png", "image/webp"):
+            continue
+        if tokens and not all(t in title for t in tokens[:2]):
+            continue  # غالباً شخص ثاني أو صورة جماعية
+        if min(ii["width"], ii["height"]) < 700:
+            continue
+        meta = ii.get("extmetadata", {})
+        lic = wiki._clean(meta.get("LicenseShortName", {}).get("value"))
+        if not lic or "fair use" in lic.lower():
+            continue
+        out.append({"url": ii.get("thumburl") or ii["url"], "width": ii["width"], "height": ii["height"],
+                    "author": wiki._clean(meta.get("Artist", {}).get("value")) or "غير مذكور", "license": lic,
+                    "license_url": wiki._clean(meta.get("LicenseUrl", {}).get("value")),
+                    "page": ii.get("descriptionurl")})
+    return out
+
+
 def _candidates(r: dict, en: str) -> list[dict]:
-    """كل الصور المرشحة لمشهور: صورة Wikidata الرئيسية ثم نتائج Openverse، الأكبر أول"""
+    """كل الصور المرشحة لمشهور: صورة Wikidata الرئيسية ثم بحث Commons (و Openverse لو HRF_OPENVERSE=1)"""
     cands = []
     if r.get("img"):
         try:
-            ii = wiki.image_info(wiki.file_title(r["img"]))
+            ii = wiki.image_info(wiki.file_title(r["img"]), 1280)
             if ii and min(ii["width"], ii["height"]) >= 500:
-                cands.append({"url": ii["original"], "width": ii["width"], "height": ii["height"], "author": ii["author"],
+                cands.append({"url": ii["thumb"], "width": ii["width"], "height": ii["height"], "author": ii["author"],
                               "license": ii["license"], "license_url": ii["license_url"], "page": ii["page"]})
         except Exception as e:  # noqa: BLE001
             print(f"    Commons ما رد: {e}")
     if en:
-        seen = {c["url"] for c in cands}
-        cands += [c for c in _openverse(en) if c["url"] not in seen][:6]
+        seen = {c["page"] for c in cands}
+        cands += [c for c in _commons(en) if c["page"] not in seen][:8]
+        if os.environ.get("HRF_OPENVERSE") == "1":  # Openverse يرد 429 كثير بدون حساب
+            seen = {c["url"] for c in cands}
+            cands += [c for c in _openverse(en) if c["url"] not in seen][:6]
     return cands
 
 

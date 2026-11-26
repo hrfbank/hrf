@@ -498,9 +498,16 @@ def build_celebrities(cfg):
     return photos.build_celebs(cfg, file_id, norm_letter)
 
 
+def build_car_images(cfg):
+    sys.path.insert(0, HERE)
+    import cars  # يحتاج pillow (انظر cars.py)
+    return cars.build_cars(cfg, file_id, norm_letter)
+
+
 KINDS = {"kuwait_area_shape": build_kuwait_areas, "country_shape": build_countries, "flag": build_flags,
          "celebrity_eyes": build_celebrities, "logo": build_logos,
-         "logo_symbol": build_logo_symbols, "logo_colors": build_logo_colors}
+         "logo_symbol": build_logo_symbols, "logo_colors": build_logo_colors,
+         "car": build_car_images}
 
 
 def main():
