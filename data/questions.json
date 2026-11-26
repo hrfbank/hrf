@@ -11088,302 +11088,167 @@
   },
   {
    "id": 552,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
    "clues": [
-    "ماركة أحذية وملابس أمريكية.",
-    "رمزها شجرة."
+    "جنسيتها: الكويت.",
+    "من مهنها: ممثل."
    ],
-   "answer": "تمبرلاند",
-   "letter": "ت",
-   "difficulty": 1,
+   "answer": "سعاد عبدالله",
+   "letter": "س",
+   "difficulty": 2,
    "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Timberland-logo.png",
+   "source": "https://commons.wikimedia.org/wiki/File:Souad_Abdullah_2008_-_2.jpg",
    "verified_at": null,
    "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
    "image": {
-    "file": "images/32d3951399_a.svg",
-    "question_file": "images/32d3951399_q.svg",
-    "mode": "mask",
-    "key": "brand:timberland",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Timberland-logo.png"
+    "file": "images/104091ae09_a.webp",
+    "mode": "crop",
+    "aspect": 2.2,
+    "crop": {
+     "x": 0.2497,
+     "y": 0.2625,
+     "w": 0.3497,
+     "h": 0.1297
+    },
+    "wikidata": "Q1033841",
+    "key": "celeb:Q1033841",
+    "credit": "Khalid Almasoud",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Souad_Abdullah_2008_-_2.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
    }
   },
   {
    "id": 553,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
    "clues": [
-    "ماركة ملابس فرنسية.",
-    "رمزها حيوان من الزواحف."
+    "جنسيته: مصر.",
+    "من مهنه: موسيقي تسجيلات، ممثل أفلام، مؤدي."
    ],
-   "answer": "لاكوست",
-   "letter": "ل",
-   "difficulty": 1,
+   "answer": "عمرو دياب",
+   "letter": "ع",
+   "difficulty": 2,
    "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Lacoste%202026.svg",
+   "source": "https://commons.wikimedia.org/wiki/File:Amr_Diab_With_World_Music_Awards.jpg",
    "verified_at": null,
    "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
    "image": {
-    "file": "images/79434bb376_a.svg",
-    "question_file": "images/79434bb376_q.svg",
-    "mode": "mask",
-    "key": "brand:lacoste",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Logo%20Lacoste%202026.svg"
+    "file": "images/927edbba9e_a.webp",
+    "mode": "crop",
+    "aspect": 2.2,
+    "crop": {
+     "x": 0.4391,
+     "y": 0.1593,
+     "w": 0.1241,
+     "h": 0.0634
+    },
+    "wikidata": "Q477461",
+    "key": "celeb:Q477461",
+    "credit": "Muhammed Rafaat",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Amr_Diab_With_World_Music_Awards.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
    }
   },
   {
    "id": 554,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
    "clues": [
-    "شركة سيارات ألمانية.",
-    "رمزها نجمة بثلاث رؤوس."
+    "جنسيته: مصر.",
+    "من مهنه: ممثل أفلام، ممثل تلفزي، ممثل مسرحي."
    ],
-   "answer": "مرسيدس",
-   "letter": "م",
+   "answer": "عادل إمام",
+   "letter": "ع",
    "difficulty": 1,
    "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20Logo%202010.svg",
+   "source": "https://commons.wikimedia.org/wiki/File:Adel_Imam_2009_cropped.jpg",
    "verified_at": null,
    "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
    "image": {
-    "file": "images/d17a2d07e2_a.svg",
-    "question_file": "images/d17a2d07e2_q.svg",
-    "mode": "mask",
-    "key": "brand:mercedes-benz",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercedes-Benz%20Logo%202010.svg"
+    "file": "images/4eb8c4a7d3_a.webp",
+    "mode": "crop",
+    "aspect": 1.9,
+    "crop": {
+     "x": 0.2413,
+     "y": 0.2187,
+     "w": 0.5878,
+     "h": 0.232
+    },
+    "wikidata": "Q353690",
+    "key": "celeb:Q353690",
+    "credit": "Adel Imam 2009.jpg",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Adel_Imam_2009_cropped.jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+   }
+  },
+  {
+   "id": 555,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "جنسيته: إيطاليا.",
+    "من مهنه: لاعب كرة قدم."
+   ],
+   "answer": "ميسي",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/63ef94dc16_a.webp",
+    "mode": "crop",
+    "aspect": 1.9,
+    "crop": {
+     "x": 0.3159,
+     "y": 0.1435,
+     "w": 0.3352,
+     "h": 0.1176
+    },
+    "wikidata": "Q615",
+    "key": "celeb:Q615",
+    "credit": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
    }
   },
   {
    "id": 556,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
    "clues": [
-    "سلسلة مطاعم أمريكية.",
-    "رمزها سقف أحمر."
+    "جنسيته: البرتغال.",
+    "من مهنه: لاعب كرة قدم."
    ],
-   "answer": "بيتزا هت",
-   "letter": "ب",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20Hut%20%282019%29.svg",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/544f8d1359_a.svg",
-    "question_file": "images/544f8d1359_q.svg",
-    "mode": "mask",
-    "key": "brand:pizza-hut",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza%20Hut%20%282019%29.svg"
-   }
-  },
-  {
-   "id": 557,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
-   "clues": [
-    "شركة اتصالات بريطانية.",
-    "رمزها علامة تنصيص."
-   ],
-   "answer": "فودافون",
-   "letter": "ف",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Vodafone%20logo%202017.svg",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/270af52184_a.svg",
-    "question_file": "images/270af52184_q.svg",
-    "mode": "mask",
-    "key": "brand:vodafone",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Vodafone%20logo%202017.svg"
-   }
-  },
-  {
-   "id": 558,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
-   "clues": [
-    "ماركة سيارات فاخرة يابانية.",
-    "تابعة لنيسان."
-   ],
-   "answer": "إنفينيتي",
-   "letter": "ا",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Infiniti%20logo%202023.svg",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/8ec064fdbe_a.svg",
-    "question_file": "images/8ec064fdbe_q.svg",
-    "mode": "mask",
-    "key": "brand:infiniti",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Infiniti%20logo%202023.svg"
-   }
-  },
-  {
-   "id": 559,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
-   "clues": [
-    "شركة سيارات يابانية.",
-    "رمزها جناحين داخل دائرة."
-   ],
-   "answer": "مازدا",
-   "letter": "م",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20logo%202024%20%28vertical%29.svg",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/166dcb762e_a.svg",
-    "question_file": "images/166dcb762e_q.svg",
-    "mode": "mask",
-    "key": "brand:mazda",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Mazda%20logo%202024%20%28vertical%29.svg"
-   }
-  },
-  {
-   "id": 560,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
-   "clues": [
-    "ماركة أحذية رياضية أمريكية.",
-    "رمزها نجمة."
-   ],
-   "answer": "كونفرس",
-   "letter": "ك",
-   "difficulty": 2,
-   "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Converse%20logo.svg",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/d0e5be6dcc_a.svg",
-    "question_file": "images/d0e5be6dcc_q.svg",
-    "mode": "mask",
-    "key": "brand:converse",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Converse%20logo.svg"
-   }
-  },
-  {
-   "id": 561,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
-   "clues": [
-    "مشروب غازي أمريكي.",
-    "منافسه الأشهر كوكاكولا."
-   ],
-   "answer": "ببسي",
-   "letter": "ب",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Pepsi%202023.svg",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/3a0d9de13c_a.svg",
-    "question_file": "images/3a0d9de13c_q.svg",
-    "mode": "mask",
-    "key": "brand:pepsi",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://commons.wikimedia.org/wiki/Special:FilePath/Pepsi%202023.svg"
-   }
-  },
-  {
-   "id": 562,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
-   "clues": [
-    "ماركة ساعات سويسرية فاخرة.",
-    "رمزها تاج."
-   ],
-   "answer": "رولكس",
+   "answer": "رونالدو",
    "letter": "ر",
    "difficulty": 1,
    "status": "pending",
-   "source": "https://cdn.worldvectorlogo.com/logos/rolex.svg",
+   "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
    "verified_at": null,
    "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
    "image": {
-    "file": "images/0624b80b53_a.svg",
-    "question_file": "images/0624b80b53_q.svg",
-    "mode": "mask",
-    "key": "brand:rolex",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://cdn.worldvectorlogo.com/logos/rolex.svg"
-   }
-  },
-  {
-   "id": 563,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
-   "clues": [
-    "تطبيق توصيل ومشاوير.",
-    "بدأ من دبي، والحين تابع لأوبر."
-   ],
-   "answer": "كريم",
-   "letter": "ك",
-   "difficulty": 1,
-   "status": "pending",
-   "source": "https://www.careem.com",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/d79a650466_a.svg",
-    "question_file": "images/d79a650466_q.svg",
-    "mode": "mask",
-    "key": "brand:careem",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://www.careem.com"
-   }
-  },
-  {
-   "id": 564,
-   "category": "logos",
-   "question": "لمن هذا الشعار؟",
-   "clues": [
-    "شركة لوجستيات ومخازن كويتية.",
-    "رمزها تنين."
-   ],
-   "answer": "أجيليتي",
-   "letter": "ا",
-   "difficulty": 3,
-   "status": "pending",
-   "source": "https://www.agility.com",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
-   "image": {
-    "file": "images/50bf2470aa_a.svg",
-    "question_file": "images/50bf2470aa_q.svg",
-    "mode": "mask",
-    "key": "brand:agility",
-    "credit": "الشعار لصاحبه",
-    "license": "علامة تجارية (استخدام شخصي)",
-    "source": "https://www.agility.com"
+    "file": "images/7a4a6b51ab_a.webp",
+    "mode": "crop",
+    "aspect": 1.9,
+    "crop": {
+     "x": 0.3314,
+     "y": 0.1406,
+     "w": 0.343,
+     "h": 0.1204
+    },
+    "wikidata": "Q11571",
+    "key": "celeb:Q11571",
+    "credit": "Bryan Berlin",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_(cropped).jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
    }
   }
  ]
