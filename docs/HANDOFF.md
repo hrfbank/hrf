@@ -1,30 +1,28 @@
-# HANDOFF — 2026-11-26
+# HANDOFF — 2026-11-27
 
 ## المهمة الحالية
-«حروف»: بنك أسئلة نصية (٤٣٦ مدقق) + أسئلة صور داخل اللعبة نفسها (٩٩ تنتظر مراجعة صاحب اللعبة في `#/review`).
-الموقع منشور: https://claude.ai/artifact/ATCSxDzGuVWas9EgaxqXSS (انشر بـ `npm run build && npm run artifact` ثم Artifact publish مع url ومع ملفات الصور الجديدة من dist/ عن طريق files/root).
+«حروف»: أسئلة صور بمعيار لقطات صاحب اللعبة (`docs/QUESTION_RULES.md` القسم ١٣، اقرأه أول). الموقع: https://claude.ai/artifact/ATCSxDzGuVWas9EgaxqXSS (`npm run build && npm run artifact` ثم Artifact publish مع url وملفات الصور الجديدة من dist/images).
+الفرع: `claude/stoic-ptolemy-rnoxy2` (فيه كل شغل `adoring-keller` وزيادة).
 
-## أول شي في الجلسة الجديدة
-1. تأكد من المتغيرات: `echo ${HRF_CONTACT:+ok}` و `echo ${GOOGLE_MAPS_KEY:+ok}` (لا تطبع القيم).
-2. `npm install && npm run validate` (يفحص النصوص + إن كل أسئلة الصور موجودة بصورها).
-3. بيئة Python للصور: `python3 -m venv /tmp/imgvenv && /tmp/imgvenv/bin/pip install mediapipe pillow` + `apt-get install -y libegl1 libgles2 libgl1`.
+## أول شي
+1. `echo ${HRF_CONTACT:+ok} ${GOOGLE_MAPS_KEY:+ok} ${TMDB_KEY:+ok}` (لا تطبع القيم).
+2. `npm install && npm run validate`.
+3. Python: `python3 -m venv /tmp/imgvenv && /tmp/imgvenv/bin/pip install mediapipe pillow opencv-python-headless scipy pytesseract` + `apt-get install -y libegl1 libgles2 libgl1 tesseract-ocr tesseract-ocr-ara`.
+4. قرارات المراجعة: اقرأ مجموعة `image_review` من مخزن الصفحة (ArtifactData) وطبّقها بـ `node tools/images/apply-review.mjs`.
 
-## وين وصلنا في الصور (tools/images)
-- `build.py` + `sets.json`: كل فئة صور = مجموعة. الأنواع: kuwait_area_shape، country_shape، flag، logo (أيقونات، قص بس)، logo_symbol (الرمز بدون الاسم، يدعم masks لشيل اسم داخل الرمز)، logo_colors، celebrity_eyes (photos.py: شريط العيون والحواجب، تلميحات يدوية في `clues`).
-- `wiki.py`: Wikidata/Commons مع كاش، معدل `HRF_RATE`، الإيميل من `HRF_CONTACT`. ويكيميديا كانت ترجع 429 كثير بدون إيميل.
-- `maps.py`: خرايط لوكيشن مرسومة من OSM (احتياط). الخطة: Google Maps Static API بالمفتاح `GOOGLE_MAPS_KEY` (مفعّلة، بس كانت تنتظر ربط الفوترة على مشروع My First Project).
-- حماية: build.py يقفل الملف، يوقف إذا الأسئلة نقصت، ويسوي نسخة احتياطية في tools/images/backups.
+## الأدوات (tools/images)
+- `build.py <key>`: ما يلمس سؤال معتمد أو مرفوض ولا صوره.
+- `cars.py` (kind `car`): masks = inpainting، و `[x,y,w,h,"#لون" أو "auto"]` = لون واحد. يدعم `url` لصورة من خارج Commons.
+- `photos.py` (celeb): TMDB أول (يتحقق من مكان الميلاد)، `tmdb:الاسم` بدون ويكي بيانات. `HRF_TMDB_ONLY=1`، `HRF_NEW_ONLY=1`.
+- `gmaps.py` (kind `location`، set `loc` فيه ٣١ مكان): خريطة قوقل مرتين (بأسماء وبدون) ومسح اسم المكان + دبوس. `build_ocr` يمسح كل اسم فيه الجواب.
+- ويكيميديا تبطّئ وايد (429): `HRF_RATE=6`، مقاس ١٢٨٠ بس.
 
 ## الباقي (بالترتيب)
-1. **المشاهير**: أعد تشغيل `HRF_RATE=4 /tmp/imgvenv/bin/python tools/images/build.py celeb` بعد ما يوصل HRF_CONTACT (٥ نجحوا، ١٩ رفضوا لصور صغيرة أو 429). فكّر في TMDB إذا ضاف المستخدم `TMDB_KEY`.
-2. **السيارات** بأمثلة المستخدم: جزء مميز بدون شعار (ليت/شبك/جنط)، السيارة بدون شعار، الظل، الداخلية بعد شيل الشعار، القطع، اسم الموديل بخطه (911). صور Commons في /tmp/cars (قد تكون انمسحت).
-3. **اللوكيشن**: خريطة قوقل + دبوس أحمر، اسم المكان مخفي، الجواب الاسم جنب الدبوس.
-4. **الكويت**: مخطط المنطقة بقطعها، لوحة دليل القطع (نرسمها من OSM)، مطعم ← المنطقة، معلم كويتي.
-5. **سياحة وسفر**: كولاج ٢-٤ صور للمكان، الجواب المدينة/الدولة.
-6. شعارات: Dole وشركات الأفلام (سوني، باراماونت...) والفاخرة (فيرساتشي، هيرميس، توري بيرتش) من Commons.
+1. **اللوكيشن:** Places API (New) يرجع 403 حتى بعد إضافته لقيود المفتاح. اطلب من صاحب اللعبة يتأكد إن المفتاح اللي عدّله هو نفسه (آخر ٤ حروف) أو "Don't restrict key". بعدها: `build.py loc` وشيك كل خريطة بعينك (الدبوس على المكان، ولا اسم يكشف الجواب).
+2. **مشاهير ناقصين** (TMDB ما عنده صور كبيرة): ابحث مصدر ثاني أو صور من صاحب اللعبة.
+3. **منتجات:** تحتاج صور استوديو بخلفية بيضاء (مواقع متاجر)، السؤال «ما هي شركة هذا المنتج؟» (ينشال اسم الشركة) و«ما هو المنتج؟» (ينشال اسم المنتج). صور Open Food Facts ما نفعت.
+4. الكويت، سياحة وسفر، شعارات إضافية (من HANDOFF القديم).
 
-## قواعد المستخدم (مهمة)
-- «ما أبي أي غلط ولا سؤال تافه، شغلنا احترافي». القواعد في `docs/QUESTION_RULES.md` (قسم أسئلة الصور).
-- صورة السؤال ما فيها أي حرف أو شعار يدل على الجواب. شيك كل صورة بعينك قبل النشر.
-- ردود المستخدم: عربي كويتي مختصر.
-- الفرع: `claude/adoring-keller-4o3w9x`.
+## قواعد صاحب اللعبة
+- «ما أبي أي غلط ولا سؤال تافه، شغلنا احترافي». كل صورة سؤال تنشاف بالعين قبل الحفظ.
+- ردود: عربي كويتي مختصر.

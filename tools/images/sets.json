@@ -2250,6 +2250,186 @@
      "zoom": 15
     }
    ]
+  },
+  {
+   "key": "prod",
+   "kind": "car",
+   "category": "products",
+   "question": "ما هي شركة هذا المنتج؟",
+   "_doc": "منتجات: نفس منشئ السيارات (cars.py) بصور Open Food Facts. السؤال عن الشركة: ينشال اسمها وشعارها ويبقى اسم المنتج",
+   "items": [
+    {
+     "id": "kdd-malaki",
+     "url": "https://images.openfoodfacts.org/images/products/627/100/212/2012/front_en.3.full.jpg",
+     "question": "ما هي شركة هذا المنتج؟",
+     "answer": "كي دي دي",
+     "difficulty": 1,
+     "masks": [
+      [
+       0.36,
+       0.32,
+       0.28,
+       0.08,
+       "auto"
+      ],
+      [
+       0.39,
+       0.635,
+       0.17,
+       0.065,
+       "auto"
+      ]
+     ],
+     "clues": [
+      "شركة ألبان كويتية تأسست سنة ١٩٦٢.",
+      "اسمها الكامل «الشركة الكويتية الدنماركية للألبان»."
+     ],
+     "credit": "Open Food Facts",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://world.openfoodfacts.org/product/6271002122012"
+    },
+    {
+     "id": "puck-spread",
+     "url": "https://images.openfoodfacts.org/images/products/576/046/673/8064/front_en.6.full.jpg",
+     "question": "ما هي شركة هذا المنتج؟",
+     "answer": "بوك",
+     "difficulty": 1,
+     "masks": [
+      [
+       0.12,
+       0.4,
+       0.31,
+       0.23,
+       "auto"
+      ]
+     ],
+     "clues": [
+      "علامة أجبان دنماركية مخصصة للشرق الأوسط وشمال أفريقيا.",
+      "تتبع شركة «أرلا»."
+     ],
+     "credit": "Open Food Facts",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://world.openfoodfacts.org/product/5760466738064",
+     "crop": [
+      0,
+      0,
+      1,
+      0.82
+     ]
+    },
+    {
+     "id": "pringles",
+     "url": "https://images.openfoodfacts.org/images/products/505/399/015/6009/front_fr.288.full.jpg",
+     "question": "ما هي شركة هذا المنتج؟",
+     "answer": "برينجلز",
+     "difficulty": 1,
+     "masks": [
+      [
+       0.05,
+       0.09,
+       0.42,
+       0.33,
+       "auto"
+      ]
+     ],
+     "clues": [
+      "رقائق بطاطس بشكل السرج، كلها نفس الشكل.",
+      "طرحتها «بروكتر آند غامبل» سنة ١٩٦٨."
+     ],
+     "credit": "Open Food Facts",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://world.openfoodfacts.org/product/5053990156009",
+     "crop": [
+      0,
+      0,
+      0.5,
+      1
+     ]
+    },
+    {
+     "id": "tang",
+     "url": "https://images.openfoodfacts.org/images/products/762/230/011/9096/front_pt.25.full.jpg",
+     "question": "ما هي شركة هذا المنتج؟",
+     "answer": "تانج",
+     "difficulty": 2,
+     "masks": [
+      [
+       0.1,
+       0.16,
+       0.84,
+       0.29,
+       "auto"
+      ]
+     ],
+     "clues": [
+      "شراب بودرة بنكهة الفواكه.",
+      "شربه رواد الفضاء الأمريكان في رحلات «جيميني»."
+     ],
+     "credit": "Open Food Facts",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://world.openfoodfacts.org/product/7622300119096"
+    },
+    {
+     "id": "maggi",
+     "url": "https://images.openfoodfacts.org/images/products/761/303/578/1627/front_en.155.full.jpg",
+     "question": "ما هي شركة هذا المنتج؟",
+     "answer": "ماجي",
+     "difficulty": 2,
+     "masks": [
+      [
+       0.0,
+       0.0,
+       0.27,
+       0.4,
+       "auto"
+      ],
+      [
+       0.27,
+       0.06,
+       0.13,
+       0.32,
+       "auto"
+      ]
+     ],
+     "clues": [
+      "علامة سويسرية الأصل أسسها يوليوس ماجي.",
+      "تملكها «نستله» من سنة ١٩٤٧."
+     ],
+     "credit": "Open Food Facts",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://world.openfoodfacts.org/product/7613035781627"
+    },
+    {
+     "id": "vimto",
+     "url": "https://images.openfoodfacts.org/images/products/501/043/801/7247/front_en.3.full.jpg",
+     "question": "ما هي شركة هذا المنتج؟",
+     "answer": "فيمتو",
+     "difficulty": 1,
+     "masks": [
+      [
+       0.06,
+       0.37,
+       0.88,
+       0.17,
+       "auto"
+      ]
+     ],
+     "clues": [
+      "مشروب بريطاني بدأ في مانشستر سنة ١٩٠٨.",
+      "من أشهر مشروبات رمضان في الخليج."
+     ],
+     "credit": "Open Food Facts",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "source": "https://world.openfoodfacts.org/product/5010438017247"
+    }
+   ],
+   "_status": "موقوفة: صور Open Food Facts صور جوال بخلفيات غير مستوية، والمسح يطلع رقعة. تحتاج صور منتجات استوديو (خلفية بيضاء) من مواقع المتاجر، ثم مسح بلون العلبة."
   }
  ]
 }

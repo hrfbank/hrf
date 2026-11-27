@@ -38,6 +38,14 @@ def cover(img: Image.Image, box) -> Image.Image:
     """يغطي مستطيل بلون واحد بزوايا ناعمة (مثل لوحة السيارة في أمثلة صاحب اللعبة). box = [x, y, w, h, "#لون"]"""
     W, H = img.size
     x, y, w, h, color = box
+    if color == "auto":  # لون المحيط (الوسيط) عشان يطلع مثل خلفية العلبة
+        import numpy as np
+        a = np.asarray(img.convert("RGB"))
+        x0, y0, x1, y1 = int(x * W), int(y * H), int((x + w) * W), int((y + h) * H)
+        p = 6
+        ring = np.concatenate([a[max(0, y0 - p):y0, x0:x1].reshape(-1, 3), a[y1:y1 + p, x0:x1].reshape(-1, 3),
+                               a[y0:y1, max(0, x0 - p):x0].reshape(-1, 3), a[y0:y1, x1:x1 + p].reshape(-1, 3)])
+        color = tuple(int(v) for v in np.median(ring, axis=0))
     out = img.copy()
     ImageDraw.Draw(out).rounded_rectangle([x * W, y * H, (x + w) * W, (y + h) * H], radius=max(2, int(h * H * 0.12)), fill=color)
     return out
@@ -47,11 +55,20 @@ def build_cars(cfg, file_id, norm_letter):
     out = []
     for it in cfg["items"]:
         try:
-            ii = wiki.image_info(it["file"], 1280)
+            if it.get("url"):  # صورة من مصدر ثاني (مثل Open Food Facts للمنتجات)
+                import urllib.request
+                req = urllib.request.Request(it["url"], headers={"User-Agent": "hrf-quiz-images/0.1 (personal trivia game)"})
+                img = Image.open(io.BytesIO(urllib.request.urlopen(req, timeout=60).read())).convert("RGB")
+                img.thumbnail((1280, 1280), Image.LANCZOS)
+                ii = {"author": it["credit"], "license": it["license"], "license_url": it.get("license_url", ""),
+                      "page": it["source"]}
+            else:
+                ii = wiki.image_info(it["file"], 1280)
             if not ii:
                 print(f"  ✗ {it['answer']}: الملف مو موجود في Commons")
                 continue
-            img = Image.open(io.BytesIO(wiki.download(ii["thumb"]))).convert("RGB")
+            if not it.get("url"):
+                img = Image.open(io.BytesIO(wiki.download(ii["thumb"]))).convert("RGB")
         except Exception as e:  # noqa: BLE001  واحد فشل ما يوقف الباقي
             print(f"  ✗ {it['answer']}: {str(e)[:60]}")
             continue
