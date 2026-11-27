@@ -136,9 +136,38 @@ def _commons(name: str) -> list[dict]:
     return out
 
 
+def _tmdb(name: str) -> list[dict]:
+    """صور المشهور من TMDB (قرار صاحب اللعبة: الصور من أي مصدر). يحتاج TMDB_KEY"""
+    import json
+    import urllib.parse
+    key = os.environ.get("TMDB_KEY")
+    if not key or not name:
+        return []
+    try:
+        res = json.loads(wiki._get("https://api.themoviedb.org/3/search/person?" + urllib.parse.urlencode(
+            {"query": name, "api_key": key})))["results"]
+        if not res:
+            return []
+        pid = res[0]["id"]
+        profs = json.loads(wiki._get(f"https://api.themoviedb.org/3/person/{pid}/images?api_key={key}"))["profiles"]
+    except Exception as e:  # noqa: BLE001
+        print(f"    TMDB ما رد: {e}")
+        return []
+    out = []
+    for pr in sorted(profs, key=lambda x: -x["width"]):
+        if pr["width"] < 500:
+            continue
+        out.append({"url": "https://image.tmdb.org/t/p/original" + pr["file_path"], "width": pr["width"],
+                    "height": pr["height"], "author": "TMDB", "license": "TMDB (قرار صاحب اللعبة)", "license_url": "",
+                    "page": f"https://www.themoviedb.org/person/{pid}"})
+    return out[:6]
+
+
 def _candidates(r: dict, en: str) -> list[dict]:
     """كل الصور المرشحة لمشهور: صورة Wikidata الرئيسية ثم بحث Commons (و Openverse لو HRF_OPENVERSE=1)"""
-    cands = []
+    cands = list(_tmdb(r.get("tmdb_name") or en))
+    if cands:  # TMDB أوضح وأكبر، وويكيميديا بطيء (429)
+        return cands
     if r.get("img"):
         try:
             ii = wiki.image_info(wiki.file_title(r["img"]), 1280)
