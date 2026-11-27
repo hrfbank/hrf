@@ -11409,6 +11409,390 @@
     "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Cross_Hybrid_Z_rear.jpg",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
    }
+  },
+  {
+   "id": 590,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثل كوميدي مصري.",
+    "من أفلامه «آسف على الإزعاج» و«عسل أسود»."
+   ],
+   "answer": "أحمد حلمي",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/127783",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/a42b6e0ad4_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.2349,
+     "y": 0.2964,
+     "w": 0.4875,
+     "h": 0.125
+    },
+    "wikidata": "tmdb:Ahmed Helmy",
+    "key": "celeb:tmdb:Ahmed Helmy",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/127783"
+   }
+  },
+  {
+   "id": 591,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثلة تونسية اشتهرت في مصر.",
+    "من أعمالها فيلم «عمارة يعقوبيان» ومسلسل «عايزة أتجوز»."
+   ],
+   "answer": "هند صبري",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/226438",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/9c67e48770_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.338,
+     "y": 0.1888,
+     "w": 0.304,
+     "h": 0.078
+    },
+    "wikidata": "tmdb:Hend Sabry",
+    "key": "celeb:tmdb:Hend Sabry",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/226438"
+   }
+  },
+  {
+   "id": 592,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثل مصري.",
+    "من أفلامه «الفيل الأزرق» و«أبو علي»."
+   ],
+   "answer": "كريم عبدالعزيز",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/140869",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/922283203b_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.3397,
+     "y": 0.312,
+     "w": 0.4005,
+     "h": 0.1025
+    },
+    "wikidata": "tmdb:Karim Abdel Aziz",
+    "key": "celeb:tmdb:Karim Abdel Aziz",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/140869"
+   }
+  },
+  {
+   "id": 593,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثل ومغني مصري، من أغانيه «نمبر وان».",
+    "اشتهر بمسلسل «الأسطورة»."
+   ],
+   "answer": "محمد رمضان",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/1164337",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/723786f07a_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.3344,
+     "y": 0.3349,
+     "w": 0.479,
+     "h": 0.1229
+    },
+    "wikidata": "tmdb:Mohamed Ramadan",
+    "key": "celeb:tmdb:Mohamed Ramadan",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1164337"
+   }
+  },
+  {
+   "id": 594,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "مطربة وممثلة لبنانية.",
+    "من أغانيها «رجب» و«بوس الواوا»."
+   ],
+   "answer": "هيفاء وهبي",
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/1434285",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/9b8d080465_a.webp",
+    "mode": "crop",
+    "aspect": 1.935,
+    "crop": {
+     "x": 0.3215,
+     "y": 0.2377,
+     "w": 0.5772,
+     "h": 0.1988
+    },
+    "wikidata": "tmdb:Haifa Wehbe",
+    "key": "celeb:tmdb:Haifa Wehbe",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1434285"
+   }
+  },
+  {
+   "id": 595,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "مطرب سعودي يلقبونه «فنان العرب».",
+    "من أغانيه «الأماكن» و«أبعاد»."
+   ],
+   "answer": "محمد عبده",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/3616765",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/ee5d7a7edb_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.2919,
+     "y": 0.1724,
+     "w": 0.4786,
+     "h": 0.1227
+    },
+    "wikidata": "tmdb:Mohammed Abdu",
+    "key": "celeb:tmdb:Mohammed Abdu",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/3616765"
+   }
+  },
+  {
+   "id": 596,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "مطربة مصرية.",
+    "من أغانيها «آه يا ليل» و«مشاعر»."
+   ],
+   "answer": "شيرين",
+   "letter": "ش",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/2901410",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/245fa483e4_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.2437,
+     "y": 0.442,
+     "w": 0.4453,
+     "h": 0.1142
+    },
+    "wikidata": "tmdb:Sherine Abdel Wahab",
+    "key": "celeb:tmdb:Sherine Abdel Wahab",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/2901410"
+   }
+  },
+  {
+   "id": 597,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثلة بحرينية تقيم في الكويت.",
+    "يلقبونها «ملكة الشاشة البحرينية»."
+   ],
+   "answer": "زهرة عرفات",
+   "letter": "ز",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/2223455",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/49d42a33ac_a.webp",
+    "mode": "crop",
+    "aspect": 2.321,
+    "crop": {
+     "x": 0.2877,
+     "y": 0.2392,
+     "w": 0.3042,
+     "h": 0.0874
+    },
+    "wikidata": "tmdb:Zahra Arafat",
+    "key": "celeb:tmdb:Zahra Arafat",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/2223455"
+   }
+  },
+  {
+   "id": 598,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثلة ومخرجة كويتية.",
+    "شاركت في مسلسل «الغميضة» مع هدى حسين."
+   ],
+   "answer": "فاطمة الصفي",
+   "letter": "ف",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/3260198",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/c9157f5a58_a.webp",
+    "mode": "crop",
+    "aspect": 2.416,
+    "crop": {
+     "x": 0.2383,
+     "y": 0.2112,
+     "w": 0.4847,
+     "h": 0.1337
+    },
+    "wikidata": "tmdb:Fatima Al-Safi",
+    "key": "celeb:tmdb:Fatima Al-Safi",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/3260198"
+   }
+  },
+  {
+   "id": 599,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثل مصري عالمي.",
+    "رُشّح للأوسكار عن دوره في «لورنس العرب»."
+   ],
+   "answer": "عمر الشريف",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/5004",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/d0f18b3987_a.webp",
+    "mode": "crop",
+    "aspect": 2.128,
+    "crop": {
+     "x": 0.1309,
+     "y": 0.4145,
+     "w": 0.5954,
+     "h": 0.1867
+    },
+    "wikidata": "tmdb:Omar Sharif",
+    "key": "celeb:tmdb:Omar Sharif",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/5004"
+   }
+  },
+  {
+   "id": 600,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثل سوري من اللاذقية.",
+    "من أعماله مسلسل «ضيعة ضايعة» وسلسلة «بقعة ضوء»."
+   ],
+   "answer": "باسم ياخور",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/2361943",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/cd9baa7993_a.webp",
+    "mode": "crop",
+    "aspect": 1.979,
+    "crop": {
+     "x": 0.1424,
+     "y": 0.2805,
+     "w": 0.5929,
+     "h": 0.1998
+    },
+    "wikidata": "tmdb:Bassem Yakhour",
+    "key": "celeb:tmdb:Bassem Yakhour",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/2361943"
+   }
+  },
+  {
+   "id": 601,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثل مصري.",
+    "فاز بجائزة أفضل ممثل عن فيلم «رسائل البحر»."
+   ],
+   "answer": "آسر ياسين",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/1033756",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/44fe4279ca_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.2344,
+     "y": 0.3723,
+     "w": 0.6067,
+     "h": 0.1556
+    },
+    "wikidata": "tmdb:Asser Yassin",
+    "key": "celeb:tmdb:Asser Yassin",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1033756"
+   }
   }
  ]
 }

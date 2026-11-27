@@ -200,8 +200,10 @@ def _candidates(r: dict, en: str) -> list[dict]:
 
 
 def build_celebs(cfg, file_id, norm_letter):
-    qids = [p[0] for p in cfg["picks"]]
-    rows = wiki.sparql("""SELECT ?p ?img ?g ?en (GROUP_CONCAT(DISTINCT ?occL; separator="، ") AS ?occs)
+    if os.environ.get("HRF_NEW_ONLY") == "1":  # بس أسماء TMDB (بدون ويكي بيانات، مفيد إذا كان معطّل)
+        cfg = {**cfg, "picks": [p for p in cfg["picks"] if p[0].startswith("tmdb:")]}
+    qids = [p[0] for p in cfg["picks"] if not p[0].startswith("tmdb:")]  # tmdb:الاسم = بدون ويكي بيانات
+    rows = [] if not qids else wiki.sparql("""SELECT ?p ?img ?g ?en (GROUP_CONCAT(DISTINCT ?occL; separator="، ") AS ?occs)
       (SAMPLE(?ctryL) AS ?ctry) WHERE {
       VALUES ?p { %s }
       OPTIONAL { ?p wdt:P18 ?img } OPTIONAL { ?p wdt:P21 ?g }
@@ -217,7 +219,7 @@ def build_celebs(cfg, file_id, norm_letter):
     for pick in cfg["picks"]:
         qid, answer, difficulty = pick[0], pick[1], pick[2]
         level = {1: "easy", 2: "medium", 3: "hard"}[difficulty]
-        r = info.get(qid)
+        r = {"en": qid[5:]} if qid.startswith("tmdb:") else info.get(qid)
         if not r:
             print(f"  ✗ {answer}: ما لقيته في Wikidata")
             continue
