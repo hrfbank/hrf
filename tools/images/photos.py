@@ -68,7 +68,7 @@ def eyes_crop(img: Image.Image, det, level: str):
     w = span * 1.45
     h = max(w / 2.6, (lid_y - brow_y) * 1.25)
     cy = (brow_y + lid_y) / 2
-    if w < 170:
+    if w < 230:  # أقل من كذا الشريط يطلع ضبابي بعد التكبير
         return None, "القصّة تحتاج تكبير زايد"
     x, y = cx - w / 2, cy - h / 2
     if x < 0 or y < 0 or x + w > W or y + h > H:
@@ -136,6 +136,11 @@ def _commons(name: str) -> list[dict]:
     return out
 
 
+_COUNTRIES = ("kuwait", "saudi", "egypt", "lebanon", "iraq", "emirates", "uae", "bahrain", "qatar", "oman", "syria",
+              "jordan", "morocco", "tunisia", "algeria", "palestine", "yemen", "sudan", "libya", "argentina", "portugal",
+              "الكويت", "السعودية", "مصر", "لبنان", "العراق", "الإمارات", "البحرين", "قطر", "عمان", "سوريا", "الأردن")
+
+
 def _tmdb(name: str) -> list[dict]:
     """صور المشهور من TMDB (قرار صاحب اللعبة: الصور من أي مصدر). يحتاج TMDB_KEY"""
     import json
@@ -148,7 +153,16 @@ def _tmdb(name: str) -> list[dict]:
             {"query": name, "api_key": key})))["results"]
         if not res:
             return []
-        pid = res[0]["id"]
+        pid = None
+        for cand in res[:5]:  # تأكد من الهوية: مكان الميلاد في دولة متوقعة (TMDB فيه أسماء متشابهة)
+            info = json.loads(wiki._get(f"https://api.themoviedb.org/3/person/{cand['id']}?api_key={key}"))
+            pob = (info.get("place_of_birth") or "").lower()
+            if any(c in pob for c in _COUNTRIES):
+                pid = cand["id"]
+                break
+        if pid is None:
+            print(f"    TMDB: ما لقيت {name} بمكان ميلاد متوقع")
+            return []
         profs = json.loads(wiki._get(f"https://api.themoviedb.org/3/person/{pid}/images?api_key={key}"))["profiles"]
     except Exception as e:  # noqa: BLE001
         print(f"    TMDB ما رد: {e}")
@@ -166,7 +180,7 @@ def _tmdb(name: str) -> list[dict]:
 def _candidates(r: dict, en: str) -> list[dict]:
     """كل الصور المرشحة لمشهور: صورة Wikidata الرئيسية ثم بحث Commons (و Openverse لو HRF_OPENVERSE=1)"""
     cands = list(_tmdb(r.get("tmdb_name") or en))
-    if cands:  # TMDB أوضح وأكبر، وويكيميديا بطيء (429)
+    if cands or os.environ.get("HRF_TMDB_ONLY") == "1":  # TMDB أوضح وأكبر، وويكيميديا بطيء (429)
         return cands
     if r.get("img"):
         try:

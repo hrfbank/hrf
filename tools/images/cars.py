@@ -34,6 +34,15 @@ def hide(img: Image.Image, box) -> Image.Image:
     return Image.fromarray(cv2.cvtColor(out, cv2.COLOR_BGR2RGB))
 
 
+def cover(img: Image.Image, box) -> Image.Image:
+    """يغطي مستطيل بلون واحد بزوايا ناعمة (مثل لوحة السيارة في أمثلة صاحب اللعبة). box = [x, y, w, h, "#لون"]"""
+    W, H = img.size
+    x, y, w, h, color = box
+    out = img.copy()
+    ImageDraw.Draw(out).rounded_rectangle([x * W, y * H, (x + w) * W, (y + h) * H], radius=max(2, int(h * H * 0.12)), fill=color)
+    return out
+
+
 def build_cars(cfg, file_id, norm_letter):
     out = []
     for it in cfg["items"]:
@@ -48,7 +57,7 @@ def build_cars(cfg, file_id, norm_letter):
             continue
         q = img
         for m in it.get("masks", []):
-            q = hide(q, m)
+            q = cover(q, m) if len(m) > 4 else hide(q, m)
         if it.get("crop"):
             x, y, w, h = it["crop"]
             W, H = q.size

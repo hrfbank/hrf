@@ -11235,6 +11235,180 @@
     "source": "https://commons.wikimedia.org/wiki/File:2022_Mercedes-Benz_G-Class_interior.jpg",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
    }
+  },
+  {
+   "id": 582,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثل كويتي من رواد المسرح والدراما.",
+    "أدى دور «سعد» شقيق «حسينوه» في «درب الزلق»."
+   ],
+   "answer": "سعد الفرج",
+   "letter": "س",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/1357646",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/a757bc18bc_a.webp",
+    "mode": "crop",
+    "aspect": 2.515,
+    "crop": {
+     "x": 0.3195,
+     "y": 0.2406,
+     "w": 0.4381,
+     "h": 0.1162
+    },
+    "wikidata": "Q12215912",
+    "key": "celeb:Q12215912",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1357646"
+   }
+  },
+  {
+   "id": 583,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثلة كويتية راحلة يلقبونها «سيدة الشاشة الخليجية».",
+    "من مسلسلاتها «الداية» و«الخراز»."
+   ],
+   "answer": "حياة الفهد",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/1357650",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/28fb0b7640_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.2407,
+     "y": 0.2725,
+     "w": 0.4799,
+     "h": 0.1231
+    },
+    "wikidata": "Q12209738",
+    "key": "celeb:Q12209738",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1357650"
+   }
+  },
+  {
+   "id": 586,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "مطرب إماراتي.",
+    "من أغانيه «بشرة خير» و«بحبك وحشتيني»."
+   ],
+   "answer": "حسين الجسمي",
+   "letter": "ح",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/3012117",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/1759da202e_a.webp",
+    "mode": "crop",
+    "aspect": 2.189,
+    "crop": {
+     "x": 0.3217,
+     "y": 0.3099,
+     "w": 0.334,
+     "h": 0.1018
+    },
+    "wikidata": "Q8536372",
+    "key": "celeb:Q8536372",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/3012117"
+   }
+  },
+  {
+   "id": 587,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم الشركة)؟",
+   "clues": [
+    "علامة أمريكية فاخرة تتبع «جنرال موتورز».",
+    "زعانف سيارتها «إلدورادو» سنة ١٩٥٩ من أطول الزعانف في تاريخ السيارات."
+   ],
+   "answer": "كاديلاك",
+   "letter": "ك",
+   "difficulty": 3,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_Tail_Fin_(31713122233).jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/dc660999c7_a.webp",
+    "question_file": "images/dc660999c7_q.webp",
+    "mode": "mask",
+    "key": "car:cadillac-fin",
+    "credit": "More Cars from Berlin, Germany",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cadillac_Eldorado_Tail_Fin_(31713122233).jpg",
+    "license_url": "https://creativecommons.org/licenses/by/2.0"
+   }
+  },
+  {
+   "id": 588,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "سيارة سيدان أمريكية كبيرة من «شيفروليه».",
+    "نسختها الخاصة بالشرطة «9C1» انتهى إنتاجها سنة ١٩٩٦."
+   ],
+   "answer": "كابريس",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:1991_Chevrolet_Caprice_Classic_Sedan_in_Black_Sapphire_Blue_Metallic,_Rear_Right,_2020-09-01.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/738ccc7e25_a.webp",
+    "question_file": "images/738ccc7e25_q.webp",
+    "mode": "mask",
+    "key": "car:caprice-rear",
+    "credit": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1991_Chevrolet_Caprice_Classic_Sedan_in_Black_Sapphire_Blue_Metallic,_Rear_Right,_2020-09-01.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
+   "id": 589,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "سيارة دفع رباعي صغيرة من «تويوتا».",
+    "كشفت عنها الشركة أول مرة في تايلاند سنة ٢٠٢٠."
+   ],
+   "answer": "كورولا كروس",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Cross_Hybrid_Z_rear.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/08b605b4ff_a.webp",
+    "question_file": "images/08b605b4ff_q.webp",
+    "mode": "mask",
+    "key": "car:corolla-cross-rear",
+    "credit": "TTTNIS",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Toyota_Corolla_Cross_Hybrid_Z_rear.jpg",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
   }
  ]
 }

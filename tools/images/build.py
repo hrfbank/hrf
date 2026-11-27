@@ -531,6 +531,9 @@ def main():
             continue
         print(f"▶ {cfg['key']} ({cfg['kind']})")
         for item in KINDS[cfg["kind"]](cfg):
+            done = by_key.get(item["key"])
+            if done and done["status"] != "pending":
+                continue  # معتمد أو مرفوض: لا نلمس سؤاله ولا صوره (صورة جديدة ما تطابق قصّته واعتماده)
             for name, content in item["files"].items():
                 write_image(name, content)
             image = {**item["image"], "key": item["key"], "credit": item.get("credit", cfg.get("credit")),
