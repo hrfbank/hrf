@@ -12696,6 +12696,118 @@
     "license": "TMDB (قرار صاحب اللعبة)",
     "source": "https://www.themoviedb.org/person/1105799"
    }
+  },
+  {
+   "id": 633,
+   "category": "language-literature",
+   "question": "ما اسم صوت الحصان؟",
+   "clues": [
+    "يبدأ بحرف الصاد.",
+    "نقول: سمعنا ... الخيل."
+   ],
+   "answer": "صهيل",
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://blogs.transparent.com/arabic/the-names-of-animal-sounds/",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 634,
+   "category": "language-literature",
+   "question": "ما اسم صوت الأسد؟",
+   "clues": [
+    "صوت عالي يسمعونه من بعيد.",
+    "نقول: ... الأسد."
+   ],
+   "answer": "زئير",
+   "letter": "ز",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://blogs.transparent.com/arabic/the-names-of-animal-sounds/",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 635,
+   "category": "language-literature",
+   "question": "ما اسم صوت الذئب؟",
+   "clues": [
+    "يطلقه في الليل.",
+    "الكلب بعد يطلق نفس الصوت أحياناً."
+   ],
+   "answer": "عواء",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://blogs.transparent.com/arabic/the-names-of-animal-sounds/",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 636,
+   "category": "language-literature",
+   "question": "ما اسم صوت الحمام؟",
+   "clues": [
+    "صوت هادي ناعم.",
+    "يتغنى فيه الشعراء كثير."
+   ],
+   "answer": "هديل",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://blogs.transparent.com/arabic/the-names-of-animal-sounds/",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 637,
+   "category": "language-literature",
+   "question": "ما اسم صوت الأفعى؟",
+   "clues": [
+    "صوت يشبه نفخ الهوا.",
+    "تطلعه وهي تحذّر."
+   ],
+   "answer": "فحيح",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://blogs.transparent.com/arabic/the-names-of-animal-sounds/",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 638,
+   "category": "language-literature",
+   "question": "ما اسم صوت الحمار؟",
+   "clues": [
+    "صوت عالي ومزعج.",
+    "ذُكر في القرآن: «إن أنكر الأصوات لصوت الحمير»."
+   ],
+   "answer": "نهيق",
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://blogs.transparent.com/arabic/the-names-of-animal-sounds/",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 639,
+   "category": "language-literature",
+   "question": "ما اسم صوت البقرة؟",
+   "clues": [
+    "صوت طويل غليظ.",
+    "ذُكر في قصة عجل بني إسرائيل: «عجلاً جسداً له ...»."
+   ],
+   "answer": "خوار",
+   "letter": "خ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://blogs.transparent.com/arabic/the-names-of-animal-sounds/",
+   "verified_at": "2026-11-28",
+   "review_note": null
   }
  ]
 }
