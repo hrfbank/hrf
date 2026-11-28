@@ -30,7 +30,15 @@ def hide(img: Image.Image, box) -> Image.Image:
     # تمويه خفيف داخل المكان بس، عشان ما يطلع فيه خطوط من الحواف
     soft = cv2.GaussianBlur(out, (0, 0), max(1.5, (x1 - x0) / 25))
     feather = cv2.GaussianBlur(mask, (0, 0), 3).astype(np.float32)[..., None] / 255
-    out = (out * (1 - feather) + soft * feather).astype(np.uint8)
+    out = out * (1 - feather) + soft * feather
+    # حبيبات بنفس خشونة المحيط، عشان المكان الممسوح ما يطلع أنعم من باقي السطح
+    ring = cv2.dilate(mask, np.ones((9, 9), np.uint8)) - mask
+    a = arr.astype(np.float32)
+    grain = float(np.std((a - cv2.GaussianBlur(a, (0, 0), 2))[ring > 0])) if ring.any() else 0
+    if grain > 0.5:
+        rng = np.random.default_rng(0)
+        out = out + rng.normal(0, min(grain, 12), out.shape[:2])[..., None] * feather
+    out = np.clip(out, 0, 255).astype(np.uint8)
     return Image.fromarray(cv2.cvtColor(out, cv2.COLOR_BGR2RGB))
 
 
@@ -41,8 +49,15 @@ def cover(img: Image.Image, box) -> Image.Image:
     if color == "clone":  # ينسخ نفس الصفوف من جنب المكان (مثل خطوط الشبك) بإزاحة أفقية box[5]
         x0, y0, x1, y1 = int(x * W), int(y * H), int((x + w) * W), int((y + h) * H)
         dx = int(box[5] * W)
+        dy = int(box[6] * H) if len(box) > 6 else 0  # تعديل بسيط للميلان (الشبك مايل بالمنظور)
         out = img.copy()
-        out.paste(img.crop((x0 + dx, y0, x1 + dx, y1)), (x0, y0))
+        out.paste(img.crop((x0 + dx, y0 + dy, x1 + dx, y1 + dy)), (x0, y0))
+        return out
+    if color == "vclone":  # نفس الفكرة بإزاحة عمودية box[5] (شبك خطوطه عمودية وفي نصه عمود)
+        x0, y0, x1, y1 = int(x * W), int(y * H), int((x + w) * W), int((y + h) * H)
+        dy = int(box[5] * H)
+        out = img.copy()
+        out.paste(img.crop((x0, y0 + dy, x1, y1 + dy)), (x0, y0))
         return out
     if color == "auto":  # لون المحيط (الوسيط) عشان يطلع مثل خلفية العلبة
         import numpy as np
@@ -77,7 +92,11 @@ def silhouette(img: Image.Image) -> Image.Image:
 
 def build_cars(cfg, file_id, norm_letter):
     out = []
+    import os
+    pick = set(filter(None, os.environ.get("HRF_ITEMS", "").split(",")))  # HRF_ITEMS=id1,id2 يبني هذيلي بس
     for it in cfg["items"]:
+        if pick and it["id"] not in pick:
+            continue
         try:
             if it.get("url"):  # صورة من مصدر ثاني (مثل Open Food Facts للمنتجات)
                 import urllib.request

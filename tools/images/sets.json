@@ -2025,6 +2025,91 @@
      ],
      "credit": "Toyota Motor Corporation",
      "license": "صور صحفية رسمية (قرار صاحب اللعبة)"
+    },
+    {
+     "id": "corolla-1991",
+     "url": "https://global.toyota/pages/history/vehicles/corolla/v_corolla_007.jpg",
+     "source": "https://global.toyota/en/downloadable-assets/corporate-archives/vehicles/corolla.html",
+     "question": "ما هي السيارة (اسم السيارة)؟",
+     "answer": "كورولا",
+     "difficulty": 2,
+     "masks": [
+      [
+       0.253,
+       0.676,
+       0.09,
+       0.07,
+       "auto"
+      ],
+      [
+       0.286,
+       0.5815,
+       0.03,
+       0.037,
+       "clone",
+       0.031,
+       0.002
+      ]
+     ],
+     "clues": [
+      "سيارة صغيرة من «تويوتا»، وهذا جيلها السابع.",
+      "اسمها باللاتيني معناه «التاج الصغير»، ومن ١٩٩٧ هي أكثر اسم سيارة مبيعاً بالتاريخ."
+     ],
+     "credit": "Toyota Motor Corporation",
+     "license": "صور صحفية رسمية (قرار صاحب اللعبة)"
+    },
+    {
+     "id": "defender-rear",
+     "url": "https://media.production.jlrms.com/2019-09-06/image/f72769bf-694c-4718-a079-dd381c78958e/LR_DEF_20MY_Static_100919_04.jpg?VersionId=yw1zT4wY8gMdDmg6BL8D6C8byn0tSn9A",
+     "source": "https://media.jaguarlandrover.com/image-packs/distinctive-silhouette-static-new-land-rover-defender",
+     "question": "ما هي السيارة (اسم السيارة)؟",
+     "answer": "ديفندر",
+     "difficulty": 2,
+     "masks": [
+      [
+       0.418,
+       0.752,
+       0.082,
+       0.054
+      ],
+      [
+       0.749,
+       0.752,
+       0.043,
+       0.056
+      ],
+      [
+       0.601,
+       0.567,
+       0.019,
+       0.035
+      ],
+      [
+       0.646,
+       0.553,
+       0.031,
+       0.022
+      ],
+      [
+       0.674,
+       0.544,
+       0.031,
+       0.021
+      ],
+      [
+       0.524,
+       0.885,
+       0.177,
+       0.09,
+       "auto"
+      ]
+     ],
+     "clues": [
+      "سيارة دفع رباعي بريطانية من «لاند روفر».",
+      "جيلها الجديد انكشف في معرض فرانكفورت سنة ٢٠١٩، وهو أول جيل جديد كلياً من أيام الأصلية سنة ١٩٤٨."
+     ],
+     "credit": "Jaguar Land Rover",
+     "license": "صور صحفية رسمية (قرار صاحب اللعبة)"
     }
    ]
   },

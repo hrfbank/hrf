@@ -13464,6 +13464,894 @@
    "source": "https://ar.wikipedia.org/wiki/%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%B2%D8%A9",
    "verified_at": "2026-11-28",
    "review_note": null
+  },
+  {
+   "id": 681,
+   "category": "songs",
+   "question": "من صاحبة هذه الأغاني: «إنت عمري» و«ألف ليلة وليلة»؟",
+   "clues": [
+    "«إنت عمري» سمّوها «لقاء السحاب»، أول تعاون بينها وبين محمد عبدالوهاب.",
+    "«ألف ليلة وليلة» من ألحان بليغ حمدي."
+   ],
+   "answer": "أم كلثوم",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A5%D9%86%D8%AA_%D8%B9%D9%85%D8%B1%D9%8A_%28%D8%A3%D8%BA%D9%86%D9%8A%D8%A9%29",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/8baf5f52d5_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1319931"
+   }
+  },
+  {
+   "id": 682,
+   "category": "songs",
+   "question": "من صاحب أغنية «قارئة الفنجان»؟",
+   "clues": [
+    "كلماتها لنزار قباني ولحنها محمد الموجي.",
+    "آخر أغنية جديدة قدمها على المسرح قبل وفاته."
+   ],
+   "answer": "عبدالحليم حافظ",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%B1%D8%A6%D8%A9_%D8%A7%D9%84%D9%81%D9%86%D8%AC%D8%A7%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/0e9198d01e_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1432506"
+   }
+  },
+  {
+   "id": 683,
+   "category": "songs",
+   "question": "من صاحبة أغنية «زهرة المدائن» عن القدس؟",
+   "clues": [
+    "كتبها ولحّنها الأخوان رحباني بعد حرب ١٩٦٧.",
+    "يلقبونها في لبنان «العمود السابع لبعلبك»."
+   ],
+   "answer": "فيروز",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B2%D9%87%D8%B1%D8%A9_%D8%A7%D9%84%D9%85%D8%AF%D8%A7%D8%A6%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/8668a320af_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1334681"
+   }
+  },
+  {
+   "id": 684,
+   "category": "songs",
+   "question": "من صاحب أغنية «مقادير»؟",
+   "clues": [
+    "كلماتها للأمير محمد بن عبدالله الفيصل ولحنها سراج عمر.",
+    "مطرب سعودي يلقبونه «صوت الأرض»."
+   ],
+   "answer": "طلال مداح",
+   "letter": "ط",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%85%D9%82%D8%A7%D8%AF%D9%8A%D8%B1_%28%D8%A3%D8%BA%D9%86%D9%8A%D8%A9%29",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 685,
+   "category": "songs",
+   "question": "أي مطرب كويتي لقبوه «الصوت الجريح» بعد أغنيته «أجر الصوت»؟",
+   "clues": [
+    "أخذ اللقب سنة ١٩٨٨.",
+    "توفي سنة ٢٠٢٣."
+   ],
+   "answer": "عبدالكريم عبدالقادر",
+   "letter": "ع",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 686,
+   "category": "songs",
+   "question": "أي مطرب سعودي يلقبونه «موسيقار الخليج»؟",
+   "clues": [
+    "مغني وعازف وملحن وموزع موسيقي.",
+    "مولود سنة ١٩٦١."
+   ],
+   "answer": "رابح صقر",
+   "letter": "ر",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B1%D8%A7%D8%A8%D8%AD_%D8%B5%D9%82%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 687,
+   "category": "songs",
+   "question": "مطربة يمنية تحمل الجنسية الإماراتية، وأبوها المغني أحمد فتحي؟",
+   "clues": [
+    "غنّت بأغلب اللهجات العربية.",
+    "فازت بجائزة أفضل مطربة خليجية."
+   ],
+   "answer": "بلقيس",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A8%D9%84%D9%82%D9%8A%D8%B3_%28%D9%85%D8%BA%D9%86%D9%8A%D8%A9%29",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 688,
+   "category": "songs",
+   "question": "ما اسم ألبوم عمرو دياب سنة ١٩٩٦ اللي فاز بجائزة الموسيقى العالمية كأكثر ألبوم مبيعاً في الشرق الأوسط؟",
+   "clues": [
+    "يعتبرونه أنجح ألبوماته.",
+    "كليب أغنيته الرئيسية تصوّر في الغردقة."
+   ],
+   "answer": "نور العين",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Nour_El_Ain",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/9d7d5bb210_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1864187"
+   }
+  },
+  {
+   "id": 689,
+   "category": "songs",
+   "question": "ما اسم ألبوم عمرو دياب سنة ٢٠٠٠ اللي حمل اسم أغنيته العالمية الأشهر؟",
+   "clues": [
+    "معنى الاسم «دايماً معاك».",
+    "حقق نجاح كبير في المنطقة والعالم."
+   ],
+   "answer": "تملي معاك",
+   "letter": "ت",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Tamally_Maak_%28album%29",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/7ca9ee1c64_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1864187"
+   }
+  },
+  {
+   "id": 690,
+   "category": "songs",
+   "question": "ما اسم ألبوم عمرو دياب سنة ١٩٩٩ اللي غنى فيه مع الشاب خالد أغنية «قلبي»؟",
+   "clues": [
+    "فيه دويتو مع اليونانية أنجيلا ديميتريو «بحبك أكتر».",
+    "اسم الألبوم على اسم أغنيته المشهورة."
+   ],
+   "answer": "قمرين",
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Amarain",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/2ab16a3af4_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1864187"
+   }
+  },
+  {
+   "id": 691,
+   "category": "songs",
+   "question": "ما أول ألبوم أصدره عمرو دياب مع روتانا سنة ٢٠٠٤؟",
+   "clues": [
+    "كان أكبر إصدار في مصر ذيك السنة.",
+    "كليب أغنيته الرئيسية أخرجه كاميرون كيسي."
+   ],
+   "answer": "ليلي نهاري",
+   "letter": "ل",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Leily_Nahary",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/a15ef97a11_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1864187"
+   }
+  },
+  {
+   "id": 692,
+   "category": "songs",
+   "question": "ما اسم ألبوم عمرو دياب سنة ٢٠٠٣ اللي فيه أغنية «أنا عايش»؟",
+   "clues": [
+    "فيه ١٣ أغنية.",
+    "نزل في فبراير، قبل ما ينتقل لروتانا."
+   ],
+   "answer": "علم قلبي",
+   "letter": "ع",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Allem_Alby",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/bc7c4ca583_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1864187"
+   }
+  },
+  {
+   "id": 693,
+   "category": "songs",
+   "question": "ما اسم ألبوم إليسا سنة ٢٠٠٦ اللي جاب لها جائزة الموسيقى العالمية للمرة الثانية؟",
+   "clues": [
+    "معناه «أنتظرك».",
+    "أغنيته الرئيسية انترجمت للتركي والهندي."
+   ],
+   "answer": "بستناك",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Bastanak",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 694,
+   "category": "songs",
+   "question": "ما اسم ألبوم إليسا سنة ٢٠٠٧ اللي فيه أغنية «بتمون»؟",
+   "clues": [
+    "معناه «أيامي معك».",
+    "تصدّر قوائم الأغاني العربية أكثر من ثلاث شهور."
+   ],
+   "answer": "أيامي بيك",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Ayami_Bik",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 695,
+   "category": "songs",
+   "question": "ما اسم ألبوم إليسا سنة ٢٠١٢ اللي معناه بالإنجليزي «The Happiest One»؟",
+   "clues": [
+    "ألبومها الثامن.",
+    "خامس ألبوم لها مع روتانا."
+   ],
+   "answer": "أسعد واحدة",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Asaad_Wahda",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 696,
+   "category": "songs",
+   "question": "ما اسم ألبوم محمد حماقي اللي حقق أعلى مبيعات في الشرق الأوسط سنة ٢٠٠٦؟",
+   "clues": [
+    "أخذ عنه الأسطوانة البلاتينية.",
+    "حماقي كان عضو لجنة تحكيم «ذا فويس» بالنسخة العربية."
+   ],
+   "answer": "خلص الكلام",
+   "letter": "خ",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%AD%D9%85%D8%AF_%D8%AD%D9%85%D8%A7%D9%82%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 697,
+   "category": "songs",
+   "question": "ما اسم أول ألبوم منفرد لتامر حسني سنة ٢٠٠٣؟",
+   "clues": [
+    "قبله أصدر ألبوم مشترك مع شيرين.",
+    "نفس السنة نزل أول فيلم له «حالة حب»."
+   ],
+   "answer": "حب",
+   "letter": "ح",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AA%D8%A7%D9%85%D8%B1_%D8%AD%D8%B3%D9%86%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/feb321af24_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/223938"
+   }
+  },
+  {
+   "id": 698,
+   "category": "songs",
+   "question": "ما اسم أول ألبوم لنانسي عجرم سنة ١٩٩٨ وهي عمرها ١٥ سنة؟",
+   "clues": [
+    "أصدرته مع شركة EMI.",
+    "أغنيته الرئيسية دخلت أول عشرة في لبنان."
+   ],
+   "answer": "محتاجالك",
+   "letter": "م",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://en.wikipedia.org/wiki/Nancy_Ajram_discography",
+   "verified_at": "2026-11-28",
+   "review_note": null,
+   "image": {
+    "file": "images/4801e491b4_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/2022648"
+   }
+  },
+  {
+   "id": 699,
+   "category": "countries-capitals",
+   "question": "عاصمة سوريا؟",
+   "clues": [
+    "من أقدم مدن العالم المأهولة.",
+    "يرويها نهر بردى، وحولها الغوطة."
+   ],
+   "answer": "دمشق",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AF%D9%85%D8%B4%D9%82",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 700,
+   "category": "countries-capitals",
+   "question": "عاصمة لبنان؟",
+   "clues": [
+    "تقع وسط الساحل اللبناني على البحر المتوسط.",
+    "انذكرت في رسائل تل العمارنة قبل الميلاد."
+   ],
+   "answer": "بيروت",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A8%D9%8A%D8%B1%D9%88%D8%AA",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 701,
+   "category": "countries-capitals",
+   "question": "عاصمة سلطنة عمان؟",
+   "clues": [
+    "من القرن الأول الميلادي كانت منفذ تجاري بين الشرق والغرب.",
+    "وقعت فترة تحت سيطرة البرتغاليين."
+   ],
+   "answer": "مسقط",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%B3%D9%82%D8%B7",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 702,
+   "category": "countries-capitals",
+   "question": "عاصمة قطر؟",
+   "clues": [
+    "أكثر من ٨٠٪ من سكان بلدها يعيشون فيها أو حولها.",
+    "تأسست كفرع من حي «البدع»."
+   ],
+   "answer": "الدوحة",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D9%88%D8%AD%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 703,
+   "category": "countries-capitals",
+   "question": "عاصمة البحرين؟",
+   "clues": [
+    "تقع على الساحل الشمالي للجزيرة.",
+    "ترتبط بالمحرق بثلاث جسور."
+   ],
+   "answer": "المنامة",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%85%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 704,
+   "category": "countries-capitals",
+   "question": "عاصمة موريتانيا؟",
+   "clues": [
+    "وضع حجر أساسها أول رئيس للبلد مع شارل ديغول.",
+    "اختاروا منطقة ساحلية عشان تصير عاصمة الدولة الجديدة، وصارت من أكبر مدن الصحراء الكبرى."
+   ],
+   "answer": "نواكشوط",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%86%D9%88%D8%A7%D9%83%D8%B4%D9%88%D8%B7",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 705,
+   "category": "countries-capitals",
+   "question": "عاصمة الصومال؟",
+   "clues": [
+    "تطل على المحيط الهندي.",
+    "مطارها اسمه «آدم عدي»."
+   ],
+   "answer": "مقديشو",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%85%D9%82%D8%AF%D9%8A%D8%B4%D9%88",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 706,
+   "category": "countries-capitals",
+   "question": "عاصمة ليبيا؟",
+   "clues": [
+    "يسمونها «عروس البحر المتوسط».",
+    "في وسطها ميدان الشهداء والسراي الحمراء."
+   ],
+   "answer": "طرابلس",
+   "letter": "ط",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B7%D8%B1%D8%A7%D8%A8%D9%84%D8%B3_%28%D9%84%D9%8A%D8%A8%D9%8A%D8%A7%29",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 707,
+   "category": "geography",
+   "question": "أطول نهر في أفريقيا؟",
+   "clues": [
+    "يمر حوضه بإحدى عشرة دولة.",
+    "بعض الأبحاث تقول إن الأمازون أطول منه بشوي."
+   ],
+   "answer": "النيل",
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%86%D9%87%D8%B1_%D8%A7%D9%84%D9%86%D9%8A%D9%84",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 708,
+   "category": "geography",
+   "question": "أعلى جبل على وجه الأرض؟",
+   "clues": [
+    "جزء من سلسلة جبال الهملايا.",
+    "ارتفاعه ٨٨٤٨ متر تقريباً."
+   ],
+   "answer": "إفرست",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AC%D8%A8%D9%84_%D8%A5%D9%8A%D9%81%D8%B1%D8%B3%D8%AA",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 709,
+   "category": "geography",
+   "question": "أكبر صحراء حارة في العالم؟",
+   "clues": [
+    "مساحتها أكثر من ٩ ملايين كيلومتر مربع.",
+    "تغطي أغلب شمال أفريقيا."
+   ],
+   "answer": "الصحراء الكبرى",
+   "letter": "ص",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B5%D8%AD%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D9%83%D8%A8%D8%B1%D9%89",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 710,
+   "category": "geography",
+   "question": "البحر اللي كان العرب يسمونه «بحر القلزم»؟",
+   "clues": [
+    "يتصل بالمحيط الهندي عن طريق باب المندب.",
+    "في شماله خليج العقبة وخليج السويس."
+   ],
+   "answer": "البحر الأحمر",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A8%D8%AD%D8%B1_%D8%A7%D9%84%D8%A3%D8%AD%D9%85%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 711,
+   "category": "geography",
+   "question": "المضيق اللي يفصل المغرب عن إسبانيا؟",
+   "clues": [
+    "يصل البحر المتوسط بالمحيط الأطلسي.",
+    "اسمه من قائد عبره في بداية الفتح الإسلامي للأندلس."
+   ],
+   "answer": "جبل طارق",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%B6%D9%8A%D9%82_%D8%AC%D8%A8%D9%84_%D8%B7%D8%A7%D8%B1%D9%82",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 712,
+   "category": "geography",
+   "question": "القناة اللي تربط البحر المتوسط بالبحر الأحمر؟",
+   "clues": [
+    "طولها قرابة ١٩٣ كيلومتر.",
+    "توفر حوالي ١٥ يوم مقارنة بطريق رأس الرجاء الصالح."
+   ],
+   "answer": "السويس",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%82%D9%86%D8%A7%D8%A9_%D8%A7%D9%84%D8%B3%D9%88%D9%8A%D8%B3",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 713,
+   "category": "geography",
+   "question": "أكبر بحيرة في أفريقيا؟",
+   "clues": [
+    "ثاني أكبر بحيرة مياه عذبة في العالم.",
+    "تطل عليها كينيا وأوغندا وتنزانيا."
+   ],
+   "answer": "فكتوريا",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A8%D8%AD%D9%8A%D8%B1%D8%A9_%D9%81%D9%8A%D9%83%D8%AA%D9%88%D8%B1%D9%8A%D8%A7",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 714,
+   "category": "geography",
+   "question": "أكبر شبه جزيرة في العالم؟",
+   "clues": [
+    "تقع في جنوب غرب آسيا عند ملتقاها مع أفريقيا.",
+    "تضم دول الخليج واليمن."
+   ],
+   "answer": "الجزيرة العربية",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AC%D8%B2%D9%8A%D8%B1%D8%A9_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 715,
+   "category": "history",
+   "question": "القائد المقدوني اللي تتلمذ على يد أرسطو؟",
+   "clues": [
+    "من أشهر الفاتحين في التاريخ.",
+    "ولد في مدينة بيلا."
+   ],
+   "answer": "الإسكندر",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1_%D8%A7%D9%84%D8%A3%D9%83%D8%A8%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 716,
+   "category": "history",
+   "question": "آخر ملوك البطالمة في مصر؟",
+   "clues": [
+    "بعد وفاتها صارت مصر تابعة لروما.",
+    "تعود في نسبها لبطليموس الأول، رفيق الإسكندر."
+   ],
+   "answer": "كليوباترا",
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%83%D9%84%D9%8A%D9%88%D8%A8%D8%A7%D8%AA%D8%B1%D8%A7",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 717,
+   "category": "history",
+   "question": "المعركة اللي قاد فيها سعد بن أبي وقاص المسلمين وانقتل فيها رستم؟",
+   "clues": [
+    "من أهم معارك فتح العراق.",
+    "صارت في شعبان سنة ١٥ للهجرة."
+   ],
+   "answer": "القادسية",
+   "letter": "ق",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%B9%D8%B1%D9%83%D8%A9_%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B3%D9%8A%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 718,
+   "category": "history",
+   "question": "ثاني خلافة إسلامية، وعاصمتها دمشق؟",
+   "clues": [
+    "حكمت من سنة ٤١ إلى ١٣٢ للهجرة.",
+    "أكبر دولة إسلامية في التاريخ مساحةً."
+   ],
+   "answer": "الأموية",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9_%D8%A7%D9%84%D8%A3%D9%85%D9%88%D9%8A%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 719,
+   "category": "history",
+   "question": "الخلافة اللي حكمت من بغداد أكثر من خمسة قرون؟",
+   "clues": [
+    "ثالث خلافة إسلامية.",
+    "حكمها الفعلي انتهى سنة ٦٥٦ للهجرة."
+   ],
+   "answer": "العباسية",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9_%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%D9%8A%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 720,
+   "category": "history",
+   "question": "آخر خلافة إسلامية، استمرت أكثر من ست قرون وانتهت سنة ١٩٢٣؟",
+   "clues": [
+    "أسسها رجل اسمه عثمان بن أرطغرل.",
+    "بدأت نهاية القرن الثالث عشر الميلادي."
+   ],
+   "answer": "العثمانية",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A9_%D8%A7%D9%84%D8%B9%D8%AB%D9%85%D8%A7%D9%86%D9%8A%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 721,
+   "category": "general",
+   "question": "عالم عربي من البصرة، رائد علم البصريات؟",
+   "clues": [
+    "استعمل المنهج العلمي في أبحاثه.",
+    "له إسهامات في طب العيون والفلك والرياضيات."
+   ],
+   "answer": "ابن الهيثم",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D9%87%D9%8A%D8%AB%D9%85",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 722,
+   "category": "general",
+   "question": "فيلسوف أندلسي سمّاه الأوروبيون «Averroes»؟",
+   "clues": [
+    "تولى القضاء في قرطبة.",
+    "ولد في قرطبة وتوفي في مراكش."
+   ],
+   "answer": "ابن رشد",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%B1%D8%B4%D8%AF",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 723,
+   "category": "general",
+   "question": "مكتشف الدورة الدموية الصغرى؟",
+   "clues": [
+    "طبيب دمشقي من القرن السابع الهجري.",
+    "من رواد علم وظائف الأعضاء."
+   ],
+   "answer": "ابن النفيس",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D8%A7%D9%84%D9%86%D9%81%D9%8A%D8%B3",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 724,
+   "category": "general",
+   "question": "العالم العربي اللي انتسبت له أول كتب الكيمياء العملية؟",
+   "clues": [
+    "ينسبونه للكوفة.",
+    "المؤرخين اختلفوا في مكان مولده، وحتى في وجوده."
+   ],
+   "answer": "جابر بن حيان",
+   "letter": "ج",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AC%D8%A7%D8%A8%D8%B1_%D8%A8%D9%86_%D8%AD%D9%8A%D8%A7%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 725,
+   "category": "general",
+   "question": "طبيب أندلسي يلقبونه «أبو الجراحة الحديثة»؟",
+   "clues": [
+    "الغرب يعرفه باسم «Abulcasis».",
+    "كتابه «التصريف لمن عجز عن التأليف» موسوعة من ثلاثين مقالة."
+   ],
+   "answer": "الزهراوي",
+   "letter": "ز",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%B2%D9%87%D8%B1%D8%A7%D9%88%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 726,
+   "category": "general",
+   "question": "الملاح العربي اللي لقبوه «معلم بحر الهند»؟",
+   "clues": [
+    "أصله من جلفار.",
+    "البرتغاليين سمّوه «الأميرال» يعني أمير البحر."
+   ],
+   "answer": "ابن ماجد",
+   "letter": "ا",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D8%A8%D9%86_%D9%85%D8%A7%D8%AC%D8%AF",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 727,
+   "category": "general",
+   "question": "أشهر جغرافي عربي، ولد في سبتة وتوفي في صقلية؟",
+   "clues": [
+    "يلقبونه «الشريف».",
+    "خرائطه استخدمت قروناً بعده."
+   ],
+   "answer": "الإدريسي",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A5%D8%AF%D8%B1%D9%8A%D8%B3%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 728,
+   "category": "language-literature",
+   "question": "إمام النحويين، تلميذ الخليل بن أحمد الفراهيدي؟",
+   "clues": [
+    "أول من بسط علم النحو.",
+    "ناظر الكسائي في بغداد في «المسألة الزنبورية»."
+   ],
+   "answer": "سيبويه",
+   "letter": "س",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D8%A8%D9%88%D9%8A%D9%87",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 729,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "سيارة صغيرة من «تويوتا»، وهذا جيلها السابع.",
+    "اسمها باللاتيني معناه «التاج الصغير»، ومن ١٩٩٧ هي أكثر اسم سيارة مبيعاً بالتاريخ."
+   ],
+   "answer": "كورولا",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://global.toyota/en/downloadable-assets/corporate-archives/vehicles/corolla.html",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/2142def630_a.webp",
+    "question_file": "images/2142def630_q.webp",
+    "mode": "mask",
+    "key": "car:corolla-1991",
+    "credit": "Toyota Motor Corporation",
+    "license": "صور صحفية رسمية (قرار صاحب اللعبة)",
+    "source": "https://global.toyota/en/downloadable-assets/corporate-archives/vehicles/corolla.html"
+   }
+  },
+  {
+   "id": 730,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "سيارة دفع رباعي بريطانية من «لاند روفر».",
+    "جيلها الجديد انكشف في معرض فرانكفورت سنة ٢٠١٩، وهو أول جيل جديد كلياً من أيام الأصلية سنة ١٩٤٨."
+   ],
+   "answer": "ديفندر",
+   "letter": "د",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://media.jaguarlandrover.com/image-packs/distinctive-silhouette-static-new-land-rover-defender",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/db1671d5b6_a.webp",
+    "question_file": "images/db1671d5b6_q.webp",
+    "mode": "mask",
+    "key": "car:defender-rear",
+    "credit": "Jaguar Land Rover",
+    "license": "صور صحفية رسمية (قرار صاحب اللعبة)",
+    "source": "https://media.jaguarlandrover.com/image-packs/distinctive-silhouette-static-new-land-rover-defender"
+   }
   }
  ]
 }

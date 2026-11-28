@@ -40,14 +40,16 @@ def tmdb_image(kind, query, en=None):
 
 
 def main():
-    only = set(sys.argv[1:])
+    # كل وسيط: رقم السؤال، أو «رقم=اسم» للبحث باسم غير الجواب (مثل ألبوم ← صاحبه)
+    override = dict(a.split("=", 1) for a in sys.argv[1:] if "=" in a)
+    only = {a.split("=", 1)[0] for a in sys.argv[1:]}
     db = json.load(open(DB, encoding="utf-8"))
     report = []
     for q in db["questions"]:
         kind = TARGETS.get(q["category"])
         if not kind or q.get("image") or q["status"] != "verified" or (only and str(q["id"]) not in only):
             continue
-        hit = tmdb_image(kind, q["answer"])
+        hit = tmdb_image(kind, override.get(str(q["id"]), q["answer"]))
         if not hit:
             report.append((q["id"], q["answer"], "ما لقيت"))
             continue
