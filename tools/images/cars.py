@@ -51,6 +51,21 @@ def cover(img: Image.Image, box) -> Image.Image:
     return out
 
 
+_REMBG = []
+
+
+def silhouette(img: Image.Image) -> Image.Image:
+    """ظل السيارة (لون واحد على أبيض) للسيارات المشهورة: السؤال الظل، والجواب نفس الصورة كاملة.
+    يحتاج rembg (نموذج isnet-general-use ينزل أول مرة)."""
+    from rembg import new_session, remove
+    if not _REMBG:
+        _REMBG.append(new_session("isnet-general-use"))
+    a = remove(img, session=_REMBG[0]).split()[3].point(lambda v: 255 if v > 128 else 0)
+    out = Image.new("RGB", img.size, "white")
+    out.paste((28, 28, 34), mask=a)
+    return out
+
+
 def build_cars(cfg, file_id, norm_letter):
     out = []
     for it in cfg["items"]:
@@ -72,7 +87,7 @@ def build_cars(cfg, file_id, norm_letter):
         except Exception as e:  # noqa: BLE001  واحد فشل ما يوقف الباقي
             print(f"  ✗ {it['answer']}: {str(e)[:60]}")
             continue
-        q = img
+        q = silhouette(img) if it.get("silhouette") else img
         for m in it.get("masks", []):
             q = cover(q, m) if len(m) > 4 else hide(q, m)
         if it.get("crop"):
