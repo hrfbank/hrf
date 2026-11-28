@@ -11953,25 +11953,24 @@
    "category": "cars",
    "question": "ما هي السيارة (اسم السيارة)؟",
    "clues": [
-    "سيارة سيدان أمريكية رياضية من «دودج».",
-    "نسختها «Pursuit» تستخدمها الشرطة في أمريكا."
+    "سيارة دفع رباعي من «تويوتا».",
+    "جيلها الجديد يحمل الرقم «٢٥٠»، ووكيلها في الكويت «محمد ناصر الساير»."
    ],
-   "answer": "تشارجر",
-   "letter": "ت",
+   "answer": "برادو",
+   "letter": "ب",
    "difficulty": 2,
    "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Charger_LX_Rallye-AWD_rear_full.jpg",
+   "source": "https://global.toyota/en/album/images/40658942/",
    "verified_at": null,
    "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
    "image": {
-    "file": "images/0ba64363cd_a.webp",
-    "question_file": "images/0ba64363cd_q.webp",
+    "file": "images/299bea8e6f_a.webp",
+    "question_file": "images/299bea8e6f_q.webp",
     "mode": "mask",
-    "key": "car:charger-rear",
-    "credit": "Spaceinvadersaresmokinggrass",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Charger_LX_Rallye-AWD_rear_full.jpg",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "key": "car:prado-silhouette",
+    "credit": "Toyota Motor Corporation",
+    "license": "صور صحفية رسمية (قرار صاحب اللعبة)",
+    "source": "https://global.toyota/en/album/images/40658942/"
    }
   },
   {
@@ -11979,25 +11978,49 @@
    "category": "cars",
    "question": "ما هي السيارة (اسم السيارة)؟",
    "clues": [
-    "سيارة دفع رباعي كبيرة من «شيفروليه».",
-    "أختها «جي إم سي يوكن» مبنية على نفس القاعدة."
+    "بيك أب من «تويوتا»، أول جيل منه نزل سنة ١٩٦٨.",
+    "اسمه من كلمتين إنجليزيتين: High و Luxury."
    ],
-   "answer": "تاهو",
-   "letter": "ت",
+   "answer": "هايلكس",
+   "letter": "ه",
    "difficulty": 2,
    "status": "pending",
-   "source": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Tahoe_High_Country,_front_12.24.20.jpg",
+   "source": "https://global.toyota/en/newsroom/toyota/44397819.html",
    "verified_at": null,
    "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
    "image": {
-    "file": "images/e31d7a5a97_a.webp",
-    "question_file": "images/e31d7a5a97_q.webp",
+    "file": "images/3b4ec50f5c_a.webp",
+    "question_file": "images/3b4ec50f5c_q.webp",
     "mode": "mask",
-    "key": "car:tahoe-front",
-    "credit": "Kevauto",
-    "license": "CC BY-SA 4.0",
-    "source": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Tahoe_High_Country,_front_12.24.20.jpg",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    "key": "car:hilux-2026",
+    "credit": "Toyota Motor Corporation",
+    "license": "صور صحفية رسمية (قرار صاحب اللعبة)",
+    "source": "https://global.toyota/en/newsroom/toyota/44397819.html"
+   }
+  },
+  {
+   "id": 609,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم الشركة)؟",
+   "clues": [
+    "العلامة الفاخرة التابعة لـ«تويوتا».",
+    "كشفت عن الجيل الرابع من سيارتها «LX» في السعودية والإمارات سنة ٢٠٢١."
+   ],
+   "answer": "لكزس",
+   "letter": "ل",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://global.toyota/en/album/images/36143389",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/8d38776bd8_a.webp",
+    "question_file": "images/8d38776bd8_q.webp",
+    "mode": "mask",
+    "key": "car:lexus-lx-rear",
+    "credit": "Toyota Motor Corporation",
+    "license": "صور صحفية رسمية (قرار صاحب اللعبة)",
+    "source": "https://global.toyota/en/album/images/36143389"
    }
   }
  ]

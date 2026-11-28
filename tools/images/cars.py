@@ -81,7 +81,7 @@ def build_cars(cfg, file_id, norm_letter):
         try:
             if it.get("url"):  # صورة من مصدر ثاني (مثل Open Food Facts للمنتجات)
                 import urllib.request
-                req = urllib.request.Request(it["url"], headers={"User-Agent": "hrf-quiz-images/0.1 (personal trivia game)"})
+                req = urllib.request.Request(it["url"], headers={"User-Agent": "Mozilla/5.0 (hrf-quiz-images)"})
                 img = Image.open(io.BytesIO(urllib.request.urlopen(req, timeout=60).read())).convert("RGB")
                 img.thumbnail((1280, 1280), Image.LANCZOS)
                 ii = {"author": it["credit"], "license": it["license"], "license_url": it.get("license_url", ""),
