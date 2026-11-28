@@ -8,7 +8,7 @@ const answers = new Set(db.questions.filter((q) => q.image).map((q) => `${q.imag
 // المشاهير: لو ما لقينا لهم صورة تصلح، يطلعون تنبيه مو خطأ (المولّد يرفضهم عن قصد)
 const OPTIONAL = new Set(["celeb"]);
 let missing = 0, files = 0, skipped = 0;
-for (const s of sets) for (const p of s.picks) {
+for (const s of sets) for (const p of s.picks ?? []) {
   const k = `${s.key}:${p[0]}`;
   const name = String(p[0]).replace(/^جزيرة /, "");
   if (keys.has(k) || answers.has(`${s.key}|${name}`) || answers.has(`${s.key}|${p[1]}`)) continue;

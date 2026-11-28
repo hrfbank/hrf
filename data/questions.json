@@ -12037,10 +12037,10 @@
    "answer": "نيللي كريم",
    "letter": "ن",
    "difficulty": 2,
-   "status": "pending",
+   "status": "verified",
    "source": "https://www.themoviedb.org/person/226912",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "verified_at": "2026-11-28",
+   "review_note": null,
    "image": {
     "file": "images/5cee34f9f4_a.webp",
     "mode": "crop",
@@ -12069,10 +12069,10 @@
    "answer": "محمد منير",
    "letter": "م",
    "difficulty": 2,
-   "status": "pending",
+   "status": "verified",
    "source": "https://www.themoviedb.org/person/1105799",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "verified_at": "2026-11-28",
+   "review_note": null,
    "image": {
     "file": "images/13e86cf30f_a.webp",
     "mode": "crop",
@@ -12101,10 +12101,10 @@
    "answer": "نبيلة عبيد",
    "letter": "ن",
    "difficulty": 2,
-   "status": "pending",
+   "status": "verified",
    "source": "https://www.themoviedb.org/person/1881169",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "verified_at": "2026-11-28",
+   "review_note": null,
    "image": {
     "file": "images/1c6d8ccd48_a.webp",
     "mode": "crop",
@@ -12133,10 +12133,10 @@
    "answer": "دينا الشربيني",
    "letter": "د",
    "difficulty": 2,
-   "status": "pending",
+   "status": "verified",
    "source": "https://www.themoviedb.org/person/1614510",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "verified_at": "2026-11-28",
+   "review_note": null,
    "image": {
     "file": "images/4fcbd6a7e1_a.webp",
     "mode": "crop",
@@ -12165,10 +12165,10 @@
    "answer": "إف جي كروزر",
    "letter": "ا",
    "difficulty": 2,
-   "status": "pending",
+   "status": "verified",
    "source": "https://commons.wikimedia.org/wiki/File:FJ_cruiser_rear.JPG",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "verified_at": "2026-11-28",
+   "review_note": null,
    "image": {
     "file": "images/1efea93b2d_a.webp",
     "question_file": "images/1efea93b2d_q.webp",
@@ -12191,10 +12191,10 @@
    "answer": "برادو",
    "letter": "ب",
    "difficulty": 2,
-   "status": "pending",
+   "status": "verified",
    "source": "https://global.toyota/en/album/images/40658942/",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "verified_at": "2026-11-28",
+   "review_note": null,
    "image": {
     "file": "images/299bea8e6f_a.webp",
     "question_file": "images/299bea8e6f_q.webp",
@@ -12216,10 +12216,10 @@
    "answer": "هايلكس",
    "letter": "ه",
    "difficulty": 2,
-   "status": "pending",
+   "status": "verified",
    "source": "https://global.toyota/en/newsroom/toyota/44397819.html",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "verified_at": "2026-11-28",
+   "review_note": null,
    "image": {
     "file": "images/3b4ec50f5c_a.webp",
     "question_file": "images/3b4ec50f5c_q.webp",
@@ -12241,10 +12241,10 @@
    "answer": "لكزس",
    "letter": "ل",
    "difficulty": 2,
-   "status": "pending",
+   "status": "verified",
    "source": "https://global.toyota/en/album/images/36143389",
-   "verified_at": null,
-   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "verified_at": "2026-11-28",
+   "review_note": null,
    "image": {
     "file": "images/8d38776bd8_a.webp",
     "question_file": "images/8d38776bd8_q.webp",
@@ -12806,6 +12806,662 @@
    "difficulty": 2,
    "status": "verified",
    "source": "https://blogs.transparent.com/arabic/the-names-of-animal-sounds/",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 640,
+   "category": "countries-capitals",
+   "question": "عاصمة كوريا الجنوبية؟",
+   "clues": [
+    "أسستها مملكة بايكتشي قبل الميلاد.",
+    "أكبر مدن كوريا الجنوبية ومقر حكومتها."
+   ],
+   "answer": "سيول",
+   "letter": "س",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B3%D9%88%D9%84",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 641,
+   "category": "countries-capitals",
+   "question": "عاصمة كينيا؟",
+   "clues": [
+    "اسمها من لغة الماساي ومعناه «مكان الماء البارد».",
+    "يسمونها «المدينة الخضراء تحت الشمس»."
+   ],
+   "answer": "نيروبي",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%86%D9%8A%D8%B1%D9%88%D8%A8%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 642,
+   "category": "countries-capitals",
+   "question": "عاصمة الفلبين؟",
+   "clues": [
+    "تقع على جزيرة لوزون.",
+    "مطلة على خليج يحمل اسمها."
+   ],
+   "answer": "مانيلا",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D9%86%D9%8A%D9%84%D8%A7",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 643,
+   "category": "countries-capitals",
+   "question": "عاصمة السنغال؟",
+   "clues": [
+    "أقصى مدينة في أفريقيا غرباً.",
+    "ميناء على المحيط الأطلسي، قريب منها جزيرة غوريه."
+   ],
+   "answer": "داكار",
+   "letter": "د",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AF%D9%83%D8%A7%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 644,
+   "category": "countries-capitals",
+   "question": "عاصمة أوزبكستان؟",
+   "clues": [
+    "كانت محطة على طريق الحرير.",
+    "اسمها معناه «المدينة الصخرية»."
+   ],
+   "answer": "طشقند",
+   "letter": "ط",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B7%D8%B4%D9%82%D9%86%D8%AF",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 645,
+   "category": "countries-capitals",
+   "question": "عاصمة جورجيا؟",
+   "clues": [
+    "العرب سموها «تفليس».",
+    "تقع على ضفاف نهر كورا في القوقاز."
+   ],
+   "answer": "تبليسي",
+   "letter": "ت",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AA%D8%A8%D9%84%D9%8A%D8%B3%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 646,
+   "category": "countries-capitals",
+   "question": "عاصمة فنلندا؟",
+   "clues": [
+    "تقع على خليج فنلندا في بحر البلطيق.",
+    "تبعد ٨٠ كيلومتر بس عن تالين عاصمة إستونيا."
+   ],
+   "answer": "هلسنكي",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%87%D9%84%D8%B3%D9%86%D9%83%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 647,
+   "category": "countries-capitals",
+   "question": "عاصمة البرتغال؟",
+   "clues": [
+    "عاصمة بلدها من القرن الثالث عشر.",
+    "تقع على ساحل المحيط الأطلسي في شبه الجزيرة الأيبيرية."
+   ],
+   "answer": "لشبونة",
+   "letter": "ل",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%84%D8%B4%D8%A8%D9%88%D9%86%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 648,
+   "category": "countries-capitals",
+   "question": "عاصمة كوبا؟",
+   "clues": [
+    "أكبر مدينة في منطقة البحر الكاريبي.",
+    "ميناء بلدها الرئيسي ومركزه التجاري."
+   ],
+   "answer": "هافانا",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%87%D8%A7%D9%81%D8%A7%D9%86%D8%A7",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 649,
+   "category": "countries-capitals",
+   "question": "عاصمة فيتنام؟",
+   "clues": [
+    "العرب قديماً سموها «لوقين».",
+    "فيها ضريح هو تشي منه."
+   ],
+   "answer": "هانوي",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%87%D8%A7%D9%86%D9%88%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 650,
+   "category": "countries-capitals",
+   "question": "عاصمة البيرو؟",
+   "clues": [
+    "أسسها الإسباني فرانسيسكو بيسارو.",
+    "سماها مؤسسها «مدينة الملوك»."
+   ],
+   "answer": "ليما",
+   "letter": "ل",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%84%D9%8A%D9%85%D8%A7",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 651,
+   "category": "countries-capitals",
+   "question": "عاصمة الأرجنتين؟",
+   "clues": [
+    "تقع على نهر بلاطة (ريو دي لا بلاتا).",
+    "أكبر مدن بلدها، ومشهورة بمعمارها الأوروبي."
+   ],
+   "answer": "بوينس آيرس",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A8%D9%88%D9%8A%D9%86%D8%B3_%D8%A2%D9%8A%D8%B1%D8%B3",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 652,
+   "category": "currencies",
+   "question": "عملة الصين؟",
+   "clues": [
+    "عملة جمهورية الصين الشعبية.",
+    "من أرخص العملات المتداولة على نطاق واسع، والصين تحرص تخليه منخفض لصالح صادراتها."
+   ],
+   "answer": "اليوان",
+   "letter": "ي",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D8%A7%D9%86_%D8%B5%D9%8A%D9%86%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 653,
+   "category": "currencies",
+   "question": "عملة المكسيك؟",
+   "clues": [
+    "رمزها نفس علامة الدولار «$».",
+    "أكثر عملة متداولة من أمريكا اللاتينية."
+   ],
+   "answer": "البيزو",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A8%D9%8A%D8%B2%D9%88_%D9%85%D9%83%D8%B3%D9%8A%D9%83%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 654,
+   "category": "currencies",
+   "question": "عملة جنوب أفريقيا؟",
+   "clues": [
+    "تنقسم إلى ١٠٠ سنت.",
+    "أوراقها النقدية تنصدر بفئات ١٠ و٥٠ و٢٠٠."
+   ],
+   "answer": "الراند",
+   "letter": "ر",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B1%D8%A7%D9%86%D8%AF_%D8%AC%D9%86%D9%88%D8%A8_%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 655,
+   "category": "currencies",
+   "question": "عملة فيتنام؟",
+   "clues": [
+    "علامتها ₫.",
+    "يصدرها مصرف فيتنام."
+   ],
+   "answer": "الدونغ",
+   "letter": "د",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AF%D9%88%D9%86%D8%BA_%D9%81%D9%8A%D8%AA%D9%86%D8%A7%D9%85%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 656,
+   "category": "currencies",
+   "question": "عملة السويد؟",
+   "clues": [
+    "تنقسم إلى ١٠٠ «أور».",
+    "كلمة «أور» أصلها لاتيني ومعناها الذهب."
+   ],
+   "answer": "الكرونة",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%83%D8%B1%D9%88%D9%86%D8%A9_%D8%B3%D9%88%D9%8A%D8%AF%D9%8A%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 657,
+   "category": "currencies",
+   "question": "عملة مصر؟",
+   "clues": [
+    "يساوي ١٠٠ قرش أو ١٠٠٠ مليم.",
+    "أول ما انطرح للتداول كان في القرن التاسع عشر."
+   ],
+   "answer": "الجنيه",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AC%D9%86%D9%8A%D9%87_%D9%85%D8%B5%D8%B1%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 658,
+   "category": "currencies",
+   "question": "عملة العراق؟",
+   "clues": [
+    "ينقسم إلى ١٠٠٠ فلس.",
+    "يصدره البنك المركزي العراقي."
+   ],
+   "answer": "الدينار",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AF%D9%8A%D9%86%D8%A7%D8%B1_%D8%B9%D8%B1%D8%A7%D9%82%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 659,
+   "category": "currencies",
+   "question": "عملة الهند؟",
+   "clues": [
+    "اسمها من كلمة سنسكريتية معناها الفضة.",
+    "أوراقها عليها صورة غاندي."
+   ],
+   "answer": "الروبية",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B1%D9%88%D8%A8%D9%8A%D8%A9_%D9%87%D9%86%D8%AF%D9%8A%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 660,
+   "category": "general",
+   "question": "أكبر كوكب في المجموعة الشمسية؟",
+   "clues": [
+    "عملاق غازي، خامس الكواكب بعداً عن الشمس.",
+    "الرومان سموه «جوبيتر» إله السماء."
+   ],
+   "answer": "المشتري",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B4%D8%AA%D8%B1%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 661,
+   "category": "general",
+   "question": "أقرب كوكب للشمس؟",
+   "clues": [
+    "أصغر كواكب المجموعة الشمسية.",
+    "اسمه بالإنجليزي «ميركوري»."
+   ],
+   "answer": "عطارد",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B9%D8%B7%D8%A7%D8%B1%D8%AF",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 662,
+   "category": "general",
+   "question": "الكوكب الأحمر؟",
+   "clues": [
+    "الكوكب الرابع بعداً عن الشمس.",
+    "لونه من غبار أكسيد الحديد على سطحه."
+   ],
+   "answer": "المريخ",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%B1%D9%8A%D8%AE",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 663,
+   "category": "general",
+   "question": "المعدن الوحيد اللي يكون سائل في الظروف العادية؟",
+   "clues": [
+    "رمزه الكيميائي Hg.",
+    "كان يُستخدم في موازين الحرارة."
+   ],
+   "answer": "الزئبق",
+   "letter": "ز",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B2%D8%A6%D8%A8%D9%82",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 664,
+   "category": "general",
+   "question": "أسرع حيوان بري على الأرض؟",
+   "clues": [
+    "من فصيلة السنوريات، وجسمه نحيل.",
+    "سرعته توصل بين ١١٢ و١٢٠ كيلومتر بالساعة."
+   ],
+   "answer": "الفهد",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%81%D9%87%D8%AF",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 665,
+   "category": "general",
+   "question": "أكبر حيوان عرفته الأرض؟",
+   "clues": [
+    "ثديي بحري طوله يوصل ٣٠ متر.",
+    "وزنه ١٧٠ طن أو أكثر."
+   ],
+   "answer": "الحوت الأزرق",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AD%D9%88%D8%AA_%D8%A3%D8%B2%D8%B1%D9%82",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 666,
+   "category": "general",
+   "question": "جهاز يقيس الضغط الجوي؟",
+   "clues": [
+    "اسمه بالعربي «المرواز».",
+    "اخترعه الإيطالي توريشلي سنة ١٦٤٣ بأنبوب زئبق."
+   ],
+   "answer": "البارومتر",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A8%D8%A7%D8%B1%D9%88%D9%85%D8%AA%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 667,
+   "category": "general",
+   "question": "أكبر محيط في العالم؟",
+   "clues": [
+    "العرب قديماً سموه «البحر الكاهل».",
+    "فيه خندق ماريانا، أعمق نقطة في العالم."
+   ],
+   "answer": "الهادئ",
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D8%AD%D9%8A%D8%B7_%D8%A7%D9%84%D9%87%D8%A7%D8%AF%D8%A6",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 668,
+   "category": "general",
+   "question": "من سجّل أول براءة اختراع للهاتف؟",
+   "clues": [
+    "عالم ومخترع إسكتلندي المولد.",
+    "أمه وزوجته كانوا من الصم، وهذا وجّه أبحاثه للسمع والكلام."
+   ],
+   "answer": "غراهام بيل",
+   "letter": "غ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A3%D9%84%D9%83%D8%B3%D9%86%D8%AF%D8%B1_%D8%BA%D8%B1%D8%A7%D9%87%D8%A7%D9%85_%D8%A8%D9%8A%D9%84",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 669,
+   "category": "general",
+   "question": "أكبر عضو في جسم الإنسان؟",
+   "clues": [
+    "يغطي الجسم كله.",
+    "يبرّد الجسم بالعرق."
+   ],
+   "answer": "الجلد",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AC%D9%84%D8%AF",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 670,
+   "category": "general",
+   "question": "أطول عظمة في جسم الإنسان؟",
+   "clues": [
+    "أقوى عظام الجسم وأصلبها.",
+    "رأسها يتمفصل مع الحوض ويكوّن مفصل الورك."
+   ],
+   "answer": "الفخذ",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B9%D8%B8%D9%85_%D8%A7%D9%84%D9%81%D8%AE%D8%B0",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 671,
+   "category": "seerah",
+   "question": "الغار اللي نزل فيه الوحي أول مرة؟",
+   "clues": [
+    "يقع في أعلى جبل النور شرق مكة.",
+    "ما يتسع إلا لأربعة أو خمسة أشخاص."
+   ],
+   "answer": "حراء",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%BA%D8%A7%D8%B1_%D8%AD%D8%B1%D8%A7%D8%A1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 672,
+   "category": "seerah",
+   "question": "أول معركة فاصلة في الإسلام؟",
+   "clues": [
+    "صارت في رمضان في السنة الثانية للهجرة.",
+    "يسمونها «يوم الفرقان»، واسمها من بئر بين مكة والمدينة."
+   ],
+   "answer": "بدر",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%BA%D8%B2%D9%88%D8%A9_%D8%A8%D8%AF%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 673,
+   "category": "seerah",
+   "question": "أول زوجات النبي ﷺ؟",
+   "clues": [
+    "أم كل أولاده إلا إبراهيم.",
+    "أول من آمن به من الرجال والنساء."
+   ],
+   "answer": "خديجة",
+   "letter": "خ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AE%D8%AF%D9%8A%D8%AC%D8%A9_%D8%A8%D9%86%D8%AA_%D8%AE%D9%88%D9%8A%D9%84%D8%AF",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 674,
+   "category": "seerah",
+   "question": "أم النبي ﷺ؟",
+   "clues": [
+    "توفيت والنبي ﷺ عمره ست سنوات.",
+    "دُفنت في الأبواء بين مكة والمدينة."
+   ],
+   "answer": "آمنة",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A2%D9%85%D9%86%D8%A9_%D8%A8%D9%86%D8%AA_%D9%88%D9%87%D8%A8",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 675,
+   "category": "seerah",
+   "question": "جد النبي ﷺ؟",
+   "clues": [
+    "كنيته «أبو الحارث».",
+    "أبو حمزة والعباس وأبي طالب."
+   ],
+   "answer": "عبدالمطلب",
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%85%D8%B7%D9%84%D8%A8_%D8%A8%D9%86_%D9%87%D8%A7%D8%B4%D9%85",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 676,
+   "category": "seerah",
+   "question": "من لقّبه النبي ﷺ بـ«أمين هذه الأمة»؟",
+   "clues": [
+    "أحد العشرة المبشرين بالجنة.",
+    "من قادة فتح الشام في عهد أبي بكر."
+   ],
+   "answer": "أبو عبيدة",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A3%D8%A8%D9%88_%D8%B9%D8%A8%D9%8A%D8%AF%D8%A9_%D8%A8%D9%86_%D8%A7%D9%84%D8%AC%D8%B1%D8%A7%D8%AD",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 677,
+   "category": "islamic",
+   "question": "الشهر الهجري اللي نزل فيه القرآن؟",
+   "clues": [
+    "الشهر التاسع في التقويم الهجري.",
+    "فيه ليلة القدر."
+   ],
+   "answer": "رمضان",
+   "letter": "ر",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B1%D9%85%D8%B6%D8%A7%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 678,
+   "category": "islamic",
+   "question": "الشهر الهجري اللي يحج فيه المسلمون؟",
+   "clues": [
+    "آخر شهر في السنة الهجرية.",
+    "من الأشهر الحرم، وفيه عيد الأضحى."
+   ],
+   "answer": "ذو الحجة",
+   "letter": "ذ",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B0%D9%88_%D8%A7%D9%84%D8%AD%D8%AC%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 679,
+   "category": "islamic",
+   "question": "الملك الموكل بالنفخ في الصور يوم القيامة؟",
+   "clues": [
+    "من الملائكة المقربين.",
+    "الصور بوق ينفخ فيه لقيام الساعة."
+   ],
+   "answer": "إسرافيل",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A5%D8%B3%D8%B1%D8%A7%D9%81%D9%8A%D9%84",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 680,
+   "category": "islamic",
+   "question": "صلاة فيها تكبير وتسليم بس بلا ركوع ولا سجود؟",
+   "clues": [
+    "حكمها فرض كفاية.",
+    "تنصلى على الميت المسلم قبل دفنه."
+   ],
+   "answer": "الجنازة",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%B2%D8%A9",
    "verified_at": "2026-11-28",
    "review_note": null
   }
