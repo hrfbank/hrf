@@ -79,13 +79,22 @@ def build_cars(cfg, file_id, norm_letter):
             x, y, w, h = it["crop"]
             W, H = q.size
             q = q.crop((round(x * W), round(y * H), round((x + w) * W), round((y + h) * H)))
+        ans = img
+        if it.get("answer_file"):  # صورة جواب مختلفة (ملاحظة صاحب اللعبة: لا تعيد صورة السؤال)
+            try:
+                aii = wiki.image_info(it["answer_file"], 1280)
+                ans = Image.open(io.BytesIO(wiki.download(aii["thumb"]))).convert("RGB")
+                ii = {**ii, "author": f"{ii['author']} / {aii['author']}", "page": aii["page"]}
+            except Exception as e:  # noqa: BLE001
+                print(f"  ✗ {it['answer']}: صورة الجواب: {str(e)[:50]}")
+                continue
         key = f"{cfg['key']}:{it['id']}"
         fid = file_id(key)
         out.append({
             "key": key, "category": cfg["category"], "question": it.get("question", cfg["question"]),
             "answer": it["answer"], "letter": norm_letter(it["answer"]), "difficulty": it["difficulty"],
             "clues": it["clues"],
-            "files": {f"{fid}_q.webp": webp(q, 1280), f"{fid}_a.webp": webp(img, 1280)},
+            "files": {f"{fid}_q.webp": webp(q, 1280), f"{fid}_a.webp": webp(ans, 1280)},
             "image": {"file": f"images/{fid}_a.webp", "question_file": f"images/{fid}_q.webp", "mode": "mask"},
             "credit": ii["author"], "license": ii["license"], "license_url": ii["license_url"], "source": ii["page"],
         })

@@ -11793,6 +11793,134 @@
     "license": "TMDB (قرار صاحب اللعبة)",
     "source": "https://www.themoviedb.org/person/1033756"
    }
+  },
+  {
+   "id": 602,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثلة مصرية كانت راقصة باليه في دار الأوبرا.",
+    "من مسلسلاتها «سجن النسا» و«تحت السيطرة»."
+   ],
+   "answer": "نيللي كريم",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/226912",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/5cee34f9f4_a.webp",
+    "mode": "crop",
+    "aspect": 2.18,
+    "crop": {
+     "x": 0.1989,
+     "y": 0.3138,
+     "w": 0.6544,
+     "h": 0.2001
+    },
+    "wikidata": "tmdb:Nelly Karim",
+    "key": "celeb:tmdb:Nelly Karim",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/226912"
+   }
+  },
+  {
+   "id": 603,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "مطرب مصري يلقبونه «الكينج».",
+    "اتسعت شهرته مع ألبوم «شبابيك»."
+   ],
+   "answer": "محمد منير",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/1105799",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/13e86cf30f_a.webp",
+    "mode": "crop",
+    "aspect": 1.883,
+    "crop": {
+     "x": 0.2389,
+     "y": 0.2554,
+     "w": 0.4491,
+     "h": 0.1591
+    },
+    "wikidata": "tmdb:Mohamed Mounir",
+    "key": "celeb:tmdb:Mohamed Mounir",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1105799"
+   }
+  },
+  {
+   "id": 604,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثلة مصرية يلقبونها «نجمة مصر الأولى».",
+    "من أفلامها «الراقصة والسياسي»."
+   ],
+   "answer": "نبيلة عبيد",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/1881169",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/1c6d8ccd48_a.webp",
+    "mode": "crop",
+    "aspect": 2.6,
+    "crop": {
+     "x": 0.3379,
+     "y": 0.1307,
+     "w": 0.3104,
+     "h": 0.0796
+    },
+    "wikidata": "tmdb:Nabila Ebeid",
+    "key": "celeb:tmdb:Nabila Ebeid",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1881169"
+   }
+  },
+  {
+   "id": 605,
+   "category": "who-is-famous",
+   "question": "من هو المشهور؟",
+   "clues": [
+    "ممثلة مصرية.",
+    "جسدت شخصية «ورد» في مسلسل «جراند أوتيل»."
+   ],
+   "answer": "دينا الشربيني",
+   "letter": "د",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://www.themoviedb.org/person/1614510",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/4fcbd6a7e1_a.webp",
+    "mode": "crop",
+    "aspect": 2.524,
+    "crop": {
+     "x": 0.2694,
+     "y": 0.2936,
+     "w": 0.4909,
+     "h": 0.1296
+    },
+    "wikidata": "tmdb:Dina El Sherbiny",
+    "key": "celeb:tmdb:Dina El Sherbiny",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1614510"
+   }
   }
  ]
 }
