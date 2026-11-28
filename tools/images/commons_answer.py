@@ -21,6 +21,17 @@ DB = os.path.join(ROOT, "data", "questions.json")
 FREE = ("CC BY", "CC0", "Public domain", "PD", "CC-BY", "Attribution")
 
 
+def std_thumb(info):
+    """رابط مصغّر بمقاس قياسي (ويكيميديا تحجب الأصل والمقاسات الغريبة بـ 429)."""
+    orig = info["original"].split("?")[0]
+    sizes = [w for w in (330, 500, 960) if w <= info["width"]]
+    if not sizes or "/commons/" not in orig:
+        return orig
+    head, tail = orig.split("/commons/", 1)
+    name = tail.rsplit("/", 1)[-1]
+    return f"{head}/commons/thumb/{tail}/{sizes[-1]}px-{name}"
+
+
 def merge(results):
     """يضيف الصور المحفوظة في ملف النتائج للبنك (يقرا ويحفظ مرة وحدة بسرعة)."""
     done = [json.loads(l) for l in open(results, encoding="utf-8") if l.strip()]
@@ -53,7 +64,7 @@ def main():
         path = f"images/{hashlib.sha1(f'ans:{qid}'.encode()).hexdigest()[:10]}_ans.webp"
         full = os.path.join(ROOT, "public", path)
         if not os.path.exists(full):
-            img = Image.open(io.BytesIO(wiki.download(info["thumb"]))).convert("RGB")
+            img = Image.open(io.BytesIO(wiki.download(std_thumb(info)))).convert("RGB")
             img.thumbnail((900, 900), Image.LANCZOS)
             img.save(full, "WEBP", quality=85, method=6)
         rec = {"id": qid, "file": path, "mode": "answer", "credit": info["author"], "license": info["license"], "source": info["page"]}
