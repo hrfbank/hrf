@@ -24,18 +24,19 @@ def letter(answer: str) -> str:
 def main():
     batch = json.load(open(sys.argv[1], encoding="utf-8"))
     db = json.load(open(DB, encoding="utf-8"))
-    taken = {q["answer"] for q in db["questions"] if q["status"] != "rejected"}
+    # نفس الجواب في فئة ثانية مسموح (مثلاً المطرب في «من هو المشهور» وفي «أغاني»)
+    taken = {(q["category"], q["answer"]) for q in db["questions"] if q["status"] != "rejected"}
     nid = max(q["id"] for q in db["questions"]) + 1
     today = datetime.date.today().isoformat()
     added = []
     for q in batch:
-        if q["answer"] in taken:
+        if (q["category"], q["answer"]) in taken:
             print(f"مكرر (ما انضاف): {q['answer']}")
             continue
         q = {**q, "id": nid, "letter": letter(q["answer"]), "status": "verified", "verified_at": today,
              "review_note": None}
         db["questions"].append({k: q[k] for k in ORDER if k in q})
-        taken.add(q["answer"])
+        taken.add((q["category"], q["answer"]))
         added.append(q["answer"])
         nid += 1
     open(DB, "w", encoding="utf-8").write(json.dumps(db, ensure_ascii=False, indent=1) + "\n")

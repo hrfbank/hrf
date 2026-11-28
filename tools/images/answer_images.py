@@ -20,7 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 DB = os.path.join(ROOT, "data", "questions.json")
 KEY = os.environ.get("TMDB_KEY", "")
 # الفئة ← نوع البحث في TMDB
-TARGETS = {"actors": "person", "gulf-series": "tv", "kuwaiti-plays": "movie"}
+TARGETS = {"actors": "person", "gulf-series": "tv", "kuwaiti-plays": "movie", "songs": "person"}
 
 
 def get(url):
