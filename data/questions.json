@@ -15184,6 +15184,447 @@
    "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%AC%D8%AF_%D8%B9%D8%A8%D8%AF_%D8%A7%D9%84%D9%84%D9%87",
    "verified_at": "2026-11-28",
    "review_note": null
+  },
+  {
+   "id": 783,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "ڤان من «تويوتا»، أول جيل منه نزل سنة ١٩٦٧.",
+    "هذا الجيل المخصص للأسواق الخارجية انكشف أول مرة في الفلبين سنة ٢٠١٩."
+   ],
+   "answer": "هايس",
+   "letter": "ه",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://global.toyota/en/newsroom/toyota/26715368.html",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/ebfe755353_a.webp",
+    "question_file": "images/ebfe755353_q.webp",
+    "mode": "mask",
+    "key": "car:hiace-2019-rear",
+    "credit": "Toyota Motor Corporation",
+    "license": "صور صحفية رسمية (قرار صاحب اللعبة)",
+    "source": "https://global.toyota/en/newsroom/toyota/26715368.html"
+   }
+  },
+  {
+   "id": 784,
+   "category": "general",
+   "question": "من طوّر المصباح الكهربائي المتوهج العملي؟",
+   "clues": [
+    "مخترع ورجل أعمال أمريكي.",
+    "طوّر كمان جهاز الفونوغراف."
+   ],
+   "answer": "إديسون",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AA%D9%88%D9%85%D8%A7%D8%B3_%D8%A5%D8%AF%D9%8A%D8%B3%D9%88%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 785,
+   "category": "general",
+   "question": "مخترع الطباعة الحديثة؟",
+   "clues": [
+    "مخترع ألماني من القرن الخامس عشر.",
+    "طوّر قوالب حروف تنصف جنب بعض ويضغط عليها الورق."
+   ],
+   "answer": "غوتنبرغ",
+   "letter": "غ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D9%87%D8%A7%D9%86_%D8%BA%D9%88%D8%AA%D9%86%D8%A8%D8%B1%D8%BA",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 786,
+   "category": "general",
+   "question": "مخترع الديناميت؟",
+   "clues": [
+    "مهندس وكيميائي سويدي.",
+    "أوصى بثروته لجائزة تحمل اسمه."
+   ],
+   "answer": "نوبل",
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A3%D9%84%D9%81%D8%B1%D9%8A%D8%AF_%D9%86%D9%88%D8%A8%D9%84",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 787,
+   "category": "general",
+   "question": "الملاح اللي فتحت رحلاته باب استكشاف الأمريكتين؟",
+   "clues": [
+    "إيطالي من جمهورية جنوة.",
+    "قام بأربع رحلات عبر الأطلسي باسم ملكي إسبانيا."
+   ],
+   "answer": "كولومبوس",
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%83%D8%B1%D9%8A%D8%B3%D8%AA%D9%88%D9%81%D8%B1_%D9%83%D9%88%D9%84%D9%88%D9%85%D8%A8%D9%88%D8%B3",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 788,
+   "category": "general",
+   "question": "أول شخص مشى على سطح القمر؟",
+   "clues": [
+    "رائد فضاء أمريكي.",
+    "درس هندسة الفضاء في جامعة بوردو."
+   ],
+   "answer": "أرمسترونغ",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%86%D9%8A%D9%84_%D8%A2%D8%B1%D9%85%D8%B3%D8%AA%D8%B1%D9%88%D9%86%D8%BA",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 789,
+   "category": "general",
+   "question": "أول إنسان طار إلى الفضاء الخارجي ودار حول الأرض؟",
+   "clues": [
+    "طيار ورائد فضاء سوفيتي.",
+    "طار على مركبة «فوستوك ١» سنة ١٩٦١."
+   ],
+   "answer": "جاجارين",
+   "letter": "ج",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%8A%D9%88%D8%B1%D9%8A_%D8%BA%D8%A7%D8%BA%D8%A7%D8%B1%D9%8A%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 790,
+   "category": "general",
+   "question": "أول رائد فضاء عربي ومسلم؟",
+   "clues": [
+    "الابن الثاني للملك سلمان.",
+    "ترأس الهيئة السعودية للفضاء من تأسيسها."
+   ],
+   "answer": "سلطان بن سلمان",
+   "letter": "س",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%B3%D9%84%D8%B7%D8%A7%D9%86_%D8%A8%D9%86_%D8%B3%D9%84%D9%85%D8%A7%D9%86_%D8%A2%D9%84_%D8%B3%D8%B9%D9%88%D8%AF",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 791,
+   "category": "general",
+   "question": "العضو اللي ينقسم إلى أذينين وبطينين؟",
+   "clues": [
+    "يضخ الدم باستمرار.",
+    "البطين الأيمن يرسل الدم للرئتين."
+   ],
+   "answer": "القلب",
+   "letter": "ق",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%82%D9%84%D8%A8_%D8%A7%D9%84%D8%A5%D9%86%D8%B3%D8%A7%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 792,
+   "category": "general",
+   "question": "زاحف يغيّر لونه، ويسمونه في بعض اللهجات «أم البويه»؟",
+   "clues": [
+    "حيوان بيوض مفترس.",
+    "يعيش في الشقوق ويحب يشرب الماء الجاري."
+   ],
+   "answer": "الحرباء",
+   "letter": "ح",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B1%D8%A8%D8%A7%D8%A1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 793,
+   "category": "general",
+   "question": "طائر بحري ما يطير، يعيش في القطب الجنوبي؟",
+   "clues": [
+    "ريشه أبيض وأسود.",
+    "أجنحته تحولت إلى زعانف للسباحة."
+   ],
+   "answer": "البطريق",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A8%D8%B7%D8%B1%D9%8A%D9%82",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 794,
+   "category": "general",
+   "question": "أثقل الطيور الحية وأسرعها على الأرض؟",
+   "clues": [
+    "تضع أكبر بيض بين الحيوانات البرية.",
+    "تجري بسرعة ٧٠ كيلومتر بالساعة."
+   ],
+   "answer": "النعامة",
+   "letter": "ن",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%86%D8%B9%D8%A7%D9%85%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 795,
+   "category": "general",
+   "question": "حيوان جرابي اسمه معناه «القدم الكبيرة»؟",
+   "clues": [
+    "أكبر أنواعه الأحمر.",
+    "يعيش بكثرة في أستراليا."
+   ],
+   "answer": "الكنغر",
+   "letter": "ك",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%83%D9%86%D8%BA%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 796,
+   "category": "general",
+   "question": "الغاز اللي يسمونه أيضاً «الآزوت»؟",
+   "clues": [
+    "رمزه الكيميائي N.",
+    "عدده الذري ٧."
+   ],
+   "answer": "النيتروجين",
+   "letter": "ن",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%86%D9%8A%D8%AA%D8%B1%D9%88%D8%AC%D9%8A%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 797,
+   "category": "general",
+   "question": "أول عنصر في الجدول الدوري؟",
+   "clues": [
+    "رمزه H.",
+    "غاز عديم اللون والرائحة وسريع الاشتعال."
+   ],
+   "answer": "الهيدروجين",
+   "letter": "ه",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%87%D9%8A%D8%AF%D8%B1%D9%88%D8%AC%D9%8A%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 798,
+   "category": "general",
+   "question": "وحدة قياس التيار الكهربائي؟",
+   "clues": [
+    "رمزها A.",
+    "سُمّيت باسم عالم فرنسي يعتبرونه مؤسس الكهرومغناطيسية."
+   ],
+   "answer": "الأمبير",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A3%D9%85%D8%A8%D9%8A%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 799,
+   "category": "general",
+   "question": "سمكة رأسها يشبه رأس الحصان؟",
+   "clues": [
+    "له أكثر من ٣٢ نوع.",
+    "يعيش بين حشائش البحر والشعاب المرجانية."
+   ],
+   "answer": "فرس البحر",
+   "letter": "ف",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AD%D8%B5%D8%A7%D9%86_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 800,
+   "category": "general",
+   "question": "أول امرأة تفوز بجائزة نوبل، وفازت فيها مرتين؟",
+   "clues": [
+    "بولندية المولد، فرنسية الجنسية.",
+    "فازت بالفيزياء ثم بالكيمياء."
+   ],
+   "answer": "ماري كوري",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%85%D8%A7%D8%B1%D9%8A_%D9%83%D9%88%D8%B1%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 801,
+   "category": "general",
+   "question": "من يسمونه «أبو النسبية»؟",
+   "clues": [
+    "فيزيائي ألماني المولد.",
+    "فاز بنوبل الفيزياء سنة ١٩٢١."
+   ],
+   "answer": "أينشتاين",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A3%D9%84%D8%A8%D8%B1%D8%AA_%D8%A3%D9%8A%D9%86%D8%B4%D8%AA%D8%A7%D9%8A%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 802,
+   "category": "general",
+   "question": "العالم الإيطالي اللي دافع عن مركزية الشمس وأثبت خطأ أرسطو في الحركة؟",
+   "clues": [
+    "ولد في بيزا.",
+    "عالم فلك وفيلسوف وفيزيائي."
+   ],
+   "answer": "غاليليو",
+   "letter": "غ",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%BA%D8%A7%D9%84%D9%8A%D9%84%D9%8A%D9%88_%D8%BA%D8%A7%D9%84%D9%8A%D9%84%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 803,
+   "category": "general",
+   "question": "العالم الفرنسي اللي حضّر لقاح داء الكلب؟",
+   "clues": [
+    "من مؤسسي علم الأحياء الدقيقة.",
+    "اشتهر بطريقة لمعالجة الحليب تحمل اسمه."
+   ],
+   "answer": "باستور",
+   "letter": "ب",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%84%D9%88%D9%8A%D8%B3_%D8%A8%D8%A7%D8%B3%D8%AA%D9%8A%D8%B1",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 804,
+   "category": "general",
+   "question": "صاحب نظرية التطور؟",
+   "clues": [
+    "عالم بريطاني من القرن التاسع عشر.",
+    "ولد في شروزبري بإنجلترا."
+   ],
+   "answer": "داروين",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AA%D8%B4%D8%A7%D8%B1%D9%84%D8%B2_%D8%AF%D8%A7%D8%B1%D9%88%D9%8A%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 805,
+   "category": "general",
+   "question": "طائر ما يطير، يعيش في نيوزيلندا وحجمه بحجم الدجاجة؟",
+   "clues": [
+    "أصغر الطيور العدّاءة الحية.",
+    "اسمه نفس اسم فاكهة."
+   ],
+   "answer": "الكيوي",
+   "letter": "ك",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D9%83%D9%8A%D9%88%D9%8A_%28%D8%B7%D8%A7%D8%A6%D8%B1%29",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 806,
+   "category": "general",
+   "question": "حيوان صيني من عائلة الدببة، بهالات سوداء حول عيونه؟",
+   "clues": [
+    "يسمونه «دب الخيزران».",
+    "موطنه جنوب غرب الصين."
+   ],
+   "answer": "الباندا",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A8%D8%A7%D9%86%D8%AF%D8%A7_%D8%A7%D9%84%D8%B9%D9%85%D9%84%D8%A7%D9%82%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 807,
+   "category": "general",
+   "question": "حيوان بحري له ثمان مجسات مليانة ماصات؟",
+   "clues": [
+    "من الرخويات، قريب من الحبار.",
+    "يسمونه أيضاً «ثماني الأرجل»."
+   ],
+   "answer": "الأخطبوط",
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A3%D8%AE%D8%B7%D8%A8%D9%88%D8%B7",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 808,
+   "category": "general",
+   "question": "طائر ليلي رأسه كبير وطيرانه صامت؟",
+   "clues": [
+    "من الطيور الجارحة.",
+    "له أكثر من ٢٠٠ نوع."
+   ],
+   "answer": "البومة",
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%A8%D9%88%D9%85%D8%A9",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 809,
+   "category": "general",
+   "question": "ثديي بحري يسمونه أيضاً «الدرفيل»؟",
+   "clues": [
+    "قريب من الحيتان.",
+    "فيه قرابة أربعين نوع منه."
+   ],
+   "answer": "الدلفين",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://ar.wikipedia.org/wiki/%D8%AF%D9%84%D9%81%D9%8A%D9%86",
+   "verified_at": "2026-11-28",
+   "review_note": null
   }
  ]
 }

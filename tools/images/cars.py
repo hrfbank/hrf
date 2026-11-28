@@ -34,10 +34,11 @@ def hide(img: Image.Image, box) -> Image.Image:
     # حبيبات بنفس خشونة المحيط، عشان المكان الممسوح ما يطلع أنعم من باقي السطح
     ring = cv2.dilate(mask, np.ones((9, 9), np.uint8)) - mask
     a = arr.astype(np.float32)
-    grain = float(np.std((a - cv2.GaussianBlur(a, (0, 0), 2))[ring > 0])) if ring.any() else 0
+    hp = np.abs((a - cv2.GaussianBlur(a, (0, 0), 2))[ring > 0])
+    grain = float(np.median(hp) * 1.48) if ring.any() else 0  # الوسيط ما يتأثر بحواف قريبة (ليت، مقبض)
     if grain > 0.5:
         rng = np.random.default_rng(0)
-        out = out + rng.normal(0, min(grain, 12), out.shape[:2])[..., None] * feather
+        out = out + rng.normal(0, min(grain, 6), out.shape[:2])[..., None] * feather
     out = np.clip(out, 0, 255).astype(np.uint8)
     return Image.fromarray(cv2.cvtColor(out, cv2.COLOR_BGR2RGB))
 
@@ -53,6 +54,16 @@ def cover(img: Image.Image, box) -> Image.Image:
         out = img.copy()
         out.paste(img.crop((x0 + dx, y0 + dy, x1 + dx, y1 + dy)), (x0, y0))
         return out
+    if color == "seamless":  # نسخ من جنب المكان بإزاحة box[5] مع دمج بواسون: يتبع تدرّج الإضاءة بدون حدود
+        import cv2
+        import numpy as np
+        x0, y0, x1, y1 = int(x * W), int(y * H), int((x + w) * W), int((y + h) * H)
+        dx = int(box[5] * W)
+        a = cv2.cvtColor(np.asarray(img.convert("RGB")), cv2.COLOR_RGB2BGR)
+        patch = a[y0:y1, x0 + dx:x1 + dx].copy()
+        mask = np.full(patch.shape[:2], 255, np.uint8)
+        out = cv2.seamlessClone(patch, a, mask, ((x0 + x1) // 2, (y0 + y1) // 2), cv2.NORMAL_CLONE)
+        return Image.fromarray(cv2.cvtColor(out, cv2.COLOR_BGR2RGB))
     if color == "vclone":  # نفس الفكرة بإزاحة عمودية box[5] (شبك خطوطه عمودية وفي نصه عمود)
         x0, y0, x1, y1 = int(x * W), int(y * H), int((x + w) * W), int((y + h) * H)
         dy = int(box[5] * H)
