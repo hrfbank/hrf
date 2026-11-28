@@ -12022,6 +12022,162 @@
     "license": "صور صحفية رسمية (قرار صاحب اللعبة)",
     "source": "https://global.toyota/en/album/images/36143389"
    }
+  },
+  {
+   "id": 610,
+   "category": "kuwait-regions",
+   "question": "ما المدينة الكويتية الجديدة في الشمال اللي يوصلها «جسر الشيخ جابر» بمدينة الكويت؟",
+   "clues": [
+    "الجسر يختصر الطريق لها من ساعة ونص إلى قرابة عشرين دقيقة.",
+    "وصلتها من الجسر طولها قرابة ٣٦ كيلومتر."
+   ],
+   "answer": "الصبية",
+   "accepted": [
+    "صبية"
+   ],
+   "letter": "ص",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1467450363877535500",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 611,
+   "category": "kuwait-regions",
+   "question": "ما أكبر منطقة سكنية في الكويت بأكثر من ٢٨ ألف قسيمة؟",
+   "clues": [
+    "مشروعها السكني تديره المؤسسة العامة للرعاية السكنية.",
+    "تقع شمال الكويت على بعد قرابة ٤٠ كيلومتر من العاصمة."
+   ],
+   "answer": "المطلاع",
+   "accepted": [
+    "مطلاع"
+   ],
+   "letter": "م",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.alraimedia.com/article/1660921",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 612,
+   "category": "kuwait-regions",
+   "question": "ما المنطقة الصناعية الكويتية اللي كانت فيها أول مصفاة بنتها شركة البترول الوطنية، وانقفلت سنة ٢٠١٧؟",
+   "clues": [
+    "تقع جنوب مدينة الكويت بقرابة ٥٠ كيلومتر.",
+    "بدأ تشغيل مصفاتها سنة ١٩٦٨."
+   ],
+   "answer": "الشعيبة",
+   "accepted": [
+    "شعيبة"
+   ],
+   "letter": "ش",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.aljarida.com/articles/1490774027980022400",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 613,
+   "category": "nabati-poetry",
+   "question": "من الشاعر الكويتي الشعبي اللي كتب «يالدانة لدانة» وغناها عبداللطيف الكويتي سنة ١٩٤٥؟",
+   "clues": [
+    "اشتهر بقصائد عن هموم الناس، منها أزمة المياه.",
+    "ديوانه فيه ١٠٥ قصيدة و٦ زهيريات."
+   ],
+   "answer": "فهد بورسلي",
+   "letter": "ف",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.arageek.com/bio/fahd-borsli",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 614,
+   "category": "nabati-poetry",
+   "question": "ما اللقب الشعري اللي اشتهر فيه الأمير خالد الفيصل؟",
+   "clues": [
+    "لقب جمع فيه معنى اسمه واسم أبوه.",
+    "من أبرز اللي جددوا الشعر النبطي."
+   ],
+   "answer": "دايم السيف",
+   "letter": "د",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.al-jazirah.com/2025/20250402/ar5.htm",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 615,
+   "category": "nabati-poetry",
+   "question": "أي شاعر سعودي يلقبونه «مهندس الكلمة»، وكتب أوبريتات الجنادرية؟",
+   "clues": [
+    "ولد سنة ١٩٤٩ وتوفي سنة ٢٠٢٤.",
+    "كثير من قصائده صارت أغاني لأشهر المطربين في الخليج."
+   ],
+   "answer": "بدر بن عبدالمحسن",
+   "accepted": [
+    "البدر"
+   ],
+   "letter": "ب",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.okaz.com.sa/news/local/2183869",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 616,
+   "category": "nabati-poetry",
+   "question": "من الشاعر النبطي اللي اسمه الحقيقي حمد بن ناصر السياري، واشتهر بقصائد النصح والحكمة؟",
+   "clues": [
+    "ولد في بلدة القصب بإقليم الوشم.",
+    "قصائده في النصح والحكمة للحين يرددها الناس."
+   ],
+   "answer": "حميدان الشويعر",
+   "letter": "ح",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://sabq.org/article/vV2ia8e",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 617,
+   "category": "nabati-poetry",
+   "question": "أي شاعر نبطي من بلدة الحريق اشتهر بالغزل وأدخل المحسنات البديعية على الشعر النبطي؟",
+   "clues": [
+    "من أعلام الشعر النبطي في نجد.",
+    "ينسبون له إدخال وزن «السامري»."
+   ],
+   "answer": "محسن الهزاني",
+   "letter": "م",
+   "difficulty": 3,
+   "status": "verified",
+   "source": "https://www.marefa.org/%D9%86%D8%A8%D8%B7%D9%8A",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 618,
+   "category": "nabati-poetry",
+   "question": "من الشاعر النبطي اللي يلقبونه «أمير شعراء النبط»، وتنسمى قصائده «اللعبونيات»؟",
+   "clues": [
+    "ولد في بلدة ثادق بنجد.",
+    "توفي في الكويت بالطاعون سنة ١٨٣١ تقريباً."
+   ],
+   "answer": "محمد بن لعبون",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://saudipedia.com/ar/محمد-بن-لعبون",
+   "verified_at": "2026-11-28",
+   "review_note": null
   }
  ]
 }
