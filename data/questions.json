@@ -11921,6 +11921,84 @@
     "license": "TMDB (قرار صاحب اللعبة)",
     "source": "https://www.themoviedb.org/person/1614510"
    }
+  },
+  {
+   "id": 606,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "سيارة دفع رباعي من «تويوتا» بشكل مستوحى من لاندكروزر FJ40 القديمة.",
+    "آخر نسخة منها «Final Edition» نزلت للشرق الأوسط، وتوقف إنتاجها سنة ٢٠٢٢."
+   ],
+   "answer": "إف جي كروزر",
+   "letter": "ا",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:FJ_cruiser_rear.JPG",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/1efea93b2d_a.webp",
+    "question_file": "images/1efea93b2d_q.webp",
+    "mode": "mask",
+    "key": "car:fj-silhouette",
+    "credit": "toshinori baba",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:FJ_cruiser_rear.JPG",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+   }
+  },
+  {
+   "id": 607,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "سيارة سيدان أمريكية رياضية من «دودج».",
+    "نسختها «Pursuit» تستخدمها الشرطة في أمريكا."
+   ],
+   "answer": "تشارجر",
+   "letter": "ت",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Charger_LX_Rallye-AWD_rear_full.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/0ba64363cd_a.webp",
+    "question_file": "images/0ba64363cd_q.webp",
+    "mode": "mask",
+    "key": "car:charger-rear",
+    "credit": "Spaceinvadersaresmokinggrass",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Charger_LX_Rallye-AWD_rear_full.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  },
+  {
+   "id": 608,
+   "category": "cars",
+   "question": "ما هي السيارة (اسم السيارة)؟",
+   "clues": [
+    "سيارة دفع رباعي كبيرة من «شيفروليه».",
+    "أختها «جي إم سي يوكن» مبنية على نفس القاعدة."
+   ],
+   "answer": "تاهو",
+   "letter": "ت",
+   "difficulty": 2,
+   "status": "pending",
+   "source": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Tahoe_High_Country,_front_12.24.20.jpg",
+   "verified_at": null,
+   "review_note": "سؤال صورة: ينتظر مراجعة صاحب اللعبة",
+   "image": {
+    "file": "images/e31d7a5a97_a.webp",
+    "question_file": "images/e31d7a5a97_q.webp",
+    "mode": "mask",
+    "key": "car:tahoe-front",
+    "credit": "Kevauto",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Tahoe_High_Country,_front_12.24.20.jpg",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
   }
  ]
 }

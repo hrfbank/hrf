@@ -37,7 +37,13 @@ def hide(img: Image.Image, box) -> Image.Image:
 def cover(img: Image.Image, box) -> Image.Image:
     """يغطي مستطيل بلون واحد بزوايا ناعمة (مثل لوحة السيارة في أمثلة صاحب اللعبة). box = [x, y, w, h, "#لون"]"""
     W, H = img.size
-    x, y, w, h, color = box
+    x, y, w, h, color = box[:5]
+    if color == "clone":  # ينسخ نفس الصفوف من جنب المكان (مثل خطوط الشبك) بإزاحة أفقية box[5]
+        x0, y0, x1, y1 = int(x * W), int(y * H), int((x + w) * W), int((y + h) * H)
+        dx = int(box[5] * W)
+        out = img.copy()
+        out.paste(img.crop((x0 + dx, y0, x1 + dx, y1)), (x0, y0))
+        return out
     if color == "auto":  # لون المحيط (الوسيط) عشان يطلع مثل خلفية العلبة
         import numpy as np
         a = np.asarray(img.convert("RGB"))
@@ -60,7 +66,10 @@ def silhouette(img: Image.Image) -> Image.Image:
     from rembg import new_session, remove
     if not _REMBG:
         _REMBG.append(new_session("isnet-general-use"))
-    a = remove(img, session=_REMBG[0]).split()[3].point(lambda v: 255 if v > 128 else 0)
+    import numpy as np
+    from scipy import ndimage
+    a = np.asarray(remove(img, session=_REMBG[0]).split()[3]) > 128
+    a = Image.fromarray((ndimage.binary_fill_holes(a) * 255).astype("uint8"))  # الإطار الاحتياطي الأبيض ما يطلع فتحة
     out = Image.new("RGB", img.size, "white")
     out.paste((28, 28, 34), mask=a)
     return out
