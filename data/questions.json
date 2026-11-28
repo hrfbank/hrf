@@ -12178,6 +12178,92 @@
    "source": "https://saudipedia.com/ar/محمد-بن-لعبون",
    "verified_at": "2026-11-28",
    "review_note": null
+  },
+  {
+   "id": 619,
+   "category": "sports",
+   "question": "ما اللقب اللي يطلقونه على منتخب الكويت لكرة القدم؟",
+   "clues": [
+    "اللقب مأخوذ من لون قميصه.",
+    "أكثر منتخب فاز بكأس الخليج: ١٠ بطولات."
+   ],
+   "answer": "الأزرق",
+   "accepted": [
+    "ازرق"
+   ],
+   "letter": "ا",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.aljarida.com/article/144747",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 620,
+   "category": "sports",
+   "question": "ما لقب منتخب قطر لكرة القدم، المأخوذ من لون قميصه؟",
+   "clues": [
+    "لون القميص من لون علم قطر.",
+    "بالإنجليزي يسمونه The Maroons."
+   ],
+   "answer": "العنابي",
+   "accepted": [
+    "عنابي"
+   ],
+   "letter": "ع",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://arabicpost.net/%d9%85%d9%88%d9%86%d8%af%d9%8a%d8%a7%d9%84-%d9%82%d8%b7%d8%b1-2022/2022/11/11/%d9%82%d8%b7%d8%b1-%d8%a7%d9%84%d8%b9%d9%86%d8%a7%d8%a8%d9%8a/",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 621,
+   "category": "world-football",
+   "question": "أي لاعب كرواتي فاز بالكرة الذهبية سنة ٢٠١٨ وكسر احتكار ميسي ورونالدو لها؟",
+   "clues": [
+    "لعب سنين طويلة لريال مدريد.",
+    "لاعب وسط، والكرة الذهبية نادراً ما تروح للاعب وسط."
+   ],
+   "answer": "مودريتش",
+   "letter": "م",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.realmadrid.com/ar-AE/news/football/first-team/special/modric-ballon-dor-2018",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 622,
+   "category": "world-football",
+   "question": "باسم أي رئيس لريال مدريد سُمّي ملعب النادي سنة ١٩٥٥؟",
+   "clues": [
+    "القرار أخذه أعضاء النادي بالإجماع.",
+    "الملعب يقع في العاصمة الإسبانية مدريد."
+   ],
+   "answer": "سانتياغو برنابيو",
+   "letter": "س",
+   "difficulty": 2,
+   "status": "verified",
+   "source": "https://www.realmadrid.com/en-US/bernabeu-stadium/new-stadium/a-legendary-stadium",
+   "verified_at": "2026-11-28",
+   "review_note": null
+  },
+  {
+   "id": 623,
+   "category": "world-football",
+   "question": "أي مدرب برتغالي قال عن نفسه «أنا السبيشل ون» في أول مؤتمر صحفي مع تشيلسي سنة ٢٠٠٤؟",
+   "clues": [
+    "قبلها بشهور فاز بدوري أبطال أوروبا مع بورتو.",
+    "الصحافة البريطانية صارت تسميه «The Special One»."
+   ],
+   "answer": "مورينيو",
+   "letter": "م",
+   "difficulty": 1,
+   "status": "verified",
+   "source": "https://www.premierleague.com/pl30/the-special-one",
+   "verified_at": "2026-11-28",
+   "review_note": null
   }
  ]
 }
