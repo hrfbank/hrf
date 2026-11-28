@@ -32,6 +32,8 @@ export function QuestionImage({ image, step, steps, revealed }: Props) {
     </figcaption>
   );
 
+  if (mode === "answer" && !revealed) return null; // صورة الجواب بس، ما تنعرض قبل الكشف
+
   if (revealed || !mode) {
     return (
       <figure className={`q-image${mode ? " revealed" : ""}`}>

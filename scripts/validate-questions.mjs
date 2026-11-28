@@ -127,7 +127,7 @@ function validate(db) {
         if (!/^images\/[\w.-]+\.(jpe?g|png|webp|svg)$/i.test(path ?? "")) err(q, `image.${field} لازم يكون images/اسم.jpg|png|webp|svg`);
         else if (!existsSync(fileURLToPath(new URL(`../public/${path}`, import.meta.url)))) err(q, `ملف الصورة مو موجود: public/${path}`);
       }
-      if (im.mode !== undefined && !["crop", "shape", "grayscale", "mask", "silhouette"].includes(im.mode)) err(q, `image.mode غير معروف: ${im.mode}`);
+      if (im.mode !== undefined && !["crop", "shape", "grayscale", "mask", "silhouette", "answer"].includes(im.mode)) err(q, `image.mode غير معروف: ${im.mode}`);
       if (["shape", "mask", "silhouette"].includes(im.mode) && !im.question_file) err(q, `النمط ${im.mode} يحتاج image.question_file`);
       if (im.mode === "crop" && !im.crop) err(q, "النمط crop يحتاج image.crop");
       if (!im.credit?.trim()) err(q, "صورة بدون اسم المصوّر (image.credit)");
@@ -165,7 +165,8 @@ function validate(db) {
     for (let j = i + 1; j < live.length; j++) {
       const a = live[i], b = live[j];
       // أسئلة الصور نصها واحد ("ما هي الدولة...؟") والفرق في الصورة: التكرار = نفس الجواب في نفس المجال
-      if (a.image && b.image) {
+      const pic = (q) => q.image && q.image.mode !== "answer"; // صورة الجواب بس ما تخلي السؤال سؤال صورة
+      if (pic(a) && pic(b)) {
         if (a.category === b.category && normalize(a.answer) === normalize(b.answer)) errors.push(`#${a.id} و #${b.id} سؤالين صورة لنفس الجواب في نفس المجال`);
         continue;
       }

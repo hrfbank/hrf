@@ -2607,7 +2607,14 @@
    "status": "verified",
    "source": "https://www.aljarida.com/articles/1468453272381627500",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/b1d0a810af_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/57402"
+   }
   },
   {
    "id": 135,
@@ -2624,7 +2631,14 @@
    "status": "verified",
    "source": "https://elcinema.com/work/1633861/",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/78951dcd1b_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/183445"
+   }
   },
   {
    "id": 136,
@@ -2644,7 +2658,14 @@
    "status": "verified",
    "source": "https://www.alraimedia.com/ampArticle/1519222",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/a61544255a_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1166669"
+   }
   },
   {
    "id": 137,
@@ -2756,7 +2777,14 @@
    "status": "verified",
    "source": "https://saudipedia.com/مسلسل-طاش-ما-طاش",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/0ab205ba85_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/67699"
+   }
   },
   {
    "id": 143,
@@ -2773,7 +2801,14 @@
    "status": "verified",
    "source": "https://elcinema.com/work/1867977/",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/2e24a391b2_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/62098"
+   }
   },
   {
    "id": 144,
@@ -2790,7 +2825,14 @@
    "status": "verified",
    "source": "https://saudipedia.com/مسلسل-شباب-البومب",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/8e48b572d9_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/132865"
+   }
   },
   {
    "id": 145,
@@ -2807,7 +2849,14 @@
    "status": "verified",
    "source": "https://www.aljazeera.net/arts/2026/4/21/رحيل-حياة-الفهد-سيدة-الشاشة",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/42f586eea9_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1357650"
+   }
   },
   {
    "id": 146,
@@ -2824,7 +2873,14 @@
    "status": "verified",
    "source": "https://www.aljarida.com/articles/1664035396522355300/",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/8c91f92693_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/376130"
+   }
   },
   {
    "id": 147,
@@ -2841,7 +2897,14 @@
    "status": "verified",
    "source": "https://www.alraimedia.com/article/1732491/%D9%81%D9%86%D9%88%D9%86/%D8%B3%D9%8A%D9%81-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8-%D8%AA%D8%B9%D9%88%D8%AF-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D8%A9-%D8%A8%D8%B9%D8%AF-33-%D8%B9%D8%A7%D9%85%D8%A7",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/d526479745_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/352975"
+   }
   },
   {
    "id": 148,
@@ -3718,7 +3781,14 @@
    "status": "verified",
    "source": "https://saudipedia.com/%D9%86%D8%A7%D8%B5%D8%B1-%D8%A7%D9%84%D9%82%D8%B5%D8%A8%D9%8A",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/dd1d3d7075_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1674946"
+   }
   },
   {
    "id": 196,
@@ -3735,7 +3805,14 @@
    "status": "verified",
    "source": "https://www.aletihad.ae/articleamp/5238/2015/سعد-الفرج..فارس-المسرح",
    "verified_at": "2026-11-10",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/7198e0994d_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1357646"
+   }
   },
   {
    "id": 197,
@@ -4378,7 +4455,14 @@
    "status": "verified",
    "source": "https://www.sayidaty.net/مشاهير/سينما-وتلفزيون/1829078-أقوى-مسلسلات-حياة-الفهد",
    "verified_at": "2026-11-11",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/b0edf15d5d_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/199002"
+   }
   },
   {
    "id": 233,
@@ -4395,7 +4479,14 @@
    "status": "verified",
    "source": "https://www.aljarida.com/articles/1463926402970160500",
    "verified_at": "2026-11-11",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/86d642b7bc_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/73464"
+   }
   },
   {
    "id": 234,
@@ -4412,7 +4503,14 @@
    "status": "verified",
    "source": "https://www.alraimedia.com/article/884860/أخيرة/سعد-الفرج-استقرأ-الأزمة-عام-1987-في-مسرحية-حامي-الديار",
    "verified_at": "2026-11-11",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/d562a858bf_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/707376"
+   }
   },
   {
    "id": 235,
@@ -4429,7 +4527,14 @@
    "status": "verified",
    "source": "https://mawdoo3.com/طارق_العلي_(ممثل_كوميدي_كويتي)",
    "verified_at": "2026-11-11",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/2023cee208_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1164288"
+   }
   },
   {
    "id": 236,
@@ -5475,7 +5580,14 @@
    "status": "verified",
    "source": "https://www.marefa.org/%D8%AF%D8%B1%D8%A8_%D8%A7%D9%84%D8%B2%D9%84%D9%82",
    "verified_at": "2026-11-11",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/b689e144b5_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1431820"
+   }
   },
   {
    "id": 292,
@@ -5492,7 +5604,14 @@
    "status": "verified",
    "source": "https://www.aljarida.com/articles/1579711169243667100",
    "verified_at": "2026-11-11",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/e8897c2a39_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1166671"
+   }
   },
   {
    "id": 293,
@@ -5754,7 +5873,14 @@
    "status": "verified",
    "source": "https://saudipedia.com/%D9%85%D8%B3%D9%84%D8%B3%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%88%D9%81",
    "verified_at": "2026-11-12",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/75a9486f5f_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/79567"
+   }
   },
   {
    "id": 307,
@@ -5771,7 +5897,14 @@
    "status": "verified",
    "source": "https://al-ain.com/article/mohammed-daham-alshamri-saudi-director",
    "verified_at": "2026-11-12",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/3c44dab3a4_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/201154"
+   }
   },
   {
    "id": 308,
@@ -6117,7 +6250,14 @@
    "status": "verified",
    "source": "https://www.alraimedia.com/article/1525995/فنون/منوعات/بشار-عبدالرضا-لالراي-عزوبي-السالمية-لمسة-وفاء-من-المظفر",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/9a98b03803_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/706821"
+   }
   },
   {
    "id": 327,
@@ -6232,7 +6372,14 @@
    "status": "verified",
    "source": "https://www.emaratalyoum.com/life/culture/2019-10-16-1.1262597",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/531ddd3f1e_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1431829"
+   }
   },
   {
    "id": 333,
@@ -6249,7 +6396,14 @@
    "status": "verified",
    "source": "https://www.eremnews.com/entertainment/8qk3j2x",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/a2670b56fd_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1493241"
+   }
   },
   {
    "id": 334,
@@ -6437,7 +6591,14 @@
    "status": "verified",
    "source": "https://elcinema.com/work/1685880/",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/f2f6c475c3_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/707401"
+   }
   },
   {
    "id": 344,
@@ -6454,7 +6615,14 @@
    "status": "verified",
    "source": "https://elcinema.com/work/1886171/",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/c7b6da8c75_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/707291"
+   }
   },
   {
    "id": 345,
@@ -7185,7 +7353,14 @@
    "status": "verified",
    "source": "https://www.marefa.org/داوود_حسين",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/f8fef74284_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1166674"
+   }
   },
   {
    "id": 386,
@@ -7205,7 +7380,14 @@
    "status": "verified",
    "source": "https://www.aljarida.com/articles/1461794633837703800/amp",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/82d299fe07_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/person/1260609"
+   }
   },
   {
    "id": 387,
@@ -7411,7 +7593,14 @@
    "status": "verified",
    "source": "https://elcinema.com/work/1640314/",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/69058300c8_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/977869"
+   }
   },
   {
    "id": 398,
@@ -7428,7 +7617,14 @@
    "status": "verified",
    "source": "https://areq.net/m/على_الدنيا_السلام_(مسلسل).html",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/a5d4a5aa6e_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/60154"
+   }
   },
   {
    "id": 399,
@@ -7805,7 +8001,14 @@
    "status": "verified",
    "source": "https://elcinema.com/work/1570771/",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/65dc7067b6_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/706900"
+   }
   },
   {
    "id": 419,
@@ -7822,7 +8025,14 @@
    "status": "verified",
    "source": "https://www.al-madina.com/article/986693/ثقافة/حياة-الفهد-من-البدايات-الصعبة-إلى-قمة-النجاح-والإبداع",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/e83922225c_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/54750"
+   }
   },
   {
    "id": 420,
@@ -8053,7 +8263,14 @@
    "status": "verified",
    "source": "https://elcinema.com/work/1277368/",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/85207ebae2_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/movie/707788"
+   }
   },
   {
    "id": 432,
@@ -8246,7 +8463,14 @@
    "status": "verified",
    "source": "https://elcinema.com/work/1154324/",
    "verified_at": "2026-11-24",
-   "review_note": null
+   "review_note": null,
+   "image": {
+    "file": "images/d182b36332_ans.webp",
+    "mode": "answer",
+    "credit": "TMDB",
+    "license": "TMDB (قرار صاحب اللعبة)",
+    "source": "https://www.themoviedb.org/tv/138417"
+   }
   },
   {
    "id": 442,

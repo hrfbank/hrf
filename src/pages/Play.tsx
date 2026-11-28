@@ -620,7 +620,7 @@ export function Play() {
           )}
         </div>
 
-        {q.image && (
+        {q.image && q.image.mode !== "answer" && (
           <>
             <p className="g-q-text">{q.question}</p>
             <QuestionImage image={q.image} step={qs.shown} steps={q.clues.length} revealed={qs.revealed} />
@@ -642,6 +642,9 @@ export function Play() {
               <strong>{q.answer}</strong>
               {q.accepted?.length ? <em>ويُقبل: {q.accepted.join("، ")}</em> : null}
             </div>
+            {q.image?.mode === "answer" && (
+              <QuestionImage image={q.image} step={qs.shown} steps={q.clues.length} revealed />
+            )}
             <p className="g-judge-title">أي فريق جاوب صح؟</p>
             <div className="g-judge">
               <button type="button" className="g-btn red" onClick={() => judge("red")}>{g.names.red}</button>

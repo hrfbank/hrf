@@ -24,7 +24,8 @@ export type Question = {
 /** crop: الجزء اللي يظهر قبل الجواب، كنِسب من الصورة (٠ إلى ١). مع الجواب تظهر الصورة كاملة */
 export type Crop = { x: number; y: number; w: number; h: number };
 /** طريقة إخفاء صورة السؤال قبل الجواب */
-export type RevealMode = "crop" | "shape" | "grayscale" | "mask" | "silhouette";
+/** answer = سؤال نصي، والصورة تطلع بس مع الجواب (مثل فانوس مع «رمضان») */
+export type RevealMode = "crop" | "shape" | "grayscale" | "mask" | "silhouette" | "answer";
 /** file = صورة الجواب (الأصل). question_file = نسخة السؤال المعدّلة إذا تختلف عنها */
 export type QuestionImage = {
   file: string;
